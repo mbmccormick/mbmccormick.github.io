@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	  {% if page.title %}
+	    Matt McCormick - {{ page.title }}
+	  {% else %}
+	    Matt McCormick
+	  {% endif %}
+	</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+	<link rel="stylesheet" href="/css/base.css" type="text/css" />
+	<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body>
+  <div class="sidebar">
+    <a href="/" class="logo">Matt McCormick</a>
+
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+
+    <p>My name is Matt McCormick. I'm a college student at Purdue University and this summer I'm a Program Manager Intern at <a href="http://microsoft.com" target="_blank">Microsoft</a>.</p>
+    <p>You can find me as <strong>@mbmccormick</strong> on <a href="http://twitter.com/mbmccormick" class="twitter">Twitter</a>, <a href="https://facebook.com/mbmccormick">Facebook</a>, <a href="http://github.com/mbmccormick">GitHub</a> and pretty much everywhere else.</p>
+  </div><!-- /.sidebar -->
+
+  <div class="main">
+    {{ content }}
+  </div><!-- /.main -->
+  
+</body>
+</html>
