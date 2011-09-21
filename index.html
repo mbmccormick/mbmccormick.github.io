@@ -5,7 +5,7 @@ head_content:
 ---
 
 <div class="listing">
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   {% if post.type == 'link' %}
     <div class="post other link">
       <span class="icon" title="This is a link elsewhere"></span>
