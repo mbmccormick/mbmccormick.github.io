@@ -2,13 +2,6 @@
 layout: post
 title: Connect Your Google Cr-48 Laptop to PAL2.0 at Purdue
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:3:"155";s:10:"post_title";s:38:"Install Ubuntu 11.04 on a Google Cr-48";s:7:"matches";s:1:"3";s:9:"permalink";s:70:"http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google-cr-48/";}i:1;a:4:{s:2:"ID";s:2:"95";s:10:"post_title";s:34:"Enable Apple AirPrint on Windows 7";s:7:"matches";s:1:"3";s:9:"permalink";s:66:"http://mbmccormick.com/2011/04/enable-apple-airprint-on-windows-7/";}i:2;a:4:{s:2:"ID";s:2:"70";s:10:"post_title";s:57:"HTTP Basic Authorization with Python and Google AppEngine";s:7:"matches";s:1:"3";s:9:"permalink";s:89:"http://mbmccormick.com/2010/10/http-basic-authorization-with-python-and-google-appengine/";}i:3;a:4:{s:2:"ID";s:2:"67";s:10:"post_title";s:41:"How To Remove PHP Extensions From Website";s:7:"matches";s:1:"3";s:9:"permalink";s:73:"http://mbmccormick.com/2010/09/how-to-remove-php-extensions-from-website/";}i:4;a:4:{s:2:"ID";s:2:"46";s:10:"post_title";s:56:"Install Hamachi VPN on the PogoPlug USB Device (Updated)";s:7:"matches";s:1:"3";s:9:"permalink";s:86:"http://mbmccormick.com/2010/09/install-hamachi-vpn-on-the-pogoplug-usb-device-updated/";}i:5;a:4:{s:2:"ID";s:2:"39";s:10:"post_title";s:46:"Install Hamachi VPN on the PogoPlug USB Device";s:7:"matches";s:1:"3";s:9:"permalink";s:78:"http://mbmccormick.com/2010/07/install-hamachi-vpn-on-the-pogoplug-usb-device/";}}
-  _wp_old_slug: connecting-your-google-cr-48-laptop-to-pal2-0-at-purdue
-  aktt_tweeted: "1"
-  _relation_threshold: "3"
 tags: 
 - google
 - Hacking

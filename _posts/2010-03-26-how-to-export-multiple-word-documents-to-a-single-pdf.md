@@ -2,10 +2,6 @@
 layout: post
 title: How to export multiple Word Documents to a single PDF
 published: true
-meta: 
-  _edit_last: "1"
-  _efficient_related_posts: a:2:{i:0;a:4:{s:2:"ID";s:2:"87";s:10:"post_title";s:55:"How I Launched 4sqtransit in Two Weeks on Windows Azure";s:7:"matches";s:1:"1";s:9:"permalink";s:87:"http://mbmccormick.com/2011/04/how-i-launched-4sqtransit-in-two-weeks-on-windows-azure/";}i:1;a:4:{s:2:"ID";s:2:"83";s:10:"post_title";s:51:"Deploying an Application to AppHarbor in 10 Minutes";s:7:"matches";s:1:"1";s:9:"permalink";s:83:"http://mbmccormick.com/2011/03/deploying-an-application-to-appharbor-in-10-minutes/";}}
-  _relation_threshold: "1"
 tags: 
 - asp.net
 - Development

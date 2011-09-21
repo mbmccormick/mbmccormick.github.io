@@ -2,12 +2,6 @@
 layout: post
 title: Microsoft Intern Puzzle Day
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:3:"136";s:10:"post_title";s:37:"Microsoft Intern Signature Event 2011";s:7:"matches";s:1:"4";s:9:"permalink";s:69:"http://mbmccormick.com/2011/08/microsoft-intern-signature-event-2011/";}i:1;a:4:{s:2:"ID";s:3:"111";s:10:"post_title";s:21:"Week Six at Microsoft";s:7:"matches";s:1:"4";s:9:"permalink";s:53:"http://mbmccormick.com/2011/06/week-six-at-microsoft/";}i:2;a:4:{s:2:"ID";s:2:"98";s:10:"post_title";s:27:"Getting Ready for Microsoft";s:7:"matches";s:1:"4";s:9:"permalink";s:59:"http://mbmccormick.com/2011/05/getting-ready-for-microsoft/";}i:3;a:4:{s:2:"ID";s:3:"144";s:10:"post_title";s:33:"Ending the Best Summer of My Life";s:7:"matches";s:1:"3";s:9:"permalink";s:65:"http://mbmccormick.com/2011/08/ending-the-best-summer-of-my-life/";}i:4;a:4:{s:2:"ID";s:3:"116";s:10:"post_title";s:23:"Family Visit to Seattle";s:7:"matches";s:1:"3";s:9:"permalink";s:55:"http://mbmccormick.com/2011/07/family-visit-to-seattle/";}i:5;a:4:{s:2:"ID";s:3:"109";s:10:"post_title";s:26:"Becoming a Program Manager";s:7:"matches";s:1:"3";s:9:"permalink";s:58:"http://mbmccormick.com/2011/06/becoming-a-program-manager/";}}
-  aktt_tweeted: "1"
-  _relation_threshold: "3"
 tags: 
 - fun
 - intern

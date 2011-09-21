@@ -2,13 +2,6 @@
 layout: post
 title: Getting Ready for Microsoft
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:3:"136";s:10:"post_title";s:37:"Microsoft Intern Signature Event 2011";s:7:"matches";s:1:"6";s:9:"permalink";s:69:"http://mbmccormick.com/2011/08/microsoft-intern-signature-event-2011/";}i:1;a:4:{s:2:"ID";s:3:"144";s:10:"post_title";s:33:"Ending the Best Summer of My Life";s:7:"matches";s:1:"5";s:9:"permalink";s:65:"http://mbmccormick.com/2011/08/ending-the-best-summer-of-my-life/";}i:2;a:4:{s:2:"ID";s:3:"111";s:10:"post_title";s:21:"Week Six at Microsoft";s:7:"matches";s:1:"5";s:9:"permalink";s:53:"http://mbmccormick.com/2011/06/week-six-at-microsoft/";}i:3;a:4:{s:2:"ID";s:3:"135";s:10:"post_title";s:43:"Application Development for Windows Phone 7";s:7:"matches";s:1:"4";s:9:"permalink";s:75:"http://mbmccormick.com/2011/07/application-development-for-windows-phone-7/";}i:4;a:4:{s:2:"ID";s:3:"125";s:10:"post_title";s:27:"Microsoft Intern Puzzle Day";s:7:"matches";s:1:"4";s:9:"permalink";s:59:"http://mbmccormick.com/2011/07/microsoft-intern-puzzle-day/";}i:5;a:4:{s:2:"ID";s:3:"109";s:10:"post_title";s:26:"Becoming a Program Manager";s:7:"matches";s:1:"4";s:9:"permalink";s:58:"http://mbmccormick.com/2011/06/becoming-a-program-manager/";}}
-  aktt_tweeted: "1"
-  _wp_old_slug: getting-ready-for-a-summer-at-microsoft
-  _relation_threshold: "4"
 tags: 
 - career
 - cloud

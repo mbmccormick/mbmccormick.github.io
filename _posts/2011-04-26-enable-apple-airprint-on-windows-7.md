@@ -2,12 +2,6 @@
 layout: post
 title: Enable Apple AirPrint on Windows 7
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: "a:6:{i:0;a:4:{s:2:\"ID\";s:2:\"18\";s:10:\"post_title\";s:56:\"Making Bonjour, Airport Express, and Windows 7 play nice\";s:7:\"matches\";s:1:\"7\";s:9:\"permalink\";s:86:\"http://mbmccormick.com/2010/04/making-bonjour-airport-express-and-windows-7-play-nice/\";}i:1;a:4:{s:2:\"ID\";s:3:\"158\";s:10:\"post_title\";s:35:\"Install Windows 8 on a Google Cr-48\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:67:\"http://mbmccormick.com/2011/09/install-windows-8-on-a-google-cr-48/\";}i:2;a:4:{s:2:\"ID\";s:2:\"93\";s:10:\"post_title\";s:46:\"Remove OEM Login Screen Wallpaper on Windows 7\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:78:\"http://mbmccormick.com/2011/04/remove-oem-login-screen-wallpaper-on-windows-7/\";}i:3;a:4:{s:2:\"ID\";s:2:\"37\";s:10:\"post_title\";s:45:\"Crash Course in iTunes Library Administration\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:77:\"http://mbmccormick.com/2010/06/crash-course-in-itunes-library-administration/\";}i:4;a:4:{s:2:\"ID\";s:3:\"145\";s:10:\"post_title\";s:50:\"Early Look at Mojito: Mint.com for Windows Phone 7\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:81:\"http://mbmccormick.com/2011/08/early-look-at-mojito-mint-com-for-windows-phone-7/\";}i:5;a:4:{s:2:\"ID\";s:2:\"98\";s:10:\"post_title\";s:27:\"Getting Ready for Microsoft\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:59:\"http://mbmccormick.com/2011/05/getting-ready-for-microsoft/\";}}"
-  aktt_tweeted: "1"
-  _relation_threshold: "3"
 tags: 
 - apple
 - downloads

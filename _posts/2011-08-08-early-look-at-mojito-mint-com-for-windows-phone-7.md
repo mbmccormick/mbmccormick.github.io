@@ -2,12 +2,6 @@
 layout: post
 title: "Early Look at Mojito: Mint.com for Windows Phone 7"
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:3:"142";s:10:"post_title";s:48:"Optical Character Recognition on Windows Phone 7";s:7:"matches";s:1:"6";s:9:"permalink";s:84:"http://mbmccormick.com/2011/08/optical-character-recognition-ocr-on-windows-phone-7/";}i:1;a:4:{s:2:"ID";s:3:"135";s:10:"post_title";s:43:"Application Development for Windows Phone 7";s:7:"matches";s:1:"4";s:9:"permalink";s:75:"http://mbmccormick.com/2011/07/application-development-for-windows-phone-7/";}i:2;a:4:{s:2:"ID";s:2:"83";s:10:"post_title";s:51:"Deploying an Application to AppHarbor in 10 Minutes";s:7:"matches";s:1:"4";s:9:"permalink";s:83:"http://mbmccormick.com/2011/03/deploying-an-application-to-appharbor-in-10-minutes/";}i:3;a:4:{s:2:"ID";s:3:"158";s:10:"post_title";s:35:"Install Windows 8 on a Google Cr-48";s:7:"matches";s:1:"3";s:9:"permalink";s:67:"http://mbmccormick.com/2011/09/install-windows-8-on-a-google-cr-48/";}i:4;a:4:{s:2:"ID";s:2:"95";s:10:"post_title";s:34:"Enable Apple AirPrint on Windows 7";s:7:"matches";s:1:"3";s:9:"permalink";s:66:"http://mbmccormick.com/2011/04/enable-apple-airprint-on-windows-7/";}i:5;a:4:{s:2:"ID";s:2:"87";s:10:"post_title";s:55:"How I Launched 4sqtransit in Two Weeks on Windows Azure";s:7:"matches";s:1:"3";s:9:"permalink";s:87:"http://mbmccormick.com/2011/04/how-i-launched-4sqtransit-in-two-weeks-on-windows-azure/";}}
-  aktt_tweeted: "1"
-  _relation_threshold: "3"
 tags: 
 - api
 - c#

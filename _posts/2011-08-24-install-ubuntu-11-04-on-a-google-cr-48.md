@@ -2,12 +2,6 @@
 layout: post
 title: Install Ubuntu 11.04 on a Google Cr-48
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:2:"79";s:10:"post_title";s:52:"Connect Your Google Cr-48 Laptop to PAL2.0 at Purdue";s:7:"matches";s:1:"3";s:9:"permalink";s:84:"http://mbmccormick.com/2011/02/connect-your-google-cr-48-laptop-to-pal2-0-at-purdue/";}i:1;a:4:{s:2:"ID";s:3:"158";s:10:"post_title";s:35:"Install Windows 8 on a Google Cr-48";s:7:"matches";s:1:"2";s:9:"permalink";s:67:"http://mbmccormick.com/2011/09/install-windows-8-on-a-google-cr-48/";}i:2;a:4:{s:2:"ID";s:2:"58";s:10:"post_title";s:46:"Fix VirtualBox Guest Additions in Ubuntu 10.10";s:7:"matches";s:1:"2";s:9:"permalink";s:78:"http://mbmccormick.com/2010/10/fix-virtualbox-guest-additions-in-ubuntu-10-10/";}i:3;a:4:{s:2:"ID";s:2:"46";s:10:"post_title";s:56:"Install Hamachi VPN on the PogoPlug USB Device (Updated)";s:7:"matches";s:1:"2";s:9:"permalink";s:86:"http://mbmccormick.com/2010/09/install-hamachi-vpn-on-the-pogoplug-usb-device-updated/";}i:4;a:4:{s:2:"ID";s:2:"39";s:10:"post_title";s:46:"Install Hamachi VPN on the PogoPlug USB Device";s:7:"matches";s:1:"2";s:9:"permalink";s:78:"http://mbmccormick.com/2010/07/install-hamachi-vpn-on-the-pogoplug-usb-device/";}i:5;a:4:{s:2:"ID";s:2:"26";s:10:"post_title";s:35:"Android 2.2 Froyo on Motorola Droid";s:7:"matches";s:1:"2";s:9:"permalink";s:71:"http://mbmccormick.com/2010/06/android-2-2-aka-froyo-on-motorola-droid/";}}
-  aktt_tweeted: "1"
-  _relation_threshold: "2"
 tags: 
 - google
 - Hacking

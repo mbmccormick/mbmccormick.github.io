@@ -2,11 +2,6 @@
 layout: post
 title: Install Git client on lore.cs.purdue.edu
 published: false
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _wp_trash_meta_time: "1315341412"
-  _wp_trash_meta_status: draft
 tags: 
 - Hacking
 - Tools

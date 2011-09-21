@@ -2,12 +2,6 @@
 layout: post
 title: Telephony Made Easy with Twilio
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: "a:6:{i:0;a:4:{s:2:\"ID\";s:2:\"59\";s:10:\"post_title\";s:48:\"How To Geolocate Users by IP Address or Zip Code\";s:7:\"matches\";s:1:\"5\";s:9:\"permalink\";s:80:\"http://mbmccormick.com/2010/10/how-to-geolocate-users-by-ip-address-or-zip-code/\";}i:1;a:4:{s:2:\"ID\";s:2:\"75\";s:10:\"post_title\";s:63:\"Reading Phone Numbers, Access Codes with Twilio's Speech Engine\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:93:\"http://mbmccormick.com/2010/12/reading-phone-numbers-access-codes-with-twilios-speech-engine/\";}i:2;a:4:{s:2:\"ID\";s:2:\"14\";s:10:\"post_title\";s:48:\"Creating a Twitter Robot using Google App Engine\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:79:\"http://mbmccormick.com/2010/03/creating-a-twitter-robot-with-google-app-engine/\";}i:3;a:4:{s:2:\"ID\";s:3:\"145\";s:10:\"post_title\";s:50:\"Early Look at Mojito: Mint.com for Windows Phone 7\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:81:\"http://mbmccormick.com/2011/08/early-look-at-mojito-mint-com-for-windows-phone-7/\";}i:4;a:4:{s:2:\"ID\";s:3:\"142\";s:10:\"post_title\";s:48:\"Optical Character Recognition on Windows Phone 7\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:84:\"http://mbmccormick.com/2011/08/optical-character-recognition-ocr-on-windows-phone-7/\";}i:5;a:4:{s:2:\"ID\";s:2:\"87\";s:10:\"post_title\";s:55:\"How I Launched 4sqtransit in Two Weeks on Windows Azure\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:87:\"http://mbmccormick.com/2011/04/how-i-launched-4sqtransit-in-two-weeks-on-windows-azure/\";}}"
-  _syntaxhighlighter_encoded: "1"
-  _relation_threshold: "3"
 tags: 
 - api
 - automation

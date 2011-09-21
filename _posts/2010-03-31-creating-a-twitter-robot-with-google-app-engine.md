@@ -2,11 +2,6 @@
 layout: post
 title: Creating a Twitter Robot using Google App Engine
 published: true
-meta: 
-  _edit_last: "1"
-  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:2:"24";s:10:"post_title";s:31:"Telephony Made Easy with Twilio";s:7:"matches";s:1:"4";s:9:"permalink";s:63:"http://mbmccormick.com/2010/05/telephony-made-easy-with-twilio/";}i:1;a:4:{s:2:"ID";s:3:"155";s:10:"post_title";s:38:"Install Ubuntu 11.04 on a Google Cr-48";s:7:"matches";s:1:"2";s:9:"permalink";s:70:"http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google-cr-48/";}i:2;a:4:{s:2:"ID";s:2:"79";s:10:"post_title";s:52:"Connect Your Google Cr-48 Laptop to PAL2.0 at Purdue";s:7:"matches";s:1:"2";s:9:"permalink";s:84:"http://mbmccormick.com/2011/02/connect-your-google-cr-48-laptop-to-pal2-0-at-purdue/";}i:3;a:4:{s:2:"ID";s:2:"75";s:10:"post_title";s:63:"Reading Phone Numbers, Access Codes with Twilio's Speech Engine";s:7:"matches";s:1:"2";s:9:"permalink";s:93:"http://mbmccormick.com/2010/12/reading-phone-numbers-access-codes-with-twilios-speech-engine/";}i:4;a:4:{s:2:"ID";s:2:"70";s:10:"post_title";s:57:"HTTP Basic Authorization with Python and Google AppEngine";s:7:"matches";s:1:"2";s:9:"permalink";s:89:"http://mbmccormick.com/2010/10/http-basic-authorization-with-python-and-google-appengine/";}i:5;a:4:{s:2:"ID";s:3:"158";s:10:"post_title";s:35:"Install Windows 8 on a Google Cr-48";s:7:"matches";s:1:"1";s:9:"permalink";s:67:"http://mbmccormick.com/2011/09/install-windows-8-on-a-google-cr-48/";}}
-  _syntaxhighlighter_encoded: "1"
-  _relation_threshold: "1"
 tags: 
 - automation
 - Development

@@ -2,13 +2,6 @@
 layout: post
 title: Rapid Application Development with Limonade and PHP
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:2:"67";s:10:"post_title";s:41:"How To Remove PHP Extensions From Website";s:7:"matches";s:1:"2";s:9:"permalink";s:73:"http://mbmccormick.com/2010/09/how-to-remove-php-extensions-from-website/";}i:1;a:4:{s:2:"ID";s:3:"161";s:10:"post_title";s:42:"Bulk INSERT to SQL Azure using LINQ to SQL";s:7:"matches";s:1:"1";s:9:"permalink";s:74:"http://mbmccormick.com/2011/09/bulk-insert-to-sql-azure-using-linq-to-sql/";}i:2;a:4:{s:2:"ID";s:2:"98";s:10:"post_title";s:27:"Getting Ready for Microsoft";s:7:"matches";s:1:"1";s:9:"permalink";s:59:"http://mbmccormick.com/2011/05/getting-ready-for-microsoft/";}i:3;a:4:{s:2:"ID";s:2:"95";s:10:"post_title";s:34:"Enable Apple AirPrint on Windows 7";s:7:"matches";s:1:"1";s:9:"permalink";s:66:"http://mbmccormick.com/2011/04/enable-apple-airprint-on-windows-7/";}i:4;a:4:{s:2:"ID";s:2:"87";s:10:"post_title";s:55:"How I Launched 4sqtransit in Two Weeks on Windows Azure";s:7:"matches";s:1:"1";s:9:"permalink";s:87:"http://mbmccormick.com/2011/04/how-i-launched-4sqtransit-in-two-weeks-on-windows-azure/";}i:5;a:4:{s:2:"ID";s:2:"83";s:10:"post_title";s:51:"Deploying an Application to AppHarbor in 10 Minutes";s:7:"matches";s:1:"1";s:9:"permalink";s:83:"http://mbmccormick.com/2011/03/deploying-an-application-to-appharbor-in-10-minutes/";}}
-  _wp_old_slug: application-development-with-limonade-and-php
-  aktt_tweeted: "1"
-  _relation_threshold: "1"
 tags: 
 - Development
 - mvc

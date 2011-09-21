@@ -2,13 +2,6 @@
 layout: post
 title: Application Development for Windows Phone 7
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: "a:6:{i:0;a:4:{s:2:\"ID\";s:3:\"142\";s:10:\"post_title\";s:48:\"Optical Character Recognition on Windows Phone 7\";s:7:\"matches\";s:1:\"5\";s:9:\"permalink\";s:84:\"http://mbmccormick.com/2011/08/optical-character-recognition-ocr-on-windows-phone-7/\";}i:1;a:4:{s:2:\"ID\";s:3:\"145\";s:10:\"post_title\";s:50:\"Early Look at Mojito: Mint.com for Windows Phone 7\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:81:\"http://mbmccormick.com/2011/08/early-look-at-mojito-mint-com-for-windows-phone-7/\";}i:2;a:4:{s:2:\"ID\";s:2:\"98\";s:10:\"post_title\";s:27:\"Getting Ready for Microsoft\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:59:\"http://mbmccormick.com/2011/05/getting-ready-for-microsoft/\";}i:3;a:4:{s:2:\"ID\";s:3:\"144\";s:10:\"post_title\";s:33:\"Ending the Best Summer of My Life\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:65:\"http://mbmccormick.com/2011/08/ending-the-best-summer-of-my-life/\";}i:4;a:4:{s:2:\"ID\";s:3:\"136\";s:10:\"post_title\";s:37:\"Microsoft Intern Signature Event 2011\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:69:\"http://mbmccormick.com/2011/08/microsoft-intern-signature-event-2011/\";}i:5;a:4:{s:2:\"ID\";s:2:\"87\";s:10:\"post_title\";s:55:\"How I Launched 4sqtransit in Two Weeks on Windows Azure\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:87:\"http://mbmccormick.com/2011/04/how-i-launched-4sqtransit-in-two-weeks-on-windows-azure/\";}}"
-  _wp_old_slug: my-first-windows-phone-7-application
-  aktt_tweeted: "1"
-  _relation_threshold: "3"
 tags: 
 - c#
 - cloud

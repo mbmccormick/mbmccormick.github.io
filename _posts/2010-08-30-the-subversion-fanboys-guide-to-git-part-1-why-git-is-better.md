@@ -2,13 +2,6 @@
 layout: post
 title: "The Subversion Fanboy's Guide to Git, Part 1: Why Git is Better"
 published: true
-meta: 
-  aktt_notify_twitter: "no"
-  _edit_last: "1"
-  _efficient_related_posts: "a:6:{i:0;a:4:{s:2:\"ID\";s:2:\"48\";s:10:\"post_title\";s:65:\"The Subversion Fanboy\xE2\x80\x99s Guide to Git, Part 2: Pushing to GitHub\";s:7:\"matches\";s:1:\"7\";s:9:\"permalink\";s:101:\"http://mbmccormick.com/2010/09/the-subversion-fanboy%e2%80%99s-guide-to-git-part-2-pushing-to-github/\";}i:1;a:4:{s:2:\"ID\";s:2:\"83\";s:10:\"post_title\";s:51:\"Deploying an Application to AppHarbor in 10 Minutes\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:83:\"http://mbmccormick.com/2011/03/deploying-an-application-to-appharbor-in-10-minutes/\";}i:2;a:4:{s:2:\"ID\";s:2:\"78\";s:10:\"post_title\";s:54:\"Creating GitHub Style Post-Receive Webhooks in Gitosis\";s:7:\"matches\";s:1:\"4\";s:9:\"permalink\";s:86:\"http://mbmccormick.com/2011/01/creating-github-style-post-receive-webhooks-in-gitosis/\";}i:3;a:4:{s:2:\"ID\";s:2:\"67\";s:10:\"post_title\";s:41:\"How To Remove PHP Extensions From Website\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:73:\"http://mbmccormick.com/2010/09/how-to-remove-php-extensions-from-website/\";}i:4;a:4:{s:2:\"ID\";s:2:\"45\";s:10:\"post_title\";s:44:\"Removing Subversion Directories from Windows\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:76:\"http://mbmccormick.com/2010/09/removing-subversion-directories-from-windows/\";}i:5;a:4:{s:2:\"ID\";s:2:\"29\";s:10:\"post_title\";s:30:\"Show Hidden Files in FileZilla\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:67:\"http://mbmccormick.com/2010/06/show-hidden-unix-files-in-filezilla/\";}}"
-  _wp_old_slug: ""
-  has_been_twittered: "yes"
-  _relation_threshold: "3"
 tags: 
 - Development
 - git

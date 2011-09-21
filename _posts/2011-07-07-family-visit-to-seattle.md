@@ -2,12 +2,6 @@
 layout: post
 title: Family Visit to Seattle
 published: true
-meta: 
-  aktt_notify_twitter: "yes"
-  _edit_last: "1"
-  _efficient_related_posts: "a:6:{i:0;a:4:{s:2:\"ID\";s:3:\"144\";s:10:\"post_title\";s:33:\"Ending the Best Summer of My Life\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:65:\"http://mbmccormick.com/2011/08/ending-the-best-summer-of-my-life/\";}i:1;a:4:{s:2:\"ID\";s:3:\"136\";s:10:\"post_title\";s:37:\"Microsoft Intern Signature Event 2011\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:69:\"http://mbmccormick.com/2011/08/microsoft-intern-signature-event-2011/\";}i:2;a:4:{s:2:\"ID\";s:3:\"125\";s:10:\"post_title\";s:27:\"Microsoft Intern Puzzle Day\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:59:\"http://mbmccormick.com/2011/07/microsoft-intern-puzzle-day/\";}i:3;a:4:{s:2:\"ID\";s:3:\"111\";s:10:\"post_title\";s:21:\"Week Six at Microsoft\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:53:\"http://mbmccormick.com/2011/06/week-six-at-microsoft/\";}i:4;a:4:{s:2:\"ID\";s:2:\"98\";s:10:\"post_title\";s:27:\"Getting Ready for Microsoft\";s:7:\"matches\";s:1:\"3\";s:9:\"permalink\";s:59:\"http://mbmccormick.com/2011/05/getting-ready-for-microsoft/\";}i:5;a:4:{s:2:\"ID\";s:3:\"145\";s:10:\"post_title\";s:50:\"Early Look at Mojito: Mint.com for Windows Phone 7\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:81:\"http://mbmccormick.com/2011/08/early-look-at-mojito-mint-com-for-windows-phone-7/\";}}"
-  aktt_tweeted: "1"
-  _relation_threshold: "2"
 tags: 
 - family
 - microsoft
