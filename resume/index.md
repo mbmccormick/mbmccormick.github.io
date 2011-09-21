@@ -52,15 +52,12 @@ Actively working on several personal and community open source projects, using a
 
 Strong background in engineering and manufacturing technologies, including four years of FIRST Robotics Competition and hands-on CNC machining and mechanical design experience.
 
-### PERSONAL PROJECTS
-
-4sqtransit (http://4sqtransit.com)  
-Website that delivers public transit information to your phone when you check in on Foursquare.
-
-Recordable (http://recordableapp.com)  
-Telephone service that records phone call conversations for later review.
-
 ### AFFILIATIONS
 
 Association of Information Technology Professionals (August 2010 – Present)  
 Member, Purdue Chapter
+
+### DOWNLOAD
+
+You can download a PDF copy of my resume [here](matt_mccormick.pdf).
+
