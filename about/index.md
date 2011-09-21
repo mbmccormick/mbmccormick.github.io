@@ -9,4 +9,4 @@ My name is Matt McCormick and I am a senior at [Purdue University](http://www.pu
 
 This past summer I worked at [Microsoft](http://www.microsoft.com) in Redmond, WA in Microsoft Lync as a Program Manager Intern in the server platform. I am also the Microsoft Ambassador for Purdue University.
 
-You can take a look at some of the GitHub projects that I’ve been working on [here](https://www.github.com/mbmccormick), or check out the list below:
+You can take a look at some of the GitHub projects that I’ve been working on [here](https://www.github.com/mbmccormick).
