@@ -11,6 +11,6 @@ Please note that I am not accepting any work for the summer. I will resume my fr
 
 Phone: [+1 248 429 9001](tel:12484299001)  
 Email: [matt@mbmccormick.com](mailto:matt@mbmccormick.com)  
-Skype: [mbmccormick](skypeto:mbmccormick?call)
+Skype: [mbmccormick](skype:mbmccormick?call)
 
 I’m located in West Lafayette, IN right now.
