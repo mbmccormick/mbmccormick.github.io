@@ -1,22 +1,8 @@
 --- 
 layout: post
 title: "Early Look at Mojito: Mint.com for Windows Phone 7"
-published: true
-tags: 
-- api
-- c#
-- Development
-- downloads
-- finance
-- Hacking
-- internet
-- microsoft
-- Projects
-- summer
-- windows
-- wp7
-type: post
-status: publish
+excerpt:
+  Last night I had a lot of motivation to write a new Windows Phone application in an effort to reduce the jet lag from my long flight home. I decided to write an unofficial app for Mint.com. Although Mint.com does not have a public API available for developers to use, I was able to get access to some basic data such as account names, balances, last updated time, and some other details.
 ---
 <em>Update: Mojito has been updated with support for budgets, notifications, and displaying net worth balance on a live tile. The screenshots below and the XAP file have all been updated to reflect these changes.</em>
 
