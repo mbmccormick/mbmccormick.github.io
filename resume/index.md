@@ -1,16 +1,62 @@
 ---
 layout: default
-title: Contact
+title: Resume
 ---
 
-# Contact
+# Resume
 
-Feel free to contact me at any time, but please consult my [calendar](http://mbmccormick.com/calendar) before doing so, as I have a lot going on with school, my job, and my business. I can be reached by email or phone and I’d be more than happy to answer any questions that you might have.
+### OBJECTIVE
 
-Please note that I am not accepting any work for the summer. I will resume my freelance work in the fall.
+To obtain an internship position as a Software Engineer developing fast and efficient software applications to increase the effectiveness of business processes.
 
-Phone: [+1 248 429 9001](tel:12484299001)  
-Email: [matt@mbmccormick.com](mailto:matt@mbmccormick.com)  
-Skype: [mbmccormick](skypeto:mbmccormick?call)
+### EDUCATION
 
-I’m located in West Lafayette, IN right now.
+Purdue University, West Lafayette, IN (December 2012, expected)
+B.S. Computer Science, concentration in Software Engineering
+
+### WORK EXPERIENCE
+
+McCormick Technologies, Oxford, MI (January 2009 – Present)
+Owner/Operator
+- Established personal business during freshman year of college
+- Developing custom software applications for customers nationwide
+Microsoft, Redmond, WA (May 2011 – August 2011)
+Program Manager Intern
+- Worked on Microsoft Lync server platform team
+Purdue University, West Lafayette, IN (September 2009 – May 2011)
+Student Web Programmer
+- Upgraded Global Trade Analysis Project website from Classic ASP to ASP.NET 3.5
+- Implemented custom Security Providers and refactored SQL Server database queries
+Brose North America, Auburn Hills, MI (May 2010 – August 2010)
+Intern
+-Created traceability report from welding test data from assembly plant
+- Located correlations in traceability data and identified cause of part failures
+Creative Logic Group, Rochester, MI (June 2007 – August 2009)
+Jr. Software Architect & Developer
+- Managed several customer projects with multiple team members
+- Upgraded company source control to SVN and held training seminars
+
+### SOFTWARE SKILLS
+
+Programming experience in Java, C#, Visual Basic, Python, C, ASP.NET, PHP, HTML, JavaScript, CSS, XML, Microsoft SQL Server, MySQL, LINQ, Web Services, Bash, and more.
+
+Systems administration experience with Windows Server 2008, Linux/UNIX, Internet Information Services, Apache, Microsoft SQL Server, MySQL, and more.
+
+Actively working on several personal and community open source projects, using a unique mixture of web services and cloud computing platforms.
+
+### ENGINEERING SKILLS
+
+Strong background in engineering and manufacturing technologies, including four years of FIRST Robotics Competition and hands-on CNC machining and mechanical design experience.
+
+### PERSONAL PROJECTS
+
+4sqtransit (http://4sqtransit.com)  
+Website that delivers public transit information to your phone when you check in on Foursquare.
+
+Recordable (http://recordableapp.com)  
+Telephone service that records phone call conversations for later review.
+
+### AFFILIATIONS
+
+Association of Information Technology Professionals (August 2010 – Present)  
+Member, Purdue Chapter
