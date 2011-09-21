@@ -47,7 +47,7 @@ a{
   text-decoration:none;
 }
 a:visited{
-  color:#457289;
+  color:#2382c8;
 }
 a:hover{
   text-decoration:underline;
@@ -83,7 +83,6 @@ hr{
   margin:20px 0;
   font-weight:bold;
   font-size:30px;
-  color: #2382c8;
 }
 
 ul.nav{
