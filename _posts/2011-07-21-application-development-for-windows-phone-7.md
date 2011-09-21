@@ -1,18 +1,8 @@
 --- 
 layout: post
 title: Application Development for Windows Phone 7
-published: true
-tags: 
-- c#
-- cloud
-- microsoft
-- Projects
-- redmond
-- summer
-- twilio
-- wp7
-type: post
-status: publish
+excerpt:
+  Over the past couple of weeks, I have been working on my first Windows Phone 7 application for my new HTC Trophy on Verizon. First off, I absolutely love my Windows Phone and no, I have not been drinking too much koolaid here in Redmond. I truly think that the Windows Phone software has a great user interface and is packed with features that just make life easier, with over 500 new features coming in Mango.
 ---
 Over the past couple of weeks, I have been working on my first <a href="http://www.microsoft.com/windowsphone/en-us/default.aspx" target="_blank">Windows Phone 7</a> application for my new <a href="http://www.htc.com/us/products/trophy-verizon?view=1-1&amp;sort=0&amp;filters=4-0-0" target="_blank">HTC Trophy</a> on <a href="http://www.verizonwireless.com/b2c/index.html" target="_blank">Verizon</a>. First off, I absolutely love my Windows Phone and no, I have not been drinking too much koolaid here in Redmond. I truly think that the Windows Phone software has a great user interface and is packed with features that just make life easier, with over <a href="http://techcrunch.com/2011/05/24/microsoft-officially-announces-windows-phone-7-1-mango-with-500-new-features/" target="_blank">500 new features</a> coming in <a href="http://www.youtube.com/watch?v=OP30F3ZxTmw" target="_blank">Mango</a>. Back to the topic at hand, Windows Phone is a fantastic platform to develop on and for developers that already use <a href="http://msdn.microsoft.com/en-us/vcsharp/aa336809" target="_blank">C#</a> and the <a href="http://www.microsoft.com/net/" target="_blank">.NET Framework</a> for their applications, <a href="http://www.silverlight.net/" target="_blank">Silverlight</a> applications for Windows Phone is a no brainer. Aside from the development aspect, actually going from code to <a href="http://www.microsoft.com/windowsphone/en-us/apps/default.aspx" target="_blank">Marketplace</a> was extremely easy. I was able to launch my application in 24 hours, without any problems.
 
