@@ -11,7 +11,7 @@ To obtain an internship position as a Software Engineer developing fast and effi
 
 ### EDUCATION
 
-Purdue University, West Lafayette, IN (December 2012, expected)
+Purdue University, West Lafayette, IN (December 2012, expected)  
 B.S. Computer Science, concentration in Software Engineering
 
 ### WORK EXPERIENCE
