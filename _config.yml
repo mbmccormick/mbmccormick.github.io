@@ -1,5 +1,5 @@
 markdown: rdiscount
 pygments: true
-permalink: /posts/:title
+permalink: /:year/:month/:title
 rdiscount:
   extensions: [smart]
