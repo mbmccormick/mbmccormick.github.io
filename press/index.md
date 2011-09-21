@@ -5,7 +5,7 @@ title: Press
 
 # Press
 
-Below is a list of articles that have featured either me or one of my projects. Check out the list below and if you come across an article that’s not listed, please let me know!
+Below is a list of articles that have featured either me or one of my projects. Check out the list below and if you come across an article that's not listed, please let me know!
 
 **[Get Real-Time Transit Schedules When You Check In on Foursquare](http://google.com)** on March 21, 2011
 *We came across a useful Foursquare add-on recently that delivers real-time public transit schedules via SMS when connected users check in near a transit stop on Foursquare. The add-on, 4sqtransit, was built by college student and software developer Matt McCormick. We tested it out at the 6 train sto ...* [mashable.com]
