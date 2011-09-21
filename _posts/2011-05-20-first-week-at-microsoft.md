@@ -1,0 +1,28 @@
+--- 
+layout: post
+title: First Week at Microsoft
+published: true
+meta: 
+  aktt_notify_twitter: "yes"
+  _edit_last: "1"
+  _efficient_related_posts: a:6:{i:0;a:4:{s:2:"ID";s:3:"136";s:10:"post_title";s:37:"Microsoft Intern Signature Event 2011";s:7:"matches";s:1:"4";s:9:"permalink";s:69:"http://mbmccormick.com/2011/08/microsoft-intern-signature-event-2011/";}i:1;a:4:{s:2:"ID";s:3:"111";s:10:"post_title";s:21:"Week Six at Microsoft";s:7:"matches";s:1:"4";s:9:"permalink";s:53:"http://mbmccormick.com/2011/06/week-six-at-microsoft/";}i:2;a:4:{s:2:"ID";s:3:"109";s:10:"post_title";s:26:"Becoming a Program Manager";s:7:"matches";s:1:"4";s:9:"permalink";s:58:"http://mbmccormick.com/2011/06/becoming-a-program-manager/";}i:3;a:4:{s:2:"ID";s:3:"100";s:10:"post_title";s:30:"New Employee Orientation (NEO)";s:7:"matches";s:1:"4";s:9:"permalink";s:60:"http://mbmccormick.com/2011/05/new-employee-orientation-neo/";}i:4;a:4:{s:2:"ID";s:2:"98";s:10:"post_title";s:27:"Getting Ready for Microsoft";s:7:"matches";s:1:"4";s:9:"permalink";s:59:"http://mbmccormick.com/2011/05/getting-ready-for-microsoft/";}i:5;a:4:{s:2:"ID";s:3:"144";s:10:"post_title";s:33:"Ending the Best Summer of My Life";s:7:"matches";s:1:"3";s:9:"permalink";s:65:"http://mbmccormick.com/2011/08/ending-the-best-summer-of-my-life/";}}
+  aktt_tweeted: "1"
+  _relation_threshold: "3"
+tags: 
+- career
+- fun
+- microsoft
+- Personal
+- summer
+type: post
+status: publish
+---
+This first week at <a href="http://www.microsoft.com/en-us/default.aspx" target="_blank">Microsoft</a> has truly been something else. I love the work that I am doing and I love this company already. I'm finding that I am very passionate about the products that I am working on, as I have true interest in this particular technology. My recruiter definitely did her research in finding a place at Microsoft where I would fit so perfectly. I could certainly get used to riding my bike to work everyday, eating lunch outside while listening to live music, and seeing snow-capped mountains when I look across campus. My mentor has been extremely helpful on both a professional and personal level, he is a really great guy.
+
+<a href="http://mbmccormick.com/wp-content/uploads/2011/05/IMG_0726.jpg"><img class="size-medium wp-image-106 alignright" title="IMG_0726" src="http://mbmccormick.com/wp-content/uploads/2011/05/IMG_0726-300x225.jpg" alt="" width="300" height="225" /></a>On Tuesday, I spent most of the day setting up my workstation and installing the necessary software that I would need as a Program Manager for my particular team. My mentor introduced me to some people who would help me get the necessary components (keyboard, mouse, cables, etc.) for my office. I ate lunch in the <a href="https://foursquare.com/venue/47696" target="_blank">Commons</a> and stopped off to browse the <a href="http://www.microsoftstore.com/store/msstore/en_US/home" target="_blank">Microsoft Store</a> on my way back to my office. That afternoon, I put in requests to be granted the necessary permissions for different systems and added myself to all the relevant distribution lists. On Tuesday night, I ordered groceries on <a href="http://fresh.amazon.com/" target="_blank">Amazon Fresh</a>. It was a very cool service and they showed up right at my doorstep before I woke up!
+
+On Wednesday, my mentor and I met for a little while to discuss the Program Manager role and how that role functions on the <a href="http://lync.microsoft.com/en-us/Pages/default.aspx" target="_blank">Microsoft Lync</a> team. I finished setting up my workstation that morning and started to review some of the onboarding materials that I received from my team, <a href="http://office.microsoft.com/en-us/" target="_blank">Microsoft Office</a> itself, and the intern coordinators. I also took the Legal 101 and Security training courses required of all new hires. Later that day I went to the Library on campus to pick up a short video on Program Management at Microsoft, which was very helpful. My mentor also had me enroll in some online courses that I would take today.
+
+<a href="http://mbmccormick.com/wp-content/uploads/2011/05/IMG_0702.jpg"><img class="size-medium wp-image-106 alignleft" title="IMG_0702" src="http://mbmccormick.com/wp-content/uploads/2011/05/IMG_0702-300x225.jpg" alt="" width="300" height="225" /></a>Yesterday I spent most of the day completing the online courses that my mentor and I enrolled me in on Wednesday. I also had an "Intern Ramp-Up" session at lunch, where we had a great speaker talk about some helpful tips for being successful during our internship here. Afterwards, my mentor introduced me to the rest of the team and I started to get a better idea of what my project is going to be.
+
+Today, my manager returned from his conference and I met him for the first time. He's a great guy and got my introduced to my project, something that members of my team have a real interest in and are everonye is eager to get it included in the next release! I also attended a bunch of meetings today: team updates, spec reviews, kick-start meeting with my manager and mentor, and an "all hands" PM meeting, where the head of Microsoft Lync welcomed me to the group. Today was also bike to work day! As a daily bike commuter, I got free breakfast in the morning, a free bike tune-up, and I was entered to win an Amazon gift card. Tonight I have another intern event, we are going bowling in Bellevue. It should be a lot of fun and it will be good to meet some more interns. This weekend some friends and I are going to check out downtown Seattle, pending the weather.
