@@ -1,20 +1,8 @@
 --- 
 layout: post
 title: Install Hamachi VPN on the PogoPlug USB Device (Updated)
-published: true
-tags: 
-- embedded
-- fun
-- Hacking
-- hardware
-- kernel
-- linux
-- networking
-- pogoplug
-- ssh
-- summer
-type: post
-status: publish
+excerpt:
+  Just over a month ago, I wrote a post about how to install Hamachi on the PogoPlug USB device, effectively bringing your hard drives and (eventually printers) to the Hamachi network. I've recently moved all of the source code for this project over to GitHub where you can download the source, contribute, or fork the project.
 ---
 <em>Update: Thanks to <a target="_blank" href="http://stevejobsisadouche.com/">George Lerdsuwanrut</a> for all of his help with this guide, the instructions below should now work with the latest PogoPlug Firmware. (10/15/2010)</em>
 

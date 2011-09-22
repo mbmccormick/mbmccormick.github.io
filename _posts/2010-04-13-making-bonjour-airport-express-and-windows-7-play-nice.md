@@ -1,18 +1,8 @@
 --- 
 layout: post
 title: Making Bonjour, Airport Express, and Windows 7 play nice
-published: true
-tags: 
-- apple
-- mac
-- microsoft
-- networking
-- printing
-- Support
-- windows
-- wireless
-type: post
-status: publish
+excerpt:
+  So I have an Airport Express which I use as my wireless router and print server. The first week or so, this was wonderful. I was printing using Windows 7 from anywhere on my network. They could print any time they wanted, for free! Recently, though, I've been having some headaches with Bonjour.
 ---
 So I have an Airport Express which I use as my wireless router and print server. The first week or so, this was wonderful. I was printing using Windows 7 from anywhere on my network. They could print any time they wanted, for free! Recently, though, I've been having some headaches with Bonjour.
 

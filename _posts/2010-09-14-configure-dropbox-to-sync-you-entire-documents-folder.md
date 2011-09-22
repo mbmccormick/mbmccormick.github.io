@@ -1,17 +1,8 @@
 --- 
 layout: post
 title: Configure Dropbox to Sync Your Entire Documents Folder
-published: true
-tags: 
-- automation
-- downloads
-- home
-- internet
-- Tools
-- Web
-- windows
-type: post
-status: publish
+excerpt:
+  I recently decided to switch my online backup solution from Syncplicity to Dropbox. The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the "My Dropbox" folder for all of my syncing, something I did not want to do.
 ---
 I recently decided to switch my online backup solution from <a href="http://syncplicity.com/" target="_blank">Syncplicity</a> to <a href="http://www.dropbox.com/" target="_blank">Dropbox</a>. The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the "My Dropbox" folder for all of my syncing, something I did not want to do.
 

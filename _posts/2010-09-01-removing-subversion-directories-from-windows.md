@@ -1,15 +1,8 @@
 --- 
 layout: post
 title: Removing Subversion Directories from Windows
-published: true
-tags: 
-- git
-- Hacking
-- svn
-- Tools
-- windows
-type: post
-status: publish
+excerpt:
+  While I'm in the middle of my conversion from Subversion to Git, I ran across a somewhat annoying problem. I have all of these projects on my local workstation that I need to strip of .svn directories. While I could do this using Subversion's export command, that would require a lot of moving and deleting and I just didn't want to do that.
 ---
 While I'm in the middle of my conversion from Subversion to Git, I ran across a somewhat annoying problem. I have all of these projects on my local workstation that I need to strip of <code>.svn</code> directories. While I could do this using Subversion's <code>export</code> command, that would require a lot of moving and deleting and I just didn't want to do that.
 

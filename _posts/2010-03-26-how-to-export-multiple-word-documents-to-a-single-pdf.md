@@ -1,16 +1,8 @@
 --- 
 layout: post
 title: How to export multiple Word Documents to a single PDF
-published: true
-tags: 
-- asp.net
-- Development
-- office-interop
-- pdf
-- vb.net
-- word
-type: post
-status: publish
+excerpt:
+  Over the past few weeks, I've been casually working on a project for a customer. One of the requirements was that the user needed to be able to generate reports for a set of data in Word Document format, and then retrieve a set of these reports in a single file for printing. The obvious solution to this was to use the Microsoft Office Interop Assemblies for .NET. Easy, or so I thought. 
 ---
 Over the past few weeks, I've been casually working on a project for a customer. One of the requirements was that the user needed to be able to generate reports for a set of data in Word Document format, and then retrieve a set of these reports in a single file for printing. The obvious solution to this was to use the Microsoft Office Interop Assemblies for .NET. Easy, or so I thought. I was able to successfully generate the reports in Word, but could not for the life of me figure out how to merge these documents together without losing formatting. I hit a road block, and tried everything imaginable for the last couple of weeks.
 

@@ -1,19 +1,8 @@
 --- 
 layout: post
 title: Android 2.2 Froyo on Motorola Droid
-published: true
-tags: 
-- android
-- droid
-- fun
-- Hacking
-- hardware
-- linux
-- motorola
-- tips
-- verizon
-type: post
-status: publish
+excerpt:
+  After I couldn't stand not having Froyo on my Motorola Droid, I finally gave in. I decided it was time to upgrade after seeing this blog post, indicating that a very stable port of Android 2.2 was available for the Droid. This post will walk through the process of going from stock Android 2.1, without root, to Android 2.2, with root.
 ---
 After I couldn't stand not having Froyo on my Motorola Droid, I finally gave in. I decided it was time to upgrade after seeing this blog <a href="http://www.droid-life.com/2010/06/08/download-newer-motorola-droid-froyo-leak-frf57/" target="_blank">post</a>, indicating that a very stable port of Android 2.2 was available for the Droid. This post will walk through the process of going from stock Android 2.1, without root, to Android 2.2, with root. Fasten your seat belts, as this is somewhat of a bumpy ride. Let's begin...
 

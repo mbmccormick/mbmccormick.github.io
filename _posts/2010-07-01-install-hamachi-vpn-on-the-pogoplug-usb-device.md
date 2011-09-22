@@ -1,20 +1,8 @@
 --- 
 layout: post
 title: Install Hamachi VPN on the PogoPlug USB Device
-published: true
-tags: 
-- embedded
-- fun
-- Hacking
-- hardware
-- kernel
-- linux
-- networking
-- pogoplug
-- ssh
-- summer
-type: post
-status: publish
+excerpt:
+  I picked up the Seagate FreeAgent DockStar USB PogoPlug-enabled network adapter off of Woot! the other day with hopes off putting some of the unused external hard drives in this house to good, network-attached use. Since I'm away at school for about 75% of the year, our home network lives and breathes LogMeIn Hamachi. The device runs a custom build of Linux, which makes its current feature set possible.
 ---
 <em>Update: A newer version of this article has recently been <a href="http://mbmccormick.com/2010/09/update-install-hamachi-vpn-on-the-pogoplug-usb-device/" target="_self">posted</a>. The information in this post may be obsolete!</em>
 &nbsp;<br />
