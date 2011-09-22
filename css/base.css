@@ -160,6 +160,8 @@ ul.nav li a:hover{
 
 .listing .post .continue{
   font-weight:bold;
+  padding-right: 14px; 
+  background: url(/images/small-arrow.png) 100% 5px no-repeat;
 }
 
 .listing .post.other{
