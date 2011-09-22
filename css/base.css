@@ -593,6 +593,11 @@ code.html span.doctype{
 	font-size:0;
 	float:left;
 }
+.pagination{
+	border-top: 1px solid #DDD;
+	padding: 10px 0;
+	margin: 15px 0;	
+}
 .next a{
 	padding-right: 14px;
 	background: url('https://a248.e.akamai.net/assets.github.com/images/modules/features/small-arrow.png') 100% 5px no-repeat;
