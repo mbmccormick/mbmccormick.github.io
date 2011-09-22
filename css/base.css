@@ -594,11 +594,11 @@ code.html span.doctype{
 	float:left;
 }
 .next a{
-	padding-left: 14px;
+	padding-right: 14px;
 	background: url('https://a248.e.akamai.net/assets.github.com/images/modules/features/small-arrow.png') 100% 5px no-repeat;
 }
 .prev a{
-	padding-right: 14px;
+	padding-left: 14px;
 	background: url('https://a248.e.akamai.net/assets.github.com/images/modules/features/small-arrow.png') 0 -95px no-repeat;
 }
 /* @end */
