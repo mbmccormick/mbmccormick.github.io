@@ -9,8 +9,8 @@ Feel free to contact me at any time, but please consult my [calendar](http://mbm
 
 Please note that I am not accepting any work for the summer. I will resume my freelance work in the fall.
 
-Phone: [+1 248 429 9001](tel:12484299001)  
-Email: [matt@mbmccormick.com](mailto:matt@mbmccormick.com)  
-Skype: [mbmccormick](skype:mbmccormick?call)
+Phone: <a href="tel:12484299001">+1 248 429 9001</a>  
+Email: <a href="mailto:matt@mbmccormick.com">matt@mbmccormick.com</a>  
+Skype: <a href="skype:mbmccormick?call">mbmccormick</a>  
 
-I’m located in West Lafayette, IN right now.
+I’m located in <a href="http://foursquare.com/v/purdue-university/4b95538ef964a520939c34e3" target="_blank">West Lafayette, IN</a> right now.
