@@ -21,3 +21,11 @@ head_content:
   {% endif %}
 {% endfor %}
 </div>
+<div class="navigator">
+  {$ if paginator.page > 1 %}
+    <a href="/page{{ paginator.previous_page }}">&lt;&lt; Previous</a>
+  {% endif %}
+  {$ if paginator.page < paginator.total_pages %}
+    <a href="/page{{ paginator.next_page }}">Next &gt;&gt;</a>
+  {% endif %}
+</div>
