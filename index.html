@@ -24,12 +24,16 @@ head_content:
 <div class="pagination">
   {% if paginator.previous_page %}
     <span class="prev" align="left">
-      <a href="/page{{paginator.previous_page}}">View <b>Newer Posts</b></a>
+      {% if paginator.previous_page == 1 %}
+        <a href="/">Continue to <b>Newer Posts</b></a>
+      {% else %}
+        <a href="/page{{paginator.previous_page}}">Continue to <b>Newer Posts</b></a>
+      {% endif %}
     </span>
   {% endif %}
   {% if paginator.next_page %}
     <span class="next" align="right" style="float: right;">
-      <a href="/page{{paginator.next_page}}">View <b>Older Posts</b></a>
+      <a href="/page{{paginator.next_page}}">Continue to <b>Older Posts</b></a>
     </span>
   {% endif %}
 </div>
