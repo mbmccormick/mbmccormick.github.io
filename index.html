@@ -22,18 +22,14 @@ head_content:
 {% endfor %}
 
 <div class="pagination">
-  <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
-    <tr>
-      <td>
-        {% if paginator.previous_page %}
-          <a href="/page{{paginator.previous_page}}" class="previous">&lt;&lt; Previous</a>
-        {% endif %}
-      </td>
-      <td align="right">
-        {% if paginator.next_page %}
-          <a href="/page{{paginator.next_page}}" class="next ">Next &gt;&gt;</a>
-        {% endif %}
-      </td>
-    </tr>
-  </table>
+  {% if paginator.previous_page %}
+    <span class="prev" align="left">
+      <a href="/page{{paginator.previous_page}}" class="previous">&lt;&lt; Previous</a>
+    </span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <span class="next" align="right">
+      <a href="/page{{paginator.next_page}}" class="next ">Next &gt;&gt;</a>
+    </span>
+  {% endif %}
 </div>
