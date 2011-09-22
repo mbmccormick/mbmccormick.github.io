@@ -1,16 +1,8 @@
 --- 
 layout: post
 title: New Employee Orientation (NEO)
-published: true
-tags: 
-- career
-- fun
-- microsoft
-- neo
-- Personal
-- summer
-type: post
-status: publish
+excerpt: 
+  Today was my very first day at Microsoft. A lot happened during New Employee Orientation (NEO), so I will just run you through my whole day. This morning, I had to return my rental car from this weekend. So I drove down to Avis to drop it off and while I was there I ran into two other interns who were starting today as well, so we made small talk. They asked how I was getting from there to Building 92, where orientation was, and I said that my two friends from school are going to pick me up and I offered them a ride.
 ---
 Today was my very first day at Microsoft. A lot happened during New Employee Orientation (NEO), so I will just run you through my whole day. This morning, I had to return my rental car from this weekend. So I drove down to Avis to drop it off and while I was there I ran into two other interns who were starting today as well, so we made small talk. They asked how I was getting from there to <a href="https://foursquare.com/venue/759468" target="_blank">Building 92</a>, where orientation was, and I said that my two friends from school are going to pick me up and I offered them a ride. Once my friends arrived, all five of us packed into their car and we drove to Building 92 to park and get started with orientation.
 

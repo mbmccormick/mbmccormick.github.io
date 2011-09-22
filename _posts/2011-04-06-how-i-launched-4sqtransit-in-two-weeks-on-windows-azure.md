@@ -1,23 +1,8 @@
 --- 
 layout: post
 title: How I Launched 4sqtransit in Two Weeks on Windows Azure
-published: true
-tags: 
-- api
-- asp.net
-- azure
-- cloud
-- foursquare
-- fun
-- gtfs
-- location
-- microsoft
-- Projects
-- server
-- twilio
-- windows
-type: post
-status: publish
+excerpt:
+  My latest project, 4sqtransit, is a small application that delivers real-time public transit schedules to your phone via text message whenever you check in at a transit stop on Foursquare. I'm still a little uncertain about how word got out about what I was doing, but I woke up one morning to find out that 72 people were using my service. Later that day, I got an email from the co-founder of Foursquare. The following week, it was on the front page of Mashable.
 ---
 My latest project, <a href="http://www.4sqtransit.com/" target="_blank">4sqtransit</a>, is a small application that delivers real-time public transit schedules to your phone via text message whenever you check in at a transit stop on <a href="https://foursquare.com/" target="_blank">Foursquare</a>. I'm still a little uncertain about how word got out about what I was doing, but I woke up one morning to find out that 72 people were using my service. Later that day, I got an email from the <a href="https://foursquare.com/naveen" target="_blank">co-founder</a> of Foursquare. The following week, it was on the front page of <a href="http://mashable.com/2011/03/21/4sqtransit/" target="_blank">Mashable</a>. In the days following that, my user base surpassed 700 and my inbox was flooded with transit agencies asking to be added to my service. Today, 4sqtransit supports over 157 transit agencies around the globe and churns out nearly 400 text messages per day.
 

@@ -1,15 +1,8 @@
 --- 
 layout: post
 title: Becoming a Program Manager
-published: true
-tags: 
-- career
-- fun
-- microsoft
-- Personal
-- summer
-type: post
-status: publish
+excerpt:
+  I started my third week at Microsoft today, well, yesterday if you're counting. Yes, I did have to go in to work for a few hours yesterday. Since I last updated, I started working on my project and my manager and my mentor helped me develop some deadlines for the first half of the summer. My project is on a direct path to the next release of Microsoft Lync and has a lot of stakeholders that are already awaiting a finished product, something that will take me several more weeks at best.
 ---
 I started my third week at <a href="http://www.microsoft.com/en-us/default.aspx" target="_blank">Microsoft</a> today, well, yesterday if you're counting. Yes, I did have to go in to work for a few hours yesterday. Since I last updated, I started working on my project and my manager and my mentor helped me develop some deadlines for the first half of the summer. My project is on a direct path to the next release of <a href="http://lync.microsoft.com/en-us/Pages/default.aspx" target="_blank">Microsoft Lync</a> and has a lot of stakeholders that are already awaiting a finished product, something that will take me several more weeks at best. The last week has been very fast-paced and intense and, honestly, I'm a little surprised I came out of that unscathed. I've been frantically working to get up to speed on my assignment and our team's policies and procedures. My first deadline was today, when I had the first review of my specification. I've been to countless meetings, met with several people from all over the world, and scoured the corporate network for documentation in order to get my specification to it's "first review" stage today.
 

@@ -1,15 +1,8 @@
 --- 
 layout: post
 title: First Week at Microsoft
-published: true
-tags: 
-- career
-- fun
-- microsoft
-- Personal
-- summer
-type: post
-status: publish
+excerpt:
+  This first week at Microsoft has truly been something else. I love the work that I am doing and I love this company already. I'm finding that I am very passionate about the products that I am working on, as I have true interest in this particular technology. My recruiter definitely did her research in finding a place at Microsoft where I would fit so perfectly. I could certainly get used to riding my bike to work everyday, eating lunch outside while listening to live music, and seeing snow-capped mountains when I look across campus.
 ---
 This first week at <a href="http://www.microsoft.com/en-us/default.aspx" target="_blank">Microsoft</a> has truly been something else. I love the work that I am doing and I love this company already. I'm finding that I am very passionate about the products that I am working on, as I have true interest in this particular technology. My recruiter definitely did her research in finding a place at Microsoft where I would fit so perfectly. I could certainly get used to riding my bike to work everyday, eating lunch outside while listening to live music, and seeing snow-capped mountains when I look across campus. My mentor has been extremely helpful on both a professional and personal level, he is a really great guy.
 
