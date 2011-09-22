@@ -24,12 +24,12 @@ head_content:
 <div class="pagination">
   {% if paginator.previous_page %}
     <span class="prev" align="left">
-      <a href="/page{{paginator.previous_page}}" class="previous">&lt;&lt; Previous</a>
+      <a href="/page{{paginator.previous_page}}" class="previous">View <b>Newer Posts</b></a>
     </span>
   {% endif %}
   {% if paginator.next_page %}
     <span class="next" align="right">
-      <a href="/page{{paginator.next_page}}" class="next ">Next &gt;&gt;</a>
+      <a href="/page{{paginator.next_page}}" class="next ">View <b>Older Posts</b></a>
     </span>
   {% endif %}
 </div>
