@@ -273,6 +273,7 @@ blockquote{
 blockquote p{
   margin:12px 0;
   color:#666;
+  font-family:Georgia;
 }
 
 table{
@@ -610,6 +611,7 @@ code.html span.doctype{
 	padding-left:14px;
 	background:url(/images/small-arrow.png) 0 -95px no-repeat;
 }
+
 ::selection{
 	background-color:#F5FF38;
 	color: inherit;

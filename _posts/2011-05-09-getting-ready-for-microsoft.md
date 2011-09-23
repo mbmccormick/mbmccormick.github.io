@@ -16,5 +16,9 @@ In an effort to make the most of my summer and to ensure that my customers get t
 This summer I will be living at <a href="http://www.breproperties.com/community/?property_code=pnw1243" target="_blank">The Trails of Redmond</a> apartments in Redmond with one roommate. My apartment complex is one block away from <a href="https://foursquare.com/venue/252432" target="_blank">Building 30</a>, which is where I will be working. Since I've decided to bike to work all summer, this will be really nice. The apartments look beautiful and come <a href="http://www.aboda.com/corporate_housing/property/Trails_of_Redmond" target="_blank">fully furnished</a>, making relocation a lot easier. I will also be a 20 minute bike ride from downtown Redmond and a short 30 minute bus ride from downtown Seattle.
 
 I will be chronicling my internship throughout the summer, so check back for updates. I am really excited to be at Microsoft this summer. I'm also thrilled to be a member of the Microsoft Lync team. <a href="http://en.wikipedia.org/wiki/Bill_Gates" target="_blank">Bill Gates</a> himself had this to say about Lync:
-<blockquote>This is probably the most important thing to happen for the office worker since the PC came along.</blockquote>
+
+<blockquote>
+<p>This is probably the most important thing to happen for the office worker since the PC came along.</p>
+</blockquote>
+
 Microsoft is on the <a href="http://www.infoworld.com/d/applications/microsoft-lync-2010-unified-communications-comes-age-442" target="_blank">forefront</a> of voice and video communications technology and it seems that I will be joining the team at a very <a href="http://online.wsj.com/article/SB10001424052748703730804576314854222820260.html" target="_blank">exciting time</a>. With Microsoft's recent acquisition of Skype, I have a feeling I will be  seeing some very interesting things happening this summer.
