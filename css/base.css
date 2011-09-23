@@ -65,11 +65,13 @@ hr{
   float:left;
   padding:0 40px 0 30px;
   width:240px;
+  position:fixed;
 }
 .main{
   float:left;
   padding-bottom:50px;
   width:640px;
+  margin-left:310px;
 }
 
 /* @end */

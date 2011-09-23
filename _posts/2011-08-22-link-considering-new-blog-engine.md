@@ -5,4 +5,4 @@ type: link
 link: https://github.com/kneath/kneath.github.com
 ---
 
-I'm considering moving my blog engine from WordPress to Git. I need to do some more investing first.
+I'm considering moving my blog engine from WordPress to GitHub, using Git + Jekyll as my CMS. This repository is an example of what I am trying to do.
