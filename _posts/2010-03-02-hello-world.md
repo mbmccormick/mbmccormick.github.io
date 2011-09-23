@@ -1,10 +1,7 @@
 --- 
 layout: post
 title: Hello World
-published: true
-tags: 
-- Personal
-type: post
-status: publish
+excerpt:
+  Welcome to my home on the internet. I'll use this website as a place to share my thoughts, ideas, and projects. If you have some feedback for me, please get in touch!
 ---
-Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!
+Welcome to my home on the internet. I'll use this website as a place to share my thoughts, ideas, and projects. If you have some feedback for me, please get in touch!
