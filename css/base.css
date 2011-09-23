@@ -612,6 +612,6 @@ code.html span.doctype{
 }
 ::selection{
 	background-color:#F5FF38;
-	color: #000000;
+	color: inherit;
 }
 /* @end */
