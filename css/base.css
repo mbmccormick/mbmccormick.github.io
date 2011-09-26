@@ -87,22 +87,22 @@ aside{
   font-size:30px;
 }
 
-ul.nav{
+nav ul{
   margin:20px 0;
   border-top:1px solid #ddd;
 }
-ul.nav li{
+nav ul li{
   list-style-type:none;
   margin:0;
   padding:8px 0;
   border-bottom:1px solid #ddd;
 }
-ul.nav li a{
+nav ul li a{
   color:#333;
   font-weight:bold;
   text-decoration:none;
 }
-ul.nav li a:hover{
+nav ul li a:hover{
   color:#000;
 }
 
