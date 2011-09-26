@@ -7,33 +7,34 @@ head_content:
 <div class="listing">
     {% for post in paginator.posts %}
     {% if post.type == 'link' %}
-        <div class="post other link">
-            <span class="icon" title="This is a link elsewhere"></span>
-            <h2><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
-            <p>{{ post.content }}</p>
-        </div>
+            <div class="post other link">
+                <span class="icon" title="This is a link elsewhere"></span>
+                <h2><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
+                <p>{{ post.content }}</p>
+            </div>
     {% else %}
-        <div class="post">
-            <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt }} <a href="{{ post.url }}" class="continue">Read More</a></p>
-        </div>
+            <div class="post">
+                <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.excerpt }} <a href="{{ post.url }}" class="continue">Read More</a></p>
+            </div>
     {% endif %}
     {% endfor %}
 
-<div class="pagination">
-{% if paginator.previous_page %}
-    <span class="prev" align="left">
-    {% if paginator.previous_page == 1 %}
-        <a href="/">Back to <b>Newer Posts</b></a>
-    {% else %}
-        <a href="/page{{paginator.previous_page}}">Back to <b>Newer Posts</b></a>
+    <div class="pagination">
+    {% if paginator.previous_page %}
+        <span class="prev" align="left">
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Back to <b>Newer Posts</b></a>
+        {% else %}
+            <a href="/page{{paginator.previous_page}}">Back to <b>Newer Posts</b></a>
+        {% endif %}
+        </span>
     {% endif %}
-    </span>
-{% endif %}
-{% if paginator.next_page %}
-    <span class="next" align="right" style="float: right;">
-        <a href="/page{{paginator.next_page}}">Continue to <b>Older Posts</b></a>
-    </span>
-{% endif %}
+    {% if paginator.next_page %}
+        <span class="next" align="right" style="float: right;">
+            <a href="/page{{paginator.next_page}}">Continue to <b>Older Posts</b></a>
+        </span>
+    {% endif %}
+    </div>
 </div>
