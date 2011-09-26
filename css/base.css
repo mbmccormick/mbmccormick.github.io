@@ -61,7 +61,7 @@ hr{
   border:none;
 }
 
-.sidebar{
+aside{
   float:left;
   padding:0 40px 0 30px;
   width:240px;
@@ -106,7 +106,7 @@ ul.nav li a:hover{
   color:#000;
 }
 
-.sidebar p{
+aside p{
   color:#666;
   line-height:1.5;
 }
