@@ -277,31 +277,31 @@ blockquote p{
 }
 
 table{
-	width:100%;
-	border-top:1px solid #CCCCCC;
-	border-bottom:2px solid #CCC;
-	color:#000000;
-	background:#FFFFFF;
-	border-collapse:separate;
-	font-size:11px;
+    width:100%;
+    border-top:1px solid #CCCCCC;
+    border-bottom:2px solid #CCC;
+    color:#000000;
+    background:#FFFFFF;
+    border-collapse:separate;
+    font-size:11px;
 }
 caption{
-	padding:10px 10px 5px 0;
-	text-align:left;
-	font-size:11px;
-	text-transform:uppercase;
-	font-weight:bold;
+    padding:10px 10px 5px 0;
+    text-align:left;
+    font-size:11px;
+    text-transform:uppercase;
+    font-weight:bold;
 }
 th{
-	text-align:center;
-	padding:5px;
+    text-align:center;
+    padding:5px;
 }
 td{
-	text-align:center;
-	padding:3px 5px;
+    text-align:center;
+    padding:3px 5px;
 }
 .odd td{
-	background:#F0F1F2;
+    background:#F0F1F2;
 }
 table.data th, table.data td{
   text-align:left;
@@ -547,73 +547,73 @@ code.html span.doctype{
 ------------------------------------------------------------------------------*/
 
 .hcs{
-	overflow:hidden;
-	text-align: left;
+    overflow:hidden;
+    text-align: left;
 }
 .hcs ul,
 .hcs *{
-	padding: 0;
-	margin: 0;
-	border: 0;
-	outline: 0;
-	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    list-style-type: none;
 }
 .hcs ul{
-	margin: 0 -5px;
+    margin: 0 -5px;
 }
 .hcs ul li{
-	width: 120px;
-	height:90px;
-	position: relative;
-	display: block;
-	padding: 5px;
-	margin: 5px 5px 0 5px;
-	background: rgba(0,0,0,0.075);
-	-webkit-transition:background 0.2s linear;
-	-moz-transition:background 0.2s linear;
-	transition:background 0.2s linear;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";
-	display: table;
-	float:left;
-	vertical-align:middle;
+    width: 120px;
+    height:90px;
+    position: relative;
+    display: block;
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    background: rgba(0,0,0,0.075);
+    -webkit-transition:background 0.2s linear;
+    -moz-transition:background 0.2s linear;
+    transition:background 0.2s linear;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";
+    display: table;
+    float:left;
+    vertical-align:middle;
 }
 .hcs ul li a{
-	width:120px;
-	height:90px;
-	text-align:center;
-	vertical-align:middle;
-	display: table-cell;
+    width:120px;
+    height:90px;
+    text-align:center;
+    vertical-align:middle;
+    display: table-cell;
 }
 .hcs ul li:hover{
-	background: #2382c8;
+    background: #2382c8;
 }
 .hcs img{
-	width:auto;
-	height: auto;
-	max-width: 120px;
-	max-height:90px;
-	border: 0;
-	-ms-interpolation-mode:bicubic;
-	font-size:0;
-	float:left;
+    width:auto;
+    height: auto;
+    max-width: 120px;
+    max-height:90px;
+    border: 0;
+    -ms-interpolation-mode:bicubic;
+    font-size:0;
+    float:left;
 }
 .pagination{
-	border-top:1px solid #DDD;
-	padding:10px 0;
-	margin:15px 0;	
+    border-top:1px solid #DDD;
+    padding:10px 0;
+    margin:15px 0;    
 }
 .next a{
-	padding-right:14px;
-	background:url(/images/small-arrow.png) 100% 5px no-repeat;
+    padding-right:14px;
+    background:url(/images/small-arrow.png) 100% 5px no-repeat;
 }
 .prev a{
-	padding-left:14px;
-	background:url(/images/small-arrow.png) 0 -95px no-repeat;
+    padding-left:14px;
+    background:url(/images/small-arrow.png) 0 -95px no-repeat;
 }
 
 ::selection{
-	background-color:#F5FF38;
-	color: inherit;
+    background-color:#F5FF38;
+    color: inherit;
 }
 /* @end */
