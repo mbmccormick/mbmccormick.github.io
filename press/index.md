@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: Press
 ---
-
-# Press
 
 Below is a list of articles that have featured either me or one of my projects. Check out the list below and if you come across an article that's not listed, please let me know!
 
