@@ -7,17 +7,17 @@ head_content:
 <div class="listing">
     {% for post in paginator.posts %}
     {% if post.type == 'link' %}
-            <div class="post other link">
+            <article class="post other link">
                 <span class="icon" title="This is a link elsewhere"></span>
                 <h2><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
                 <p>{{ post.content }}</p>
-            </div>
+            </article>
     {% else %}
-            <div class="post">
+            <article class="post">
                 <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p>{{ post.excerpt }} <a href="{{ post.url }}" class="continue">Read More</a></p>
-            </div>
+            </article>
     {% endif %}
     {% endfor %}
 
