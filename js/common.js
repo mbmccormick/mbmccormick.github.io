@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('.post h2 a').click(function() {
+		alert("Testing");
 		history.pushState({ path: this.path }, '', this.href);
 		$.get(this.href, function(data) {
 			$('.listing').slideTo(data)      
