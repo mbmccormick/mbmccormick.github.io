@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
 ---
-
-# About
 
 My name is Matt McCormick and I am a senior at [Purdue University](http://www.purdue.edu) studying computer science, with a concentration in software engineering. I have a passion for technology, which drives my interest for software development and website design. I started my business, [McCormick Technologies](http://www.mccormicktechnologies.com), in January of 2009 as an entity through which to conduct my freelance work. More information about my clients and the services that I offer can be found on my business website.
 
