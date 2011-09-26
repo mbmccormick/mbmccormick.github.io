@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: Contact
 ---
-
-# Contact
 
 Feel free to contact me at any time, but please consult my [calendar](http://mbmccormick.com/calendar) before doing so, as I have a lot going on with school, my job, and my business. I can be reached by email or phone and I’d be more than happy to answer any questions that you might have.
 
