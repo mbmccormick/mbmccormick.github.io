@@ -102,6 +102,9 @@ nav ul li a{
   font-weight:bold;
   text-decoration:none;
 }
+nav ul li a:visited{
+  color:#2382c8;
+}
 nav ul li a:hover{
   color:#000;
 }
