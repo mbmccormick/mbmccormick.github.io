@@ -9,3 +9,7 @@ $('.listing a').click(function() {
 $(window).bind('popstate', function() {
     $('.listing').slideTo(location.pathname)
 })
+
+slideTo:function(a) {
+	$(this).html(a);
+}
