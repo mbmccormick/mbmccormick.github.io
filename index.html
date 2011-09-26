@@ -12,7 +12,7 @@ head_content:
                     <span class="icon" title="This is a link elsewhere"></span>
                     <h2><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
                 </header>
-                <p>{{ post.content }}</p>
+                {{ post.content }}
             </article>
     {% else %}
             <article class="post">
