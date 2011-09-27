@@ -623,12 +623,12 @@ code.html span.doctype{
     color: inherit;
 }
 
-.main.left{
+.left{
     margin-left:-330px;
     display:none;
 }
 
-.main.right{
+.right{
     margin-left:950px;
     display:none;
 }
