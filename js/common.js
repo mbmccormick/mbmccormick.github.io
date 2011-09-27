@@ -16,7 +16,7 @@ var isFirstExecution = true;
 
 $(document).ready(function() {
     if (!!(window.history && history.pushState)) {
-        $('article h2 a, .pagination .next a').live("click", function() {
+        $('article h2 a, .pagination .next a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
@@ -35,7 +35,7 @@ $(document).ready(function() {
             return false; 
         });
         
-        $('.pagination .prev a').live("click", function() {
+        $('.pagination .prev a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
