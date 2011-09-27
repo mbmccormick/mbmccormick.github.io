@@ -26,7 +26,7 @@ $(document).ready(function() {
             
             $(".right").load(this.href + " .main>*", function() {
                 $("html, body").animate({ scrollTop:0 }, 0);
-                $(".main").remove();            
+                $(".main").remove();
                 slideLeft();
             });
                         
