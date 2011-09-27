@@ -8,31 +8,25 @@ $(document).ready(function() {
 			if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
 				return true;
 				
+			var tmp = $(".main").after("<div class='right'></div>").hide();
+			
 			history.pushState({ path: this.path }, '', this.href);
 			
-			$(".main").hide();
-			$(".loading").show();
-			
-			$(".main").load(this.href + " .main>*", function() {
+			$(tmp).load(this.href + " .main>*", function() {
 				$("html, body").animate({ scrollTop:0 }, 0);
 			});
 			
-			$(".loading").hide();
-			$(".main").show();
+			$(".main").animate({ marginLeft: "-330px"}).hide().remove();
 			
+			$(tmp).show().animate({ marginLeft: "310px"}).removEclass("right").addClass("main");
+						
 			return false; 
 		});
 
 		$(window).bind('popstate', function() {
-			$(".main").hide();
-			$(".loading").fadeIn();
-			
 			$(".main").load(location.pathname + " .main>*", function() {
 				$("html, body").animate({ scrollTop:0 }, 0);
 			});
-			
-			$(".loading").hide();
-			$(".main").show();
 		});
 	}	
 });
