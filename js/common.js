@@ -6,7 +6,7 @@ function slideLeft() {
 
     $("html, body").animate({ scrollTop:0 }, 0);
     
-    $(".main").after("<div class='last' style='display: none;'>" + location.href + "</div>");
+    $(".last").html(location.href);
 }
 
 function slideRight() {
@@ -17,7 +17,7 @@ function slideRight() {
 
     $("html, body").animate({ scrollTop:0 }, 0);
     
-    $(".main").after("<div class='last' style='display: none;'>" + location.href + "</div>");
+    $(".last").html(location.href);
 }
 
 var isFirstExecution = true;
