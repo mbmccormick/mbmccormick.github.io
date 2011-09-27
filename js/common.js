@@ -30,6 +30,8 @@ $(document).ready(function() {
             
             if ($(".main h1").text().length > 0)
                 document.title = "Matt McCormick - " + $(".main h1").text();
+            else
+                document.title = "Matt McCormick";
             
             history.pushState('', '', this.href + "/");
                         
@@ -50,6 +52,8 @@ $(document).ready(function() {
             
             if ($(".main h1").text().length > 0)
                 document.title = "Matt McCormick - " + $(".main h1").text();
+            else
+                document.title = "Matt McCormick";
             
             history.pushState('', '', this.href + "/");
                         
