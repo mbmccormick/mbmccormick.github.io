@@ -68,17 +68,32 @@ $(document).ready(function() {
                 return true;
             }
             
-            $(".main").after("<section class='left'></section>").hide();
-            
-            $(".left").load(location.pathname + " .main>*", function() {
-                $(".main").remove();
-                slideRight();
+            if (location.href.split("/").length > location.pathname.split("/").length) {
+                $(".main").after("<section class='left'></section>").hide();
                 
-                if ($(".main h1").text().length > 0)
-                    document.title = "Matt McCormick - " + $(".main h1").text();
-                else
-                    document.title = "Matt McCormick";
-            });
+                $(".left").load(location.pathname + " .main>*", function() {
+                    $(".main").remove();
+                    slideRight();
+                    
+                    if ($(".main h1").text().length > 0)
+                        document.title = "Matt McCormick - " + $(".main h1").text();
+                    else
+                        document.title = "Matt McCormick";
+                });
+            }
+            else {
+                $(".main").after("<section class='right'></section>").hide();
+                
+                $(".right").load(location.pathname + " .main>*", function() {
+                    $(".main").remove();
+                    slideLeft();
+                    
+                    if ($(".main h1").text().length > 0)
+                        document.title = "Matt McCormick - " + $(".main h1").text();
+                    else
+                        document.title = "Matt McCormick";
+                });                
+            }
         });
     }    
 });
