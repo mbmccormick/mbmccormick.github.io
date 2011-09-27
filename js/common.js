@@ -16,7 +16,7 @@ var isFirstExecution = true;
 
 $(document).ready(function() {
     if (!!(window.history && history.pushState)) {
-        $('nav a, article h2 a, .pagination .next a').live("click", function(e) {
+        $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
