@@ -33,7 +33,7 @@ $(document).ready(function() {
                     document.title = "Matt McCormick";
             });
                  
-            history.pushState('', '', this.href + "/");
+            history.pushState('', '', this.href);
             
             return false; 
         });
@@ -55,7 +55,7 @@ $(document).ready(function() {
                     document.title = "Matt McCormick";
             });
             
-            history.pushState('', '', this.href + "/");
+            history.pushState('', '', this.href);
                         
             return false; 
         });
