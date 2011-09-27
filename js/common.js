@@ -20,9 +20,9 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
                 
-            history.pushState({ path: this.path }, '', this.href);
+            history.pushState('', '', this.href);
             
-            if (this != $(".prev a")) {
+            if (this.attr()) {
                 $(".main").after("<section class='right'></section>").hide();
                 
                 $(".right").load(this.href + " .main>*", function() {
