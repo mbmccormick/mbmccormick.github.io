@@ -20,7 +20,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $(".main").after("<section class='right'></section>").hide();
+            $(".main").after("<section class='right'></section>");
                 
             $(".right").load(this.href + " .main>*", function() {
                 $("html, body").animate({ scrollTop:0 }, 0);
@@ -42,7 +42,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $(".main").after("<section class='left'></section>").hide();
+            $(".main").after("<section class='left'></section>");
             
             $(".left").load(location.pathname + " .main>*", function() {
                 $("html, body").animate({ scrollTop:0 }, 0);
