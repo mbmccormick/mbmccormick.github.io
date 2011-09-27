@@ -69,6 +69,9 @@ $(document).ready(function() {
                 $(".main").remove();
                 slideRight();
             });
+            
+            if ($(".main h1").text().length > 0)
+                document.title = "Matt McCormick - " + $(".main h1").text();
         });
     }    
 });
