@@ -139,55 +139,55 @@ ul.nav li a:hover{
   @group Home Page
 ------------------------------------------------------------------------------*/
 
-.listing .post{
+.listing article{
   margin:40px 0;
 }
-.listing .post:first-child{
+.listing article:first-child{
   margin-top:22px;
 }
 
-.listing .post time{
+.listing article time{
   margin:0 0 -1px 0;
 }
 
-.listing .post h2{
+.listing article h2{
   margin:0 0 -5px 0;
   font-size:18px;
   border:none;
 }
-.listing .post h2 a{
+.listing article h2 a{
   color:#222;
   text-decoration:none;
 }
 
-.listing .post .continue{
+.listing article .continue{
   font-weight:bold;
   padding-right: 14px; 
   background: url(/images/small-arrow.png) 100% 5px no-repeat;
 }
 
-.listing .post.other{
+.listing article.other{
   margin-left:24px;
   padding-left:10px;
   color:#666;
   border-left:1px solid #ddd;
 }
-.listing .post.other h2{
+.listing article.other h2{
   margin-bottom:-3px;
   font-size:14px;
   line-height:14px;
 }
-.listing .post.other p:last-child{
+.listing article.other p:last-child{
   margin-bottom:0;
 }
 
-.listing .post.other .icon{
+.listing article.other .icon{
   float:left;
   margin-left:-35px;
   width:20px;
   height:20px;
 }
-.listing .post.link .icon{
+.listing article.link .icon{
   background:url(/images/icon_link.png) 0 0 no-repeat;
 }
 
