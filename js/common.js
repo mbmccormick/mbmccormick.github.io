@@ -26,14 +26,14 @@ $(document).ready(function() {
                 $("html, body").animate({ scrollTop:0 }, 0);
                 $(".main").remove();
                 slideLeft();
+                
+                if ($(".main h1").text().length > 0)
+                    document.title = "Matt McCormick - " + $(".main h1").text();
+                else
+                    document.title = "Matt McCormick";
+                
+                history.pushState('', '', this.href + "/");
             });
-            
-            if ($(".main h1").text().length > 0)
-                document.title = "Matt McCormick - " + $(".main h1").text();
-            else
-                document.title = "Matt McCormick";
-            
-            history.pushState('', '', this.href + "/");
                         
             return false; 
         });
@@ -48,14 +48,14 @@ $(document).ready(function() {
                 $("html, body").animate({ scrollTop:0 }, 0);
                 $(".main").remove();
                 slideRight();
+                
+                if ($(".main h1").text().length > 0)
+                    document.title = "Matt McCormick - " + $(".main h1").text();
+                else
+                    document.title = "Matt McCormick";
+                
+                history.pushState('', '', this.href + "/");
             });
-            
-            if ($(".main h1").text().length > 0)
-                document.title = "Matt McCormick - " + $(".main h1").text();
-            else
-                document.title = "Matt McCormick";
-            
-            history.pushState('', '', this.href + "/");
                         
             return false; 
         });
