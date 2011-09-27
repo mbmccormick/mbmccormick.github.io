@@ -1,7 +1,3 @@
-$.fn.hasAttr = function(name) {  
-    return this.attr(name) !== undefined;
-};
-
 function slideLeft() {
     $(".right").show();
     $(".right").animate({ marginLeft: "310px"});
@@ -28,7 +24,7 @@ $(document).ready(function() {
             
             history.pushState('', '', this.href);
             
-            if (this.hasAttr("prev") == false) {
+            if (this.attr("prev") !== undefined) {
                 $(".main").after("<section class='right'></section>").hide();
                 
                 $(".right").load(this.href + " .main>*", function() {
