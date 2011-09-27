@@ -24,23 +24,13 @@ $(document).ready(function() {
             
             history.pushState('', '', this.href);
             
-            if (this.attr("prev") !== undefined) {
-                $(".main").after("<section class='right'></section>").hide();
+            $(".main").after("<section class='right'></section>").hide();
                 
-                $(".right").load(this.href + " .main>*", function() {
-                    $("html, body").animate({ scrollTop:0 }, 0);
-                    $(".main").remove();
-                    slideLeft();
-                });
-            } else {
-                $(".main").after("<section class='left'></section>").hide();
-                
-                $(".left").load(this.href + " .main>*", function() {
-                    $("html, body").animate({ scrollTop:0 }, 0);
-                    $(".main").remove();
-                    slideRight();
-                });
-            }
+            $(".right").load(this.href + " .main>*", function() {
+                $("html, body").animate({ scrollTop:0 }, 0);
+                $(".main").remove();
+                slideLeft();
+            });
                         
             return false; 
         });
