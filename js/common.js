@@ -20,7 +20,8 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            document.title = "Matt McCormick - " + $(".main h1").text();
+            if ($(".main h1").text().length > 0)
+                document.title = "Matt McCormick - " + $(".main h1").text();
             
             history.pushState('', '', this.href);
             
