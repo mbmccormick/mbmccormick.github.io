@@ -24,7 +24,7 @@ $(document).ready(function() {
             
             history.pushState('', '', this.href);
             
-            if (this.attr()) {
+            if (this.attr("prev")) {
                 $(".main").after("<section class='right'></section>").hide();
                 
                 $(".right").load(this.href + " .main>*", function() {
