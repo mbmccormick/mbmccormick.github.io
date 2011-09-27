@@ -10,29 +10,29 @@ $(document).ready(function() {
 				
 			history.pushState({ path: this.path }, '', this.href);
 			
-			$(".main").fadeOut();
-			$(".loading").fadeIn();
+			$(".main").hide();
+			$(".loading").show();
 			
 			$(".main").load(this.href + " .main>*", function() {
 				$("html, body").animate({ scrollTop:0 }, 0);
 			});
 			
-			$(".loading").fadeOut();
-			$(".main").fadeIn();
+			$(".loading").hide();
+			$(".main").show();
 			
 			return false; 
 		});
 
 		$(window).bind('popstate', function() {
-			$(".main").fadeOut();
+			$(".main").hide();
 			$(".loading").fadeIn();
 			
 			$(".main").load(location.pathname + " .main>*", function() {
 				$("html, body").animate({ scrollTop:0 }, 0);
 			});
 			
-			$(".loading").fadeOut();
-			$(".main").fadeIn();
+			$(".loading").hide();
+			$(".main").show();
 		});
 	}	
 });
