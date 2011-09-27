@@ -8,7 +8,7 @@ $(document).ready(function() {
 			if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
 				return true;
 				
-			var tmp = $(".main").after("<div class='right'></div>").hide();
+			var tmp = $(".main").after("<section class='right'></section>").hide();
 			
 			history.pushState({ path: this.path }, '', this.href);
 			
