@@ -66,6 +66,9 @@ aside{
   padding:0 40px 0 30px;
   width:240px;
   position:fixed;
+  background-color:#fff;
+  z-index:1000;
+  height:100%;
 }
 .main, .left, .right{
   float:left;
