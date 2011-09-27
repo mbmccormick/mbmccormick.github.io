@@ -1,7 +1,5 @@
 $(document).ready(function() {
-	alert("ready");
-	
-	$('article h2 a').click(function() {
+	$('article h2 a').live("click", function() {
 		alert("click");
 		
 		history.pushState({ path: this.path }, '', this.href);
