@@ -3,6 +3,8 @@ function slideLeft() {
     $(".right").animate({ marginLeft: "310px"});
     $(".right").addClass("main");
     $(".right").removeClass("right");
+
+    $("html, body").animate({ scrollTop:0 }, 0);
 }
 
 function slideRight() {
@@ -10,6 +12,8 @@ function slideRight() {
     $(".left").animate({ marginLeft: "310px"});
     $(".left").addClass("main");
     $(".left").removeClass("left");
+
+    $("html, body").animate({ scrollTop:0 }, 0);
 }
 
 var isFirstExecution = true;
@@ -23,7 +27,6 @@ $(document).ready(function() {
             $(".main").after("<section class='right'></section>");
                 
             $(".right").load(this.href + " .main>*", function() {
-                $("html, body").animate({ scrollTop:0 }, 0);
                 $(".main").remove();
                 slideLeft();
                 
@@ -45,7 +48,6 @@ $(document).ready(function() {
             $(".main").after("<section class='left'></section>");
             
             $(".left").load(location.pathname + " .main>*", function() {
-                $("html, body").animate({ scrollTop:0 }, 0);
                 $(".main").remove();
                 slideRight();
                 
@@ -69,7 +71,6 @@ $(document).ready(function() {
             $(".main").after("<section class='left'></section>").hide();
             
             $(".left").load(location.pathname + " .main>*", function() {
-                $("html, body").animate({ scrollTop:0 }, 0);
                 $(".main").remove();
                 slideRight();
                 
