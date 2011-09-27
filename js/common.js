@@ -18,7 +18,7 @@ $(document).ready(function() {
 			
 			$(".main").animate({ marginLeft: "-330px"}).hide().remove();
 			
-			$(tmp).show().animate({ marginLeft: "310px"}).removEclass("right").addClass("main");
+			$(tmp).show().animate({ marginLeft: "310px"}).removeClass("right").addClass("main");
 						
 			return false; 
 		});
