@@ -31,7 +31,7 @@ $(document).ready(function() {
             if ($(".main h1").text().length > 0)
                 document.title = "Matt McCormick - " + $(".main h1").text();
             
-            history.pushState('', '', this.href);
+            history.pushState('', '', this.href + "/");
                         
             return false; 
         });
@@ -51,7 +51,7 @@ $(document).ready(function() {
             if ($(".main h1").text().length > 0)
                 document.title = "Matt McCormick - " + $(".main h1").text();
             
-            history.pushState('', '', this.href);
+            history.pushState('', '', this.href + "/");
                         
             return false; 
         });
