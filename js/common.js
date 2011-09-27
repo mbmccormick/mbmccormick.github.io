@@ -22,13 +22,23 @@ $(document).ready(function() {
                 
             history.pushState({ path: this.path }, '', this.href);
             
-            $(".main").after("<section class='right'></section>").hide();
-            
-            $(".right").load(this.href + " .main>*", function() {
-                $("html, body").animate({ scrollTop:0 }, 0);
-                $(".main").remove();
-                slideLeft();
-            });
+            if (this != $(".prev a")) {
+                $(".main").after("<section class='right'></section>").hide();
+                
+                $(".right").load(this.href + " .main>*", function() {
+                    $("html, body").animate({ scrollTop:0 }, 0);
+                    $(".main").remove();
+                    slideLeft();
+                });
+            } else {
+                $(".main").after("<section class='left'></section>").hide();
+                
+                $(".left").load(this.href + " .main>*", function() {
+                    $("html, body").animate({ scrollTop:0 }, 0);
+                    $(".main").remove();
+                    slideRight();
+                });
+            }
                         
             return false; 
         });
