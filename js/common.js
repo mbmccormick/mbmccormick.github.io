@@ -8,9 +8,9 @@ $(document).ready(function() {
 			if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
 				return true;
 				
-			$(".main").after("<section class='right'></section>").hide();
-			
 			history.pushState({ path: this.path }, '', this.href);
+			
+			$(".main").after("<section class='right'></section>").hide();
 			
 			$(".right").load(this.href + " .main>*", function() {
 				$("html, body").animate({ scrollTop:0 }, 0);
@@ -28,9 +28,19 @@ $(document).ready(function() {
 		});
 
 		$(window).bind('popstate', function() {
-			$(".main").load(location.pathname + " .main>*", function() {
+			$(".main").after("<section class='left'></section>").hide();
+			
+			$(".left").load(location.pathname + " .main>*", function() {
 				$("html, body").animate({ scrollTop:0 }, 0);
 			});
+			
+			$(".main").animate({ marginLeft: "950px"})
+			$(".main").remove();
+			
+			$(".left").show();
+			$(".left").animate({ marginLeft: "310px"});
+			$(".left").addClass("main");
+			$(".left").removeClass("left");
 		});
 	}	
 });
