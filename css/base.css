@@ -622,4 +622,11 @@ code.html span.doctype{
     background-color:#F5FF38;
     color: inherit;
 }
+
+.loading{
+    display:none;
+    position:absolute;
+    top:30px;
+    left:550px;
+}
 /* @end */
