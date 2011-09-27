@@ -19,7 +19,9 @@ $(document).ready(function() {
         $('article h2 a, .pagination a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
-                
+            
+            document.title = "Matt McCormick - " + $(".main h1").value();
+            
             history.pushState('', '', this.href);
             
             if (this.attr()) {
