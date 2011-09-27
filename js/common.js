@@ -4,7 +4,7 @@ function supports_history_api() {
 
 $(document).ready(function() {
 	if (supports_history_api()) {
-		$('article h2 a, .pagination a').live("click", function(e) {
+		$('article h2 a, .pagination a').bind("click", function(e) {
 			if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
 				return true;
 				
