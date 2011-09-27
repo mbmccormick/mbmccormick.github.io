@@ -24,11 +24,9 @@ $(document).ready(function() {
             
             $(".right").load(this.href + " .main>*", function() {
                 $("html, body").animate({ scrollTop:0 }, 0);
+                $(".main").remove();            
+                slideLeft();
             });
-            
-            $(".main").remove();
-            
-            slideLeft();
                         
             return false; 
         });
@@ -38,11 +36,9 @@ $(document).ready(function() {
             
             $(".left").load(location.pathname + " .main>*", function() {
                 $("html, body").animate({ scrollTop:0 }, 0);
+                $(".main").remove();
+                slideRight();
             });
-            
-            $(".main").remove();
-            
-            slideRight();
         });
     }    
 });
