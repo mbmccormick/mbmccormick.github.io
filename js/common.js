@@ -68,7 +68,7 @@ $(document).ready(function() {
                 return true;
             }
             
-            if (location.href.split("/").length > location.pathname.split("/").length) {
+            if (location.href.split("/").length > document.referrer.split("/").length) {
                 $(".main").after("<section class='left'></section>").hide();
                 
                 $(".left").load(location.pathname + " .main>*", function() {
