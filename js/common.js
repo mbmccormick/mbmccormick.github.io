@@ -3,7 +3,6 @@ function supports_history_api() {
 }
 
 $(document).ready(function() {
-
 	if (supports_history_api()) {
 		$('article h2 a, .pagination a').live("click", function(e) {
 			if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
@@ -20,6 +19,5 @@ $(document).ready(function() {
 				$("html, body").animate({ scrollTop:0 }, 0);
 			});
 		});
-	}
-	
+	}	
 });
