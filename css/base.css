@@ -623,10 +623,13 @@ code.html span.doctype{
     color: inherit;
 }
 
-.loading{
+.main.left{
+    margin-left:-330px;
     display:none;
-    position:absolute;
-    top:30px;
-    left:550px;
+}
+
+.main.right{
+    margin-left:950px;
+    display:none;
 }
 /* @end */
