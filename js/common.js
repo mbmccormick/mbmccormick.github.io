@@ -12,6 +12,8 @@ function slideRight() {
     $(".left").removeClass("left");
 }
 
+var isFirstExecution = true;
+
 $(document).ready(function() {
     if (!!(window.history && history.pushState)) {
         $('article h2 a, .pagination a').live("click", function(e) {
@@ -32,6 +34,11 @@ $(document).ready(function() {
         });
 
         $(window).bind('popstate', function() {
+            if (isFirstExecution) {
+                isFirstExecution = false;
+                return true;
+            }
+            
             $(".main").after("<section class='left'></section>").hide();
             
             $(".left").load(location.pathname + " .main>*", function() {
