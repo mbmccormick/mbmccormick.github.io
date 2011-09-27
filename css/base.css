@@ -61,7 +61,7 @@ hr{
   border:none;
 }
 
-.sidebar{
+aside{
   float:left;
   padding:0 40px 0 30px;
   width:240px;
@@ -87,26 +87,31 @@ hr{
   font-size:30px;
 }
 
-ul.nav{
+nav ul{
   margin:20px 0;
   border-top:1px solid #ddd;
 }
-ul.nav li{
+nav ul li{
   list-style-type:none;
   margin:0;
   padding:8px 0;
   border-bottom:1px solid #ddd;
 }
-ul.nav li a{
+nav ul li a{
   color:#333;
   font-weight:bold;
   text-decoration:none;
 }
-ul.nav li a:hover{
+nav ul li a:visited{
+  color:#333;
+  font-weight:bold;
+  text-decoration:none;
+}
+nav ul li a:hover{
   color:#000;
 }
 
-.sidebar p{
+aside p{
   color:#666;
   line-height:1.5;
 }
