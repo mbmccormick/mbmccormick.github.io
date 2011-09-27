@@ -32,6 +32,11 @@ a img{ border:none; }
   @group Main Layout
 ------------------------------------------------------------------------------*/
 
+html, body{
+  width:950px;
+  overflow-x:hidden;
+}
+
 body{
   font-family: Helvetica, Arial, sans-serif;
   font-size:13px;
