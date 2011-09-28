@@ -7,7 +7,6 @@ function slideLeft() {
     $(".right").animate({ left: "310px"}, function() {
         $(".right").addClass("main");
         $(".right").removeClass("right");
-        $("body").css("cursor", "auto");
     });
     
     $("html, body").animate({ scrollTop:0 }, 0);
@@ -24,7 +23,6 @@ function slideRight() {
     $(".left").animate({ left: "310px"}, function(){
         $(".left").addClass("main");
         $(".left").removeClass("left");
-        $("body").css("cursor", "auto");
     });
 
     $("html, body").animate({ scrollTop:0 }, 0);
@@ -50,6 +48,7 @@ $(document).ready(function() {
                 else
                     document.title = "Matt McCormick";
                 
+                $("body").css("cursor", "auto");
                 slideLeft();
             });
                  
@@ -72,6 +71,7 @@ $(document).ready(function() {
                 else
                     document.title = "Matt McCormick";
                 
+                $("body").css("cursor", "auto");
                 slideRight();
             });
             
@@ -97,6 +97,7 @@ $(document).ready(function() {
                     else
                         document.title = "Matt McCormick";
                     
+                    $("body").css("cursor", "auto");
                     slideRight();
                 });
             }
@@ -111,6 +112,7 @@ $(document).ready(function() {
                     else
                         document.title = "Matt McCormick";
                     
+                    $("body").css("cursor", "auto");
                     slideLeft();
                 });                
             }
