@@ -7,7 +7,7 @@ function slideLeft() {
     $(".right").animate({ left: "310px"}, function() {
         $(".right").addClass("main");
         $(".right").removeClass("right");
-        $("html").css("cursor", "auto");
+        $("body").css("cursor", "auto");
     });
     
     $("html, body").animate({ scrollTop:0 }, 0);
@@ -24,7 +24,7 @@ function slideRight() {
     $(".left").animate({ left: "310px"}, function(){
         $(".left").addClass("main");
         $(".left").removeClass("left");
-        $("html").css("cursor", "auto");
+        $("body").css("cursor", "auto");
     });
 
     $("html, body").animate({ scrollTop:0 }, 0);
@@ -40,7 +40,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $("html").css("cursor", "progress");
+            $("body").css("cursor", "progress");
             
             $(".main").after("<section class='right'></section>");
                 
@@ -62,7 +62,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $("html").css("cursor", "progress");
+            $("body").css("cursor", "progress");
             
             $(".main").after("<section class='left'></section>");
             
@@ -87,7 +87,7 @@ $(document).ready(function() {
             }
             
             if (location.href.split("/").length <= $(".last").text().split("/").length) {
-                $("html").css("cursor", "progress");
+                $("body").css("cursor", "progress");
                 
                 $(".main").after("<section class='left'></section>");
                 
@@ -101,7 +101,7 @@ $(document).ready(function() {
                 });
             }
             else {
-                $("html").css("cursor", "progress");
+                $("body").css("cursor", "progress");
                 
                 $(".main").after("<section class='right'></section>");
                 
