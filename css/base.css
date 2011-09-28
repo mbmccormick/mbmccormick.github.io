@@ -84,13 +84,11 @@ aside{
   position:absolute;
 }
 .left{
-  left:-330px; 
-  margin-right:40px;
+  left:-330px;
   display:none;
 }
 .right{
   left:950px;
-  margin-left:40px;
   display:none;
 }
 
