@@ -4,7 +4,7 @@ function slideLeft() {
     });
     
     $(".right").show();
-    $(".right").animate({ left: "270px"}, function() {
+    $(".right").animate({ left: "310px"}, function() {
         $(".right").addClass("main");
         $(".right").removeClass("right");
     });
@@ -20,7 +20,7 @@ function slideRight() {
     });
     
     $(".left").show();
-    $(".left").animate({ left: "270px"}, function(){
+    $(".left").animate({ left: "310px"}, function(){
         $(".left").addClass("main");
         $(".left").removeClass("left");
     });
