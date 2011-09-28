@@ -1,5 +1,5 @@
 function slideLeft() {
-   $(".main").animate({ left: "-330px"}, function() {
+    $(".main").animate({ left: "-330px"}, function() {
         $(".main").remove();
     });
     
