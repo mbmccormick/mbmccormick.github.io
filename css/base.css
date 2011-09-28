@@ -85,9 +85,11 @@ aside{
 }
 .left{
   left:-330px; 
+  display:none;
 }
 .right{
-  left:950px 
+  left:950px;
+  display:none;
 }
 
 .ribbon{
@@ -626,13 +628,4 @@ code.html span.doctype{
     color: inherit;
 }
 
-.left{
-    margin-left:-330px;
-    display:none;
-}
-
-.right{
-    margin-left:950px;
-    display:none;
-}
 /* @end */
