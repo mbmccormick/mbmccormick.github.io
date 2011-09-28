@@ -4,10 +4,10 @@ function slideLeft() {
     });
     
     $(".right").show();
-    $(".right").animate({ marginLeft: "310px"});
-    $(".right").addClass("main");
-    $(".right").removeClass("right");
-
+    $(".right").animate({ marginLeft: "310px"}, function() {
+        $(".right").addClass("main");
+        $(".right").removeClass("right");
+    });
     $("html, body").animate({ scrollTop:0 }, 0);
     
     $(".last").html(location.href);
@@ -19,9 +19,10 @@ function slideRight() {
     });
     
     $(".left").show();
-    $(".left").animate({ marginLeft: "310px"});
-    $(".left").addClass("main");
-    $(".left").removeClass("left");
+    $(".left").animate({ marginLeft: "310px"}, function(){
+        $(".left").addClass("main");
+        $(".left").removeClass("left");
+    });
 
     $("html, body").animate({ scrollTop:0 }, 0);
     
