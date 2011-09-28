@@ -81,7 +81,7 @@ $(document).ready(function() {
             }
             
             if (location.href.split("/").length < $(".last").text().split("/").length) {
-                $(".main").after("<section class='left'></section>").hide();
+                $(".main").after("<section class='left'></section>");
                 
                 $(".left").load(location.pathname + " .main>*", function() {
                     slideRight();
@@ -93,7 +93,7 @@ $(document).ready(function() {
                 });
             }
             else {
-                $(".main").after("<section class='right'></section>").hide();
+                $(".main").after("<section class='right'></section>");
                 
                 $(".right").load(location.pathname + " .main>*", function() {
                     slideLeft();
