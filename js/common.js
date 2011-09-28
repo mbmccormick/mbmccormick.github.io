@@ -41,12 +41,12 @@ $(document).ready(function() {
             $(".main").after("<section class='right'></section>");
                 
             $(".right").load(this.href + " .main>*", function() {
-                slideLeft();
-                
-                if ($(".main h1").text().length > 0)
-                    document.title = "Matt McCormick - " + $(".main h1").text();
+                if ($(".right h1").text().length > 0)
+                    document.title = "Matt McCormick - " + $(".right h1").text();
                 else
                     document.title = "Matt McCormick";
+                
+                slideLeft();
             });
                  
             history.pushState('', '', this.href);
@@ -61,12 +61,12 @@ $(document).ready(function() {
             $(".main").after("<section class='left'></section>");
             
             $(".left").load(location.pathname + " .main>*", function() {
-                slideRight();
-                
-                if ($(".main h1").text().length > 0)
-                    document.title = "Matt McCormick - " + $(".main h1").text();
+                if ($(".left h1").text().length > 0)
+                    document.title = "Matt McCormick - " + $(".left h1").text();
                 else
                     document.title = "Matt McCormick";
+                
+                slideRight();
             });
             
             history.pushState('', '', this.href);
@@ -84,24 +84,24 @@ $(document).ready(function() {
                 $(".main").after("<section class='left'></section>");
                 
                 $(".left").load(location.pathname + " .main>*", function() {
-                    slideRight();
-                    
-                    if ($(".main h1").text().length > 0)
-                        document.title = "Matt McCormick - " + $(".main h1").text();
+                    if ($(".left h1").text().length > 0)
+                        document.title = "Matt McCormick - " + $(".left h1").text();
                     else
                         document.title = "Matt McCormick";
+                    
+                    slideRight();
                 });
             }
             else {
                 $(".main").after("<section class='right'></section>");
                 
                 $(".right").load(location.pathname + " .main>*", function() {
-                    slideLeft();
-                    
-                    if ($(".main h1").text().length > 0)
-                        document.title = "Matt McCormick - " + $(".main h1").text();
+                    if ($(".right h1").text().length > 0)
+                        document.title = "Matt McCormick - " + $(".right h1").text();
                     else
                         document.title = "Matt McCormick";
+                    
+                    slideLeft();
                 });                
             }
         });
