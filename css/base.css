@@ -82,6 +82,12 @@ aside{
   left:310px;
   position:relative;
 }
+.left{
+  left:-330px; 
+}
+.right{
+  left:950px 
+}
 
 /* @end */
 
