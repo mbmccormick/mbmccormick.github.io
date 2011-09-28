@@ -43,16 +43,15 @@ $(document).ready(function() {
             $(".main").after("<section class='right'></section>");
                 
             $(".right").load(this.href + " .main>*", function() {
+                history.pushState('', '', this.href);
                 if ($(".right h1").text().length > 0)
                     document.title = "Matt McCormick - " + $(".right h1").text();
                 else
                     document.title = "Matt McCormick";
-                
+                                
                 $("body").css("cursor", "auto");
                 slideLeft();
             });
-                 
-            history.pushState('', '', this.href);
             
             return false; 
         });
@@ -66,6 +65,7 @@ $(document).ready(function() {
             $(".main").after("<section class='left'></section>");
             
             $(".left").load(location.pathname + " .main>*", function() {
+                history.pushState('', '', this.href);
                 if ($(".left h1").text().length > 0)
                     document.title = "Matt McCormick - " + $(".left h1").text();
                 else
@@ -74,8 +74,6 @@ $(document).ready(function() {
                 $("body").css("cursor", "auto");
                 slideRight();
             });
-            
-            history.pushState('', '', this.href);
                         
             return false; 
         });
