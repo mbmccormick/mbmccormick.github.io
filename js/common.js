@@ -7,6 +7,7 @@ function slideLeft() {
     $(".right").animate({ left: "310px"}, function() {
         $(".right").addClass("main");
         $(".right").removeClass("right");
+        $("html").css("cursor", "auto");
     });
     
     $("html, body").animate({ scrollTop:0 }, 0);
@@ -23,6 +24,7 @@ function slideRight() {
     $(".left").animate({ left: "310px"}, function(){
         $(".left").addClass("main");
         $(".left").removeClass("left");
+        $("html").css("cursor", "auto");
     });
 
     $("html, body").animate({ scrollTop:0 }, 0);
@@ -37,6 +39,8 @@ $(document).ready(function() {
         $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
+            
+            $("html").css("cursor", "progress");
             
             $(".main").after("<section class='right'></section>");
                 
@@ -57,6 +61,8 @@ $(document).ready(function() {
         $('.pagination .prev a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
+            
+            $("html").css("cursor", "progress");
             
             $(".main").after("<section class='left'></section>");
             
@@ -81,6 +87,8 @@ $(document).ready(function() {
             }
             
             if (location.href.split("/").length <= $(".last").text().split("/").length) {
+                $("html").css("cursor", "progress");
+                
                 $(".main").after("<section class='left'></section>");
                 
                 $(".left").load(location.pathname + " .main>*", function() {
@@ -93,6 +101,8 @@ $(document).ready(function() {
                 });
             }
             else {
+                $("html").css("cursor", "progress");
+                
                 $(".main").after("<section class='right'></section>");
                 
                 $(".right").load(location.pathname + " .main>*", function() {
