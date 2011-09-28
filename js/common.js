@@ -1,6 +1,6 @@
 function slideLeft() {
     $(".main").animate({ marginLeft: "-340px"});
-    $(".main").remove();
+    // $(".main").remove();
     
     $(".right").show();
     $(".right").animate({ marginLeft: "310px"});
@@ -14,7 +14,7 @@ function slideLeft() {
 
 function slideRight() {
     $(".main").animate({ marginLeft: "950px"});
-    $(".main").remove();
+    // $(".main").remove();
     
     $(".left").show();
     $(".left").animate({ marginLeft: "310px"});
