@@ -80,7 +80,7 @@ $(document).ready(function() {
                 return true;
             }
             
-            if (location.href.split("/").length < $(".last").text().split("/").length) {
+            if (location.href.split("/").length <= $(".last").text().split("/").length) {
                 $(".main").after("<section class='left'></section>");
                 
                 $(".left").load(location.pathname + " .main>*", function() {
