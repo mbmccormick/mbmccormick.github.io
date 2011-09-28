@@ -8,6 +8,7 @@ function slideLeft() {
         $(".right").addClass("main");
         $(".right").removeClass("right");
     });
+    
     $("html, body").animate({ scrollTop:0 }, 0);
     
     $(".last").html(location.href);
@@ -83,7 +84,6 @@ $(document).ready(function() {
                 $(".main").after("<section class='left'></section>").hide();
                 
                 $(".left").load(location.pathname + " .main>*", function() {
-                    $(".main").remove();
                     slideRight();
                     
                     if ($(".main h1").text().length > 0)
@@ -96,7 +96,6 @@ $(document).ready(function() {
                 $(".main").after("<section class='right'></section>").hide();
                 
                 $(".right").load(location.pathname + " .main>*", function() {
-                    $(".main").remove();
                     slideLeft();
                     
                     if ($(".main h1").text().length > 0)
