@@ -41,9 +41,10 @@ $(document).ready(function() {
             $("body").css("cursor", "progress");
             
             $(".main").after("<section class='right'></section>");
-                
+            
+            history.pushState('', '', this.href);
+            
             $(".right").load(this.href + " .main>*", function() {
-                history.pushState('', '', this.href);
                 if ($(".right h1").text().length > 0)
                     document.title = "Matt McCormick - " + $(".right h1").text();
                 else
@@ -64,8 +65,9 @@ $(document).ready(function() {
             
             $(".main").after("<section class='left'></section>");
             
+            history.pushState('', '', this.href);
+            
             $(".left").load(location.pathname + " .main>*", function() {
-                history.pushState('', '', this.href);
                 if ($(".left h1").text().length > 0)
                     document.title = "Matt McCormick - " + $(".left h1").text();
                 else
