@@ -34,6 +34,7 @@ a img{ border:none; }
 
 html, body{
   width:950px;
+  height:100%;
   overflow-x:hidden;
 }
 
