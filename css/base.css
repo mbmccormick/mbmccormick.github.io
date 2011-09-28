@@ -84,11 +84,11 @@ aside{
   position:absolute;
 }
 .left{
-  left:-330px; 
+  left:-360px; 
   display:none;
 }
 .right{
-  left:950px;
+  left:980px;
   display:none;
 }
 
