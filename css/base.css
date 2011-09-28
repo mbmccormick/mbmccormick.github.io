@@ -79,7 +79,8 @@ aside{
   float:left;
   padding-bottom:50px;
   width:640px;
-  margin-left:310px;
+  left:310px;
+  position:absolute;
 }
 
 /* @end */
@@ -122,28 +123,6 @@ nav ul li a:hover{
 aside p{
   color:#666;
   line-height:1.5;
-}
-
-.fusion{
-  margin-top:60px;
-  font-size:11px;
-}
-.fusion a{
-  color:#666;
-}
-.fusion .fusiontext{
-  display:block;
-  margin-top:5px;
-  line-height:1.5;
-  font-family:Georgia, Garamond, Times;
-  font-style:italic;
-}
-.fusion p.note{
-  margin:5px 0;
-  font-size:10px;
-}
-.fusion p.note a{
-  color:#333;
 }
 
 /* @end */
@@ -210,12 +189,12 @@ aside p{
   @group Post Styles
 ------------------------------------------------------------------------------*/
 
-.main{
+.main, .left, .right{
   color:#444;
   line-height:21px;
 }
 
-.main time{
+.main time, .left time, .right time{
   color:#666;
   margin:20px 0 -20px 0;
   display:block;
@@ -321,17 +300,17 @@ table.data th, table.data td{
   text-align:left;
 }
 
-.main ul, .main ol{
+.main ul, .main ol, .left ul, .left ol, .right ul, .right ol{
   margin:16px 0;
 }
-.main ul li{
+.main ul li, .left ul li, .right ul li{
   list-style-type:none;
   margin-left:10px;
   margin-bottom:5px;
   padding-left:15px;
   background:url(../images/icon_li.gif) 0 5px no-repeat;
 }
-.main ol li{
+.main ol li, .left ol li, .right ol li{
   margin-left:32px;
   margin-bottom:5px;
 }
