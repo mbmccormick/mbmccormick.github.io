@@ -1,5 +1,5 @@
 function slideLeft() {
-    $(".right").animate({ marginLeft: "-340px"});
+    $(".main").animate({ marginLeft: "-340px"});
     $(".main").remove();
     
     $(".right").show();
@@ -13,7 +13,7 @@ function slideLeft() {
 }
 
 function slideRight() {
-    $(".right").animate({ marginLeft: "950px"});
+    $(".main").animate({ marginLeft: "950px"});
     $(".main").remove();
     
     $(".left").show();
