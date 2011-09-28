@@ -1,10 +1,10 @@
 function slideLeft() {
-   $(".main").animate({ marginLeft: "-340px"}, function() {
+   $(".main").animate({ left: "-340px"}, function() {
         $(".main").remove();
     });
     
     $(".right").show();
-    $(".right").animate({ marginLeft: "310px"}, function() {
+    $(".right").animate({ left: "310px"}, function() {
         $(".right").addClass("main");
         $(".right").removeClass("right");
     });
@@ -15,12 +15,12 @@ function slideLeft() {
 }
 
 function slideRight() {
-    $(".main").animate({ marginLeft: "950px"}, function() {
+    $(".main").animate({ left: "950px"}, function() {
         $(".main").remove();
     });
     
     $(".left").show();
-    $(".left").animate({ marginLeft: "310px"}, function(){
+    $(".left").animate({ left: "310px"}, function(){
         $(".left").addClass("main");
         $(".left").removeClass("left");
     });
