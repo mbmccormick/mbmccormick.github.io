@@ -131,13 +131,14 @@ $(document).ready(function() {
             
             $(".back").html($(".current").text());
             $(".current").html(location.href);
+            $(".forward").html(current);
             
             if (location.href == back) {
-                $(".forward").html(current);
+                $(".back").html("");
                 slideRight();
             }
             else {
-                $(".forward").html($(".current").text());
+                $(".forward").html("");
                 slideLeft();   
             }
         });
