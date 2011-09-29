@@ -22,8 +22,6 @@ function slideLeft() {
         });
         
         $("html, body").animate({ scrollTop:0 }, 0);
-        
-        $(".last").html(location.href);
     });
 }
 
@@ -51,8 +49,6 @@ function slideRight() {
         });
     
         $("html, body").animate({ scrollTop:0 }, 0);
-        
-        $(".last").html(location.href);
     });
 }
 
@@ -78,8 +74,6 @@ function transition() {
         });
         
         $("html, body").animate({ scrollTop:0 }, 0);
-        
-        $(".last").html(location.href);
     });
 }
 
@@ -90,6 +84,8 @@ $(document).ready(function() {
         $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
+                        
+            $(".last").html(location.href);
             
             history.pushState('', '', this.href);
             
@@ -102,6 +98,8 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
+            $(".last").html(location.href);
+            
             history.pushState('', '', this.href);
             
             slideRight();
@@ -112,6 +110,8 @@ $(document).ready(function() {
         $('aside a.logo, nav ul li a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
+            
+            $(".last").html(location.href);
             
             history.pushState('', '', this.href);
             
