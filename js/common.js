@@ -131,7 +131,7 @@ $(document).ready(function() {
             $(".last").html($(".current").text());
             $(".current").html(location.href);
             
-            if (location.href != last) {
+            if (location.href == last) {
                 slideRight();
             }
             else {
