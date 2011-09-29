@@ -94,7 +94,7 @@ aside{
 }
 
 .ribbon{
-  position:absolute;
+  position:fixed;
   background-color:#fff;
   z-index:1000;
   height:100%;
