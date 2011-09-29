@@ -126,13 +126,15 @@ $(document).ready(function() {
                 return true;
             }
             
+            var back = $(".back").text();
             var current = $(".current").text();
+            var forward = $(".forward").text();
             
             $(".back").html(current);
             $(".current").html(location.href);
             $(".forward").html(current);
             
-            if (location.href == $(".forward").text()) {
+            if (location.href == forward) {
                 $(".forward").html("");
                 slideLeft(); 
             }
