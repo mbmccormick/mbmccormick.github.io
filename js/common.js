@@ -127,7 +127,7 @@ $(document).ready(function() {
             }
             
             var back = $(".back").text();
-            var current = $(".back").text();
+            var current = $(".current").text();
             
             $(".back").html($(".current").text());
             $(".current").html(location.href);
