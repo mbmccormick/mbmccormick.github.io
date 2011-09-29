@@ -85,9 +85,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
                         
-            $(".back").html(location.href);            
             history.pushState('', '', this.href);
-            $(".current").html(location.href);
             
             slideLeft();
             
@@ -98,9 +96,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $(".back").html(location.href);            
             history.pushState('', '', this.href);
-            $(".current").html(location.href);
             
             slideRight();
             
@@ -111,9 +107,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $(".back").html(location.href);            
             history.pushState('', '', this.href);
-            $(".current").html(location.href);
             
             transition();
             
@@ -126,22 +120,7 @@ $(document).ready(function() {
                 return true;
             }
             
-            var back = $(".back").text();
-            var current = $(".current").text();
-            var forward = $(".forward").text();
-            
-            $(".back").html(current);
-            $(".current").html(location.href);
-            $(".forward").html(current);
-            
-            if (location.href == forward) {
-                $(".forward").html("");
-                slideLeft(); 
-            }
-            else {  
-                $(".back").html("");
-                slideRight();
-            }
+            slideRight();
         });
     }    
 });
