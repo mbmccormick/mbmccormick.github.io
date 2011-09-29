@@ -56,6 +56,31 @@ function slideRight() {
     });
 }
 
+function transition() {
+    $("body").css("cursor", "progress");
+            
+    $(".main").after("<section class='right'></section>");
+    
+    $(".right").load(location.href + " .main>*", function() {
+        if ($(".right h1").text().length > 0)
+            document.title = "Matt McCormick - " + $(".right h1").text();
+        else
+            document.title = "Matt McCormick";
+                        
+        $("body").css("cursor", "auto");
+        
+        $(".main").fadeOut(function() {
+            $(".right").addClass("main");
+            $(".right").removeClass("right");
+            $(".main").fadeIn();
+        });
+        
+        $("html, body").animate({ scrollTop:0 }, 0);
+        
+        $(".last").html(location.href);
+    });
+}
+
 var isFirstExecution = true;
 
 $(document).ready(function() {
@@ -78,6 +103,17 @@ $(document).ready(function() {
             history.pushState('', '', this.href);
             
             slideRight();
+            
+            return false; 
+        });
+        
+        $('nav ul li a').live("click", function(e) {
+            if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
+                return true;
+            
+            history.pushState('', '', this.href);
+            
+            transition();
             
             return false; 
         });
