@@ -57,7 +57,7 @@ $(document).ready(function() {
             return false; 
         });
         
-        $('.pagination .prev a, nav ul li a').live("click", function(e) {
+        $('.pagination .prev a').live("click", function(e) {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
