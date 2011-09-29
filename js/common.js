@@ -132,13 +132,17 @@ $(document).ready(function() {
             $(".current").html(location.href);
             $(".forward").html(current);
             
-            if (location.href != $(".forward").text()) {
+            if (location.href == $(".forward").text()) {
+                $(".forward").html("");
+                slideLeft(); 
+            }
+            else if (location.href == $(".back").text()){  
                 $(".back").html("");
                 slideRight();
             }
             else {
                 $(".forward").html("");
-                slideLeft();   
+                slideLeft();              
             }
         });
     }    
