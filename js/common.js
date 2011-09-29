@@ -127,14 +127,17 @@ $(document).ready(function() {
             }
             
             var back = $(".back").text();
+            var current = $(".back").text();
             
             $(".back").html($(".current").text());
             $(".current").html(location.href);
             
             if (location.href == back) {
+                $(".forward").html(current);
                 slideRight();
             }
             else {
+                $(".forward").html($(".current").text());
                 slideLeft();   
             }
         });
