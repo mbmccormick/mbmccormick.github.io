@@ -128,7 +128,7 @@ $(document).ready(function() {
             
             var current = $(".current").text();
             
-            $(".back").html($(".current").text());
+            $(".back").html(current);
             $(".current").html(location.href);
             $(".forward").html(current);
             
@@ -136,13 +136,9 @@ $(document).ready(function() {
                 $(".forward").html("");
                 slideLeft(); 
             }
-            else if (location.href == $(".back").text()){  
+            else {  
                 $(".back").html("");
                 slideRight();
-            }
-            else {
-                $(".forward").html("");
-                slideLeft();              
             }
         });
     }    
