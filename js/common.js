@@ -126,6 +126,7 @@ $(document).ready(function() {
                 return true;
             }
             
+            $(".last").text() = $(".current").text();
             $(".current").html(location.href);
             
             if (location.href.split("/").length <= $(".last").text().split("/").length) {
