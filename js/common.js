@@ -70,6 +70,7 @@ function transition() {
         $("body").css("cursor", "auto");
         
         $(".main").fadeOut(function() {
+            $(".main").remove();
             $(".right").addClass("main");
             $(".right").removeClass("right");
             $(".main").fadeIn();
