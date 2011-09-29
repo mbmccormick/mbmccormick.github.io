@@ -83,6 +83,9 @@ aside{
   width:640px;
   left:310px;
   position:absolute;
+  transition: left 400ms;
+  -moz-transition: left 400ms;
+  -webkit-transition: left 400ms;
 }
 .left{
   left:-330px;
