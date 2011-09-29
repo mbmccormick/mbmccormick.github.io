@@ -126,14 +126,16 @@ $(document).ready(function() {
                 return true;
             }
             
+            var last = $(".last").text();
+            
             $(".last").html($(".current").text());
             $(".current").html(location.href);
             
-            if (location.href.split("/").length <= $(".last").text().split("/").length) {
+            if (location.href != last) {
                 slideRight();
             }
             else {
-                slideLeft();               
+                slideLeft();   
             }
         });
     }    
