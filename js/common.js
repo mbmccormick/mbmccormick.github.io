@@ -73,6 +73,7 @@ function transition() {
             $(".main").remove();
             $(".right").addClass("main");
             $(".right").removeClass("right");
+            $(".main").hide();
             $(".main").fadeIn();
         });
         
