@@ -85,7 +85,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
                         
-            $(".last").html(location.href);            
+            $(".back").html(location.href);            
             history.pushState('', '', this.href);
             $(".current").html(location.href);
             
@@ -98,7 +98,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $(".last").html(location.href);            
+            $(".back").html(location.href);            
             history.pushState('', '', this.href);
             $(".current").html(location.href);
             
@@ -111,7 +111,7 @@ $(document).ready(function() {
             if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
                 return true;
             
-            $(".last").html(location.href);            
+            $(".back").html(location.href);            
             history.pushState('', '', this.href);
             $(".current").html(location.href);
             
@@ -126,12 +126,12 @@ $(document).ready(function() {
                 return true;
             }
             
-            var last = $(".last").text();
+            var back = $(".back").text();
             
-            $(".last").html($(".current").text());
+            $(".back").html($(".current").text());
             $(".current").html(location.href);
             
-            if (location.href == last) {
+            if (location.href == back) {
                 slideRight();
             }
             else {
