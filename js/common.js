@@ -81,46 +81,56 @@ var isFirstExecution = true;
 
 $(document).ready(function() {
     if (!!(window.history && history.pushState)) {
-        $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
-            if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
-                return true;
-                        
-            history.pushState('', '', this.href);
-            
-            slideLeft();
-            
-            return false; 
-        });
-        
-        $('.pagination .prev a').live("click", function(e) {
-            if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
-                return true;
-            
-            history.pushState('', '', this.href);
-            
-            slideRight();
-            
-            return false; 
-        });
-        
-        $('aside a.logo, nav ul li a').live("click", function(e) {
-            if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
-                return true;
-            
-            history.pushState('', '', this.href);
-            
-            transition();
-            
-            return false; 
-        });
+        return;
+    }
 
-        $(window).bind('popstate', function() {
-            if (isFirstExecution) {
-                isFirstExecution = false;
-                return true;
-            }
+    if (navigator.userAgent.match(/Android/i) ||
+        navigator.userAgent.match(/webOS/i) ||
+        navigator.userAgent.match(/iPhone/i) ||
+        navigator.userAgent.match(/iPad/i) ||
+        navigator.userAgent.match(/iPod/i)) {
+        return;
+    }
+
+    $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
+        if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
+            return true;
+                        
+        history.pushState('', '', this.href);
+        
+        slideLeft();
+        
+        return false; 
+    });
+        
+    $('.pagination .prev a').live("click", function(e) {
+        if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
+            return true;
+        
+        history.pushState('', '', this.href);
+        
+        slideRight();
             
-            slideRight();
-        });
-    }    
+        return false; 
+    });
+        
+    $('aside a.logo, nav ul li a').live("click", function(e) {
+        if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
+            return true;
+            
+        history.pushState('', '', this.href);
+            
+        transition();
+            
+        return false; 
+    });
+
+    $(window).bind('popstate', function() {
+        if (isFirstExecution) {
+            isFirstExecution = false;
+            return true;
+        }
+            
+        slideRight();
+    });
 });
