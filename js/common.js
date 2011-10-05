@@ -80,7 +80,7 @@ function transition() {
 var isFirstExecution = true;
 
 $(document).ready(function() {
-    if (!!(window.history && history.pushState)) {
+    if (!!(window.history && history.pushState) == false) {
         return;
     }
 
