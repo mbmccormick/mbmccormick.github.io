@@ -11,13 +11,13 @@ There are several methods for overcoming this issue. Some articles <a href="http
 The option that worked for me was a third-party tool called <a href="http://forums.dropbox.com/topic.php?id=9665" target="_blank">pyDropboxPath</a>. This let me set my Dropbox path to my Documents folder. A quick restart of Dropbox and voila! I was able to sync my Documents to Dropbox without any hiccups. You can see for yourself below:
 
 <a href="http://mbmccormick.com/images/2010/09/cap.png">
-<img src="http://mbmccormick.com/images/2010/09/cap.png" class="alignRight" width="853" />
+<img src="http://mbmccormick.com/images/2010/09/cap.png" width="853" />
 </a>
 
 However, the main reason I'm switching is because I love the web interface of Dropbox. Check out my Documents folder, synced to the web in this image:
 
 <a href="http://mbmccormick.com/images/2010/09/cap21.png">
-<img src="http://mbmccormick.com/images/2010/09/cap21.png" class="alignLeft" width="552" />
+<img src="http://mbmccormick.com/images/2010/09/cap21.png" width="552" />
 </a>
 
 Ahh, there's peace once again on my laptop. Dropbox has several different <a href="http://www.dropbox.com/pricing" target="_blank">plans</a> for your backup needs. The free plan, which is what I use, gives you 2GB of storage. You can also take the tour of Dropbox for an extra 256MB free. If you haven't set up an account on Dropbox, do it now. You'll thank me later. Use this <a href="http://www.dropbox.com/referrals/NTQ4NjEzOQ" target="_blank">link</a>, and we'll both get extra space for free.

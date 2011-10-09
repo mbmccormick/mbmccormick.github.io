@@ -12,11 +12,15 @@ One of the big reasons many developers are switching to Git is because of <a hre
 
 Enough about the background, let's talk about Git. Unlike Subversion, Git uses a local repository to store files. As a developer, you would work on some changes and then commit these changes to your local repository or "staging area" as many like to call it. When you are satisfied with all of the changes you've committed to your "staging area", you can then push these changes to a public/private server. Take a look at the image below to get a better idea of typical Git workflow.
 
-[caption id="" align="alignnone" width="500" caption="Photo by &quot;Why Git is Better Than X&quot;"]<img class="  " title="local repo to remote repo flowchart" src="http://whygitisbetterthanx.com/images/local-remote.png" alt="local repo to remote repo flowchart" width="500" height="410" />[/caption]
+<a href="http://mbmccormick.com/images/2010/08/local-remote.png">
+<img src="http://mbmccormick.com/images/2010/08/local-remote.png" width="500" />
+</a>
 
 Another reason why I switched to Git is because it is much faster than Subversion. I no longer wait for a checkout, a commit, or an update. Git is nearly instant with all of these actions. Take a look at the comparison below:
 
-[caption id="attachment_44" align="alignnone" width="600" caption="Photo by &quot;Why Git is Better Than X&quot;"]<a href="http://mbmccormick.com/wp-content/uploads/2010/08/graph.png"><img class="size-medium wp-image-44" title="status charts" src="http://mbmccormick.com/wp-content/uploads/2010/08/graph.png" alt="status charts" width="600" /></a>[/caption]
+<a href="http://mbmccormick.com/images/2010/08/graph.png">
+<img src="http://mbmccormick.com/images/2010/08/graph.png" width="600" />
+</a>
 
 Now let's get into how Git differs from what we're used to in Subversion. Instead of <code>checkout</code> like we are used to, Git uses the command <code>clone</code> to make a copy of a public repository on our local workstation. To <code>update</code> our local copy like we did in Subversion, we would use <code>pull</code> in Git.
 
