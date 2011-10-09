@@ -356,12 +356,12 @@ p.note{
   color:#666;
 }
 
-img.right{
+img.alignRight{
   float:right;
   padding:15px 0px 15px 15px;
 }
 
-img.left{
+img.alignLeft{
   float:left;
   padding:15px 15px 15px 0px;
 }
