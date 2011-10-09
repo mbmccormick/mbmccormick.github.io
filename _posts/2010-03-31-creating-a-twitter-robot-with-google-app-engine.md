@@ -14,70 +14,15 @@ Google App Engine requires that applications be written in either Python or Java
 
 After researching several different providers for the weather forecast information, I decided to go with <a href="http://www.wunderground.com/" target="_blank">Weather Underground</a>. Them main reason for this was because their forecasts were updated about 4 or 5 times per day, and I could consume this information in a friendly 160 character format. Using their iCal feeds, I was able to easily strip out the information that I wanted to publish. Below you will find an excerpt containing the core functions contained in the main.py file of the application:
 
-[sourcecode language="python" firstline="19"]
-class Update(webapp.RequestHandler):
- def get(self):
- botlist = db.GqlQuery('SELECT * FROM Weatherbot ORDER BY zipcode ASC')
-
- failed = False
-
- try:
- for bot in botlist:
-  tweet = self.get_feed(bot.wundurl)
-  payload = {'status' : tweet,  'source' : &quot;tweatherbot&quot;}
-  payload = urllib.urlencode(payload)
-  base64string = base64.encodestring('%s:%s' % (bot.username, bot.password))[:-1]
-  headers = {'Authorization': &quot;Basic %s&quot; % base64string}
-  url = 'http://twitter.com/statuses/update.xml'
-  result = urlfetch.fetch(url, payload=payload, method=urlfetch.POST, headers=headers)
-  bot.lastupdate = datetime.now()
-  self.response.out.write(result.content)
- except Exception, detail:
-  self.response.out.write('An error occurred while accessing Twitter.\n\nException: %s' % detail)
-  failed = True
-
- if failed == False:
- db.put(botlist)
- self.redirect('/')
-
-def get_feed(self, url):
- result = urlfetch.fetch(url)
- for line in result.content.splitlines():
- if line.startswith('DESCRIPTION:'):
-  return line.replace('DESCRIPTION:', '').replace('\\n', '').strip()
-
-def get_status(self, id):
- current = urlfetch.fetch('http://twitter.com/statuses/user_timeline/%s.xml' % id)
- for line in current.content.splitlines():
- if line.strip().startswith('&lt;text&gt;'):
-  return line.replace('&lt;text&gt;', '').replace('\\n', '').replace('&lt;/text&gt;', '').strip()
-
-def get_updatetime(self, id):
- current = urlfetch.fetch('http://twitter.com/statuses/user_timeline/%s.xml' % id)
- for line in current.content.splitlines():
- if line.strip().startswith('&lt;created_at&gt;'):
-  return line.replace('&lt;created_at&gt;', '').replace('\\n', '').replace('&lt;/created_at&gt;', '').strip()
-[/sourcecode]
+<script src="https://gist.github.com/1273130.js?file=gistfile1.py"></script>
 
 One of the key requirements for this service is that it needed to check for new forecasts throughout the day. So I took advantage of the cron jobs on the Google App Engine servers. A quick look at the documentation, a change to my configuration file, and a fresh deployment later, my service was living and breathing on its own. I was amazed at how simple this was. You can check out the cron.yaml file below:
 
-[sourcecode language="text"]
-cron:
-- description: twitter weather forecast update
- url: /update
- schedule: every 30 minutes synchronized
-[/sourcecode]
+<script src="https://gist.github.com/1273131.js?file=gistfile1.yml"></script>
 
 I also wanted to store my Twitter robots' login information and Weather Underground feeds in the database, so I didn't have to re-deploy my application whenever I wanted to add a new robot. Easy enough, thanks to the GQL datastores. Setting up the database for this was extremely simple, check out this excerpt from the main.py file:
 
-[sourcecode language="python" firstline="12"]
-﻿﻿class Weatherbot(db.Model):
- username = db.StringProperty()
- password = db.StringProperty()
- zipcode = db.StringProperty()
- wundurl = db.StringProperty()
- lastupdate = db.DateTimeProperty(auto_now = True)
-[/sourcecode]
+https://gist.github.com/1273132
 
 Overall, I was completely impressed with how usable and scalable the Google App Engine platform was. I really have a hard time understanding why this environment is so hidden. Pairing this monster with the likes of the Python language, anything is possible. You can expect more applications from me to be built with this platform.
 
