@@ -24,4 +24,4 @@ Next, I created a method that would respond with a simple XML response that Twil
 
 See how easy that was? I was amazed. Using what I learned from the texting, I had phone calling up and running in about an hour. I could not believe how easy and affordable telephony was for developers. I can't wait to play around with the other features that Twilio has to offer. You can be sure that there will be many more projects from me this summer that take advantage of this service. It is truly the coolest web service I've ever used.
 
-You can check out Remindable live <a href="http://remindableapp.com/" target="_blank">here</a>.
+You can check out Remindable live <a href="http://apps.mbmccormick.com/remindable/" target="_blank">here</a>.
