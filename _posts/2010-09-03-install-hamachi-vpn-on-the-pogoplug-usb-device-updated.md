@@ -10,58 +10,30 @@ Just over a month ago, I wrote a <a href="http://mbmccormick.com/2010/07/install
 
 I repackaged all of the necessary installation files and included a helpful readme file for installation. You can find the updated installation procedure below. First, you need to enable write access to the device:
 
-[sourcecode language="bash" gutter="false"]
-mount -o rw,remount /
-[/sourcecode]
+<script src="https://gist.github.com/1273098.js?file=gistfile1.sh"></script>
 
 Next, you will need to download the packaged source code from GitHub and extract it:
 
-[sourcecode language="bash" gutter="false"]
-wget http://github.com/downloads/mbmccormick/hamachi-pogoplug/hamachi-pogoplug.tar.gz
-tar -zxvf hamachi-pogoplug.tar.gz
-[/sourcecode]
+<script src="https://gist.github.com/1273099.js?file=gistfile1.sh"></script>
 
 Next, copy the included files to their respective directories:
 
-[sourcecode language="bash" gutter="false"]
-cp etc/ /etc -r
-cp root/.hamachi /root -r
-cp sbin/ /sbin -r
-cp usr/ /usr -r
-cp var/ /var -r
-[/sourcecode]
+<script src="https://gist.github.com/1273100.js?file=gistfile1.sh"></script>
 
 Next we need to link some of the libraries together and modify permissions:
 
-[sourcecode language="bash" gutter="false"]
-ln -sf /usr/lib/libstdc++.so.6.0.9 /usr/lib/libstdc++.so.6
-ln -sf /usr/lib/libcrypto.so.0.9.8 /usr/lib/libcrypto.so.0.9.7
-ln -sf /usr/bin/hamachi /usr/bin/hamachi-init
-chmod 755 /usr/bin/hamachi
-chmod 700 /sbin/tuncfg
-[/sourcecode]
+<script src="https://gist.github.com/1273102.js?file=gistfile1.sh"></script>
 
 Next, we need to modify our path variables to point to the Hamachi binaries.
 
-[sourcecode language="bash" gutter="false"]
-cd
-echo &quot;PATH=$PATH:/usr/sbin:/bin:/sbin&quot; &gt;&gt; .bash_profile
-[/sourcecode]
+<script src="https://gist.github.com/1273103.js?file=gistfile1.sh"></script>
 
 Now we need to prepare our VPN drivers and start Hamachi:
 
-[sourcecode language="bash" gutter="false"]
-tuncfg
-hamachi-init
-hamachi start
-hamachi login
-[/sourcecode]
+<script src="https://gist.github.com/1273105.js?file=gistfile1.sh"></script>
 
 Lastly, we need to setup our device to enable write access and start Hamachi on boot:
 
-[sourcecode language="bash" gutter="false"]
-chmod 777 hamachi.sh
-echo &quot;/etc/init.d/hamachi.sh start&quot; &gt;&gt; /etc/init.d/rcS
-[/sourcecode]
+<script src="https://gist.github.com/1273107.js?file=gistfile1.sh"></script>
 
 You should now be able to access the Hamachi network using the legacy Linux commands. The Hamachi service should also be set to run when the device boots.
