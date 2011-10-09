@@ -356,6 +356,16 @@ p.note{
   color:#666;
 }
 
+img.right{
+  float:right;
+  padding:15px 0px 15px 15px;
+}
+
+img.left{
+  float:left;
+  padding:15px 15px 15px 0px;
+}
+
 /* @end */
 
 /*----------------------------------------------------------------------------
