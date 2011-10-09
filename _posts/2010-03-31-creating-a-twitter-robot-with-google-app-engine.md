@@ -22,7 +22,7 @@ One of the key requirements for this service is that it needed to check for new 
 
 I also wanted to store my Twitter robots' login information and Weather Underground feeds in the database, so I didn't have to re-deploy my application whenever I wanted to add a new robot. Easy enough, thanks to the GQL datastores. Setting up the database for this was extremely simple, check out this excerpt from the main.py file:
 
-https://gist.github.com/1273132
+<script src="https://gist.github.com/1273132.js?file=gistfile1.py"></script>
 
 Overall, I was completely impressed with how usable and scalable the Google App Engine platform was. I really have a hard time understanding why this environment is so hidden. Pairing this monster with the likes of the Python language, anything is possible. You can expect more applications from me to be built with this platform.
 
