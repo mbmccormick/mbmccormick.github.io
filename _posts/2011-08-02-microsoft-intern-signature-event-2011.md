@@ -6,7 +6,9 @@ excerpt:
 ---
 Last week was one amazing week here in <a href="http://www.seattle.gov/visiting/" target="_blank">Seattle</a> for <a href="http://careers.microsoft.com/careers/en/us/collegeinternships.aspx" target="_blank">Microsoft Interns</a>. On Thursday night we had the Microsoft Intern <a href="http://jobsblog.com/blog/microsoftinterncelebration2011/" target="_blank">Signature Event</a> and on Friday we had the Microsoft Intern Comedy Night. Unfortunately I had to say goodbye to a few friends who were leaving for the end of their internship, but not before the event of the year for us interns.
 
-<a href="http://mbmccormick.com/wp-content/uploads/2011/08/WP_000087.jpg"><img class="alignright size-medium wp-image-139" title="WP_000087" src="http://mbmccormick.com/wp-content/uploads/2011/08/WP_000087-225x300.jpg" alt="" width="225" height="300" /></a>
+<a href="http://farm7.static.flickr.com/6018/5986465935_07543698bf_z_d.jpg">
+<img src="http://farm7.static.flickr.com/6018/5986465935_07543698bf_z_d.jpg" />
+</a>
 
 Since about week two of our internship, we've known only the date of the Signature Event, Microsoft did a great job of keeping this under wraps. A few weeks ago we received an email invitation saying that Microsoft was hosting a barbecue and a concert for us at the <a href="http://www.zoo.org/" target="_blank">Woodland Park Zoo</a>, not to be confused with the <a href="http://www.eweek.com/c/a/IT-Management/Microsoft-Summer-Interns-Party-at-Bills/" target="_blank">old barbecue</a> that Microsoft used to throw at <a href="http://www.microsoft.com/presspass/exec/billg/" target="_blank">Bill Gates</a>' <a href="http://en.wikipedia.org/wiki/Bill_Gates'_house" target="_blank">house</a> for interns. The email told us where we needed to be on Thursday and left out all of the other information that we've been speculating about on the Internz mailing list at work. So much speculation that the head of Microsoft's Intern Program emailed Internz asking us to stop calling the zoo.
 
