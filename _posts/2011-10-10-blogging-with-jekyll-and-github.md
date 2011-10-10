@@ -2,7 +2,7 @@
 layout: post
 title: Blogging with Jekyll and GitHub
 excerpt:
-  Recently I have been working on developing an API for real-time and scheduled public transit data. Currently, my API supports 173 transit agencies. Each of these transit agencies provides a GTFS feed of their scheduled transit data in CSV format. This data ranges anywhere from 25mb to 250mb in size, with some CSV files containing well over 750,000 records. In order to efficiently query this data, I insert it to a SQL Server database.
+  I recently switched my blog engine from WordPress to Jekyll using GitHub as the hosting provider. I was getting tired of WordPress and all of it's bloat: load times were unnecessarily long for a very simple website. For a while I had been interested in trying out Jekyll using GitHub, so I decided to pull the trigger and do it.
 ---
 I recently switched my blog engine from WordPress to Jekyll using GitHub as the hosting provider. I was getting tired of WordPress and all of it's bloat: load times were unnecessarily long for a very simple website. For a while I had been interested in trying out Jekyll using GitHub, so I decided to pull the trigger and do it.
 
@@ -15,12 +15,12 @@ My old website, which was running on WordPress, had an average load time of 3.14
 Here's the report from Google Chrome for my old website, running WordPress:
 
 <div class="figure">
-<img src="http://mbmccormick.com/images/2011/10/old.jpg" />
+<img src="http://mbmccormick.com/images/2011/10/old.png" />
 </div>
 
 And here's the report from Google Chrome for my new website, running Jekyll:
 
 <div class="figure">
-<img src="http://mbmccormick.com/images/2011/10/new.jpg" />
+<img src="http://mbmccormick.com/images/2011/10/new.png" />
 </div>
 
