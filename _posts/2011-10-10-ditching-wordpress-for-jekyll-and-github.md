@@ -12,14 +12,10 @@ Back to a point I made earlier about full control over the design and developmen
 
 My old website, which was running on WordPress, had an average load time of 3.14 seconds. My new website, which is running on Jekyll, has an average load time of 782 milliseconds. Clearly this made a huge improvement to page speed performance. The reasoning behind this is because my website is essentially a bunch of HTML files for each of my pages and blog posts. Whereas with my old website, it was a few PHP files that then downloaded the content from a separate database server. By removing this additional component in my website setup and cutting out the cost of querying the database server on every page request, the page load time greatly reduced.
 
-Here's the report from Google Chrome for my old website, running WordPress:
-
 <div class="figure">
 <img src="http://mbmccormick.com/images/2011/10/old.png" width="634" />
 <small>Network Timeline from Google Chrome for old website</small>
 </div>
-
-And here's the report from Google Chrome for my new website, running Jekyll:
 
 <div class="figure">
 <img src="http://mbmccormick.com/images/2011/10/new.png" width="634" />
