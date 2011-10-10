@@ -16,11 +16,13 @@ Here's the report from Google Chrome for my old website, running WordPress:
 
 <div class="figure">
 <img src="http://mbmccormick.com/images/2011/10/old.png" width="634" />
+<small>Network Timeline from Google Chrome for old website</small>
 </div>
 
 And here's the report from Google Chrome for my new website, running Jekyll:
 
 <div class="figure">
 <img src="http://mbmccormick.com/images/2011/10/new.png" width="634" />
+<small>Network Timeline from Google Chrome for new website</small>
 </div>
 
