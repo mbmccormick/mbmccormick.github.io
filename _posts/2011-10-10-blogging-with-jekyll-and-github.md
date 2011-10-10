@@ -15,12 +15,12 @@ My old website, which was running on WordPress, had an average load time of 3.14
 Here's the report from Google Chrome for my old website, running WordPress:
 
 <div class="figure">
-<img src="http://mbmccormick.com/images/2011/10/old.png" />
+<img src="http://mbmccormick.com/images/2011/10/old.png" width="634" />
 </div>
 
 And here's the report from Google Chrome for my new website, running Jekyll:
 
 <div class="figure">
-<img src="http://mbmccormick.com/images/2011/10/new.png" />
+<img src="http://mbmccormick.com/images/2011/10/new.png" width="634" />
 </div>
 
