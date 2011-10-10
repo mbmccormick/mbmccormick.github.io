@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Blogging with Jekyll and GitHub
+title: Ditching WordPress for Jekyll and GitHub
 excerpt:
   I recently switched my blog engine from WordPress to Jekyll using GitHub as the hosting provider. I was getting tired of WordPress and all of it's bloat: load times were unnecessarily long for a very simple website. For a while I had been interested in trying out Jekyll using GitHub, so I decided to pull the trigger and do it.
 ---
