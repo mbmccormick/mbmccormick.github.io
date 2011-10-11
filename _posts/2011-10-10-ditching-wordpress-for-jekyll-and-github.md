@@ -22,4 +22,4 @@ My old website, which was running on WordPress, had an average load time of 3.14
 <small>Network Timeline from Google Chrome for new website</small>
 </div>
 
-You can take a look at the source code for my blog at GitHub here to get a better idea of how the backend looks. Overall I'm very satisfied with using Jekyll as my blog engine and the hosting that GitHub Pages offers. The founder of GitHub and lead developer for Jekyll has a great post entitled <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html" target="_blank">Blogging Like a Hacker</a> which details the inspiration for this project.
+You can take a look at the source code for my blog at GitHub <a href="https://github.com/mbmccormick/mbmccormick.github.com" target="_blank">here</a> to get a better idea of how the backend looks. Overall I'm very satisfied with using Jekyll as my blog engine and the hosting that GitHub Pages offers. The founder of GitHub and lead developer for Jekyll has a great post entitled <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html" target="_blank">Blogging Like a Hacker</a> which details the inspiration for this project.
