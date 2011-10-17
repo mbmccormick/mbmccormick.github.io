@@ -81,7 +81,7 @@ var isFirstExecution = true;
 
 $(document).ready(function() {
     $("nav ul").each(function() {
-        var list = $(this), select=$(document.createElement("select")).insertBefore($(this));
+        var list = $(this), select = $(document.createElement("select")).insertBefore($(this)).hide();
         $(">li a", this).each(function() {
             var target = $(this).attr("target"),
                 option = $(document.createElement("option"))
@@ -97,7 +97,6 @@ $(document).ready(function() {
                         }
                     });
         });
-        select.hide();
     });    
     
     if (!!(window.history && history.pushState) == false) {
