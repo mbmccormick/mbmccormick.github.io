@@ -685,3 +685,42 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   color:#900;
   font-weight:700;
 }
+
+@media screen and (max-width:720px)
+{
+  html,body {
+    width:100%;
+    overflow-x:visible;
+  }
+  
+  body {
+    padding: 5px; 
+  }
+  
+  aside {
+    float:none;
+    position:static;
+    width:100%;
+    padding:0;
+    height:auto;
+  }
+  
+  aside nav {
+    display:none;
+  }
+  
+  aside p {
+    display:none; 
+  }
+  
+  .main {
+    float:none;
+    position:static;
+    width:100%;
+    left:auto;
+  }
+  
+  .ribbon {
+    display:none; 
+  }
+}
