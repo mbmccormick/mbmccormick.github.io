@@ -80,6 +80,25 @@ function transition() {
 var isFirstExecution = true;
 
 $(document).ready(function() {
+    $("nav ul").each(function() {
+        var list = $(this), select=$(document.createElement("select")).insertBefore($(this).hide());
+        $(">li a", this).each(function() {
+            var target = $(this).attr("target"),
+                option = $(document.createElement("option"))
+                    .appendTo(select)
+                    .val(this.href)
+                    .html($(this).html())
+                    .click(function() {
+                        if (target === "_blank") {
+                            window.open($(this).val());
+                        }
+                        else {
+                            window.location.href=$(this).val();
+                        }
+                    });
+        });
+    });    
+    
     if (!!(window.history && history.pushState) == false) {
         return;
     }
