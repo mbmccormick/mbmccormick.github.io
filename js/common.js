@@ -115,8 +115,8 @@ $(document).ready(function() {
         return;
     }
     
-    widthA = $("aside").width() + 70;
-    widthB = $("body").width();
+    widthA = $("aside").outerWidth();
+    widthB = $("body").outerWidth();
     
     $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
         if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
