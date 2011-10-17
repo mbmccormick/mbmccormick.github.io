@@ -135,6 +135,11 @@ nav ul li {
   padding:8px 0;
 }
 
+nav select {
+  width:100%;
+  display:none;
+}
+
 aside p {
   color:#666;
   line-height:1.5;
@@ -716,8 +721,12 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     margin-top:0;
   }
   
-  aside nav {
+  aside nav ul {
     display:none;
+  }
+  
+  aside nav select {
+    display:block;
   }
   
   aside p {
