@@ -721,6 +721,10 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     margin-top:0;
   }
   
+  aside nav {
+    padding-bottom:20px;
+  }
+  
   aside nav ul {
     display:none;
   }
@@ -738,6 +742,7 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     position:static;
     width:100%;
     left:auto;
+    padding-bottom:15px;
   }
   
   .listing article.other {
