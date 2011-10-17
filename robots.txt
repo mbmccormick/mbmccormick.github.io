@@ -5,8 +5,10 @@ Disallow: /_posts
 Disallow: /css
 Disallow: /feed
 Disallow: /js
-Disallow: /_config.yml
 Disallow: /.gitignore
+Disallow: /404.html
+Disallow: /CNAME
+Disallow: /_config.yml
 Disallow: /page2
 Disallow: /page3
 Disallow: /page4
