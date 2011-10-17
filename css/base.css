@@ -728,6 +728,20 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     display:none;
   }
   
+  .listing article .continue {
+    display:none; 
+  }
+  
+  .prev a {
+    background:none;
+    padding-left:0;
+  }
+  
+  .next a {
+    background:none;
+    padding-right:0;
+  }
+  
   .ribbon {
     display:none; 
   }
