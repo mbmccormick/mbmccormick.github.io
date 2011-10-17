@@ -97,6 +97,7 @@ $(document).ready(function() {
                         }
                     });
         });
+        select.hide();
     });    
     
     if (!!(window.history && history.pushState) == false) {
