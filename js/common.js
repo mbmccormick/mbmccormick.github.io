@@ -87,17 +87,13 @@ $(document).ready(function() {
                 option = $(document.createElement("option"))
                     .appendTo(select)
                     .val(this.href)
-                    .html($(this).html())
-                    .click(function() {
-                        if (target === "_blank") {
-                            window.open($(this).val());
-                        }
-                        else {
-                            window.location.href=$(this).val();
-                        }
-                    });
+                    .html($(this).html());
         });
     });    
+    
+    $("nav select").change(function(){
+        window.location = $(this).val();
+    });
     
     if (!!(window.history && history.pushState) == false) {
         return;
