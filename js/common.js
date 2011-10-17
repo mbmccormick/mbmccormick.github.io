@@ -1,3 +1,6 @@
+var widthA = $("aside").width() + 70;
+var widthB = $("body").width();
+
 function slideLeft() {
     $("body").css("cursor", "progress");
             
@@ -11,12 +14,12 @@ function slideLeft() {
                         
         $("body").css("cursor", "auto");
         
-        $(".main").animate({ left: "-330px"}, function() {
+        $(".main").animate({ left: "-" + widthA + "px"}, function() {
             $(".main").remove();
         });
         
         $(".right").show();
-        $(".right").animate({ left: "310px"}, function() {
+        $(".right").animate({ left: widthA + "px"}, function() {
             $(".right").addClass("main");
             $(".right").removeClass("right");
         });
@@ -38,12 +41,12 @@ function slideRight() {
         
         $("body").css("cursor", "auto");
         
-        $(".main").animate({ left: "950px"}, function() {
+        $(".main").animate({ left: widthB + "px"}, function() {
             $(".main").remove();
         });
         
         $(".left").show();
-        $(".left").animate({ left: "310px"}, function(){
+        $(".left").animate({ left: widthA + "px"}, function(){
             $(".left").addClass("main");
             $(".left").removeClass("left");
         });
