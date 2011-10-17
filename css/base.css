@@ -615,11 +615,6 @@ code.html span.doctype {
   padding-left:14px;
 }
 
-::selection {
-  background-color:#F5FF38;
-  color:inherit;
-}
-
 .clearfix,pre code {
   display:block;
 }
