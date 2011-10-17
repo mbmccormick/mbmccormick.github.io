@@ -705,6 +705,10 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     height:auto;
   }
   
+  aside .logo {
+    margin-top:0;
+  }
+  
   aside nav {
     display:none;
   }
@@ -718,6 +722,10 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     position:static;
     width:100%;
     left:auto;
+  }
+  
+  .listing article.other {
+    display:none;
   }
   
   .ribbon {
