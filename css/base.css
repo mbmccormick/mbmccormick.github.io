@@ -694,7 +694,8 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   }
   
   body {
-    padding: 5px; 
+    width:auto;
+    padding: 10px; 
   }
   
   aside {
