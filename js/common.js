@@ -1,5 +1,5 @@
-var widthA = $("aside").width() + 70;
-var widthB = $("body").width();
+var widthA;
+var widthB;
 
 function slideLeft() {
     $("body").css("cursor", "progress");
@@ -114,7 +114,10 @@ $(document).ready(function() {
         navigator.userAgent.match(/iPod/i)) {
         return;
     }
-
+    
+    widthA = $("aside").width() + 70;
+    widthB = $("body").width();
+    
     $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
         if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
             return true;
