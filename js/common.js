@@ -81,7 +81,7 @@ var isFirstExecution = true;
 
 $(document).ready(function() {
     $("nav ul").each(function() {
-        var list = $(this), select = $(document.createElement("select")).insertBefore($(this)).hide();
+        var list = $(this), select = $(document.createElement("select")).insertBefore($(this));
         $(">li a", this).each(function() {
             var target = $(this).attr("target"),
                 option = $(document.createElement("option"))
