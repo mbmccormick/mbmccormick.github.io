@@ -715,6 +715,14 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   .right, .ribbon {
     left:768px;
   }
+  
+  .calendar.desktop {
+    display:none;
+  }
+  
+  .calendar.mobile {
+    display:block;
+  }
 }
 
 @media screen and (max-width:720px)
