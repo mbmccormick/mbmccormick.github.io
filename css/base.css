@@ -373,7 +373,9 @@ img.alignLeft {
 .follow-box {
   -moz-border-radius:4px;
   -webkit-border-radius:4px;
-  background:0;
+  background:#f6fbff;
+  background:-webkit-gradient(linear, left top, left bottom, from(#f6fbff), to(#d5e8f5));
+  background:-moz-linear-gradient(top, #f6fbff, #d5e8f5);
   border:1px solid #c3e0f2;
   border-radius:4px;
   display:block;
