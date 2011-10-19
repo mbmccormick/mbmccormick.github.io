@@ -740,14 +740,14 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   
   body {
     width:auto;
-    padding: 10px; 
+    padding:0 10px; 
   }
   
   aside {
     float:none;
     position:static;
     width:100%;
-    padding:0;
+    padding:10px 0 0 0;
     height:auto;
   }
   
@@ -776,7 +776,7 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     position:static;
     width:100%;
     left:auto;
-    padding-bottom:15px;
+    padding-bottom:25px;
   }
   
   .listing article.other {
