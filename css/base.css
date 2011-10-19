@@ -146,6 +146,10 @@ aside p {
   line-height:1.5;
 }
 
+.listing {
+  margin-top:40px;
+}
+
 .listing article {
   margin:40px 0;
 }
