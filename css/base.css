@@ -776,7 +776,7 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     position:static;
     width:100%;
     left:auto;
-    padding-bottom:25px;
+    padding-bottom:15px;
   }
   
   .listing article.other {
