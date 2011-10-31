@@ -789,6 +789,10 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     display:none;
   }
   
+  .listing article.link h2 {
+    font-size:18px;
+  }
+  
   .listing article.link h2 a:before {
     content:"Link: ";
   }
