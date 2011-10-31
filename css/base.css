@@ -780,7 +780,18 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   }
   
   .listing article.other {
+    padding:0px;
+    margin:0px;
+    border:none;
+  }
+  
+  .listing article.link .icon {
     display:none;
+  }
+  
+  .listing artcile.link h2 a {
+    background:url(/images/icon_link.png) center left no-repeat;
+    padding-left:25px;
   }
   
   .listing article .continue {
