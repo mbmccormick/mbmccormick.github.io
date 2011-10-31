@@ -781,7 +781,7 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   
   .listing article.other {
     padding:0px;
-    margin:0px;
+    margin:0px 0px 45px 0px;
     border:none;
   }
   
@@ -789,9 +789,8 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     display:none;
   }
   
-  .listing article.link h2 a {
-    background:url(/images/icon_link.png) center left no-repeat;
-    padding-left:25px;
+  .listing article.link h2 a:before {
+    content:"Link: ";
   }
   
   .listing article .continue {
