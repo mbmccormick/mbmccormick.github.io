@@ -1,3 +1,6 @@
+var widthA;
+var widthB;
+
 function slideLeft() {
     $("body").css("cursor", "progress");
             
@@ -11,12 +14,12 @@ function slideLeft() {
                         
         $("body").css("cursor", "auto");
         
-        $(".main").animate({ left: "-330px"}, function() {
+        $(".main").animate({ left: "-" + widthA + "px"}, function() {
             $(".main").remove();
         });
         
         $(".right").show();
-        $(".right").animate({ left: "310px"}, function() {
+        $(".right").animate({ left: widthA + "px"}, function() {
             $(".right").addClass("main");
             $(".right").removeClass("right");
         });
@@ -38,12 +41,12 @@ function slideRight() {
         
         $("body").css("cursor", "auto");
         
-        $(".main").animate({ left: "950px"}, function() {
+        $(".main").animate({ left: widthB + "px"}, function() {
             $(".main").remove();
         });
         
         $(".left").show();
-        $(".left").animate({ left: "310px"}, function(){
+        $(".left").animate({ left: widthA + "px"}, function(){
             $(".left").addClass("main");
             $(".left").removeClass("left");
         });
@@ -80,6 +83,26 @@ function transition() {
 var isFirstExecution = true;
 
 $(document).ready(function() {
+    $("nav ul").each(function() {
+        var list = $(this), select = $(document.createElement("select")).insertBefore($(this));
+        
+        $(document.createElement("option"))
+            .appendTo(select)
+            .html("Navigate...");
+        
+        $(">li a", this).each(function() {
+            var target = $(this).attr("target"),
+                option = $(document.createElement("option"))
+                    .appendTo(select)
+                    .val(this.href)
+                    .html($(this).html());
+        });
+    });    
+    
+    $("nav select").change(function(){
+        window.location = $(this).val();
+    });
+    
     if (!!(window.history && history.pushState) == false) {
         return;
     }
@@ -91,7 +114,10 @@ $(document).ready(function() {
         navigator.userAgent.match(/iPod/i)) {
         return;
     }
-
+    
+    widthA = $("aside").outerWidth();
+    widthB = $("body").outerWidth();
+    
     $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
         if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
             return true;
