@@ -106,6 +106,8 @@ $(document).ready(function() {
     if (!!(window.history && history.pushState) == false) {
         return;
     }
+    
+    return; // temporarily disable HTML5 history features
 
     if (navigator.userAgent.match(/Android/i) ||
         navigator.userAgent.match(/webOS/i) ||
@@ -118,40 +120,40 @@ $(document).ready(function() {
     widthA = $("aside").outerWidth();
     widthB = $("body").outerWidth();
     
-    $('article h2 a, article a.continue, .pagination .next a').live("click", function(e) {
+    $("article h2 a, article a.continue, .pagination .next a").live("click", function(e) {
         if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
             return true;
                         
-        history.pushState('', '', this.href);
+        history.pushState("", "", this.href);
         
         slideLeft();
         
         return false; 
     });
         
-    $('.pagination .prev a').live("click", function(e) {
+    $(".pagination .prev a").live("click", function(e) {
         if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
             return true;
         
-        history.pushState('', '', this.href);
+        history.pushState("", "", this.href);
         
         slideRight();
             
         return false; 
     });
         
-    $('aside a.logo, nav ul li a').live("click", function(e) {
+    $("aside a.logo, nav ul li a").live("click", function(e) {
         if ((e.which == 1 && !e.metaKey && !e.shiftKey) == false)
             return true;
             
-        history.pushState('', '', this.href);
+        history.pushState("", "", this.href);
             
         transition();
             
         return false; 
     });
 
-    $(window).bind('popstate', function() {
+    $(window).bind("popstate", function() {
         if (isFirstExecution) {
             isFirstExecution = false;
             return true;
