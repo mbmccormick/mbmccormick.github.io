@@ -24,10 +24,10 @@ function slideLeft() {
             $(".right").removeClass("right");
         });
         
+        render();
+        
         $("html, body").animate({ scrollTop:0 }, 0);
     });
-    
-    render();
 }
 
 function slideRight() {
@@ -52,11 +52,11 @@ function slideRight() {
             $(".left").addClass("main");
             $(".left").removeClass("left");
         });
+        
+        render();
     
         $("html, body").animate({ scrollTop:0 }, 0);
     });
-    
-    render();
 }
 
 function transition() {
@@ -80,10 +80,10 @@ function transition() {
             $(".main").fadeIn();
         });
         
+        render();
+        
         $("html, body").animate({ scrollTop:0 }, 0);
     });
-    
-    render();
 }
 
 function render() {
