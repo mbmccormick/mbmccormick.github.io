@@ -14,11 +14,11 @@ function slideLeft() {
                         
         $("body").css("cursor", "auto");
         
+        render();
+        
         $(".main").animate({ left: "-" + widthA + "px"}, function() {
             $(".main").remove();
         });
-        
-        render();
         
         $(".right").show();
         $(".right").animate({ left: widthA + "px"}, function() {
@@ -43,11 +43,11 @@ function slideRight() {
         
         $("body").css("cursor", "auto");
         
+        render();
+        
         $(".main").animate({ left: widthB + "px"}, function() {
             $(".main").remove();
         });
-        
-        render();
         
         $(".left").show();
         $(".left").animate({ left: widthA + "px"}, function(){
