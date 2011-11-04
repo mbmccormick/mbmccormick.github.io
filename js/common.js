@@ -80,6 +80,12 @@ function transition() {
     });
 }
 
+function render() {
+    $(".gist").each(function() {
+        $(this).load("http://apps.mbmccormick.com/gist-proxy/index.php?id=" + $(this).attr("id"));
+    });
+}
+
 var isFirstExecution = true;
 
 $(document).ready(function() {
@@ -102,6 +108,8 @@ $(document).ready(function() {
     $("nav select").change(function(){
         window.location = $(this).val();
     });
+    
+    render();
     
     if (!!(window.history && history.pushState) == false) {
         return;
