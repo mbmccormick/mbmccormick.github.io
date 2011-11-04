@@ -14,7 +14,7 @@ This weekend I made two contributions to Hubot over on GitHub. The first was mod
 
 The second contribution that I made to Hubot was on the <a href="https://github.com/github/hubot-scripts/blob/141f19e4c8d83d54b027f9a5dc0f791bd2ff011a/src/scripts/weather.coffee" target="_blank">weather script</a>. Originally, when you asked Hubot for <a href="https://github.com/github/hubot-scripts/blob/6f5cbe66a7c242523f22f40b1b8e885891143eed/src/scripts/weather.coffee" target="_blank">weather information</a>, the script would merely dump the data to you in an instant message. Keeping with the "friendly" personality that Hubot has, I decided to revamp the formatting to provide a more "natural language" in Hubot's replies and add some additional features to this script. This post wouldn't be complete without some code, so take a look at the snippet below:
 
-<script src="https://gist.github.com/1335716.js"> </script>
+<div class="gist" id="1335716"></div>
 
 So what I'm doing in the script above is downloading the weather data from a hidden Google API, for simplicity's sake, and parsing this data when the robot engine hears the words "weather me ..". Unfortunately, this Google API only responds in XML format, which requires some additional legwork to extract the data. You can also see how Hubot responds in a "natural" format, making him seem more like a "person" rather than a command line. I forked the Hubot scripts <a href="https://github.com/github/hubot-scripts" target="_blank">repository</a> on GitHub and these changes were later <a href="https://github.com/github/hubot-scripts/pull/78" target="_blank">pulled</a> into the master branch.
 
