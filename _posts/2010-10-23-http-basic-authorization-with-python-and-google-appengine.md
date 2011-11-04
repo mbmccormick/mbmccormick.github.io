@@ -6,6 +6,6 @@ excerpt:
 ---
 This code snippet shows how to make an outbound POST request over HTTP using Python and Google AppEngine's <code>urlfetch</code> method. You need to encode the username and password using Base 64 as shown below.
 
-<script src="https://gist.github.com/642640.js"> </script> 
+<div class="gist" id="642640"></div> 
 
 Unfortunately, Google AppEngine does not support the <code>http://username:password@yourserver.com/page/init.php</code> URL format like most HTTP libraries.
