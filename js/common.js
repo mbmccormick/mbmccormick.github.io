@@ -18,13 +18,13 @@ function slideLeft() {
             $(".main").remove();
         });
         
+        render();
+        
         $(".right").show();
         $(".right").animate({ left: widthA + "px"}, function() {
             $(".right").addClass("main");
             $(".right").removeClass("right");
         });
-        
-        render();
         
         $("html, body").animate({ scrollTop:0 }, 0);
     });
@@ -47,13 +47,13 @@ function slideRight() {
             $(".main").remove();
         });
         
+        render();
+        
         $(".left").show();
         $(".left").animate({ left: widthA + "px"}, function(){
             $(".left").addClass("main");
             $(".left").removeClass("left");
         });
-        
-        render();
     
         $("html, body").animate({ scrollTop:0 }, 0);
     });
@@ -72,6 +72,8 @@ function transition() {
                         
         $("body").css("cursor", "auto");
         
+        render();
+        
         $(".main").fadeOut(function() {
             $(".main").remove();
             $(".right").addClass("main");
@@ -79,8 +81,6 @@ function transition() {
             $(".main").hide();
             $(".main").fadeIn();
         });
-        
-        render();
         
         $("html, body").animate({ scrollTop:0 }, 0);
     });
