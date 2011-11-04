@@ -121,8 +121,6 @@ $(document).ready(function() {
         return;
     }
     
-    return; // temporarily disable HTML5 history features
-
     if (navigator.userAgent.match(/Android/i) ||
         navigator.userAgent.match(/webOS/i) ||
         navigator.userAgent.match(/iPhone/i) ||
