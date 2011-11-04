@@ -26,6 +26,8 @@ function slideLeft() {
         
         $("html, body").animate({ scrollTop:0 }, 0);
     });
+    
+    render();
 }
 
 function slideRight() {
@@ -53,6 +55,8 @@ function slideRight() {
     
         $("html, body").animate({ scrollTop:0 }, 0);
     });
+    
+    render();
 }
 
 function transition() {
@@ -78,6 +82,8 @@ function transition() {
         
         $("html, body").animate({ scrollTop:0 }, 0);
     });
+    
+    render();
 }
 
 function render() {
