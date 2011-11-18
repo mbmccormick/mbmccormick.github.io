@@ -117,6 +117,8 @@ $(document).ready(function() {
     
     render();
     
+    return; // disable this for now
+    
     if (!!(window.history && history.pushState) == false) {
         return;
     }
