@@ -374,6 +374,10 @@ img.alignLeft {
   padding:15px 15px 15px 0;
 }
 
+img.profile {
+  width:200px;
+}
+
 .follow-box {
   -moz-border-radius:4px;
   -webkit-border-radius:4px;
