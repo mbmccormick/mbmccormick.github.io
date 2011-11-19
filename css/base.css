@@ -375,7 +375,7 @@ img.alignLeft {
 }
 
 img.profile {
-  width:200px;
+  width:200px !important;
 }
 
 .follow-box {
@@ -806,6 +806,10 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   
   .listing article .continue {
     display:none; 
+  }
+  
+  img.profile {
+    width:auto !important;
   }
   
   a.follow-box {
