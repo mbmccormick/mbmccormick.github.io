@@ -14,14 +14,14 @@ The fun stuff takes place on the back-end. AppHarbor is still a <a href="http://
 
 So after a couple of hours of development and testing, my application was ready to go. I setup my account at AppHarbor and created a new application. Then I added a 20mb SQL Server <a href="http://blog.appharbor.com/2010/12/06/now-with-sql-server" target="_blank">database</a>, which I then synchronized with my local SQL Server instance, and added my <code>returnflix.com</code> hostname. I was then given a URL to a Git repository, which is how AppHarbor allows for continuous integration deployments and is pure genius. Being able to deploy an application simply by pushing to a Git repository is an innovation that I'm sure will be adopted by several companies in the future, but AppHarbor has got this down. Essentially, two lines of code got me up and running*:
 
-<div class="gist" id="860286"></div> 
+<script src="https://gist.github.com/860286.js"> </script> 
 
 If you're a Windows user running <a href="http://code.google.com/p/msysgit/" target="_blank">msysGit</a>, like myself, the code above may not have worked for you (hence the * from above). You probably received an error message along the lines of:
 
-<div class="gist" id="860293"></div> 
+<script src="https://gist.github.com/860293.js"> </script> 
 
 A quick Google search lead me to this <a href="http://www.lostechies.com/blogs/dahlbyk/archive/2010/09/26/msysgit-error-setting-certificate-verify-locations.aspx" target="_blank">blog post</a>, which discussed why this was happening and gave the following fix:
 
-<div class="gist" id="860295"></div> 
+<script src="https://gist.github.com/860295.js"> </script> 
 
 With that, I was able to run my <code>git push</code> and my application deployed to AppHarbor successfully! From the time my application was developed to the time I deployed it on AppHarbor was 10 minutes flat. AppHarbor completely eliminates what used to be a tedious process of finding a host, configuring it, updating your builds, etc. and just works. They certainly live up to their "Azure done right" tagline with a service that delivers, perfectly. You can find out more about AppHarbor <a href="http://www.appharbor.com" target="_blank">here</a> and you can check out this project on <a href="http://github.com/mbmccormick/returnflix" target="_blank">GitHub</a> or at <a href="http://returnflix.com/" target="_blank">Returnflix</a>.

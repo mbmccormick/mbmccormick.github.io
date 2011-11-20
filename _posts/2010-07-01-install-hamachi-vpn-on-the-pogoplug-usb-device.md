@@ -10,32 +10,32 @@ I picked up the Seagate FreeAgent DockStar USB PogoPlug-enabled network adapter 
 
 First, you need to enable SSH access on your <a href="http://pogoplug.com/" target="_blank">PogoPlug</a>-enabled device. You can do this by logging in to the <a href="http://my.pogoplug.com/" target="_blank">My PogoPlug</a> website and enabling this setting under Security Settings. Once you've done that, you can SSH into your PogoPlug device using any SSH client and login as root with the password you configured on the site. Before we can do anything with the device, we need to remount the file system to make it writable. After you've logged in, execute this command:
 
-<div class="gist" id="1273144"></div>
+<script src="https://gist.github.com/1273144.js"> </script>
 
 Our file system should now writable. Next, we need to install some  libraries. I unpacked the <a href="http://gcc.gnu.org/libstdc++/" target="_blank">libstdc++</a> and <a href="http://www.openssl.org/" target="_blank">openssl</a> library files from the OpenPogo <a href="http://openpogo.com/repo/" target="_blank">repository</a> and reorganized them for easy installation. Download the two files to your device using the following commands:
 
-<div class="gist" id="1273145"></div>
+<script src="https://gist.github.com/1273145.js"> </script>
 
 Next, we need to unpack these archives and copy the library files to their respective locations on the PogoPlug device. Here's how to do that:
 
-<div class="gist" id="1273146"></div>
+<script src="https://gist.github.com/1273146.js"> </script>
 
-<div class="gist" id="1273148"></div>
+<script src="https://gist.github.com/1273148.js"> </script>
 
 The libraries should now be installed on our PogoPlug. Next, we need to install Hamachi. While the Hamachi 2 software is now developed by LogMeIn and no longer supports the Linux or Mac operating systems, you can still access the original Hamachi <a href="http://files.hamachi.cc/linux/" target="_blank">source code</a>. The PogoPlug device uses an ARM processor and lucky for us, Hamachi has an ARM build for the Nokia N770 phone which works perfectly for this. Download and install it with the following commands:
 
-<div class="gist" id="1273151"></div>
+<script src="https://gist.github.com/1273151.js"> </script>
 
 Now that all of the pieces of this puzzle are in place, its time to set things in motion. Next we will configure the <a href="http://en.wikipedia.org/wiki/TUN/TAP" target="_blank">tun driver</a> and setup Hamachi, and if all succeeds we should be online. Here we go:
 
-<div class="gist" id="1273152"></div>
+<script src="https://gist.github.com/1273152.js"> </script>
 
 For some reason the Nokia N770 build of the Hamachi client has a tendency to fall asleep, after which the device won't be reachable over the Hamachi network. To avoid this, we need to create the Hamachi config file like this:
 
-<div class="gist" id="1273155"></div>
+<script src="https://gist.github.com/1273155.js"> </script>
 
 You can set this setting to any value, in seconds, or 0 to disable it. When finished, save the file and exit vi by pressing the escape key, then "wq" and hit enter. Once you've saved the file restart the Hamachi service. Lastly, we need to create a startup script to keep execute the Hamachi script when our PogoPlug device boots up. Execute the following lines:
 
-<div class="gist" id="1273156"></div>
+<script src="https://gist.github.com/1273156.js"> </script>
 
 And with that, our Hamachi client should now be working when you boot your PogoPlug device and you can join or create a new Hamachi network and securely access your USB drives from anywhere in the world!

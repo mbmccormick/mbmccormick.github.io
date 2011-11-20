@@ -10,30 +10,30 @@ Just over a month ago, I wrote a <a href="http://mbmccormick.com/2010/07/install
 
 I repackaged all of the necessary installation files and included a helpful readme file for installation. You can find the updated installation procedure below. First, you need to enable write access to the device:
 
-<div class="gist" id="1273098"></div>
+<script src="https://gist.github.com/1273098.js"> </script>
 
 Next, you will need to download the packaged source code from GitHub and extract it:
 
-<div class="gist" id="1273099"></div>
+<script src="https://gist.github.com/1273099.js"> </script>
 
 Next, copy the included files to their respective directories:
 
-<div class="gist" id="1273100"></div>
+<script src="https://gist.github.com/1273100.js"> </script>
 
 Next we need to link some of the libraries together and modify permissions:
 
-<div class="gist" id="1273102"></div>
+<script src="https://gist.github.com/1273102.js"> </script>
 
 Next, we need to modify our path variables to point to the Hamachi binaries.
 
-<div class="gist" id="1273103"></div>
+<script src="https://gist.github.com/1273103.js"> </script>
 
 Now we need to prepare our VPN drivers and start Hamachi:
 
-<div class="gist" id="1273105"></div>
+<script src="https://gist.github.com/1273105.js"> </script>
 
 Lastly, we need to setup our device to enable write access and start Hamachi on boot:
 
-<div class="gist" id="1273107"></div>
+<script src="https://gist.github.com/1273107.js"> </script>
 
 You should now be able to access the Hamachi network using the legacy Linux commands. The Hamachi service should also be set to run when the device boots.

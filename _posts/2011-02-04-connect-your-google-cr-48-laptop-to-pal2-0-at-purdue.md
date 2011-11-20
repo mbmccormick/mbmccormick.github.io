@@ -8,16 +8,16 @@ If you're one of the lucky people at Purdue to have received a <a href="http://w
 
 In order for this to work, you will need to put your Cr-48 laptop into Developer Mode, which is detailed <a href="http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information" target="_blank">here</a>. Once you do that, launch the Crosh terminal by hitting CTRL + ALT + T and issue the following commands:
 
-<div class="gist" id="811480"></div> 
+<script src="https://gist.github.com/811480.js"> </script> 
 
 My field tests have shown that after moving from HSSE to STEW (changing PAL2.0 access points), I did not need to re-execute the above commands. However, because these commands are stored in memory, I was required to re-execute the above commands in order to reconnect after a full reboot. Just going into standby, however, did not require me to re-execute.
 
 Thanks to some help from <a href="http://naterad.com/" target="_blank">Nate Radebaugh</a> with his <a href="http://pastebin.com/3zhLb8qw" target="_blank">modifications</a> using the above configurations to the <a href="http://pastebin.com/G3ta4zsa" target="_blank">scripting format</a> by <a href="http://www.reddit.com/user/teraflop" target="_blank">teraflop</a> on <a href="http://www.reddit.com/r/CR48/comments/fcxhw/any_workarounds_for_wpa2_with_certificate/" target="_blank">Reddit</a>, I now have an automated script for the above commands, which can be <a href="http://archive.mbmccormick/files/pal2.sh" target="_blank">downloaded</a> to your Google Cr-48 laptop using the commands below from a fresh Crosh terminal:
 
-<div class="gist" id="827025"></div> 
+<script src="https://gist.github.com/827025.js"> </script> 
 
 Once installed, you can run the script by opening up a Crosh terminal and executing:
 
-<div class="gist" id="827049"></div> 
+<script src="https://gist.github.com/827049.js"> </script> 
 
 You'll then be prompted for your Purdue network login credentials and, upon successful authentication, be connected to PAL2.0.

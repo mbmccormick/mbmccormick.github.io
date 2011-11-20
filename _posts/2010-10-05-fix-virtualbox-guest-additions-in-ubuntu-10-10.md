@@ -8,6 +8,6 @@ I recently upgraded my <a href="http://releases.ubuntu.com/lucid/" target="_blan
 
 To resolve this conflict, issue the following three commands from the terminal on the VirtualBox machine:
 
-<div class="gist" id="627462"></div> 
+<script src="https://gist.github.com/627462.js"> </script> 
 
 After rebooting your VirtualBox installation, your machine should be resizing the window like normal. More information about this fix can be found <a href="http://www.unixmen.com/linux-tutorials/1157-install-guest-addition-in-ubuntu-1010-maverick-meerkat-fix" target="_blank">here</a>.
