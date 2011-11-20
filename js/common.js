@@ -1,9 +1,3 @@
-function render() {
-    $(".gist").each(function() {
-        $(this).load("http://apps.mbmccormick.com/gist-proxy/index.php?id=" + $(this).attr("id"));
-    });
-}
-
 $(document).ready(function() {
     $("nav ul").each(function() {
         var list = $(this), select = $(document.createElement("select")).insertBefore($(this));
@@ -24,6 +18,4 @@ $(document).ready(function() {
     $("nav select").change(function(){
         window.location = $(this).val();
     });
-    
-    render();
 });
