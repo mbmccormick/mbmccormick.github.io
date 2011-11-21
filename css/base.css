@@ -87,7 +87,7 @@ aside {
   z-index:1000;
 }
 
-.main,.left,.right {
+.main {
   color:#444;
   float:left;
   left:310px;
@@ -95,25 +95,6 @@ aside {
   padding-bottom:50px;
   position:absolute;
   width:640px;
-}
-
-.left {
-  display:none;
-  left:-330px;
-}
-
-.right {
-  display:none;
-  left:950px;
-}
-
-.ribbon {
-  background-color:#fff;
-  height:100%;
-  left:950px;
-  position:fixed;
-  width:100%;
-  z-index:1000;
 }
 
 .logo {
