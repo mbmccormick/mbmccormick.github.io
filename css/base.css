@@ -188,7 +188,7 @@ aside p {
   background:url(/images/icon_link.png) 0 0 no-repeat;
 }
 
-.main time,.left time,.right time {
+.main time {
   color:#666;
   display:block;
   margin:20px 0 -20px;
@@ -306,11 +306,11 @@ table.data th,table.data td {
   text-align:left;
 }
 
-.main ul,.main ol,.left ul,.left ol,.right ul,.right ol {
+.main ul,.main ol {
   margin:16px 0;
 }
 
-.main ul li,.left ul li,.right ul li {
+.main ul li {
   background:url(../images/icon_li.gif) 0 5px no-repeat;
   list-style-type:none;
   margin-bottom:5px;
@@ -318,7 +318,7 @@ table.data th,table.data td {
   padding-left:15px;
 }
 
-.main ol li,.left ol li,.right ol li {
+.main ol li {
   margin-bottom:5px;
   margin-left:32px;
 }
