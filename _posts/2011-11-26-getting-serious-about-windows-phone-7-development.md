@@ -23,7 +23,9 @@ If your application does any sort of background work or requires some loading ti
 Make sure you do this only after the page has finished loading, in the `PhoneApplicationPage_Loaded` event. Otherwise you won't be able to access the SystemTray classes.
 
 ## Use the Phone Accent Brush where appropriate
-Windows Phone is about simplicity, and the simple Metro interface is what makes it beautiful. Users have the ability of choosing a theme and an accent color. All of the other applications on the phone make use of this accent color in some way and yours should be no different. Use your best judgement on how best to integrate this, obviously you don't want to barrade your user with the accent color. You can access this property in your XAML with `{StaticResource PhoneAccentBrush}` or in your code with `(SolidColorBrush)Resources["PhoneAccentBrush"]`.
+Windows Phone is about simplicity, and the simple Metro interface is what makes it beautiful. Users have the ability of choosing a theme and an accent color. All of the other applications on the phone make use of this accent color in some way and yours should be no different. Use your best judgement on how best to integrate this, obviously you don't want to barrade your user with the accent color.
+
+You can access this property in your XAML with `{StaticResource PhoneAccentBrush}` or in your code with `(SolidColorBrush)Resources["PhoneAccentBrush"]`.
 
 ## Take better screenshots
 If you have a Windows Phone device to use during application testing, download and install Screen Capturer to your developer unlocked device. This app allows you to take screenshots on your phone using the camera button from inside of your application. The tool saves your screenshots to your Saved Pictures album and you can sync these to your computer with Zune. This tool will ensure that you're getting quality screenshots at the exact resolution needed for the Marketplace.
