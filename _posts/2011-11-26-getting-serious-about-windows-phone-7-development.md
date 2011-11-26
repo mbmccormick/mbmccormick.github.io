@@ -55,6 +55,8 @@ This is perhaps my biggest pet peve about Windows Phone applications in the Mark
 
 The same thing applies for splashs creens. Make it look pretty or don't use it at all. Nothing says that your application needs a splash screen, so either make something beautiful and use it or just don't have one.
 
+<a href="http://expression.microsoft.com/en-us/gg317447" target="_blank">Creating Windows Phone 7 Application and Marketplace icons</a>
+
 ## Follow these best practices
 Lastly, follow these best practices published by Microsoft about Windows Phone interface design. This guide talks about text placement, proper margins, color palettes, icon design, keyboard types, screen orientations, and much more. Chances are if you have a question about user interface best practices for Windows Phone applications, you will find it here.
 
