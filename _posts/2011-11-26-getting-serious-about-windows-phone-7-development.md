@@ -7,7 +7,11 @@ excerpt:
 Today I'd like to talk, and perhaps rant, about Windows Phone development. I've just published my third Windows Phone application to the Marketplace and I have four other apps that I'm working on. I've been doing this for about 6 months now and I've picked up a few things along the way that I'd like to share. These tips, suggestions, and best practices should be used by every developer to ensure that the apps they create are seamless extensions of the beautiful Windows Phone operating system.
 
 ## Use the Silverlight Toolkit for Windows Phone in every application
-Use this toolkit in every application that you develop. Windows Phone has a beautiful interface and the applications should be no different. The <a href="http://silverlight.codeplex.com/" target="_blank">Silverlight Toolkit for Windows Phone</a> has a lot of controls that the default Windows Phone libraries don't have. Download and install the <a href="http://silverlight.codeplex.com/releases" target="_blank">latest releaase</a> of the toolkit and add `xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"` to your page header to get started.
+Use this toolkit in every application that you develop. Windows Phone has a beautiful interface and the applications should be no different. The <a href="http://silverlight.codeplex.com/" target="_blank">Silverlight Toolkit for Windows Phone</a> has a lot of controls that the default Windows Phone libraries don't have. Download and install the <a href="http://silverlight.codeplex.com/releases" target="_blank">latest releaase</a> of the toolkit and add the following line to your page header to get started:
+
+```
+xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+```
 
 Another important component of the Silverlight Toolkit is the transitions. Your application should use the <a href="http://worldwidecode.wordpress.com/2011/08/05/page-transitions-in-windows-phone-7-part-2/" target="_blank">turnstyle transition</a> on every page. You're making a Windows Phone application, not a website. The Metro interface is about motion, and your app needs to use this transition to make it look like a Metro application. Just copy and paste this into your pages:
   
