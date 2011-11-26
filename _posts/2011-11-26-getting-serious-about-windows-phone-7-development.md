@@ -1,5 +1,6 @@
 --- 
 layout: post
+published: false
 title: Getting Serious About Windows Phone 7 Development
 excerpt:
   Welcome to my home on the internet! I'll use this website as a place to share my thoughts, ideas, and projects. If you have some feedback for me, please get in touch!
@@ -13,8 +14,8 @@ Use the turnstyle transition on every page. You're making a Windows Phone applic
   
 Enable the Tilt Effect to give your users some tactile feedback. Let them know that whatever they just tapped on is about to do something. This effect is used throughout the phone and your app should be no different. Copy and paste `toolkit:TiltEffect.IsTiltEnabled="True"` to your page headers and you're good to go.
 
-## Use the Progress Bar, and put it in the System Tray
-If your application does any sort of background work or requires some loading time, show a Progress Bar. This will let the user know that your application is working and isn't broken. The Progress Bar control is the same one you see throughout the operating system. And unless your application is going to apply some sort of overlay on top of the application while it is loading, put your Progress Bar in the System Tray. Centering the Progress bar vertically in combination with a semi-transparent overlay is fine, but if you're not going to do that, make use of the System Tray's Progress Bar property like this:
+## Use the Progress Indicator, and put it in the System Tray
+If your application does any sort of background work or requires some loading time, show a Progress Indicator. This will let the user know that your application is working and isn't broken. The Progress Indicator control is the same one you see throughout the operating system. And unless your application is going to apply some sort of overlay on top of the application while it is loading, put your Progress Indicator in the System Tray. Centering the Progress Indicator vertically in combination with a semi-transparent overlay is fine, but if you're not going to do that, make use of the System Tray's Progress Indicator property like this:
 
 <script src="https://gist.github.com/1396105.js"> </script>
 
