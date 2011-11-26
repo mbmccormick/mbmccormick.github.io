@@ -28,7 +28,11 @@ Windows Phone is about simplicity, and the simple Metro interface is what makes 
 ## Take better screenshots
 If you have a Windows Phone device to use during application testing, download and install Screen Capturer to your developer unlocked device. This app allows you to take screenshots on your phone using the camera button from inside of your application. The tool saves your screenshots to your Saved Pictures album and you can sync these to your computer with Zune. This tool will ensure that you're getting quality screenshots at the exact resolution needed for the Marketplace.
 
-If you don't have a Windows Phone device to test your application on, you'll need to use some sort of screen capture tool to grab screenshots of the emulator. When you do that, disable the Frame Rate Counter in the emulator. Unless you plan to show that Counter in your application, it shouldn't be in your screenshots.
+If you don't have a Windows Phone device to test your application on, you'll need to use some sort of screen capture tool to grab screenshots of the emulator. When you do that, disable the Frame Rate Counter in the emulator. Unless you plan to show that Counter in your application, it shouldn't be in your screenshots. Comment out this line in your `App.xaml.cs` file to disable the Frame Rate Counter:
+
+```
+Application.Current.Host.Settings.EnableFrameRateCounter = true;
+```
 
 ## Integrate with the phone
 If you're writing an app that could make use of another built-in function of the phone, then integrate it! Make use of the built-in Navigation services. Take pictures with the phone's Camera application. Allow phone numbers to be called with the Dialer. Allow the user to save contact information to their Contacts. Open links in the Web Browser. There's a ton of opportunities to integrate with the phone and your user's will have a more native experience when you do this.
