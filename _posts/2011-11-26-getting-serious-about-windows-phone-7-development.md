@@ -1,10 +1,11 @@
 --- 
 layout: post
-published: false
 title: Getting Serious About Windows Phone 7 Development
 excerpt:
-  Welcome to my home on the internet! I'll use this website as a place to share my thoughts, ideas, and projects. If you have some feedback for me, please get in touch!
+  Today I'd like to talk, and perhaps rant, about Windows Phone development. I've just published my third Windows Phone application to the Marketplace and I have four other apps that I'm working on. I've been doing this for about 6 months now and I've picked up a few things along the way that I'd like to share. These tips, suggestions, and best practices should be used by every developer to ensure that the apps they create are seamless extensions of the beautiful Windows Phone operating system.
 ---
+Today I'd like to talk, and perhaps rant, about Windows Phone development. I've just published my third Windows Phone application to the Marketplace and I have four other apps that I'm working on. I've been doing this for about 6 months now and I've picked up a few things along the way that I'd like to share. These tips, suggestions, and best practices should be used by every developer to ensure that the apps they create are seamless extensions of the beautiful Windows Phone operating system.
+
 ## Use the Silverlight Toolkit for Windows Phone, every damn day
 Windows Phone has a beautiful interface and the applications should be no different. The Silverlight Toolkit for Windows Phone has a lot of controls that the default Windows Phone libraries don't have. Download and install the latest releaase of the toolkit and add `xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"` to your page header to get started.
 
@@ -24,12 +25,12 @@ Make sure you do this only after the page has finished loading, in the `PhoneApp
 ## Use the Phone Accent Brush where appropriate
 Windows Phone is about simplicity, and the simple Metro interface is what makes it beautiful. Users have the ability of choosing a theme and an accent color. All of the other applications on the phone make use of this accent color in some way and yours should be no different. Use your best judgement on how best to integrate this, obviously you don't want to barrade your user with the accent color. You can access this property in your XAML with `{StaticResource PhoneAccentBrush}` or in your code with `(SolidColorBrush)Resources["PhoneAccentBrush"]`.
 
-## Take Better Screenshots
+## Take better screenshots
 If you have a Windows Phone device to use during application testing, download and install Screen Capturer to your developer unlocked device. This app allows you to take screenshots on your phone using the camera button from inside of your application. The tool saves your screenshots to your Saved Pictures album and you can sync these to your computer with Zune. This tool will ensure that you're getting quality screenshots at the exact resolution needed for the Marketplace.
 
 If you don't have a Windows Phone device to test your application on, you'll need to use some sort of screen capture tool to grab screenshots of the emulator. When you do that, disable the Frame Rate Counter in the emulator. Unless you plan to show that Counter in your application, it shouldn't be in your screenshots.
 
-## Integrate with the Phone
+## Integrate with the phone
 If you're writing an app that could make use of another built-in function of the phone, then integrate it! Make use of the built-in Navigation services. Take pictures with the phone's Camera application. Allow phone numbers to be called with the Dialer. Allow the user to save contact information to their Contacts. Open links in the Web Browser. There's a ton of opportunities to integrate with the phone and your user's will have a more native experience when you do this.
 
 ## Release often, but not early
