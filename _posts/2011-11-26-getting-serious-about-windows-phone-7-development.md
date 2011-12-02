@@ -52,6 +52,10 @@ Getting your application certified and published on the Windows Phone Marketplac
 
 <a href="http://msdn.microsoft.com/en-us/library/hh202928(v=vs.92).aspx" target="_blank">Windows Phone Marketplace certification process</a>
 
+Another great resource for testing your application before you start the Marketplace certification process is listed below. This cheat sheet outlines the main requirements for your application, based on the features or APIs that you are using. I highly recommend that you run through this list before submitting your application for certification. This will save you a lot of time and headaches.
+
+<a href="http://www.silverlightshow.net/items/Windows-Phone-7-Application-Certification-Cheat-Sheet.aspx" target="_blank">Windows Phone 7 Application Certification Cheat Sheet</a>
+
 ## Create attractive icons and splash screens
 This is perhaps my biggest pet peve about Windows Phone applications in the Marketplace today: their icons and splash screens are just awful. When I install your application, it becomes a part of the user interface. Every time I open my Start Menu, I'm going to see your application icon. If it's ugly or if it doesn't fit with the Metro interface, I'm uninstalling your application. Your application could be awesome and do great things, but if the icon sucks I'm not using your application.
 
