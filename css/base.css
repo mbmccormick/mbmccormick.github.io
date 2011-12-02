@@ -732,8 +732,11 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     float:none;
     position:static;
     width:100%;
-    padding:10px 0 0 0;
+    padding:10px 10px 0px 10px;
     height:auto;
+    background-color:#F0F0F0;
+    margin-left:-10px;
+    margin-right:-10px;
   }
   
   aside .logo {
