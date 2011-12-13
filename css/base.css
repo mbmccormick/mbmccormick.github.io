@@ -396,7 +396,7 @@ a.follow-box {
 
 .follow-box p.subtext {
   border-top:1px solid #dce7ee;
-  color:#6891a5;
+  color:#506f7f;
   font-size:12px;
   font-weight:300;
   margin:0;
@@ -732,8 +732,11 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     float:none;
     position:static;
     width:100%;
-    padding:10px 0 0 0;
+    padding:10px 10px 0px 10px;
     height:auto;
+    background-color:#dedede;
+    margin-left:-10px;
+    margin-right:-10px;
   }
   
   aside .logo {
