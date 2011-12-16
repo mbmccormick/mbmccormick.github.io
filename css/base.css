@@ -255,7 +255,7 @@ h4 {
 }
 
 blockquote {
-  background:url(../images/blockquote_open.gif) 0 12px no-repeat;
+  background:url(/images/blockquote_open.gif) 0 12px no-repeat;
   border:1px dotted #ddd;
   border-left:none;
   border-right:none;
@@ -311,7 +311,7 @@ table.data th,table.data td {
 }
 
 .main ul li {
-  background:url(../images/icon_li.gif) 0 5px no-repeat;
+  background:url(/images/icon_li.gif) 0 5px no-repeat;
   list-style-type:none;
   margin-bottom:5px;
   margin-left:10px;
@@ -412,24 +412,24 @@ pre {
 }
 
 pre>code {
-  background:url(../images/pxl_code.gif) 0 0 no-repeat;
+  background:url(/images/pxl_code.gif) 0 0 no-repeat;
   padding-top:15px;
 }
 
 pre>code.html {
-  background:url(../images/pxl_html.gif) 0 0 no-repeat;
+  background:url(/images/pxl_html.gif) 0 0 no-repeat;
 }
 
 pre>code.javascript {
-  background:url(../images/pxl_javascript.gif) 0 0 no-repeat;
+  background:url(/images/pxl_javascript.gif) 0 0 no-repeat;
 }
 
 pre>code.ruby {
-  background:url(../images/pxl_ruby.gif) 0 0 no-repeat;
+  background:url(/images/pxl_ruby.gif) 0 0 no-repeat;
 }
 
 pre>code.php {
-  background:url(../images/pxl_php.gif) 0 0 no-repeat;
+  background:url(/images/pxl_php.gif) 0 0 no-repeat;
 }
 
 code {
@@ -782,6 +782,8 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   .listing article.link h2 {
     font-size:18px;
     line-height:21px;
+    padding-left:22px;
+    background:url(/images/icon_link.png) 0 3px no-repeat;
   }
   
   .listing article.link h2 a:before {
