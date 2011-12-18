@@ -16,5 +16,5 @@ I’m located in <span id="foursquare"></span> right now.
 <script type="text/javascript">
     $.get("http://archive.mbmccormick.com/labs/foursquare.php", function(data) {
         $("#foursquare").html(data);
-    }
+    });
 </script>
