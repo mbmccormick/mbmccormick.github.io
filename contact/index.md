@@ -11,7 +11,7 @@ Phone: <a href="tel:12484299001">+1 248 429 9001</a>
 Email: <a href="mailto:matt@mbmccormick.com">matt@mbmccormick.com</a>  
 Skype: <a href="skype:mbmccormick?call">mbmccormick</a>  
 
-I am located in <span id="foursquare"></span> at the moment.
+I am located in <span id="foursquare"><a href="#">United States</a></span> at the moment.
 
 <script type="text/javascript">
     $.get("http://archive.mbmccormick.com/labs/foursquare.php", function(data) {
