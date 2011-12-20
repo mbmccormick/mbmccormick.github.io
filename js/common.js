@@ -18,4 +18,10 @@ $(document).ready(function() {
     $("nav select").change(function(){
         window.location = $(this).val();
     });
+	
+	$("#search").keyup(function(event) {
+		if (event.keyCode == 13) {
+			location.href = "http://www.google.com/search?q=site:mbmccormick.com+" + $("#search").val().replace(" ", "+");
+		}
+	});
 });
