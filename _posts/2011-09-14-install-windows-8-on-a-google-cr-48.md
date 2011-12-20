@@ -53,11 +53,11 @@ Clearly <a href="http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google
 	<li>Lastly, enable bluetooth with <a href="https://docs.google.com/leaf?id=0B9rTgRm4OkZwNWI4ZmMyOTUtYmZmOC00ODQ0LWExY2YtNTZjMmIyOTZiYTg5&amp;hl=en" target="_blank">Atheros Bluetooth</a>.</li>
 </ol>
 </div>
-Most of the hardware works out of the box, with the exception of the drivers listed above. My device was reporting a Windows Experience Index of 2.2 and the OS was running very smoothly, with Metro UI loading properly. One <strong>important</strong> tip is that because the Google Cr-48 does not have a Windows key, you will need to press either the Search key or CTRL + ESC to return to the start menu when using the Metro UI. Please report any problems that you are having to me via Twitter.
+Most of the hardware works out of the box, with the exception of the drivers listed above. My device was reporting a Windows Experience Index of 2.2 and the OS was running very smoothly, with Metro UI loading properly. One <strong>important</strong> tip is that because the Google Cr-48 does not have a Windows key, you will need to press either the Search key or CTRL + ESC to return to the start menu when using the Metro UI.
 
 <br />
 <br />
 
-To restore your Cr-48 back to the default Chrome OS, follow this <a href="http://support.google.com/chromeos/bin/answer.py?hl=en&answer=1080595" target="_blank">Recovery Guide</a> from Google.
+To restore your Cr-48 back to the default Chrome OS, follow this <a href="http://support.google.com/chromeos/bin/answer.py?hl=en&answer=1080595" target="_blank">Recovery Guide</a> from Google. Feel free to get in touch with me about any questions or concerns via Twitter.
 
 </div>
