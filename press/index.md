@@ -3,7 +3,7 @@ layout: page
 title: Press
 ---
 
-Below is a list of articles that have featured either me or one of my projects. Check out the list below and if you come across an article that's not listed, please let me know!
+Below is a list of articles that have featured one of my projects. Check out the list below and if you come across an article that's not listed, please let me know.
 
 <b><a href="http://thenextweb.com/apps/2011/04/08/use-foursquare-to-track-local-transit-times/" target="_blank">Use Foursquare to track local transit times - TNW Apps - The Next Web</a></b> on April 8, 2011  
 <i>Another Foursquare hack to make your life easier? Yes, please. 4sqtransit is a simple service that delivers real-time public transit information via SMS whenever you check-in near a transit stop on Foursquare. It’s very easy to set up. Visit the site and select from dozens of local transit agencies. ...</i> [thenextweb.com]

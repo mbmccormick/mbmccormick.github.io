@@ -11,4 +11,10 @@ Phone: <a href="tel:12484299001">+1 248 429 9001</a>
 Email: <a href="mailto:matt@mbmccormick.com">matt@mbmccormick.com</a>  
 Skype: <a href="skype:mbmccormick?call">mbmccormick</a>  
 
-I’m located in <a href="http://foursquare.com/v/purdue-university/4b95538ef964a520939c34e3" target="_blank">West Lafayette, IN</a> right now.
+I am located in <span id="foursquare"><a href="#">United States</a></span> at the moment.
+
+<script type="text/javascript">
+    $.get("http://archive.mbmccormick.com/labs/foursquare.php", function(data) {
+        $("#foursquare").html(data);
+    });
+</script>

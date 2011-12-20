@@ -782,8 +782,6 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   .listing article.link h2 {
     font-size:18px;
     line-height:21px;
-    padding-left:22px;
-    background:url(/images/icon_link.png) 0 3px no-repeat;
   }
   
   .listing article.link h2 a:before {
