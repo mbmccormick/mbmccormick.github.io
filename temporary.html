@@ -1,0 +1,44 @@
+---
+layout: default
+head_content:
+  <link rel="alternate" type="application/atom+xml" href="http://mbmccormick.com/feed/" />
+---
+
+<div class="listing">
+  {% for post in paginator.posts %}
+    {% if post.type == 'link' %}
+<article class="other link">
+<header>
+<span class="icon" title="This is a link elsewhere"></span>
+<h2><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
+</header>
+{{ post.content }}
+</article>
+    {% else %}
+<article>
+<header>
+<time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="">{{ post.date | date: "%B %e, %Y" }}</time>
+<h2><a href="{{ post.url }}/">{{ post.title }}</a></h2>
+</header>
+<p>{{ post.excerpt }} <a href="{{ post.url }}/" class="continue">Read More</a></p>
+</article>
+    {% endif %}
+  {% endfor %}
+
+    <div class="pagination">
+    {% if paginator.previous_page %}
+        <span class="prev">
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Back to <b>Newer Posts</b></a>
+        {% else %}
+            <a href="/page{{paginator.previous_page}}/">Back to <b>Newer Posts</b></a>
+        {% endif %}
+        </span>
+    {% endif %}
+    {% if paginator.next_page %}
+        <span class="next" style="float: right;">
+            <a href="/page{{paginator.next_page}}/">Continue to <b>Older Posts</b></a>
+        </span>
+    {% endif %}
+    </div>
+</div>
