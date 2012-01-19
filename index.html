@@ -1,104 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        
-        Matt McCormick
-        
-    </title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />    
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="/js/html5.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
-    <script type="text/javascript" src="/js/common.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-6872595-6']);
-        _gaq.push(['_trackPageview']);
+---
+layout: default
+head_content:
+  <link rel="alternate" type="application/atom+xml" href="http://mbmccormick.com/feed/" />
+---
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    <style type="text/css">
+<div class="listing">
+  {% for post in paginator.posts %}
+    {% if post.type == 'link' %}
+<article class="other link">
+<header>
+<span class="icon" title="This is a link elsewhere"></span>
+<h2><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
+</header>
+{{ post.content }}
+</article>
+    {% else %}
+<article>
+<header>
+<time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="">{{ post.date | date: "%B %e, %Y" }}</time>
+<h2><a href="{{ post.url }}/">{{ post.title }}</a></h2>
+</header>
+<p>{{ post.excerpt }} <a href="{{ post.url }}/" class="continue">Read More</a></p>
+</article>
+    {% endif %}
+  {% endfor %}
 
-        body {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
-
-        .main {
-           max-width: 700px;           
-           text-align: center;
-           margin: 0px auto;
-        }
-
-        h1 {
-            font-size: 6em;
-            line-height: .4em;
-            color: #C43C35;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            margin-top: -1.5em;
-            margin-bottom: 1.5em;
-            text-transform: uppercase;
-        }
-
-        a {
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-            font-size: 1em;
-        }
-
-        a:link,a:visited {
-            color: #C43C35;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #C43C35;
-            text-decoration: underline;
-        }
-
-        p {
-            font-size: 1em;
-        }
-
-        @media screen and (max-width:720px)
-        {
-            body {
-                font-size: 14px;
-            }
-
-            h1 {
-                font-size: 2.7em;
-                line-height: 1em;
-                padding-bottom: 20px;
-            }
-
-            h2 {
-                font-weight: normal;                
-            }
-        }
-
-    </style>
-</head>
-<body>
-
-    <section class="main">
-        <h1>CENSORED</h1>
-        <h2>This website has been taken offline today in protest of the Stop Online Piracy Act and the Protect IP Act, two bills which will allow the government to censor the internet.</h2>
-        <p>Find out more on the <a href="http://americancensorship.org/">American Censorship</a> website.</p>
-        <p>This website will return on Thursday, January 19.</p>
-    </section>
-  
-</body>
-</html>
+    <div class="pagination">
+    {% if paginator.previous_page %}
+        <span class="prev">
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Back to <b>Newer Posts</b></a>
+        {% else %}
+            <a href="/page{{paginator.previous_page}}/">Back to <b>Newer Posts</b></a>
+        {% endif %}
+        </span>
+    {% endif %}
+    {% if paginator.next_page %}
+        <span class="next" style="float: right;">
+            <a href="/page{{paginator.next_page}}/">Continue to <b>Older Posts</b></a>
+        </span>
+    {% endif %}
+    </div>
+</div>
