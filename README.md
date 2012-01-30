@@ -1,6 +1,6 @@
 # mbmccormick.com
 
-This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [mbmccormick.com](http://mbmccormick.com). Feel free to browse the source, fork this repository, or [ask me questions](http://twitter.com/mbmccormick).
+This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [mbmccormick.com](http://mbmccormick.com). Feel free to browse the source, fork this repository, or [ask me questions](http://twitter.com/mbmccormick). You can read about my transition from WordPress to Jekyll [here](http://mbmccormick.com/2011/10/ditching-wordpress-for-jekyll-and-github/).
 
 ## Website Design
 
