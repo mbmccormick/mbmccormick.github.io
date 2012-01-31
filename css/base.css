@@ -310,11 +310,7 @@ table.data th,table.data td {
 }
 
 .main ul li {
-  background:url(/images/icon_li.gif) 0 5px no-repeat;
-  list-style-type:none;
   margin-bottom:5px;
-  margin-left:10px;
-  padding-left:15px;
 }
 
 .main ol li {
