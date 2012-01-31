@@ -2,9 +2,9 @@
 layout: post
 title: Deploying XINU to Linksys Routers at Purdue University
 excerpt:
-  "This tutorial will walk you through setting up your local environment on lore.cs.purdue.edu to build the XINU kernel, connect to the Linksys routers, and deploy your XINU image to the backend machines for testing."
+  "This tutorial will walk you through setting up your local environment on lore.cs.purdue.edu to build the XINU kernel, connect to the Linksys routers, and deploy your XINU image to the backend machines for testing. The information provided in the handouts for the Operating Systems courses at Purdue are not very helpful, so hopefully this guide will be more useful."
 ---
-This tutorial will walk you through setting up your local environment on `lore.cs.purdue.edu` to build the XINU kernel, connect to the Linksys routers, and deploy your XINU image to the backend machines for testing.
+This tutorial will walk you through setting up your local environment on `lore.cs.purdue.edu` to build the XINU kernel, connect to the Linksys routers, and deploy your XINU image to the backend machines for testing. The information provided in the handouts for the Operating Systems courses at Purdue are not very helpful, so hopefully this guide will be more useful.
 
 ## Configure Environment for XINU
 
