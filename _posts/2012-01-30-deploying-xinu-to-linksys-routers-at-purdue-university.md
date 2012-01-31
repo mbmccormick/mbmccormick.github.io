@@ -10,9 +10,9 @@ This tutorial will walk you through setting up your local environment on `lore.c
 
 1. Login to one of the frontend XINU controllers `xinu01.cs.purdue.edu`, `xinu02.cs.purdue.edu`, `...`, `xinu22.cs.purdue.edu`. If you do not have an account on the XINU machines, send an email to <a href="mailto:accounts@cs.purdue.edu">accounts@cs.purdue.edu</a>.
 
-2. Add the following line to your `.bashrc` file in your home directory.  
+2. Add the following line to your `.cshrc` file in your home directory.  
 ```
-export PATH=${PATH}:/p/xinu/bin
+set path = (/p/xinu/bin $path)
 ```
 
 3. Force these changes to take effect with `source .bashrc`.
