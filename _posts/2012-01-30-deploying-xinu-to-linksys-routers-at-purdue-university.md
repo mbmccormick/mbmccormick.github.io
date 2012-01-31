@@ -15,7 +15,7 @@ This tutorial will walk you through setting up your local environment on `lore.c
 set path = (/p/xinu/bin $path)
 ```
 
-3. Force these changes to take effect with `source .bashrc`.
+3. Force these changes to take effect with `source .cshrc`.
 
 
 ## Build XINU for Linksys
