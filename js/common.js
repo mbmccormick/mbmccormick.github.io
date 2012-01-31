@@ -24,4 +24,6 @@ $(document).ready(function() {
             location.href = "http://www.google.com/search?q=site:mbmccormick.com+" + $("#search").val().replace(" ", "+");
         }
     });
+
+    $("#boastful").boastful();
 });
