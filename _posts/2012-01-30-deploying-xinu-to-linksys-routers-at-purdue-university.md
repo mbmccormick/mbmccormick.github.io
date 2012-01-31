@@ -63,7 +63,7 @@ You will have exactly 1 second to hit any key to interrupt the autoboot process.
 
 7. Now you need to load your XINU image that was downloaded onto the backend machine earlier. Issue the following commands:  
 ```
-ar7100> bootp 0x81000000  
+ar7100> bootp 0x81000000
 ar7100> bootm
 ```  
 The `bootp` command will connect to the `bootp` server on helga.cs.purdue.edu to lease an IP address for the router's network interface and then download your XINU image. The `bootm` command then loads this image.
