@@ -701,12 +701,9 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   height: 48px;
   margin: 3px;
   border: 0;
-  border-top-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-  -webkit-border-top-left-radius: 7px;
-  -webkit-border-bottom-right-radius: 7px;
-  -moz-border-radius-topleft: 7px;
-  -moz-border-radius-bottomright: 7px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
 }
 .boastful .boastful_pointer {
   position: absolute;
