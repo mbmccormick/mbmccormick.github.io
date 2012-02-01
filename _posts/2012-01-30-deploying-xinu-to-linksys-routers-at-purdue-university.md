@@ -15,10 +15,10 @@ This tutorial will walk you through setting up your local environment on `lore.c
 set path = (/p/xinu/bin $path)
 ```
 
-3. Force these changes to take effect with `source .bashrc`.
+3. Force these changes to take effect with `source .cshrc`.
 
 
-## Building XINU for Linksys
+## Build XINU for Linksys
 
 1. Download the kernel source from <a href="http://www.cs.purdue.edu/homes/cs354/Lab1/xinu-12Spring-lab1-linksys.tar.gz">the course website</a> to your workstation.
 
@@ -46,10 +46,8 @@ tar -zxvf xinu-12Spring-lab1-linksys.tar.gz
 2. Enter command mode on the `cs-console` by typing `CTRL^@` or `CTRL^spacebar`. 
 
 3. Download the XINU image that you created earlier to the router. You will need to be in the `compile` directory on the frontend XINU controller for this to work. Issue the `d` command as shown below:  
-```
-(command-mode) d  
-file: xinu.boot
-```
+`(command-mode) d`  
+`file: xinu.boot`
 
 4. Powercycle the backend machine using the `p` command.
 
