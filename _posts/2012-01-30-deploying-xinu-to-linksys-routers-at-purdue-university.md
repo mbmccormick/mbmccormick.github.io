@@ -32,7 +32,7 @@ tar -zxvf xinu-12Spring-lab1-linksys.tar.gz
 
 ## Connect to a Linksys Router
 
-1. Make sure your are logged in to one of the frontend XINU machine as specified above (`xinu##.cs.purdue.edu`).
+1. Make sure your are logged in to one of the frontend XINU machines as specified above (`xinu##.cs.purdue.edu`).
 
 2. There are only 15 Linksys routers available for use on the backend machines. Use the `cs-status` command to get a list of the available machines.
 
