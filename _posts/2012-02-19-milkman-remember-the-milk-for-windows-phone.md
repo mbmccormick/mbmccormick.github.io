@@ -13,6 +13,8 @@ Milkman isn't the first Remember The Milk client for Windows Phone, <a href="htt
 <a href="/images/2012/02/7.png" target="_blank"><img src="/images/2012/02/7.png" style="width: 150px !important;" title="Milkman's location-based reminder toast, notifying you when you're near a task." /></a>
 <a href="/images/2012/02/8.png" target="_blank"><img src="/images/2012/02/8.png" style="width: 150px !important;" title="Milkman will popup an event reminder one hour before a task is due." /></a>
 
+You can also watch a quick video demo of <a href="http://www.youtube.com/watch?v=9zmR9IgxgDA" target="_blank">Milkman on YouTube</a>.
+
 Milkman also takes advantage of some of the more advanced features of Windows Phone "Mango" like background tasks, live tiles, launchers, and calendar reminders. Take a look at the list of features below:
 
 * Complete integration with Metro styling
