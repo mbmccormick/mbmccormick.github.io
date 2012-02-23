@@ -25,4 +25,4 @@ Milkman also takes advantage of some of the more advanced features of Windows Ph
 * Location-based task reminders
 * Advanced diagnostics and error reports
 
-You can <a href="http://www.windowsphone.com/en-US/apps/2d14a2ea-9445-4d46-b385-8b2e45f7f6d8" target="_blank">download Milkman</a> in the Windows Phone Marketplace today for free. I would like to charge for this application because it has a lot of "premium" features that other Remember The Milk clients don't have, but unfortunately Remember The Milk does not allow commercial use of their API.
+You can <a href="http://www.windowsphone.com/en-US/apps/2d14a2ea-9445-4d46-b385-8b2e45f7f6d8" target="_blank">download Milkman</a> in the Windows Phone Marketplace today for free. I would have liked to charge for this application because it has a lot of "premium" features that other Remember The Milk clients don't have, but unfortunately Remember The Milk does not allow commercial use of their API. 
