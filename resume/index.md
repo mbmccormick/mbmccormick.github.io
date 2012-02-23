@@ -25,7 +25,7 @@ August 2011 - Present
 January 2009 - Present
 
 *   Established personal business during freshman year of college  
-*   Developing custom software applicatiosn for customers nationwide
+*   Developing custom software applications for customers nationwide
 
 
 **Program Manager Intern** at **Microsoft** in Redmond, WA  
