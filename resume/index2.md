@@ -8,8 +8,10 @@ You can view my resume and recommendations on <a href="http://www.linkedin.com/i
 
 ## Education
 
-**Purdue University** West Lafayette, IN  (December 2012)  
-B.S. Computer Science, concentration in Software engineering
+**B.S. Computer Sceience** at **Purdue University** in West Lafayette, IN  
+August 2008 - Present
+
+*   Concentration in Software engineering
 
 
 ## Work Experience
@@ -17,7 +19,8 @@ B.S. Computer Science, concentration in Software engineering
 **IT Networks &amp; Security Programmer** at **Purdue University** in West Lafayette, IN  
 August 2011 - Present
 
-*   Risque Development Group
+*   Worked in the Risque Development Group
+*   Developing network infrastructure management software
 
 
 **Owner/Operator** at **McCormick Technologes** in Oxford, MI  
