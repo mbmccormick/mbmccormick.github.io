@@ -8,7 +8,7 @@ You can view additional information about my resume as well as a list of recomme
 
 ## Education
 
-**B.S. Computer Sceience** at **Purdue University** in West Lafayette, IN  
+**B.S. Computer Science** at **Purdue University** in West Lafayette, IN  
 August 2008 - December 2012
 
 
@@ -35,7 +35,7 @@ May 2011 - August 2011
 *   Returning to this position and team for another internship in May 2012
 
 
-**Student Web Programmer** at **Purdue Universtiy** in West Lafayette, IN  
+**Student Web Programmer** at **Purdue University** in West Lafayette, IN  
 September 2009 - May 2011
 
 *   Upgraded Global Trade Analysis Project from Classic ASP to ASP.NET 3.5
