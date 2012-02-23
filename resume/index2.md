@@ -67,14 +67,6 @@ Apache, Microsoft SQL Server, MySQL, and more.
 Actively working on several personal and community open source projects, using a unique mixture of web services and cloud computing platforms.
 
 
-## Personal Projects
-
-**4sqtransit** (http://4sqtransit.com)  
-Website that delivers public transit information to your phone when you check in on Foursquare.
-
-**Recordable** (http://recordableapp.com)  
-Telephone service that records phone call conversations for later review.
-
 ## Affiliations
 
 **Association of Information Technology Professionals**  
