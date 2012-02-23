@@ -3,7 +3,7 @@ layout: page
 title: Resume
 ---
 
-You can view my resume and recommendations on <a href="http://www.linkedin.com/in/mbmccorm" target="_blank">LinkedIn</a> or browse my open source projects on <a href="http://github.com/mbmccormick" target="_blank">GitHub</a>. You can also <a href="matt_mccormick.pdf">download</a> a PDF copy of my resume for offline viewing or printing.
+You can view additional information about my resume as well as a list of recommendations on <a href="http://www.linkedin.com/in/mbmccorm" target="_blank">LinkedIn</a>. Information about my open source projects can be found on <a href="http://github.com/mbmccormick" target="_blank">GitHub</a> or by searching my blog. You can also <a href="matt_mccormick.pdf">download</a> a PDF copy of my resume for offline viewing or printing.
 
 
 ## Education
