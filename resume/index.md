@@ -32,7 +32,7 @@ January 2009 - Present
 May 2011 - August 2011
 
 *   Worked on Microsoft Lync server platform team
-*   Returning to this position and team in May 2012
+*   Returning to this position and team for another internship in May 2012
 
 
 **Student Web Programmer** at **Purdue Universtiy** in West Lafayette, IN  
