@@ -18,7 +18,7 @@ August 2008 - December 2012
 August 2011 - Present
 
 *   Worked in the Risque Development Group
-*   Developing network infrastructure management software
+*   Developing infrastructure management software for campus network
 
 
 **Owner/Operator** at **McCormick Technologes** in Oxford, MI  
