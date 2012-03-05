@@ -6,7 +6,7 @@ title: Press
 Below is a list of articles that have featured one of my projects. Check out the list below and if you come across an article that's not listed, please let me know.
 
 <b><a href="http://allaboutwindowsphone.com/flow/item/14261_Milkman_delivers_Remember_the_.php" target="_blank">Milkman delivers Remember the Milk task sync</a></b> on February 18, 2012  
-<i>Milkman is a third party client app for the Remember the Milk web app. Its task management (to-do lists) focused functionality provides an alternative to the built in Calendar and OneNote apps, with the advantage of being able to store additional data (categories, location) for each task, plus easy ...</i> [allaboutwindowsphone.com]
+<i>Milkman is a third party client app for the Remember the Milk web app. Its task management (to-do lists) focused functionality provides an alternative to the built in Calendar and OneNote apps, with the advantage of being able to store additional data (categories, location) for each task, plus ...</i> [allaboutwindowsphone.com]
 
 <b><a href="http://thenextweb.com/apps/2011/04/08/use-foursquare-to-track-local-transit-times/" target="_blank">Use Foursquare to track local transit times - TNW Apps - The Next Web</a></b> on April 8, 2011  
 <i>Another Foursquare hack to make your life easier? Yes, please. 4sqtransit is a simple service that delivers real-time public transit information via SMS whenever you check-in near a transit stop on Foursquare. It’s very easy to set up. Visit the site and select from dozens of local transit agencies. ...</i> [thenextweb.com]
