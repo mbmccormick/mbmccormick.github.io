@@ -11,9 +11,7 @@ This tutorial will walk you through setting up your local environment on `lore.c
 1. Login to one of the frontend XINU controllers `xinu01.cs.purdue.edu`, `xinu02.cs.purdue.edu`, `...`, `xinu22.cs.purdue.edu`. If you do not have an account on the XINU machines, send an email to <a href="mailto:accounts@cs.purdue.edu">accounts@cs.purdue.edu</a>.
 
 2. Add the following line to your `.cshrc` file in your home directory.  
-```
-set path = (/p/xinu/bin $path)
-```
+`set path = (/p/xinu/bin $path)`
 
 3. Force these changes to take effect with `source .cshrc`.
 
@@ -23,9 +21,7 @@ set path = (/p/xinu/bin $path)
 1. Download the kernel source from <a href="http://www.cs.purdue.edu/homes/cs354/Lab1/xinu-12Spring-lab1-linksys.tar.gz">the course website</a> to your workstation.
 
 2. Extract the source code with the following command.  
-```
-tar -zxvf xinu-12Spring-lab1-linksys.tar.gz
-```
+`tar -zxvf xinu-12Spring-lab1-linksys.tar.gz`
 
 3. Change directories to the `compile` directory and then run `make` to compile the XINU kernel. This will create an executable file called `xinu.boot` that will be flashed onto the Linksys routers.
 
