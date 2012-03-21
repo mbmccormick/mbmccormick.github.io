@@ -12,13 +12,13 @@ Download the <a href="https://toolbelt.herokuapp.com/" target="_blank">Heroku To
 
 Once you install these tools, open up your command shell and login to your Heroku account.  
 ```
-$ heroku login
-Enter your Heroku credentials.
-Email: matt@example.com
-Password:
-Could not find an existing public key.
-Would you like to generate one? [Yn]
-Generating new SSH public key.
+$ heroku login  
+Enter your Heroku credentials.  
+Email: matt@example.com  
+Password:  
+Could not find an existing public key.  
+Would you like to generate one? [Yn]  
+Generating new SSH public key.  
 Uploading ssh public key /Users/matt/.ssh/id_rsa.pub
 ```
 
@@ -29,9 +29,9 @@ You are now ready to create a Heroku application.
 
 In the working directory for your application, open up your command shell create a new application on the <a href="http://devcenter.heroku.com/articles/cedar" target="_blank">Cedar stack</a>. Heroku will automatically generate a name for your application, which you can change later, and add the `heroku` remote to your local Git repository.  
 ```
-$ heroku create --stack cedar
-Creating stark-fog-398... done, stack is cedar
-http://stark-fog-398.herokuapp.com/ | git@heroku.com:stark-fog-398.git
+$ heroku create --stack cedar  
+Creating stark-fog-398... done, stack is cedar  
+http://stark-fog-398.herokuapp.com/ | git@heroku.com:stark-fog-398.git  
 Git remote heroku added
 ```
 
