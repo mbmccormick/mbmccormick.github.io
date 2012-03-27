@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate="">{{ page.date | date: "%B %e, %Y" }}</time>
-<h1>{{ page.title }}</h1>
-{{ content }}
+<div class="post">
+	<time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate="">{{ page.date | date: "%B %e, %Y" }}</time>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
 
-<a href="https://twitter.com/mbmccormick" class="follow-box">
-    <h3>You should follow <strong>@mbmccormick</strong> on twitter right now</h3>
-    <p class="subtext">Because who wouldn't want to keep tabs on this passionate software developer, elite hacker, food connoisseur, and dog lover? No one, that's who.</p>
-</a>
+    <a href="https://twitter.com/mbmccormick" class="follow-box">
+        <h3>You should follow <strong>@mbmccormick</strong> on twitter right now</h3>
+        <p class="subtext">Because who wouldn't want to keep tabs on this passionate software developer, elite hacker, food connoisseur, and dog lover? No one, that's who.</p>
+    </a>
+</div>
