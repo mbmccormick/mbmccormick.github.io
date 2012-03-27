@@ -804,6 +804,7 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   }
 
   .page {
+    border-top:1px solid #e0e0e0;
     padding:0 10px;
   }
   
