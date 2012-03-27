@@ -775,6 +775,10 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     padding:10px;
   }
 
+  .listing article:first-child {
+    margin-top:0;
+  }
+
   .listing article.other {
     color:#444;
     padding:10px;
@@ -805,6 +809,11 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   
   a.follow-box {
     display:none;
+  }
+
+  .pagination {
+    margin:0;
+    padding:20px 10px 25px 10px;
   }
   
   .prev a {
