@@ -725,18 +725,15 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
   
   body {
     width:auto;
-    padding:0 10px; 
+    padding:0px; 
   }
   
   aside {
     float:none;
     position:static;
-    width:100%;
+    width:auto;
     padding:10px 10px 0px 10px;
     height:auto;
-    background-color:#dedede;
-    margin-left:-10px;
-    margin-right:-10px;
   }
   
   aside .logo {
@@ -767,12 +764,22 @@ code span.comment,code.html span.comment,code.xaml span.comment,.highlight .gh,.
     left:auto;
     padding-bottom:15px;
   }
+
+  .listing {
+    margin:0;
+  }
   
+  .listing article {
+    border-top:1px solid #e0e0e0;
+    margin:0;
+    padding:10px;
+  }
+
   .listing article.other {
     color:#444;
-    padding:0px;
-    margin:0px 0px 45px 0px;
-    border:none;
+    padding:10px;
+    margin:0;
+    border-left:none;
   }
   
   .listing article.link .icon {
