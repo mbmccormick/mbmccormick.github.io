@@ -202,24 +202,24 @@ h1 {
 
 h2 {
   border-bottom:1px dotted #BBB;
-  color:#000;
+  color:#333;
   font-size:16px;
   margin:2em 0 -.5em;
 }
 
 h3 {
-  color:#000;
+  color:#333;
   font-size:13px;
   margin:2em 0 -.75em;
 }
 
 h3 a:hover,h2 a:hover {
   border:none;
-  color:#000;
+  color:#333;
 }
 
 h4 {
-  color:#000;
+  color:#333;
   font-size:1em;
   font-weight:400;
 }
@@ -275,7 +275,7 @@ table {
   border-bottom:2px solid #CCC;
   border-collapse:separate;
   border-top:1px solid #CCC;
-  color:#000;
+  color:#333;
   font-size:11px;
   width:100%;
 }
