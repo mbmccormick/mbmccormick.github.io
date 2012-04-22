@@ -11,4 +11,4 @@ Last summer I worked at <a href="http://www.microsoft.com" target="_blank">Micro
 
 You can take a look at some of the open source projects that I am working on at my <a href="https://www.github.com/mbmccormick" target="_blank">GitHub</a> page.
 
-Do you like one of the projects or applications that I have built? Has an article that I have posted helped you out in some way? Share the love and buy me a beer at <a href="/donate">mbmccormick.com/donate</a>!
+Do you like one of the projects or applications that I have built? Has an article that I have posted on my blog helped you out in some way? Share the love and <a href="/donate">buy me a beer</a> on PayPal!
