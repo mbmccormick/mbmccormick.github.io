@@ -10,3 +10,5 @@ My name is Matt McCormick and I am a senior at <a href="http://www.purdue.edu" t
 Last summer I worked at <a href="http://www.microsoft.com" target="_blank">Microsoft</a> in Redmond, WA on <a href="http://lync.microsoft.com/en-us/Pages/default.aspx" target="_blank">Microsoft Lync</a> as a Program Manager Intern in the server platform team. I will be returning to Microsoft in the same role and for the same team this summer.
 
 You can take a look at some of the open source projects that I am working on at my <a href="https://www.github.com/mbmccormick" target="_blank">GitHub</a> page.
+
+Do you like one of the projects or applications that I have built? Has an article that I have posted helped you out in some way? Share the love and buy me a beer at <a href="/donate">mbmccormick.com/donate</a>!
