@@ -3,7 +3,7 @@ layout: page
 title: Donate
 ---
 
-Please wait while you are redirected to Paypal...
+Please wait while you are redirected to PayPal...
 
 <script type="text/javascript">
 
