@@ -1,59 +1,78 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        {% if page.title %}
-        Matt McCormick - {{ page.title }}
-        {% else %}
-        Matt McCormick
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="sv"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="sv" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="sv" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="no-js" lang="sv"> <!--<![endif]-->
+    <head>
+        <link rel=stylesheet href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{ page.title }}</title>
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        <meta name="author" content="{{ site.author }}" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1" />
+
+        <meta name="google-site-verification" content="34bUc_U6BAEE5duPq_ThKJJZ3HTK1GmI5XWHkQ5xr6k" />
+
+        <meta property="fb:admins" content="{{ site.facebook.admins }}"/>
+        <meta property="fb:app_id" content="{{ site.facebook.app }}" />
+        <meta property="og:title" content="{{ page.title }}" />
+        {% if page.description %}
+            <meta property="og:description" content="{{ page.description }}" />
         {% endif %}
-    </title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />    
-    <link rel="stylesheet" href="/css/base.css" />
-    <link rel="alternate" type="application/atom+xml" href="http://mbmccormick.com/feed/" />
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="/js/html5.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
-    <script type="text/javascript" src="/js/common.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-6872595-6']);
-        _gaq.push(['_trackPageview']);
+        {% if page.image %}
+            <meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
+        {% endif %}
+        <meta property="og:url" content="{{ site.url }}{% unless page.url == '/index.html' %}{{ page.url }}{% endunless %}" />
+        <meta property="og:site_name" content="{{ site.title }}" />
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-  </script>
-</head>
-<body>
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/css/style.css" media="all" />
+        <link rel="stylesheet" href="/css/print.css" media="print" />
+        <link rel="alternate" type="application/rss+xml" title="Inlägg" href="/rss.xml" />
 
-    <aside>
-        <a href="/" class="logo">Matt McCormick</a>
-        
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/calendar/">Calendar</a></li>
-                <li><a href="/resume/">Resume</a></li>
-                <li><a href="/press/">Press</a></li>
-                <li><a href="/contact/">Contact</a></li>
-            </ul>
-        </nav>
-		
-        <p><input type="text" id="search" placeholder="Search" /></p>
+        <!--[if lt IE 9]>
+            <script src="/js/html5shiv.js"></script>
+        <![endif]-->
+        <script>
+            var _gaq = [['_setAccount', 'UA-{{ site.analytics.profile }}-1'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s);
+            }(document, 'script'));
+        </script>
+    </head>
+    <body>
 
-        <p>My name is Matt McCormick. I'm studying computer science at <a href="http://purdue.edu" target="_blank">Purdue University</a> and I'm a Program Manager Intern at <a href="http://microsoft.com" target="_blank">Microsoft</a>.</p>
-        <p>You can find me as <strong>@mbmccormick</strong> on <a href="http://twitter.com/mbmccormick" class="twitter">Twitter</a>, <a href="https://facebook.com/mbmccormick">Facebook</a>, <a href="https://github.com/mbmccormick">GitHub</a> and pretty much everywhere else.</p>
-    </aside>
+        <header role="banner">
+            <div class="content">
+                {% unless page.url == '/index.html' %}
+                    <a href="/" title="Om Erik Eng" role="navigation">Om</a>
+                {% endunless %}
+                <a href="/">Erik Eng</a> om webb &amp; mobilt
+            </div>
+        </header>
 
-    <section class="main">
+        <!--[if lt IE 9]>
+            <div class="alert">
+                <div class="content">
+                    <strong>Trist</strong> att du använder en så gammal &amp; osäker webbläsare. <a href="http://www.google.com/chromeframe">Fixa nu!</a>
+                </div>
+            </div>
+        <![endif]-->
+
         {{ content }}
-    </section>
-  
-</body>
+
+        <footer role="contentinfo">
+            <div class="content">
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a> Erik Eng
+            </div>
+        </footer>
+
+    </body>
 </html>

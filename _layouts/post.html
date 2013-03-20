@@ -2,13 +2,39 @@
 layout: default
 ---
 
-<div class="post">
-	<time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate="">{{ page.date | date: "%B %e, %Y" }}</time>
-    <h1>{{ page.title }}</h1>
-    {{ content }}
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1&appId={{ site.facebook.app }}";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
-    <a href="https://twitter.com/mbmccormick" class="follow-box">
-        <h3>You should follow <strong>@mbmccormick</strong> on twitter right now</h3>
-        <p class="subtext">Because who wouldn't want to keep tabs on this passionate software developer, elite hacker, food connoisseur, and dog lover? No one, that's who.</p>
-    </a>
+<div role="main">
+    <div class="content">
+
+        <article>
+            <h1>{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
+            <time datetime="{{ page.date }}">{{ page.date | date:'%d %b %Y' | downcase }}</time>
+            {{ content }}
+        </article>
+
+        <aside>
+            <p>
+                <a class="flattr"
+                    href="https://flattr.com/submit/auto?user_id={{ site.flattr.user }}&url={{ site.url }}{{ page.url }}&title={% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}&\description={{ page.description }}&language={{ site.flattr.language }}&\tags={{ page.tags | array_to_sentence_string }}">
+                    <img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr" />
+                </a>
+            </p>
+
+            <fb:comments href="{{ site.url }}{{ page.url }}" num_posts="{{ site.facebook.posts }}" width="{{ site.facebook.width }}"></fb:comments>
+        </aside>
+
+        {% include posts.html %}
+    </div>
 </div>
+
+{% include about.html %}
