@@ -326,6 +326,7 @@ body, html {
 
     .about ul {
         list-style: circle;
+        padding: 0;
     }
 
     .about h2 {
