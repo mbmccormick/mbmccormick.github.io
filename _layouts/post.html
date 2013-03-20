@@ -18,18 +18,11 @@ layout: default
 
         <article>
             <h1>{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
-            <time datetime="{{ page.date }}">{{ page.date | date:'%d %b %Y' | downcase }}</time>
+            <time datetime="{{ page.date }}">{{ page.date | date:'%d %b %Y' }}</time>
             {{ content }}
         </article>
 
         <aside>
-            <p>
-                <a class="flattr"
-                    href="https://flattr.com/submit/auto?user_id={{ site.flattr.user }}&url={{ site.url }}{{ page.url }}&title={% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}&\description={{ page.description }}&language={{ site.flattr.language }}&\tags={{ page.tags | array_to_sentence_string }}">
-                    <img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr" />
-                </a>
-            </p>
-
             <fb:comments href="{{ site.url }}{{ page.url }}" num_posts="{{ site.facebook.posts }}" width="{{ site.facebook.width }}"></fb:comments>
         </aside>
 
