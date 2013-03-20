@@ -1,10 +1,10 @@
 ---
 layout: front
-title: Erik Eng utvecklar för webb &amp; mobilt
+title: Matt McCormick
 ---
 
-Erik Eng, tidigare Pettersson, är en utvecklare som tänker lite extra på slutanvändaren. Dagarna ägnas åt att förbättra e-handel med öppen källkod.
+My name is Matt McCormick and I recently graduated from Purdue University with a degree in computer science and a concentration in software engineering. I have a passion for technology, which drives my interest for software development and website design.
 
-Ibland finns det tid för roliga sidoprojekt som <a href="http://www.hittebo.se/" title="Hittebo">social bostadsförmedling</a> eller tillgängliggörande av <a href="http://tagtider.net/">Tågtider</a> via <a href="http://biljettapp.se">Biljettapp</a>. Se inlägg nedan med mina tankar om teknik och trender inom webbutveckling.
+Did you like one of the projects or applications that I have built? Has an article that I have posted on my blog helped you out in some way? Share the love and buy me a beer!
 
 {% include posts.html %}
