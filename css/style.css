@@ -252,10 +252,6 @@ time {
     margin-bottom: 1em;
 }
 
-ul, ol {
-    padding: 0;
-}
-
 blockquote {
     margin: 0;
     font: italic 1.2em/1.4 Georgia,Times,serif;
