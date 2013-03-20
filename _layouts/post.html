@@ -2,29 +2,13 @@
 layout: default
 ---
 
-<div id="fb-root"></div>
-<script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId={{ site.facebook.app }}";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
 <div role="main">
     <div class="content">
-
         <article>
             <h1>{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
             <time datetime="{{ page.date }}">{{ page.date | date:'%d %b %Y' }}</time>
             {{ content }}
         </article>
-
-        <aside>
-            <fb:comments href="{{ site.url }}{{ page.url }}" num_posts="{{ site.facebook.posts }}" width="{{ site.facebook.width }}"></fb:comments>
-        </aside>
     </div>
 </div>
 
