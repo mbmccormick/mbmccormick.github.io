@@ -1,32 +1,20 @@
 url: http://mbmccormick.com
 title: Matt McCormick
-description: 
+description: I'm a Program Manager at Microsoft and a Computer Science graduate from Purdue University.
 language: en-us
 
 author: Matt McCormick
 email: matt@mbmccormick.com
+
 github: mbmccormick
 twitter: mbmccormick
-dribbble: mbmccormick
-google: mbmccormick
-flattr:
-    user: ptz0n
-    language: sv_SE
-facebook:
-    app: 12345
-    posts: 5
-    width: 500
-    admins: 12345
+
 analytics:
     profile: 12345
 
-permalink: /post/:title.html
-
-future: false
-auto: true
-server: true
+permalink: /:year/:month/:title
 
 sitemap:
     include: ["/index.html"]
 
-exclude: ["README.md", "config.rb"]
+exclude: ["README.md"]
