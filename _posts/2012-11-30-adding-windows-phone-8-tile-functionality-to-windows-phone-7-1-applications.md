@@ -24,11 +24,11 @@ If the user is running Windows Phone 8, then your application can use the new li
 
 Here’s an example of how I am creating a new FlipTile for a Windows Phone 8 user, using reflection on a Windows Phone 7.1 application:
 
-
+<script src="https://gist.github.com/mbmccormick/4176978.js"></script>
 
 And here’s an example of how I am updating the FlipTiles a user has might have pinned to their Start screen, again using reflection:
 
-
+<script src="https://gist.github.com/mbmccormick/4176825.js"></script>
 
 This took me a little while to figure out because there is very little debugging information available when working with reflection and the [MSDN documentation][2] for this topic was not very helpful. The new live tile functionality is a great addition to any Windows Phone application. Just because your application supports both Windows Phone 8 and Windows Phone 7.1, it does not mean that your Windows Phone 8 users can’t benefit from this new functionality.
 
