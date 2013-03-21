@@ -2,8 +2,7 @@
 title: Adding Windows Phone 8 Tile functionality to Windows Phone 7.1 applications
 author: Matt
 layout: post
-permalink: >
-  /2012/11/adding-windows-phone-8-tile-functionality-to-windows-phone-7-1-applications/
+permalink: /2012/11/adding-windows-phone-8-tile-functionality-to-windows-phone-7-1-applications/
 categories:
   - Development
 tags:
