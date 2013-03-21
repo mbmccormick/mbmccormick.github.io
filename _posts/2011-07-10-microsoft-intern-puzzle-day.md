@@ -18,7 +18,7 @@ Today was the annual [Microsoft Intern Puzzle Day][1] at Camp [Microsoft][2]. Ou
 [![][4]  
 ][4]
 
- []: http://mbmccormick.github.com/images/2011/07/1310249582.jpg
+ [3]: http://mbmccormick.github.com/images/2011/07/1310249582.jpg
  [4]: http://mbmccormick.github.com/images/2011/07/1310249582.jpg
 
 Once we got to our assigned location, we distributed our supplies and some of our team members went to do stuff like a scavenger hunt and other events, while myself and the rest of the team stayed at our cabin and worked on the ridiculously creative and difficult puzzles that [Microsoft Research][5] put together for us. The puzzles could be anything from [XOR][6]ing a binary string of musical notes played from a harmonica to reveal an answer, to disecting [peeps][7] looking for [resistor code][8] values that revealed another answer. We also had to be fluent in [braille][9], [flag semaphore][10] signalling, [morse code][11], Jupiter's moons, Greek history, and a wide range of other topics.
@@ -35,7 +35,7 @@ Throughout the day, I attended two "live puzzles" which took place at various lo
 
 [![][13]][13]
 
- []: http://mbmccormick.github.com/images/2012/05/1310258141.jpg
+ [12]: http://mbmccormick.github.com/images/2012/05/1310258141.jpg
  [13]: http://mbmccormick.github.com/images/2012/05/1310258141.jpg
 
 In the afternoon we continued to solve more puzzles and finally got enough puzzles solved to give us a hint on the [metapuzzle][14], which instructed us to go look "in tent by volleyball court east of mixer". So we ran over to the Commons and looked around the sand volleyball court, where we found a small tent hidden in the bushes, and inside we found instructions for another metapuzzle. Unfortunately, we ran out of time to solve the final meta-puzzle, as the day ended at 6pm. After we cleaned up our campsite, we returned to the Commons for closing ceremonies at 6:30pm where the winners were announced and the solutions to the puzzles were revealed. Our team finished in the top 36, which I thought was pretty good, considering how hard the puzzles were. It was a really great day and the Microsoft Research teams did a great job setting up this event for us!

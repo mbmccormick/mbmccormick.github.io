@@ -16,7 +16,7 @@ This first week at [Microsoft][1] has truly been something else. I love the work
 
 [![][3]][3]
 
- []: http://mbmccormick.github.com/images/2012/05/IMG_0726.jpg
+ [2]: http://mbmccormick.github.com/images/2012/05/IMG_0726.jpg
  [3]: http://mbmccormick.github.com/images/2012/05/IMG_0726.jpg
 
 On Tuesday, I spent most of the day setting up my workstation and installing the necessary software that I would need as a Program Manager for my particular team. My mentor introduced me to some people who would help me get the necessary components (keyboard, mouse, cables, etc.) for my office. I ate lunch in the [Commons][4] and stopped off to browse the [Microsoft Store][5] on my way back to my office. That afternoon, I put in requests to be granted the necessary permissions for different systems and added myself to all the relevant distribution lists. On Tuesday night, I ordered groceries on [Amazon Fresh][6]. It was a very cool service and they showed up right at my doorstep before I woke up!
@@ -32,7 +32,7 @@ On Wednesday, my mentor and I met for a little while to discuss the Program Mana
 
 [![][10]][10]
 
- []: http://mbmccormick.github.com/images/2012/05/IMG_0702.jpg
+ [9]: http://mbmccormick.github.com/images/2012/05/IMG_0702.jpg
  [10]: http://mbmccormick.github.com/images/2012/05/IMG_0702.jpg
 
 Yesterday I spent most of the day completing the online courses that my mentor and I enrolled me in on Wednesday. I also had an "Intern Ramp-Up" session at lunch, where we had a great speaker talk about some helpful tips for being successful during our internship here. Afterwards, my mentor introduced me to the rest of the team and I started to get a better idea of what my project is going to be.

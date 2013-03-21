@@ -30,14 +30,14 @@ Enough about the background, let's talk about Git. Unlike Subversion, Git uses a
 
 [![][8]][8]
 
- []: http://mbmccormick.github.com/images/2012/05/local-remote.png
+ [7]: http://mbmccormick.github.com/images/2012/05/local-remote.png
  [8]: http://mbmccormick.github.com/images/2012/05/local-remote.png
 
 Another reason why I switched to Git is because it is much faster than Subversion. I no longer wait for a checkout, a commit, or an update. Git is nearly instant with all of these actions. Take a look at the comparison below:
 
 [![][10]][10]
 
- []: http://mbmccormick.github.com/images/2012/05/graph.png
+ [9]: http://mbmccormick.github.com/images/2012/05/graph.png
  [10]: http://mbmccormick.github.com/images/2012/05/graph.png
 
 Now let's get into how Git differs from what we're used to in Subversion. Instead of `checkout` like we are used to, Git uses the command `clone` to make a copy of a public repository on our local workstation. To `update` our local copy like we did in Subversion, we would use `pull` in Git.

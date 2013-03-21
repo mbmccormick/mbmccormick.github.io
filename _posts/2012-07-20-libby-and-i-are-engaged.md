@@ -27,10 +27,10 @@ format: gallery
 
 Last week, [Libby][6] came to visit me in Seattle and on Saturday, I asked her to marry me and she said "yes"! Here are a few pictures from our engagement dinner. Stay up to date on our wedding plans at our [website][7].
 
- []: http://mbmccormick.github.com/images/2012/07/image-preview-1343091343845.jpg "image-preview-1343091343845"
- []: http://mbmccormick.github.com/images/2012/07/image-preview-1343091514694.jpg "image-preview-1343091514694"
- []: http://mbmccormick.github.com/images/2012/07/image-preview-1343091578833.jpg "image-preview-1343091578833"
- []: http://mbmccormick.github.com/images/2012/07/image-preview-1343091644855.jpg "image-preview-1343091644855"
- []: http://mbmccormick.github.com/images/2012/07/image-preview-1343091721195.jpg "image-preview-1343091721195"
+ [1]: http://mbmccormick.github.com/images/2012/07/image-preview-1343091343845.jpg "image-preview-1343091343845"
+ [2]: http://mbmccormick.github.com/images/2012/07/image-preview-1343091514694.jpg "image-preview-1343091514694"
+ [3]: http://mbmccormick.github.com/images/2012/07/image-preview-1343091578833.jpg "image-preview-1343091578833"
+ [4]: http://mbmccormick.github.com/images/2012/07/image-preview-1343091644855.jpg "image-preview-1343091644855"
+ [5]: http://mbmccormick.github.com/images/2012/07/image-preview-1343091721195.jpg "image-preview-1343091721195"
  [6]: http://elizabethpuccinelli.com
  [7]: http://libbyandmatt.com/

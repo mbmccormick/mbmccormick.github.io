@@ -25,14 +25,14 @@ The option that worked for me was a third-party tool called [pyDropboxPath][5]. 
 
 [![][7]][7]
 
- []: http://mbmccormick.github.com/images/2012/05/cap.png
+ [6]: http://mbmccormick.github.com/images/2012/05/cap.png
  [7]: http://mbmccormick.github.com/images/2012/05/cap.png
 
 However, the main reason I'm switching is because I love the web interface of Dropbox. Check out my Documents folder, synced to the web in this image:
 
 [![][9]][9]
 
- []: http://mbmccormick.github.com/images/2012/05/cap21.png
+ [8]: http://mbmccormick.github.com/images/2012/05/cap21.png
  [9]: http://mbmccormick.github.com/images/2012/05/cap21.png
 
 Ahh, there's peace once again on my laptop. Dropbox has several different [plans][10] for your backup needs. The free plan, which is what I use, gives you 2GB of storage. You can also take the tour of Dropbox for an extra 256MB free. If you haven't set up an account on Dropbox, do it now. You'll thank me later. Use this [link][11], and we'll both get extra space for free.

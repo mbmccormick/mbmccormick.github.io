@@ -24,7 +24,7 @@ Over the past couple of weeks, I have been working on my first [Windows Phone 7]
 
 [![][11]][11]
 
- []: http://mbmccormick.github.com/images/2012/05/Screenshot1.png
+ [10]: http://mbmccormick.github.com/images/2012/05/Screenshot1.png
  [11]: http://mbmccormick.github.com/images/2012/05/Screenshot1.png
 
 My application, [LaundryMinder][12], turns your phone into a laundry monitoring device. You simply place your device on your washer or dryer when you are doing your laundry and start the LaundryMinder application. When your laundry is done and the machine stops vibration, the application uses the phone's [accelerometer][13] to detect this and then sends out an email, text message, or phone call to notify you. This application works for both the washer and dryer cycle and accounts for even the slightest changes in movement, to account for newer laundry machines that produce very little vibration. To keep from draining the battery, the accelerometer is only polled every 2 minutes to check for vibration. This also helps account for washing machine cycle changes when the tub is draining or filling.
@@ -34,7 +34,7 @@ My application, [LaundryMinder][12], turns your phone into a laundry monitoring 
 
 [![][15]][15]
 
- []: http://mbmccormick.github.com/images/2012/05/Desktop.png
+ [14]: http://mbmccormick.github.com/images/2012/05/Desktop.png
  [15]: http://mbmccormick.github.com/images/2012/05/Desktop.png
 
 I developed this application using C# and Silverlight on .NET Framework 4, three technologies that I am very familiar with, which made development a breeze. After installing the [Windows Phone SDK][16] in [Visual Studio 2010][17], I was ready to begin development. In another post, I will go in depth with the code, but I will spare the details for now. Using the new SDK, I was able to run my application in an emulator that had support for the accelerometer. This allowed me to test the sensitivity of my accelerometer, without having to do 10 loads of laundry. Once I was happy with my application, I generated a clean build and uploaded this to the Marketplace.

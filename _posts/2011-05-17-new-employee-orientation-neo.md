@@ -16,7 +16,7 @@ Today was my very first day at Microsoft. A lot happened during New Employee Ori
 
 [![][3]][3]
 
- []: http://mbmccormick.github.com/images/2012/05/badge1.png
+ [2]: http://mbmccormick.github.com/images/2012/05/badge1.png
  [3]: http://mbmccormick.github.com/images/2012/05/badge1.png
 
 First, we lined up at the reception desk where we received temporary badges for the day that allowed limited access to Building 92 and the [Commons][4], where we would be having lunch. We also received some Microsoft swag- a free bag full of stuff like a water bottle, our lunch card, informational handouts, pens, paper, etc. After we received our materials, we then headed upstairs to fill out some online forms and verify our employment authorization. Then we had our badge pictures taken and we turned in our employment confirmation forms and filled out some other online forms.

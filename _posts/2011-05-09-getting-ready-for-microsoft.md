@@ -20,7 +20,7 @@ As you may or may not know, I will be spending the summer at [Microsoft][1] in [
 
 [![][7]][7]
 
- []: http://mbmccormick.github.com/images/2012/05/IMG_0703.jpg
+ [6]: http://mbmccormick.github.com/images/2012/05/IMG_0703.jpg
  [7]: http://mbmccormick.github.com/images/2012/05/IMG_0703.jpg
 
 Back in October, I met with a Microsoft Recruiter at an on-campus job fair. We talked about the different internship positions that Microsoft offers and the interview process. A few weeks later, I was invited back for an on-campus interview. This was mostly a technical interview, lots of [coding and brainstorming][8]. A few weeks later, I was invited for the final round of interviews in Redmond. In mid-January, I flew out to Seattle and interviewed with four different people for about 6 hours. My brain was completely fried afterwards, as my interview consisted of a lot of [technical questions][9]. A few days after I returned from my trip, I was offered a position as a Program Manager Intern with Microsoft Lync. After accepting my offer, I was quickly introduced to an army of onboarding specialists. I think I've had about four recruiters, two relocation specialists, two travel specialists, a team contact, and just this week I met my manager and my mentor. Microsoft's [hiring program][10] alone is an logistical engineering feat. I have been thoroughly impressed with this team.

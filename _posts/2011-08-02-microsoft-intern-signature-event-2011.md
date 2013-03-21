@@ -18,7 +18,7 @@ Last week was one amazing week here in [Seattle][1] for [Microsoft Interns][2]. 
 
 [![][5]][5]
 
- []: http://mbmccormick.github.com/images/2012/05/5986465935_07543698bf_m_d.jpg
+ [4]: http://mbmccormick.github.com/images/2012/05/5986465935_07543698bf_m_d.jpg
  [5]: http://mbmccormick.github.com/images/2012/05/5986465935_07543698bf_m_d.jpg
 
 Since about week two of our internship, we've known only the date of the Signature Event, Microsoft did a great job of keeping this under wraps. A few weeks ago we received an email invitation saying that Microsoft was hosting a barbecue and a concert for us at the [Woodland Park Zoo][6], not to be confused with the [old barbecue][7] that Microsoft used to throw at [Bill Gates][8]‘ [house][9] for interns. The email told us where we needed to be on Thursday and left out all of the other information that we've been speculating about on the Internz mailing list at work. So much speculation that the head of Microsoft's Intern Program emailed Internz asking us to stop calling the zoo.
@@ -49,7 +49,7 @@ When we arrived at the zoo, we filed through the gates and picked up [our blanke
 
 [![][24]][24]
 
- []: http://mbmccormick.github.com/images/2012/05/5987029290_b108a290c5_m_d.jpg
+ [23]: http://mbmccormick.github.com/images/2012/05/5987029290_b108a290c5_m_d.jpg
  [24]: http://mbmccormick.github.com/images/2012/05/5987029290_b108a290c5_m_d.jpg
 
 At about 7:30pm, the event started to get underway. A speaker came out to thank us all for coming, thanked the employees who helped put on the event, and then introduced [Dave Matthews][25] as the [evening's guest][26]. Dave said that "Bill called in a favor and I said sure, I'd love to". Everyone went crazy and he played a great set for about an hour, then we convinced him to come back for a few more songs. After the concert, the speaker from before came out to talk about "a few more things" about how Microsoft is happy to have us all here for the summer and to announce that they've "one-upped last year's event" with the intern gift. This year, Microsoft worked with Dave Matthew's artist to design custom shirts for tonight's event and [custom Xbox 360s Kinect][27] for everyone.
@@ -62,7 +62,7 @@ After the announcement, we filed back out the gates where we scanned our badges 
 
 [![][29]][29]
 
- []: http://mbmccormick.github.com/images/2012/05/5986471043_e0165449e7_m_d.jpg
+ [28]: http://mbmccormick.github.com/images/2012/05/5986471043_e0165449e7_m_d.jpg
  [29]: http://mbmccormick.github.com/images/2012/05/5986471043_e0165449e7_m_d.jpg
 
 Then on Friday, the fun didn't stop! The head of [Lync Server][30] decided to host a spontaneous morale event for our team, in honor of shipping several beta products. We all went down to [Lincoln Square][31] to see the [Cowboys vs. Aliens movie][32] in the morning and get lunch afterwards. After doing a little work in the afternoon, we got back on the busses for Microsoft Intern Comedy Night, which was hosted by [my school's recruiter][33].
