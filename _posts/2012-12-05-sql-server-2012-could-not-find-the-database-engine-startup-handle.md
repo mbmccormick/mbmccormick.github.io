@@ -10,7 +10,6 @@ tags:
   - server
   - sql
 ---
-# 
 
 I was trying to install [SQL Server 2012 Developer edition][1] on our new development server, running [Windows Server 2012][2], in our virtualized datacenter environment. I stepped through the massive installation wizard and started the installation process. The installer began setting up the necessary components, SDKs, and configuration tools. However when it reached the actual Database Engine, the installation failed giving the following error:
 
