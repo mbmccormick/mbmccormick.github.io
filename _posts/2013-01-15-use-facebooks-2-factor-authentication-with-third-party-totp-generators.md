@@ -13,7 +13,6 @@ tags:
   - tutorial
   - windowsphone
 ---
-# 
 
 If you don’t know what [2-Factor Authentication][1] is, you can read up about it [here][2]. Essentially it is a service that makes it nearly impossible for any of your online accounts to be hacked, by requiring two forms of authentication: something you know (a password) and something you have (a mobile phone). Google provides a great, open [application][3] for iPhone and Android that generates one time use codes that you enter into a website when you login. Many online services offer this such as Google, Facebook, Blizzard games, banking websites, etc.
 
