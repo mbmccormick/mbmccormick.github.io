@@ -12,7 +12,6 @@ tags:
   - microsoft
   - windowsphone
 ---
-# 
 
 Windows Phone 8 introduces some great improvements to the existing live tile functionality in Windows Phone, making it easier to display information to users right on their Start screen. You can now choose between three different types of live tiles: the Flip Tile, the Iconic Tile, and the Cycle Tile. Each of these tiles offer different features and allows the user to choose between three different sizes. You can find more information about what these new tiles look like and how they work on the [Tiles for Windows Phone][1] documentation on MSDN.
 
