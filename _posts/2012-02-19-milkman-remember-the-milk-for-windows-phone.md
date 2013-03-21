@@ -21,9 +21,9 @@ Milkman isn't the first Remember The Milk client for Windows Phone, [WinMilk][3]
 
 [![][5]][5]  [![][6]][6]  [![][7]][7]
 
- []: /images/2012/05/1.png
- []: /images/2012/05/2.png
- []: /images/2012/05/8.png
+ []: http://mbmccormick.github.com/images/2012/05/1.png
+ []: http://mbmccormick.github.com/images/2012/05/2.png
+ []: http://mbmccormick.github.com/images/2012/05/8.png
 
 You can also watch a quick video demo of [Milkman on YouTube][7].
 
