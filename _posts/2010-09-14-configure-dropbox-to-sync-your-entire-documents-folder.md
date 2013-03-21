@@ -8,9 +8,8 @@ categories:
 tags:
   - tutorial
 ---
-# 
 
-I recently decided to switch my online backup solution from [Syncplicity][1] to [Dropbox][2]. The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the “My Dropbox” folder for all of my syncing, something I did not want to do.
+I recently decided to switch my online backup solution from [Syncplicity][1] to [Dropbox][2]. The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the "My Dropbox" folder for all of my syncing, something I did not want to do.
 
  [1]: http://syncplicity.com/
  [2]: http://www.dropbox.com/
@@ -26,17 +25,17 @@ The option that worked for me was a third-party tool called [pyDropboxPath][5]. 
 
 [![][7]][7]
 
- []: /wp-content/uploads/2012/05/cap.png
- [7]: /wp-content/uploads/2012/05/cap.png
+ []: /images/2012/05/cap.png
+ [7]: /images/2012/05/cap.png
 
-However, the main reason I’m switching is because I love the web interface of Dropbox. Check out my Documents folder, synced to the web in this image:
+However, the main reason I'm switching is because I love the web interface of Dropbox. Check out my Documents folder, synced to the web in this image:
 
 [![][9]][9]
 
- []: /wp-content/uploads/2012/05/cap21.png
- [9]: /wp-content/uploads/2012/05/cap21.png
+ []: /images/2012/05/cap21.png
+ [9]: /images/2012/05/cap21.png
 
-Ahh, there’s peace once again on my laptop. Dropbox has several different [plans][10] for your backup needs. The free plan, which is what I use, gives you 2GB of storage. You can also take the tour of Dropbox for an extra 256MB free. If you haven’t set up an account on Dropbox, do it now. You’ll thank me later. Use this [link][11], and we’ll both get extra space for free.
+Ahh, there's peace once again on my laptop. Dropbox has several different [plans][10] for your backup needs. The free plan, which is what I use, gives you 2GB of storage. You can also take the tour of Dropbox for an extra 256MB free. If you haven't set up an account on Dropbox, do it now. You'll thank me later. Use this [link][11], and we'll both get extra space for free.
 
  [10]: http://www.dropbox.com/pricing
  [11]: http://www.dropbox.com/referrals/NTQ4NjEzOQ

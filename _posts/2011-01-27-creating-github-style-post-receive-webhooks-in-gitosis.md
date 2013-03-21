@@ -9,9 +9,8 @@ tags:
   - git
   - tutorial
 ---
-# 
 
-As I mentioned in an [earlier blog post][1], I’ve been working on the first product for my business. The tool that I’m writing is really geared toward helping freelance software developers keep track of their projects. No, this is not just another project management system, in fact, I don’t even know that I would consider it project management software.
+As I mentioned in an [earlier blog post][1], I've been working on the first product for my business. The tool that I'm writing is really geared toward helping freelance software developers keep track of their projects. No, this is not just another project management system, in fact, I don't even know that I would consider it project management software.
 
  [1]: http://mbmccormick.com/2010/12/rapid-application-development-with-limonade-and-php/
 
@@ -21,11 +20,11 @@ Anyway, I really wanted to integrate some aspects of my application with source 
  [3]: http://help.github.com/post-receive-hooks/
  [4]: http://help.github.com/testing-webhooks/
 
-Here’s where it get’s a bit interesting. These webhooks that GitHub provides are not exactly universal for all Git repositories. For example, I host my open-source projects on GitHub, so for the open-source projects that I manage with my software package, this is great! However, for my private repositories that I use for customer projects, I use a private installation of [Gitosis][5]. As a result, I don’t have some of the luxuries that GitHub has. But what Gitosis does have is hook functionality, lot’s of hook functionality. So to remedy this situation, I wrote a small post-receive hook for Gitosis that will POST the same data that GitHub does, using the same JSON format, to a URL of your choosing. The beauty of this is that it allows you to write one webhook for your application and use it with any Git repository, regardless of whether it is hosted on GitHub or on a private server.
+Here's where it get's a bit interesting. These webhooks that GitHub provides are not exactly universal for all Git repositories. For example, I host my open-source projects on GitHub, so for the open-source projects that I manage with my software package, this is great! However, for my private repositories that I use for customer projects, I use a private installation of [Gitosis][5]. As a result, I don't have some of the luxuries that GitHub has. But what Gitosis does have is hook functionality, lot's of hook functionality. So to remedy this situation, I wrote a small post-receive hook for Gitosis that will POST the same data that GitHub does, using the same JSON format, to a URL of your choosing. The beauty of this is that it allows you to write one webhook for your application and use it with any Git repository, regardless of whether it is hosted on GitHub or on a private server.
 
  [5]: http://eagain.net/gitweb/?p=gitosis.git
 
-If you’ve never written a hook for Gitosis before, it can be a bit tricky. There is very little documentation on this subject and it is really hard to debug your hook short of obliterating a temporary Git repository. Perhaps the biggest problem I ran into was reading the parameters that Gitosis passes to your hook about a given push. Initially, I had written my hook to use the standard Bash input parameters, like this:
+If you've never written a hook for Gitosis before, it can be a bit tricky. There is very little documentation on this subject and it is really hard to debug your hook short of obliterating a temporary Git repository. Perhaps the biggest problem I ran into was reading the parameters that Gitosis passes to your hook about a given push. Initially, I had written my hook to use the standard Bash input parameters, like this:
 
 
 

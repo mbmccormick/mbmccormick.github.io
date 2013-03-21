@@ -7,6 +7,5 @@ categories:
   - Miscellaneous
 format: quote
 ---
-# 
 
 > I have finished migrating my website from Jekyll back to WordPress. If you find any broken links or missing content, please let me know.

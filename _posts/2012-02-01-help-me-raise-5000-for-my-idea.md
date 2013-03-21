@@ -7,7 +7,6 @@ categories:
   - Projects
 format: link
 ---
-# 
 
 [Help me raise $5,000 for my idea][1]
 

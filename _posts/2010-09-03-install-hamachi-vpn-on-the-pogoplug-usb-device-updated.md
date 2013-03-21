@@ -9,13 +9,12 @@ tags:
   - linux
   - tutorial
 ---
-# 
 
 *Update: Thanks to [George Lerdsuwanrut][1] for all of his help with this guide, the instructions below should now work with the latest PogoPlug Firmware. (10/15/2010)*
 
  [1]: http://stevejobsisadouche.com/
 
-Just over a month ago, I wrote a [post][2] about how to install Hamachi on the PogoPlug USB device, effectively bringing your hard drives and (eventually printers) to the Hamachi network. I’ve recently moved all of the source code for this [project][3] over to [GitHub][4] where you can download the source, contribute, or fork the project.
+Just over a month ago, I wrote a [post][2] about how to install Hamachi on the PogoPlug USB device, effectively bringing your hard drives and (eventually printers) to the Hamachi network. I've recently moved all of the source code for this [project][3] over to [GitHub][4] where you can download the source, contribute, or fork the project.
 
  [2]: http://mbmccormick.com/2010/07/install-hamachi-vpn-on-the-pogoplug-usb-device/
  [3]: http://github.com/mbmccormick/hamachi-pogoplug

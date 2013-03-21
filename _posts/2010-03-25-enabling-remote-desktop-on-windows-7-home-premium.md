@@ -8,11 +8,10 @@ categories:
 tags:
   - tutorial
 ---
-# 
 
-My reasoning for this post is two-fold: I wanted to get Remote Desktop enabled on my new laptop, so that I can connect remotely from my Android phone. I also wanted to enable concurrent sessions for the laptop computers at home, in the common event that my family members need assistance from me while I’m at home.
+My reasoning for this post is two-fold: I wanted to get Remote Desktop enabled on my new laptop, so that I can connect remotely from my Android phone. I also wanted to enable concurrent sessions for the laptop computers at home, in the common event that my family members need assistance from me while I'm at home.
 
-On the main computer/server/multimedia powerhouse at home, I had previously used Sala’s Terminal Server Patch to accomplish this. But because of the architecture changes made to the Windows operating system since Windows XP, Sala’s patch was not going to make the cut.
+On the main computer/server/multimedia powerhouse at home, I had previously used Sala's Terminal Server Patch to accomplish this. But because of the architecture changes made to the Windows operating system since Windows XP, Sala's patch was not going to make the cut.
 
 I recently ran across a [forum post][1], which makes this process so much easier. If you want, you can skip forum post and download the utility [here][2]. Not only does this tool enable Remote Desktop on any version of Windows 7, it also allows for concurrent sessions.
 

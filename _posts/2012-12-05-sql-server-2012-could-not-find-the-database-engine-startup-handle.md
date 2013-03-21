@@ -20,8 +20,8 @@ I was trying to install [SQL Server 2012 Developer edition][1] on our new develo
 
 This also happened with the Data Quality Services, Full Text and Semantic Extractions for Search, and SQL Server Replication features.
 
-After doing some research, I found out that the problem was with how I mounted the ISO image of the installation media. Apparently the new “mount ISO” feature in Windows Server 2012 does not get alone with [VMWare][3] instances. I had to uninstall my existing database instance as it was corrupt beyond repair. After extracting the ISO image and running the installation process from the extracted media, the installation process again ran for several minutes, however this time it completed without any issue.
+After doing some research, I found out that the problem was with how I mounted the ISO image of the installation media. Apparently the new "mount ISO" feature in Windows Server 2012 does not get alone with [VMWare][3] instances. I had to uninstall my existing database instance as it was corrupt beyond repair. After extracting the ISO image and running the installation process from the extracted media, the installation process again ran for several minutes, however this time it completed without any issue.
 
  [3]: http://www.vmware.com/
 
-I’m still not sure what the underlying cause of this was, but not using the ISO image seemed to do the trick. Let me know if you come across a technical explanation for this problem.
+I'm still not sure what the underlying cause of this was, but not using the ISO image seemed to do the trick. Let me know if you come across a technical explanation for this problem.

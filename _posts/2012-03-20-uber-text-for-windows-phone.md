@@ -9,7 +9,6 @@ tags:
   - windowsphone
 format: link
 ---
-# 
 
 [Uber Text for Windows Phone][1]
 

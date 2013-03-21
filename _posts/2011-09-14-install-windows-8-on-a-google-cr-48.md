@@ -9,9 +9,8 @@ tags:
   - chromeos
   - tutorial
 ---
-# 
 
-Clearly [I’m trying][1] to find a good use for my [Google Cr-48][2]. Today I was able to get the [Windows 8 Developer Preview][3] installed on a Google Cr-48. It is somewhat involved, but nonetheless I will detail my steps here. This is not for the faint of heart, and I take no responsibility for what you do to your laptop. This guide assumes that you have backed up any important information from your existing OS on your Google Cr-48, whether that is Chrome OS, Ubuntu, or something else. The instructions below will completely erase the data on your laptop and overwrite with Windows 8.
+Clearly [I'm trying][1] to find a good use for my [Google Cr-48][2]. Today I was able to get the [Windows 8 Developer Preview][3] installed on a Google Cr-48. It is somewhat involved, but nonetheless I will detail my steps here. This is not for the faint of heart, and I take no responsibility for what you do to your laptop. This guide assumes that you have backed up any important information from your existing OS on your Google Cr-48, whether that is Chrome OS, Ubuntu, or something else. The instructions below will completely erase the data on your laptop and overwrite with Windows 8.
 
  [1]: http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google-cr-48/
  [2]: http://www.google.com/chromebook/

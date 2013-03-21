@@ -9,7 +9,6 @@ tags:
   - windowsphone
 format: link
 ---
-# 
 
 [WhereFi for Windows Phone 7][1]
 

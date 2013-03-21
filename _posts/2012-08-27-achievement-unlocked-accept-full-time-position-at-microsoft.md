@@ -9,7 +9,6 @@ tags:
   - microsoft
   - summer
 ---
-# 
 
 Just before my internship at [Microsoft][1] ended this summer, they extended me a full-time job offer. I accepted their offer on the spot. This was literally a dream come true for me. I will be returning to Microsoft early next year with [Microsoft Lync][2] Server, helping to create new innovations in how people communicate and collaborate. This is an extremely [exciting time for Microsoft][3] as a company and Lync is no exception.
 
@@ -25,11 +24,11 @@ At some point, I decided it was time to change my major to something that intere
 
  [5]: http://www.cs.purdue.edu/history/history.html
 
-I’ve used [this quote][6] in a [blog post][7] before in a different setting, but here it is again:
+I've used [this quote][6] in a [blog post][7] before in a different setting, but here it is again:
 
  [6]: http://sriramk.com/leaving-microsoft.html
  [7]: http://mbmccormick.com/2011/08/ending-the-best-summer-of-my-life/
 
-> I joined this company before I was legally allowed to drink – it’s the only company I’ve ever worked for. At a time when I wasn’t sure what to do with my life, Microsoft gave me a place where I belonged, where I fit in. I’ve got to do some amazing things here. I got to build developer tools used by millions, consumer websites, super scalable infrastructure stuff and design APIs called a gazillion times a day. I got to travel the world and work with execs from the biggest companies in the world. I got to fulfill a childhood dream and write a book. I got interviewed in the NYTimes. I’ve done some crazy things and I got to meet and hang out with my heroes. I even wound up marrying an amazing woman who joined Microsoft with me.
+> I joined this company before I was legally allowed to drink – it's the only company I've ever worked for. At a time when I wasn't sure what to do with my life, Microsoft gave me a place where I belonged, where I fit in. I've got to do some amazing things here. I got to build developer tools used by millions, consumer websites, super scalable infrastructure stuff and design APIs called a gazillion times a day. I got to travel the world and work with execs from the biggest companies in the world. I got to fulfill a childhood dream and write a book. I got interviewed in the NYTimes. I've done some crazy things and I got to meet and hang out with my heroes. I even wound up marrying an amazing woman who joined Microsoft with me.
 
-I am thankful for the opportunity that Microsoft has given me and I am excited about my future at this company. I am fortunate enough to have built a career out of my passion. I am even more fortunate for my family, friends, and mentors that I have had over the years who helped get me to where I am today. OK enough sappy reflection on the past, here’s to the future.
+I am thankful for the opportunity that Microsoft has given me and I am excited about my future at this company. I am fortunate enough to have built a career out of my passion. I am even more fortunate for my family, friends, and mentors that I have had over the years who helped get me to where I am today. OK enough sappy reflection on the past, here's to the future.

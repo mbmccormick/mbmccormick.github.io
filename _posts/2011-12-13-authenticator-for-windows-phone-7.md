@@ -9,7 +9,6 @@ tags:
   - windowsphone
 format: link
 ---
-# 
 
 [Authenticator for Windows Phone 7][1]
 
