@@ -50,9 +50,9 @@ This tutorial will walk you through setting up your local environment on `lore.c
         The `bootp` command will connect to the `bootp` server on helga.cs.purdue.edu to lease an IP address for the router's network interface and then download your XINU image. The `bootm` command then loads this image. 
 8.  At this point, your XINU kernel should be loaded and you should see whatever your `system/main.c` files is setup to do. By default it just prints "Hello World".
 9.  To exit the Linksys backend, switch to command mode on `cs-console` by typing `CTRL^@` or `CTRL^spacebar`. Then use the `q` command to exit the backend machine. 
-        
+
 ## Additional Information
-        
+
 *   Please do not leave a running copy of your XINU image on one of the backend machines. This will prevent anyone from using that backend machine and cause problems when other students want to access the routers.
 *   If you see the `Booting XINU on Dell Optiplex...` message, contact your TA.
 *   The Linksys backend machines are limited to the XINU frontend controllers. You must connect to one of these machines first (see above) in order to access the Linksys routers.
