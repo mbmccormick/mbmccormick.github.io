@@ -43,16 +43,17 @@ This tutorial will walk you through setting up your local environment on `lore.c
 5.  As the Linksys router powers up, it's bootloader is programmed to load Linux by default using an image of Linux that resides on the Linksys router. You need to interrupt this process. To do so, look for the following message in the boot output:  
     `### main_loop entered: bootdelay=1``Hit any key to stop autoboot: 1` 
     You will have exactly 1 second to hit any key to interrupt the autoboot process. 
-    *   If you successfully interrupt the Linux autoboot process, you should see the following low-level boot prompt:  
+6.   If you successfully interrupt the Linux autoboot process, you should see the following low-level boot prompt:  
         `ar7100>`
-    *   Now you need to load your XINU image that was downloaded onto the backend machine earlier. Issue the following commands:  
+7.  Now you need to load your XINU image that was downloaded onto the backend machine earlier. Issue the following commands:  
         `ar7100> bootp 0x81000000``ar7100> bootm` 
         The `bootp` command will connect to the `bootp` server on helga.cs.purdue.edu to lease an IP address for the router's network interface and then download your XINU image. The `bootm` command then loads this image. 
-        *   At this point, your XINU kernel should be loaded and you should see whatever your `system/main.c` files is setup to do. By default it just prints "Hello World".
-        *   To exit the Linksys backend, switch to command mode on `cs-console` by typing `CTRL^@` or `CTRL^spacebar`. Then use the `q` command to exit the backend machine. 
-        ## Additional Information
+8.  At this point, your XINU kernel should be loaded and you should see whatever your `system/main.c` files is setup to do. By default it just prints "Hello World".
+9.  To exit the Linksys backend, switch to command mode on `cs-console` by typing `CTRL^@` or `CTRL^spacebar`. Then use the `q` command to exit the backend machine. 
         
-        *   Please do not leave a running copy of your XINU image on one of the backend machines. This will prevent anyone from using that backend machine and cause problems when other students want to access the routers.
-        *   If you see the `Booting XINU on Dell Optiplex...` message, contact your TA.
-        *   The Linksys backend machines are limited to the XINU frontend controllers. You must connect to one of these machines first (see above) in order to access the Linksys routers.
-        *   When executing the `bootp` command as shown above, if your machine does not obtain an IP address (i.e. you see `REQUESTING address from DHCP`), disconnect from that backend and reconnect.
+## Additional Information
+        
+*   Please do not leave a running copy of your XINU image on one of the backend machines. This will prevent anyone from using that backend machine and cause problems when other students want to access the routers.
+*   If you see the `Booting XINU on Dell Optiplex...` message, contact your TA.
+*   The Linksys backend machines are limited to the XINU frontend controllers. You must connect to one of these machines first (see above) in order to access the Linksys routers.
+*   When executing the `bootp` command as shown above, if your machine does not obtain an IP address (i.e. you see `REQUESTING address from DHCP`), disconnect from that backend and reconnect.
