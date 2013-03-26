@@ -518,6 +518,6 @@ h1 a, h2 a, h3 a, h4 a {
     }
 }
 
-.flattr {
-    border: 0;
+td.line-numbers {
+    vertical-algin: top;
 }
