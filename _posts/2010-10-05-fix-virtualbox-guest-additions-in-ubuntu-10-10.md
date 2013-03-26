@@ -17,7 +17,7 @@ I recently upgraded my [Ubuntu 10.04][1] installation on VirtualBox to the [Ubun
 
 To resolve this conflict, issue the following three commands from the terminal on the VirtualBox machine:
 
-
+<script src="https://gist.github.com/mbmccormick/627462.js"> </script>
 
 After rebooting your VirtualBox installation, your machine should be resizing the window like normal. More information about this fix can be found [here][3].
 
