@@ -23,11 +23,11 @@ I stumbled onto another simple weather service, [goingtorain.com][3]. What I lik
  [4]: http://www.maxmind.com/app/ip-location
  [5]: http://www.maxmind.com/
 
-
+<script src="https://gist.github.com/mbmccormick/627449.js"> </script>
 
 The GeoIP service is extremely accurate, but there are some occasions where the location returned is not quite where the user is. For example, if the user's ISP is located in an urban area, the GeoIP result may not be correct. So I wanted to allow the user to enter in their zip code as a failsafe. I used the Google GeoCode API to return the city and state for this zip code, along with a bunch of other information. Here's how I'm parsing that information:
 
-
+<script src="https://gist.github.com/mbmccormick/628268.js"> </script>
 
 I then use the zip code from these APIs to return the forecast information from WeatherUnderground. The forecast information had a lot of cool things that I could show, so I decided to display a simple forecast including current conditions and temperature as an added bonus. Based on the probability of precipitation, I then determine whether an umbrella is needed for a given day.
 
