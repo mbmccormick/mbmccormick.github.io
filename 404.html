@@ -1,13 +1,12 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="sv"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="sv"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="sv"> <![endif]-->
-<!--[if gt IE 8]> <!--> <html class="no-js" lang="sv"> <!--<![endif]-->
+<!DOCTYPE html>
+<html>
     <head>
+        <link rel=stylesheet href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Erik Eng utvecklar för webb &amp; mobilt</title>
-        <meta name="description" content="Öppen källkod och tillgänglig data gör dagen intressant och webben bättre." />
-        <meta name="author" content="Erik Eng" />
+        <title>{{ page.title }}</title>
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        <meta name="author" content="{{ site.author }}" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1" />
@@ -15,14 +14,14 @@
         <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="/css/style.css" media="all" />
-        <link rel="alternate" type="application/rss+xml" title="Inlägg" href="/rss.xml" />
-        <link rel=stylesheet href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+        <link rel="stylesheet" href="/css/print.css" media="print" />
+        <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
 
         <!--[if lt IE 9]>
             <script src="/js/html5shiv.js"></script>
         <![endif]-->
         <script>
-            var _gaq = [['_setAccount', 'UA-33567818-1'], ['_trackPageview']];
+            var _gaq = [['_setAccount', 'UA-{{ site.analytics.profile }}-1'], ['_trackPageview']];
             (function(d, t) {
                 var g = d.createElement(t),
                     s = d.getElementsByTagName(t)[0];
@@ -35,48 +34,29 @@
 
         <header role="banner">
             <div class="content">
-                <a href="/" title="Om Erik Eng" role="navigation">Om</a>
-                <a href="/">Erik Eng</a> om webb &amp; mobilt</span>
+                {% unless page.url == '/index.html' %}
+                    <a href="/" title="Back to home" role="navigation">Home</a>
+                {% endunless %}
+                <a href="/">{{ site.title }}</a>
             </div>
         </header>
 
         <div role="main">
             <div class="content">
 
-                <h1>Tyvärr inget här</h1>
-                <p>Nu har du hamnat på en s.k. 404-sida. Innehållet du söker finner du förhoppningsvis via någon av länkarna nedan.</p>
-                <ul>
-                    <li><a href="javascript:history.back()" title="Gå tillbaka" rel="external"><strong>&larr; Tillbaka</strong></a></li>
-                    <li><a href="/" title="Erik Eng">Startsida</a></li>
-                </ul>
+                <h1>Page Not Found</h1>
+                <p>The page that you are looking for could not be found. I recently moved my blog to a new location and some items may not have survived the transition. You might try searching for this page at <a href="http://archive.mbmccormick.com" target="_blank">archive.mbmccormick.com</a>.</p>
+                <p>If you are really desperate, feel free to <a href="/contact">contact</a> me.</p>
 
             </div>
         </div>
 
-        <section class="about">
-            <div class="content">
-                <div class="inner">
-                    <h2>Erik Eng</h2>
-                    <ul>
-                        <li>Utvecklare på <a href="http://improove.se/" title="Ecommercebyrå, experter på Magento">Improove</a></li>
-                        <li>Gillar <a href="http://www.opendata.se/">öppen data</a></li>
-                        <li>Bidrar till <a href="https://github.com/ptz0n" rel="me">öppen källkod</a></li>
-                    </ul>
-                    <ul class="links">
-                        <li><a href="https://twitter.com/ptz0n" class="twitter" rel="me">Twitter</a></li>
-                        <li><a href="https://github.com/ptz0n" class="github" rel="me">Github</a></li>
-                        <li><a href="http://dribbble.com/ptz0n" class="dribbble" rel="me">Dribbble</a></li>
-                        <li><a href="https://plus.google.com/105380157389113696457/" class="google" rel="me">Google Plus</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
         <footer role="contentinfo">
             <div class="content">
-                <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a> Erik Eng
+                &copy; 2013 {{ site.author }}
             </div>
         </footer>
 
     </body>
 </html>
+
