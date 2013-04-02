@@ -15,7 +15,7 @@ If you're one of the lucky people at Purdue to have received a [Google Cr-48][1]
  [1]: http://www.google.com/chromeos/pilot-program-cr48.html
  [2]: https://wiki.utah.edu/confluence/display/~u0226271/UConnect on Chrome OS
 
-In order for this to work, you will need to put your Cr-48 laptop into Developer Mode, which is detailed [here][3]. Once you do that, launch the Crosh terminal by hitting CTRL ALT T and issue the following commands:
+In order for this to work, you will need to put your Cr-48 laptop into Developer Mode, which is detailed [here][3]. Once you do that, launch the Crosh terminal by hitting CTRL + ALT + T and issue the following commands:
 
  [3]: http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information
 
