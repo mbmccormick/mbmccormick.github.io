@@ -22,30 +22,30 @@ Just over a month ago, I wrote a [post][2] about how to install Hamachi on the P
 
 I repackaged all of the necessary installation files and included a helpful readme file for installation. You can find the updated installation procedure below. First, you need to enable write access to the device:
 
-
+<script src="https://gist.github.com/mbmccormick/1273098.js"> </script>
 
 Next, you will need to download the packaged source code from GitHub and extract it:
 
-
+<script src="https://gist.github.com/mbmccormick/1273099.js"> </script>
 
 Next, copy the included files to their respective directories:
 
-
+<script src="https://gist.github.com/mbmccormick/1273100.js"> </script>
 
 Next we need to link some of the libraries together and modify permissions:
 
-
+<script src="https://gist.github.com/mbmccormick/1273102.js"> </script>
 
 Next, we need to modify our path variables to point to the Hamachi binaries.
 
-
+<script src="https://gist.github.com/mbmccormick/1273103.js"> </script>
 
 Now we need to prepare our VPN drivers and start Hamachi:
 
-
+<script src="https://gist.github.com/mbmccormick/1273105.js"> </script>
 
 Lastly, we need to setup our device to enable write access and start Hamachi on boot:
 
-
+<script src="https://gist.github.com/mbmccormick/1273107.js"> </script>
 
 You should now be able to access the Hamachi network using the legacy Linux commands. The Hamachi service should also be set to run when the device boots.
