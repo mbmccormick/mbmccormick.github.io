@@ -22,7 +22,7 @@ I did some research and found that Thunderbird organizes email into two separate
  [5]: http://en.wikipedia.org/wiki/Mbox
  [6]: http://en.wikipedia.org/wiki/Mork_(file_format)
 
-After some research, I found a useful utility called [IMAP Upload][7] that allowed us to import these mbox files to Gmail by reading the mbox file and uploading each message to the email server using IMAP. IMAP Upload is a small [Python][8] script and is extremely easy to use. The following command will upload email messages from the "Inbox" mbox file to Gmail and label these messages with "Imported". You will need to created this label before running this command in order for it to work properly.
+After some research, I found a useful utility called [IMAP Upload][7] that allowed us to import these mbox files to Gmail by reading the mbox file and uploading each message to the email server using IMAP. IMAP Upload is a small [Python][8] script and is extremely easy to use. The following command will upload email messages from the "Inbox" mbox file to Gmail and label these messages with "Imported". You will need to create this label before running this command in order for it to work properly.
 
  [7]: http://imap-upload.sourceforge.net/
  [8]: http://python.org/
