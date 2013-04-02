@@ -28,7 +28,7 @@ Now, this only covers the forward-navigation scenarios. HTML5 has a [separate Ja
 
  [7]: https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history#The_popstate_event
 
-<script src="https://gist.github.com/mbmccormick/1345316.js"></script>
+<script src="https://gist.github.com/mbmccormick/1345316.js"> </script>
 
 With these two scenarios covered, my website is able to dynamically load content and only update the parts of a page that truly change during navigation. And this all works great, however because my blog is mostly technical, you'll often find code snippets like the one's I'm using in this post in other posts on my website. I use [GitHub Gists][8] to embed my code snippets because GitHub does all of the syntax highlighting and formatting for me and it also encourages my readers to help contribute to my code. GitHub Gists are embedded using some inline ` ` tags, which jQuery's `load()` function does not like.
 
@@ -43,7 +43,7 @@ With two simple calls like that, I decided to write a [server-side proxy][11] th
 
  [11]: https://github.com/mbmccormick/gist-proxy
 
-<script src="https://gist.github.com/mbmccormick/1345367.js"></script>
+<script src="https://gist.github.com/mbmccormick/1345367.js"> </script>
 
 This allowed me to dynamically load my content using the new HTML5 features and still keep my source code examples in GitHub Gists. The source code for my [gist-proxy][11] project can be found on GitHub along with the full source code for my [website][12].
 
