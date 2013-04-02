@@ -27,6 +27,6 @@ After some research, I found a useful utility called [IMAP Upload][7] that allow
  [7]: http://imap-upload.sourceforge.net/
  [8]: http://python.org/
 
-
+<script src="https://gist.github.com/mbmccormick/1560472.js"> </script>
 
 The script first inspects the mbox file and then begins uploading each message to Gmail. In my case, there were 75,000 emails of varying size, so this took about 24 hours to complete. In the event that a message fails, this script will output failed messages to a separate mbox file, making it easy to restart this process if necessary. IMAP Upload worked flawlessly and Libby's mom's emails started showing up in her new Gmail account instantly.
