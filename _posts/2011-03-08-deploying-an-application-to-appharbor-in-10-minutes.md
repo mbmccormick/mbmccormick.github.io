@@ -40,19 +40,19 @@ So after a couple of hours of development and testing, my application was ready 
 
  [15]: http://blog.appharbor.com/2010/12/06/now-with-sql-server
 
-
+<script src="https://gist.github.com/mbmccormick/860286.js"> </script>
 
 If you're a Windows user running [msysGit][16], like myself, the code above may not have worked for you (hence the * from above). You probably received an error message along the lines of:
 
  [16]: http://code.google.com/p/msysgit/
 
-
+<script src="https://gist.github.com/mbmccormick/860293.js"> </script>
 
 A quick Google search lead me to this [blog post][17], which discussed why this was happening and gave the following fix:
 
  [17]: http://www.lostechies.com/blogs/dahlbyk/archive/2010/09/26/msysgit-error-setting-certificate-verify-locations.aspx
 
-
+<script src="https://gist.github.com/mbmccormick/860295.js"> </script>
 
 With that, I was able to run my `git push` and my application deployed to AppHarbor successfully! From the time my application was developed to the time I deployed it on AppHarbor was 10 minutes flat. AppHarbor completely eliminates what used to be a tedious process of finding a host, configuring it, updating your builds, etc. and just works. They certainly live up to their "Azure done right" tagline with a service that delivers, perfectly. You can find out more about AppHarbor [here][18] and you can check out this project on [GitHub][19] or at [Returnflix][20].
 
