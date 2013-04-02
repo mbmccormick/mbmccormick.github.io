@@ -14,6 +14,6 @@ Here's a quick tip on how to get [Twilio][1] to read a phone number, access code
  [1]: http://www.twilio.com
  [2]: http://www.twilio.com/docs/api/2010-04-01/twiml/say
 
-
+<script src="https://gist.github.com/mbmccormick/758022.js"> </script>
 
 Without separating the characters, Twilio's speech engine understands "ABC123" as a word and attempts to read it. But when you send "A, B, C, 1, 2, 3," in your TwiML, Twilio will read this naturally, at a speed slow enough that the caller can write it down. This is useful when reading phone numbers or access codes, depending on your service. This is a little tricky in Python, so I thought I'd share this.
