@@ -19,7 +19,7 @@ In order for this to work, you will need to put your Cr-48 laptop into Developer
 
  [3]: http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information
 
-<script src="https://gist.github.com/mbmccormick/811480.js"></script>
+<script src="https://gist.github.com/mbmccormick/811480.js"> </script>
 
 My field tests have shown that after moving from HSSE to STEW (changing PAL2.0 access points), I did not need to re-execute the above commands. However, because these commands are stored in memory, I was required to re-execute the above commands in order to reconnect after a full reboot. Just going into standby, however, did not require me to re-execute.
 
@@ -32,10 +32,10 @@ Thanks to some help from [Nate Radebaugh][4] with his [modifications][5] using t
  [8]: http://www.reddit.com/r/CR48/comments/fcxhw/any_workarounds_for_wpa2_with_certificate/
  [9]: http://archive.mbmccormick/files/pal2.sh
 
-<script src="https://gist.github.com/mbmccormick/827025.js"></script>
+<script src="https://gist.github.com/mbmccormick/827025.js"> </script>
 
 Once installed, you can run the script by opening up a Crosh terminal and executing:
 
-<script src="https://gist.github.com/mbmccormick/827049.js"></script>
+<script src="https://gist.github.com/mbmccormick/827049.js"> </script>
 
 You'll then be prompted for your Purdue network login credentials and, upon successful authentication, be connected to PAL2.0.
