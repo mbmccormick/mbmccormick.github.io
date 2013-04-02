@@ -4,9 +4,9 @@
         <link rel=stylesheet href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>{{ page.title }}</title>
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-        <meta name="author" content="{{ site.author }}" />
+        <title>Matt McCormick</title>
+        <meta name="description" content="I'm a Program Manager at Microsoft and a Computer Science graduate from Purdue University. I live in Seattle with my fiancé and I'm always hacking away on something." />
+        <meta name="author" content="Matt McCormick" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1" />
@@ -34,9 +34,7 @@
 
         <header role="banner">
             <div class="content">
-                {% unless page.url == '/index.html' %}
-                    <a href="/" title="Back to home" role="navigation">Home</a>
-                {% endunless %}
+                <a href="/" title="Back to home" role="navigation">Home</a>
                 <a href="/">{{ site.title }}</a>
             </div>
         </header>
@@ -53,10 +51,9 @@
 
         <footer role="contentinfo">
             <div class="content">
-                &copy; 2013 {{ site.author }}
+                &copy; 2013 Matt McCormick
             </div>
         </footer>
 
     </body>
 </html>
-
