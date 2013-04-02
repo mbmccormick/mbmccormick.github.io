@@ -13,6 +13,6 @@ While I'm in the middle of my conversion from Subversion to Git, I ran across a 
 
 Thanks to posts from several different blogs, I found a quick batch file that accomplishes just that. View the source below:
 
-
+<script src="https://gist.github.com/mbmccormick/1272822.js"> </script>
 
 Simply drop this batch file in the root of your Subversion project's local directory and execute it. You'll be left with a fresh, clean project file structure, free of `.svn` directories.
