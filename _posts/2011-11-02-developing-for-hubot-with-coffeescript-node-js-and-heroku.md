@@ -35,7 +35,7 @@ Hubot can be easily deployed to [Heroku][12], a cloud hosting platform for [Ruby
  [15]: http://devcenter.heroku.com/articles/cedar
  [16]: https://github.com/github/hubot/blob/master/src/templates/README.md
 
-This weekend I made two contributions to Hubot over on GitHub. The first was modifying the [Google Talk][17] adapter for Hubot to change the default status from "Chatty" to "Available". This [was happening][18] because the adapter, which relies on XMPP to communicate with Google Talk, was sending a `chat` stanza unnecessarily. I did some research on the XMPP protocol and found that when establishing presence with an XMPP server, the user's default status will be available and that sending a `` stanza was not needed. I forked the Hubot [repository][19] on GitHub and these changes were later [pulled][20] into the master branch.
+This weekend I made two contributions to Hubot over on GitHub. The first was modifying the [Google Talk][17] adapter for Hubot to change the default status from "Chatty" to "Available". This [was happening][18] because the adapter, which relies on XMPP to communicate with Google Talk, was sending a `chat` stanza unnecessarily. I did some research on the XMPP protocol and found that when establishing presence with an XMPP server, the user's default status will be available and that sending a `<status />` stanza was not needed. I forked the Hubot [repository][19] on GitHub and these changes were later [pulled][20] into the master branch.
 
  [17]: https://github.com/github/hubot/blob/8f36df033d3f63d2aee239cb5fe44c2c02a1a241/src/hubot/gtalk.coffee
  [18]: https://github.com/github/hubot/blob/31302370537600a52f6ed64bc8480e286156b26c/src/hubot/gtalk.coffee
@@ -47,7 +47,7 @@ The second contribution that I made to Hubot was on the [weather script][21]. Or
  [21]: https://github.com/github/hubot-scripts/blob/141f19e4c8d83d54b027f9a5dc0f791bd2ff011a/src/scripts/weather.coffee
  [22]: https://github.com/github/hubot-scripts/blob/6f5cbe66a7c242523f22f40b1b8e885891143eed/src/scripts/weather.coffee
 
-
+<script src="https://gist.github.com/mbmccormick/1335716.js"> </script>
 
 So what I'm doing in the script above is downloading the weather data from a hidden Google API, for simplicity's sake, and parsing this data when the robot engine hears the words "weather me ..". Unfortunately, this Google API only responds in XML format, which requires some additional legwork to extract the data. You can also see how Hubot responds in a "natural" format, making him seem more like a "person" rather than a command line. I forked the Hubot scripts [repository][23] on GitHub and these changes were later [pulled][24] into the master branch.
 
