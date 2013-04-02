@@ -24,7 +24,7 @@ First, you need to enable SSH access on your [PogoPlug][5]-enabled device. You c
  [5]: http://pogoplug.com/
  [6]: http://my.pogoplug.com/
 
-
+<script src="https://gist.github.com/mbmccormick/1273144.js"> </script>
 
 Our file system should now writable. Next, we need to install some  libraries. I unpacked the [libstdc ][7] and [openssl][8] library files from the OpenPogo [repository][9] and reorganized them for easy installation. Download the two files to your device using the following commands:
 
@@ -32,32 +32,32 @@ Our file system should now writable. Next, we need to install some  libraries. 
  [8]: http://www.openssl.org/
  [9]: http://openpogo.com/repo/
 
-
+<script src="https://gist.github.com/mbmccormick/1273145.js"> </script>
 
 Next, we need to unpack these archives and copy the library files to their respective locations on the PogoPlug device. Here's how to do that:
 
+<script src="https://gist.github.com/mbmccormick/1273146.js"> </script>
 
-
-
+<script src="https://gist.github.com/mbmccormick/1273148.js"> </script>
 
 The libraries should now be installed on our PogoPlug. Next, we need to install Hamachi. While the Hamachi 2 software is now developed by LogMeIn and no longer supports the Linux or Mac operating systems, you can still access the original Hamachi [source code][10]. The PogoPlug device uses an ARM processor and lucky for us, Hamachi has an ARM build for the Nokia N770 phone which works perfectly for this. Download and install it with the following commands:
 
  [10]: http://files.hamachi.cc/linux/
 
-
+<script src="https://gist.github.com/mbmccormick/1273151.js"> </script>
 
 Now that all of the pieces of this puzzle are in place, its time to set things in motion. Next we will configure the [tun driver][11] and setup Hamachi, and if all succeeds we should be online. Here we go:
 
  [11]: http://en.wikipedia.org/wiki/TUN/TAP
 
-
+<script src="https://gist.github.com/mbmccormick/1273152.js"> </script>
 
 For some reason the Nokia N770 build of the Hamachi client has a tendency to fall asleep, after which the device won't be reachable over the Hamachi network. To avoid this, we need to create the Hamachi config file like this:
 
-
+<script src="https://gist.github.com/mbmccormick/1273155.js"> </script>
 
 You can set this setting to any value, in seconds, or 0 to disable it. When finished, save the file and exit vi by pressing the escape key, then "wq" and hit enter. Once you've saved the file restart the Hamachi service. Lastly, we need to create a startup script to keep execute the Hamachi script when our PogoPlug device boots up. Execute the following lines:
 
-
+<script src="https://gist.github.com/mbmccormick/1273156.js"> </script>
 
 And with that, our Hamachi client should now be working when you boot your PogoPlug device and you can join or create a new Hamachi network and securely access your USB drives from anywhere in the world!
