@@ -34,19 +34,19 @@ Let's first start with a quick background on how [POP (Post Office Protocol)][8]
     C: AUTH
     S: -ERR not supported
     C: CAPA
-    S:  OK capability listing follows
+    S: OK capability listing follows
     S: USER
     S: LOGIN-DELAY 900
     S: UIDL
     S: .
     C: USER mbmccormick@twitter.com
-    S:  OK hello, please authenticate
+    S: OK hello, please authenticate
     C: PASS P4ssw0rd!
-    S:  OK welcome mbmccormick
+    S: OK welcome mbmccormick
     C: STAT
-    S:  OK 3 256
+    S: OK 3 256
     C: LIST
-    S:  OK 3 messages
+    S: OK 3 messages
     S: 0 64
     S: 1 64
     S: 2 128
