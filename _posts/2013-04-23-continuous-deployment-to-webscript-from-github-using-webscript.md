@@ -12,6 +12,7 @@ tags:
   - cloud
   - hack
   - code
+published: false
 ---
 
 I love [Webscript][1]. It's a cloud service that makes it extremely easy to create small scripts on the web in Lua. I've been using this service for a while now for a lot of different things:
