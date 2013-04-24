@@ -30,7 +30,7 @@ Recently, I was playing around with GitHub webhooks and wanted to create a conti
  [4]: https://help.github.com/articles/post-receive-hooks
  [5]: https://www.webscript.io/documentation#api
 
-To use this on your own GitHub repository, just add a webhook with the URL `https://code.webscript.io/github?email=YOUR_EMAIL_ADDRESS&key=YOUR_API_KEY`. Then every time you push to GitHub, your Lua scripts will be deployed to your Webscript account. This is great for keeping your scripts under source control and streamlining the deployment process.
+To use this on your own GitHub repository, just add a webhook with the URL `https://code.webscript.io/github?email=YOUR_EMAIL_ADDRESS&key=YOUR_API_KEY`. Then every time you push to GitHub, your Lua scripts will be deployed to your Webscript account. This is a great way to keep your scripts under source control and streamline the deployment process.
 
 You can check out the full source code and documentation for this [project on GitHub][6].
 
