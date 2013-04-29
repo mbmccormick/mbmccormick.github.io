@@ -106,7 +106,7 @@ pre {
     word-wrap: break-word;
 }
 
-code:not(div.gist > code) {
+code {
     color: #dd1144;
 }
 
