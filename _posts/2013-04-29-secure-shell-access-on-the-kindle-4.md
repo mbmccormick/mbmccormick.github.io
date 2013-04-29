@@ -1,8 +1,8 @@
 ---
-title: 'Root Shell Access on the Kindle 4'
+title: 'Secure Shell Access on the Kindle 4'
 author: Matt
 layout: post
-permalink: /2013/04/root-shell-access-on-the-kindle-4/
+permalink: /2013/04/secure-shell-access-on-the-kindle-4/
 categories:
   - Development
 tags:
