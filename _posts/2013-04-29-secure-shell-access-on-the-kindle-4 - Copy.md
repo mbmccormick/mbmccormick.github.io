@@ -4,14 +4,17 @@ author: Matt
 layout: post
 permalink: /2013/04/secure-shell-access-on-the-kindle-4/
 categories:
-  - Development
+  - Projects
 tags:
   - webscript
-  - github
+  - heroku
   - lua
-  - cloud
+  - kindle
   - hack
+  - cloud
   - code
+  - jailbreak
+  - hardware
 ---
 
 I bought a used [Kindle 4][1] the other day because I want to build a dashboard-type display for my apartment. The e-paper display is perfect for this because it is low-power and non-intrusive, which is great for displaying the weather or a calendar. I'll talk more about this project in another post, but today I wanted to share how to get root [SSH access][2] on the Kindle 4 and how to interact with the e-paper display.
