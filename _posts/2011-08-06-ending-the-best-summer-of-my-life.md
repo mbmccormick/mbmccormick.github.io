@@ -1,4 +1,4 @@
----
+﻿---
 title: Ending the Best Summer of My Life
 author: Matt
 layout: post
@@ -10,9 +10,7 @@ tags:
   - summer
 ---
 
-This has been one hell of a summer for me and I could not have dreamed up an experience like this if I tried. I'd like to finish up this series of blog posts about my internship here at [Microsoft][1] by quoting an email that I came across this summer that does a great job at describing what it's been like to work for this company.
-
- [1]: http://www.microsoft.com/en-us/default.aspx
+This has been one hell of a summer for me and I could not have dreamed up an experience like this if I tried. I'd like to finish up this series of blog posts about my internship here at [Microsoft](http://www.microsoft.com/en-us/default.aspx) by quoting an email that I came across this summer that does a great job at describing what it's been like to work for this company.
 
 Copied below is an email from a [post][2] by [Sriram Krishnan][3], a former Microsoft employee:
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Install Ubuntu 11.04 on a Google Cr-48
 author: Matt
 layout: post
@@ -10,27 +10,18 @@ tags:
   - tutorial
 ---
 
-If you remember [earlier this year][1], I was lucky enough to receive a [Google Cr-48 laptop][2]. They're still pretty useful devices, however they're pretty restricted and, as a developer, it would be great to get more functionality out of this thing. Below is a re-post of [Jay Lee][3]'s [instructions][4] on how to install [Ubuntu 11.04][5] on a Google Cr-48 laptop. I don't take credit or responsibility for these instructions, but I've found them very helpful and want to provide some more visibility.
+If you remember [earlier this year](http://mbmccormick.com/2011/02/connect-your-google-cr-48-laptop-to-pal2-0-at-purdue/), I was lucky enough to receive a [Google Cr-48 laptop](http://www.google.com/chromebook/). They're still pretty useful devices, however they're pretty restricted and, as a developer, it would be great to get more functionality out of this thing. Below is a re-post of [Jay Lee](http://www.blogger.com/profile/00619758583418639317)'s [instructions](http://chromeos-cr48.blogspot.com/2011/04/ubuntu-1104-for-cr-48-is-ready.html) on how to install [Ubuntu 11.04](http://www.ubuntu.com/) on a Google Cr-48 laptop. I don't take credit or responsibility for these instructions, but I've found them very helpful and want to provide some more visibility.
 
- [1]: http://mbmccormick.com/2011/02/connect-your-google-cr-48-laptop-to-pal2-0-at-purdue/
- [2]: http://www.google.com/chromebook/
- [3]: http://www.blogger.com/profile/00619758583418639317
- [4]: http://chromeos-cr48.blogspot.com/2011/04/ubuntu-1104-for-cr-48-is-ready.html
- [5]: http://www.ubuntu.com/
-
-1.  [Get root.][6] (also known as Developer mode)
+1.  [Get root](http://chromeos-cr48.blogspot.com/2010/12/rooting-jailbreaking-your-new-google.html) (also known as Developer mode).
 2.  Reboot your Cr-48 but don't login. Make sure you have a WiFi or USB Ethernet connection at this point. 3G is not recommended. Press CTRL ALT => (=> is the forward arrow where the F2 key used to be). Do not use the normal CTRL ALT T method to get a shell. Use the CTRL ALT => method.
 3.  Login as user "chronos", no password is needed.
 4.  As the chronos user, run `wget http://goo.gl/hnkxo; sudo sh hnkxo`. If you get a "not found" error, make sure you have Internet connectivity.
 5.  The Chrome OS stateful partition where your data and settings are stored is just short of 11gb by default, the script shrinks the stateful partition to make room for Ubuntu. You can choose to give Ubuntu from 5gb up to 10gb in 1gb increments. I recommend not going higher than 9 though as 10 leaves Chrome OS with very little free space (less than 1gb). Once you've entered a number 5 through 10, your hard drive will be repartitioned. It may look like the Cr-48 is doing nothing for 10-15 minutes but let it be, after awhile it will reboot and re-initialize the stateful partition (told you it was going to wipe your data). This process takes about 5 minutes and then the Cr-48 reboots again and shows you the Welcome screen you got when you first turned on your Cr-48 out of the box.
 6.  Go through the setup process until you get to the Google login page. You'll need to have a WiFi or Ethernet Connection again at this point. 3G is not recommended. Now follow steps 2 through 4 again. This time the script will see that you've already made room for Ubuntu and will start downloading the Ubuntu 11.04image and copying it to the SSD.
-7.  There are 52 100mb files to be downloaded. Each is compressed so the actual download size ranges from less than 1mb in size to 90mb in size. The total size of all the files is about 1.1gb compressed and 5gb uncompressed so the download and install will take awhile. The files are named ubuntu.binXX.bz2 (where XX is aa, ab, ac, ad, ae, af… ba, bb, bc… all the way to bz). If you want to see how big each piece is, [take a look here][7].
+7.  There are 52 100mb files to be downloaded. Each is compressed so the actual download size ranges from less than 1mb in size to 90mb in size. The total size of all the files is about 1.1gb compressed and 5gb uncompressed so the download and install will take awhile. The files are named ubuntu.binXX.bz2 (where XX is aa, ab, ac, ad, ae, af… ba, bb, bc… all the way to bz). If you want to see how big each piece is, [take a look here](http://code.google.com/p/cr-48-ubuntu/downloads/list).
 8.  The script keeps track of which of the 52 files have been successfully installed so if you lose Internet connectivity, or the battery dies (you should be plugged in BTW), etc, just re-run Step 4 and it should resume where it left off.
 9.  After all 52 files have been downloaded and copied to the SSD, the script will make a few more updates to your Cr-48 and then reboot.
 10. You'll see Ubuntu 11.04 start up! The username is "user" and the password is "user" if you need to make changes.
 11. If you chose anything other than 5gb for the partition size, you'll need to "grow" the ext4 file system to fill the partition. Open a command prompt and run: `sudo resize2fs -p /dev/sda7`. This will grow the ext4 partition to fill the free partition space.
 12. Right now, you're in Ubuntu but if you reboot twice, you'll be back in Chrome OS. To make Ubuntu the default, run `sudo cgpt add -i 6 -P 5 -S 1 /dev/sda` (password is "user"). It should be possible to run this from Ubuntu or Chrome OS.
 13. To make Chrome OS the default again, either pull the battery and turn off Developer Mode, or run `sudo cgpt add -i 6 -P 0 -S 1 /dev/sda`.
-
- [6]: http://chromeos-cr48.blogspot.com/2010/12/rooting-jailbreaking-your-new-google.html
- [7]: http://code.google.com/p/cr-48-ubuntu/downloads/list

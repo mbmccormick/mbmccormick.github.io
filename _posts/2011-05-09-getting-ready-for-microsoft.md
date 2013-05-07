@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting Ready for Microsoft
 author: Matt
 layout: post
@@ -10,18 +10,9 @@ tags:
   - summer
 ---
 
-As you may or may not know, I will be spending the summer at [Microsoft][1] in [Redmond, WA][2]. I accepted an internship position as a [Program Manger][3] with [Microsoft Lync][4], also known as the Office Voice and Video Communications Group. I am absolutely thrilled to be in [Seattle][5] this summer, working for a company that I have idolized over for as long as I can remember. I leave from Detroit for Seattle on Saturday, with New Employee Orientation on Monday. It's hard to believe, though, that it has been over 6 months to get to where I am now.
+As you may or may not know, I will be spending the summer at [Microsoft](http://www.microsoft.com/en-us/default.aspx) in [Redmond, WA](http://www.microsoft.com/presspass/gallery/campus.mspx). I accepted an internship position as a [Program Manger](http://careers.microsoft.com/careers/en/us/collegeinternships.aspx) with [Microsoft Lync](http://lync.microsoft.com/en-us/Pages/default.aspx), also known as the Office Voice and Video Communications Group. I am absolutely thrilled to be in [Seattle](http://www.seattle.gov/living/) this summer, working for a company that I have idolized over for as long as I can remember. I leave from Detroit for Seattle on Saturday, with New Employee Orientation on Monday. It's hard to believe, though, that it has been over 6 months to get to where I am now.
 
- [1]: http://www.microsoft.com/en-us/default.aspx
- [2]: http://www.microsoft.com/presspass/gallery/campus.mspx
- [3]: http://careers.microsoft.com/careers/en/us/collegeinternships.aspx
- [4]: http://lync.microsoft.com/en-us/Pages/default.aspx
- [5]: http://www.seattle.gov/living/
-
-[![][7]][7]
-
- [6]: http://mbmccormick.github.com/images/2012/05/IMG_0703.jpg
- [7]: http://mbmccormick.github.com/images/2012/05/IMG_0703.jpg
+![image](http://mbmccormick.github.com/images/2012/05/IMG_0703.jpg "Image 1")
 
 Back in October, I met with a Microsoft Recruiter at an on-campus job fair. We talked about the different internship positions that Microsoft offers and the interview process. A few weeks later, I was invited back for an on-campus interview. This was mostly a technical interview, lots of [coding and brainstorming][8]. A few weeks later, I was invited for the final round of interviews in Redmond. In mid-January, I flew out to Seattle and interviewed with four different people for about 6 hours. My brain was completely fried afterwards, as my interview consisted of a lot of [technical questions][9]. A few days after I returned from my trip, I was offered a position as a Program Manager Intern with Microsoft Lync. After accepting my offer, I was quickly introduced to an army of onboarding specialists. I think I've had about four recruiters, two relocation specialists, two travel specialists, a team contact, and just this week I met my manager and my mentor. Microsoft's [hiring program][10] alone is an logistical engineering feat. I have been thoroughly impressed with this team.
 

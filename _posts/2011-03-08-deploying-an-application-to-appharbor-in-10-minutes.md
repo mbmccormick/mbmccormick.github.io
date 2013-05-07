@@ -1,4 +1,4 @@
----
+﻿---
 title: Deploying an Application to AppHarbor in 10 Minutes
 author: Matt
 layout: post
@@ -10,11 +10,7 @@ tags:
   - git
 ---
 
-A few weekends ago, I had an idea for a new project: as a [Netflix][1] user, I constantly forget to return my movies or forget to watch them in the first place. So I thought it would be cool to create a small web application that would email me in the event that my Netflix movie has been "at home" for a long time. I started digging through the [Netflix API][2] and found out that there was, in fact, a [service call][3] that returned a list of movies that I have at home and how long they've been there. With that, I began development on Returnflix.
-
- [1]: http://www.netflix.com/
- [2]: http://developer.netflix.com/
- [3]: http://developer.netflix.com/docs/REST_API_Reference#0_41310
+A few weekends ago, I had an idea for a new project: as a [Netflix](http://www.netflix.com/) user, I constantly forget to return my movies or forget to watch them in the first place. So I thought it would be cool to create a small web application that would email me in the event that my Netflix movie has been "at home" for a long time. I started digging through the [Netflix API](http://developer.netflix.com/) and found out that there was, in fact, a [service call](http://developer.netflix.com/docs/REST_API_Reference#0_41310) that returned a list of movies that I have at home and how long they've been there. With that, I began development on Returnflix.
 
 The next thing I needed was a hosting provider. I told myself that I wanted to get back into the ASP.NET game, which is great, because I forgot how much I love .NET. The only downside is that hosting for ASP.NET applications is a little bit harder to come by. I remember hearing about [AppHarbor][4], a cloud computing service for ASP.NET that touts "Azure done right" as it's slogan, and I had been meaning to give it a thorough trial, so this project was perfect.
 
@@ -36,13 +32,13 @@ The fun stuff takes place on the back-end. AppHarbor is still a [young service][
  [13]: http://msdn.microsoft.com/en-us/library/ms178473.aspx
  [14]: http://weblogs.asp.net/kwarren/archive/2004/05/20/136129.aspx
 
-So after a couple of hours of development and testing, my application was ready to go. I setup my account at AppHarbor and created a new application. Then I added a 20mb SQL Server [database][15], which I then synchronized with my local SQL Server instance, and added my `returnflix.com` hostname. I was then given a URL to a Git repository, which is how AppHarbor allows for continuous integration deployments and is pure genius. Being able to deploy an application simply by pushing to a Git repository is an innovation that I'm sure will be adopted by several companies in the future, but AppHarbor has got this down. Essentially, two lines of code got me up and running*:
+So after a couple of hours of development and testing, my application was ready to go. I setup my account at AppHarbor and created a new application. Then I added a 20mb SQL Server [database][15], which I then synchronized with my local SQL Server instance, and added my `returnflix.com` hostname. I was then given a URL to a Git repository, which is how AppHarbor allows for continuous integration deployments and is pure genius. Being able to deploy an application simply by pushing to a Git repository is an innovation that I'm sure will be adopted by several companies in the future, but AppHarbor has got this down. Essentially, two lines of code got me up and running:
 
  [15]: http://blog.appharbor.com/2010/12/06/now-with-sql-server
 
 <script src="https://gist.github.com/mbmccormick/860286.js"> </script>
 
-If you're a Windows user running [msysGit][16], like myself, the code above may not have worked for you (hence the * from above). You probably received an error message along the lines of:
+If you're a Windows user running [msysGit][16], like myself, the code above may not have worked for you. You probably received an error message along the lines of:
 
  [16]: http://code.google.com/p/msysgit/
 

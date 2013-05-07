@@ -1,4 +1,4 @@
----
+﻿---
 title: Optical Character Recognition on Windows Phone 7
 author: Matt
 layout: post
@@ -10,22 +10,11 @@ tags:
   - windowsphone
 ---
 
-I'm working on a new [Windows Phone][1] application that uses some new [Mango features][2], which has been a pretty fun project thus far. Mango has some new functionality that I need access to, namely the [ability to save contacts][3] to the phone's address book. However, this post is going to talk about some additional functionality available for Windows Phone 7 that is enabled through [Project Hawaii][4], developed by [Microsoft Research][5].
+I'm working on a new [Windows Phone](http://www.microsoft.com/windowsphone/en-us/default.aspx) application that uses some new [Mango features](http://www.engadget.com/2011/05/24/microsoft-announces-windows-phone-mango-update-early-and-in/), which has been a pretty fun project thus far. Mango has some new functionality that I need access to, namely the [ability to save contacts](http://www.windowsphonegeek.com/tips/8-How-to-use-SaveContactTask-in-Windows-Phone-Mango) to the phone's address book. However, this post is going to talk about some additional functionality available for Windows Phone 7 that is enabled through [Project Hawaii](http://research.microsoft.com/en-us/um/redmond/projects/hawaii/), developed by [Microsoft Research](http://research.microsoft.com/en-us/).
 
- [1]: http://www.microsoft.com/windowsphone/en-us/default.aspx
- [2]: http://www.engadget.com/2011/05/24/microsoft-announces-windows-phone-mango-update-early-and-in/
- [3]: http://www.windowsphonegeek.com/tips/8-How-to-use-SaveContactTask-in-Windows-Phone-Mango
- [4]: http://research.microsoft.com/en-us/um/redmond/projects/hawaii/
- [5]: http://research.microsoft.com/en-us/
+The Hawaii Cloud Services SDK for WP7 has several cloud-based services including a [Relay Service](http://research.microsoft.com/en-us/um/redmond/projects/hawaii/download/HowToUseTheHawaiiRelayService.pdf), Rendezvous Service, [Speech to Text](http://research.microsoft.com/en-us/um/redmond/projects/hawaii/download/HowToUseTheSpeechToTextService.pdf), and [Optical Character Reading (OCR) Service](http://research.microsoft.com/en-us/um/redmond/projects/hawaii/download/HowToUseTheHawaiiRelayService.pdf). You can read up on what each of these can do, but for now I will focus on the OCR service. My new Windows Phone 7 application is called Carded and will allow you to take a picture of a business card and import the contact information from that card into your phone's contacts list. To do that, I am using the OCR service from Project Hawaii to read an image and return the text in that image.
 
-The Hawaii Cloud Services SDK for WP7 has several cloud-based services including a [Relay Service][6], Rendezvous Service, [Speech to Text][7], and [Optical Character Reading (OCR) Service][6]. You can read up on what each of these can do, but for now I will focus on the OCR service. My new Windows Phone 7 application is called Carded and will allow you to take a picture of a business card and import the contact information from that card into your phone's contacts list. To do that, I am using the OCR service from Project Hawaii to read an image and return the text in that image.
-
- [6]: http://research.microsoft.com/en-us/um/redmond/projects/hawaii/download/HowToUseTheHawaiiRelayService.pdf
- [7]: http://research.microsoft.com/en-us/um/redmond/projects/hawaii/download/HowToUseTheSpeechToTextService.pdf
-
-To get access to Project Hawaii, you first need to download and install the Hawaii Cloud Services SDK for WP7 for use in your project. Next, you need to generate an API key at the [Project Hawaii Signup][8] page. Here, you will login with your Live ID and the website will generate a GUID for you to use in your application.
-
- [8]: http://hawaiiguidgen.cloudapp.net/
+To get access to Project Hawaii, you first need to download and install the Hawaii Cloud Services SDK for WP7 for use in your project. Next, you need to generate an API key at the [Project Hawaii Signup](http://hawaiiguidgen.cloudapp.net/) page. Here, you will login with your Live ID and the website will generate a GUID for you to use in your application.
 
 <script src="https://gist.github.com/mbmccormick/1121868.js"> </script>
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Week Six at Microsoft
 author: Matt
 layout: post
@@ -10,16 +10,10 @@ tags:
   - summer
 ---
 
-It's been a while since I [last updated][1]. As it stands today, I am heading into my sixth week here at [Microsoft][2]. I have been busy working away during the week and making the most of my time in the Seattle area on weekends. I've met a lot of new people over the last few weeks, both fellow interns and people I work with on my team.
-
- [1]: http://mbmccormick.com/2011/06/becoming-a-program-manager/
+It's been a while since I [last updated](http://mbmccormick.com/2011/06/becoming-a-program-manager/). As it stands today, I am heading into my sixth week here at [Microsoft][2]. I have been busy working away during the week and making the most of my time in the Seattle area on weekends. I've met a lot of new people over the last few weeks, both fellow interns and people I work with on my team.
  [2]: http://www.microsoft.com/en-us/default.aspx
 
-[  
-![][4]][4]
-
- [3]: http://mbmccormick.github.com/images/2012/05/248356_1478059603680_1599450320_31652388_2482181_n.jpg
- [4]: http://mbmccormick.github.com/images/2012/05/248356_1478059603680_1599450320_31652388_2482181_n.jpg
+![image](http://mbmccormick.github.com/images/2012/05/248356_1478059603680_1599450320_31652388_2482181_n.jpg "Image 1")
 
 A few weeks ago I got my first [Windows Phone][5] on [Verizon][6]. I waited in line at the Microsft-only Verizon Store on the morning it came out and got a great price on the [device][7]. Unlike [last year's interns][8], my device was not free, but I did get to upgrade early and paid next to nothing for it. It's a great phone and, my employer aside, it's a great operating system. I honestly think that if more consumers went and used a Windows Phone 7 device, they would fall in love with it.
 
@@ -50,10 +44,7 @@ Lately, I've been using the [Pro Sports Club][21] almost every night. Some frien
  [23]: https://foursquare.com/venue/387297
  [24]: http://en.wikipedia.org/wiki/Mount_Rainier
 
-[![][26]][26]
-
- [25]: http://mbmccormick.github.com/images/2012/05/259703_1918511117371_1079791409_32147636_5127330_o.jpg
- [26]: http://mbmccormick.github.com/images/2012/05/259703_1918511117371_1079791409_32147636_5127330_o.jpg
+![image](http://mbmccormick.github.com/images/2012/05/259703_1918511117371_1079791409_32147636_5127330_o.jpg "Image 2")
 
 This week I have my first Core Design Review on Monday, where I will be meeting with my team, my customers, and the stakeholders for my feature to present my proposed design. I have already met with most of these attendees to get feedback, so hopefully tomorrow will just be a review for everyone and I can just get everyone together to sign off on things. On Tuesday, I have my [Checkpoint Review][27] with my manager. This is the halfway point for my internship, where my manager and I will discuss my progress thus far and review the commitments that I made at the beginning of the summer to ensure that I am on track. At the end of the meeting, my manager will make a decision of whether or not I am "performing at a level that would indicate future success in a professional position" or if I need to make some improvements.
 

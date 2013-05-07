@@ -1,4 +1,4 @@
----
+﻿---
 title: How I Launched 4sqtransit in Two Weeks on Windows Azure
 author: Matt
 layout: post
@@ -11,12 +11,7 @@ tags:
   - csharp
 ---
 
-My latest project, [4sqtransit][1], is a small application that delivers real-time public transit schedules to your phone via text message whenever you check in at a transit stop on [Foursquare][2]. I'm still a little uncertain about how word got out about what I was doing, but I woke up one morning to find out that 72 people were using my service. Later that day, I got an email from the [co-founder][3] of Foursquare. The following week, it was on the front page of [Mashable][4]. In the days following that, my user base surpassed 700 and my inbox was flooded with transit agencies asking to be added to my service. Today, 4sqtransit supports over 157 transit agencies around the globe and churns out nearly 400 text messages per day.
-
- [1]: http://www.4sqtransit.com/
- [2]: https://foursquare.com/
- [3]: https://foursquare.com/naveen
- [4]: http://mashable.com/2011/03/21/4sqtransit/
+My latest project, [4sqtransit](http://www.4sqtransit.com/), is a small application that delivers real-time public transit schedules to your phone via text message whenever you check in at a transit stop on [Foursquare](https://foursquare.com/). I'm still a little uncertain about how word got out about what I was doing, but I woke up one morning to find out that 72 people were using my service. Later that day, I got an email from the [co-founder](https://foursquare.com/naveen) of Foursquare. The following week, it was on the front page of [Mashable](http://mashable.com/2011/03/21/4sqtransit/). In the days following that, my user base surpassed 700 and my inbox was flooded with transit agencies asking to be added to my service. Today, 4sqtransit supports over 157 transit agencies around the globe and churns out nearly 400 text messages per day.
 
 I'd like to focus on the technical aspect of 4sqtransit today. I'll start by explaining the complete workflow of 4sqtransit from start to finish, the technologies that I am using, some of the challenges that I ran into, and then discuss how I was able to scale out my application using [Windows Azure][5] as more users signed up and my request rate increased exponentially. So first things first, I'll give you a top-down view of the 4sqtransit workflow. When a user checks in on Foursquare, I receive a notification from the Foursquare [Push API][6] that the user has checked in, with details about which of my users checked in and where they checked in at. My service then matches this Foursquare user to the user in my database to determine which transit agency they use, which they specified when they signed up for my application. I then query that transit agency for the nearest transit stop, based on the GPS coordinates of the user's check in location from Foursquare, and calculate the distance from the user to the transit stop. If the stop is within 100 meters of the user's check in location, then I move forward and deliver the stop times, otherwise I ignore the check in. To deliver stop times, I again query the user's transit agency for the stop times in the next 2 hours and send this information to the user by text message, using [Twilio][7].
 

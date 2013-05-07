@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Achievement Unlocked: Accept Full-Time Position at Microsoft'
 author: Matt
 layout: post
@@ -10,9 +10,8 @@ tags:
   - summer
 ---
 
-Just before my internship at [Microsoft][1] ended this summer, they extended me a full-time job offer. I accepted their offer on the spot. This was literally a dream come true for me. I will be returning to Microsoft early next year with [Microsoft Lync][2] Server, helping to create new innovations in how people communicate and collaborate. This is an extremely [exciting time for Microsoft][3] as a company and Lync is no exception.
+Just before my internship at [Microsoft](http://www.microsoft.com/en-us/default.aspx) ended this summer, they extended me a full-time job offer. I accepted their offer on the spot. This was literally a dream come true for me. I will be returning to Microsoft early next year with [Microsoft Lync][2] Server, helping to create new innovations in how people communicate and collaborate. This is an extremely [exciting time for Microsoft][3] as a company and Lync is no exception.
 
- [1]: http://www.microsoft.com/en-us/default.aspx
  [2]: http://lync.microsoft.com/en-us/Pages/unified-communications.aspx
  [3]: http://gizmodo.com/5889659/microsoft-is-the-most-exciting-company-in-tech-hands-down
 

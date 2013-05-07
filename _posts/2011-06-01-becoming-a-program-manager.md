@@ -1,4 +1,4 @@
----
+﻿---
 title: Becoming a Program Manager
 author: Matt
 layout: post
@@ -10,10 +10,7 @@ tags:
   - summer
 ---
 
-I started my third week at [Microsoft][1] today, well, yesterday if you're counting. Yes, I did have to go in to work for a few hours yesterday. Since I last updated, I started working on my project and my manager and my mentor helped me develop some deadlines for the first half of the summer. My project is on a direct path to the next release of [Microsoft Lync][2] and has a lot of stakeholders that are already awaiting a finished product, something that will take me several more weeks at best. The last week has been very fast-paced and intense and, honestly, I'm a little surprised I came out of that unscathed. I've been frantically working to get up to speed on my assignment and our team's policies and procedures. My first deadline was today, when I had the first review of my specification. I've been to countless meetings, met with several people from all over the world, and scoured the corporate network for documentation in order to get my specification to it's "first review" stage today.
-
- [1]: http://www.microsoft.com/en-us/default.aspx
- [2]: http://lync.microsoft.com/en-us/Pages/default.aspx
+I started my third week at [Microsoft](http://www.microsoft.com/en-us/default.aspx) today, well, yesterday if you're counting. Yes, I did have to go in to work for a few hours yesterday. Since I last updated, I started working on my project and my manager and my mentor helped me develop some deadlines for the first half of the summer. My project is on a direct path to the next release of [Microsoft Lync](http://lync.microsoft.com/en-us/Pages/default.aspx) and has a lot of stakeholders that are already awaiting a finished product, something that will take me several more weeks at best. The last week has been very fast-paced and intense and, honestly, I'm a little surprised I came out of that unscathed. I've been frantically working to get up to speed on my assignment and our team's policies and procedures. My first deadline was today, when I had the first review of my specification. I've been to countless meetings, met with several people from all over the world, and scoured the corporate network for documentation in order to get my specification to it's "first review" stage today.
 
 Like I said, today was my first specification review. Per team policy, I had to send my meeting invitation to over 450 people, although I only had about 16 attendees. The reasoning for this is that it allows everyone on the team to decide which meetings they need to go to, based on their respective project assignments. My specification was around 12 pages today and I needed to update my team, my team leads, my partners, and my dependencies on the status of my project. So I booked a conference room and setup the online meeting so that my partners across the country and the globe could attend using Microsoft Lync, of course. Although as much as I stressed out and prepared for this meeting, it went fine. My mentor, my manager, and a few of my team members congratulated me on my first accomplishment as a [Program Manager][3]. Today I earned my "official" title here at Microsoft.
 

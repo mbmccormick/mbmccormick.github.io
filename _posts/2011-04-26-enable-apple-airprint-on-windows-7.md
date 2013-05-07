@@ -1,4 +1,4 @@
----
+﻿---
 title: Enable Apple AirPrint on Windows 7
 author: Matt
 layout: post
@@ -9,11 +9,7 @@ tags:
   - tutorial
 ---
 
-About a month ago, I bought the new [Apple iPad 2][1]. I'll spare you the details, but in short, I love it. One of the neat features available to new Apple iOS devices is [AirPrint][2], which allows you to wirelessly print to AirPrint-enabled printers or printers attached to a Mac. I have neither a Mac nor an AirPrint-enabled printer. Nonetheless, there is a [leaked beta][3] of the Apple AirPrint software for Windows that brings this functionality to Windows users. Here's what you need to do to run it on your own computer:
-
- [1]: http://www.apple.com/ipad/
- [2]: http://www.apple.com/ipad/features/airprint.html
- [3]: http://jaxov.com/2010/11/how-to-enable-airprint-service-on-windows/
+About a month ago, I bought the new [Apple iPad 2](http://www.apple.com/ipad/). I'll spare you the details, but in short, I love it. One of the neat features available to new Apple iOS devices is [AirPrint](http://www.apple.com/ipad/features/airprint.html), which allows you to wirelessly print to AirPrint-enabled printers or printers attached to a Mac. I have neither a Mac nor an AirPrint-enabled printer. Nonetheless, there is a [leaked beta](http://jaxov.com/2010/11/how-to-enable-airprint-service-on-windows/) of the Apple AirPrint software for Windows that brings this functionality to Windows users. Here's what you need to do to run it on your own computer:
 
 1.  If you haven't already, download and install the latest [iTunes][4]. You will need at least iTunes 10.1.
 2.  Download this leaked [AirPrint for Windows installer][5] and run it as an administrator to install.
