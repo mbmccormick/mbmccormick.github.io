@@ -1,4 +1,4 @@
----
+﻿---
 title: Removing Subversion Directories from Windows
 author: Matt
 layout: post

@@ -1,4 +1,4 @@
----
+﻿---
 title: Creating GitHub Style Post-Receive Webhooks in Gitosis
 author: Matt
 layout: post
@@ -10,9 +10,7 @@ tags:
   - tutorial
 ---
 
-As I mentioned in an [earlier blog post][1], I've been working on the first product for my business. The tool that I'm writing is really geared toward helping freelance software developers keep track of their projects. No, this is not just another project management system, in fact, I don't even know that I would consider it project management software.
-
- [1]: http://mbmccormick.com/2010/12/rapid-application-development-with-limonade-and-php/
+As I mentioned in an [earlier blog post](http://mbmccormick.com/2010/12/rapid-application-development-with-limonade-and-php/), I've been working on the first product for my business. The tool that I'm writing is really geared toward helping freelance software developers keep track of their projects. No, this is not just another project management system, in fact, I don't even know that I would consider it project management software.
 
 Anyway, I really wanted to integrate some aspects of my application with source control management systems like Git or SVN. [GitHub][2] has a great [API for interacting with external web applications][3] using their [Post-Receive Webhook][4] feature. Basically, whenever you push to GitHub, it will POST some data about your commit to some URL that you supply through a small JSON payload. Your web application can then use this data however it chooses. So, hypothetically, if you had a software package that helped certain freelance software developers keep track of their projects, which may or may not be stored in a git repository, you could see how useful this functionality could be.
 

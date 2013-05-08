@@ -1,4 +1,4 @@
----
+﻿---
 title: Bulk INSERT to SQL Azure using LINQ to SQL
 author: Matt
 layout: post

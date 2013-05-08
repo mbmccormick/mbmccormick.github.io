@@ -1,4 +1,4 @@
----
+﻿---
 title: Deploying XINU to Linksys Routers at Purdue University
 author: Matt
 layout: post

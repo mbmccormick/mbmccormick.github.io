@@ -1,4 +1,4 @@
----
+﻿---
 title: Ditching WordPress for Jekyll and GitHub
 author: Matt
 layout: post

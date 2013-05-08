@@ -1,4 +1,4 @@
----
+﻿---
 title: Configure Dropbox to Sync Your Entire Documents Folder
 author: Matt
 layout: post
@@ -9,10 +9,7 @@ tags:
   - tutorial
 ---
 
-I recently decided to switch my online backup solution from [Syncplicity][1] to [Dropbox][2]. The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the "My Dropbox" folder for all of my syncing, something I did not want to do.
-
- [1]: http://syncplicity.com/
- [2]: http://www.dropbox.com/
+I recently decided to switch my online backup solution from [Syncplicity](http://syncplicity.com/) to [Dropbox](http://www.dropbox.com/). The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the "My Dropbox" folder for all of my syncing, something I did not want to do.
 
 There are several methods for overcoming this issue. Some articles [recommended][3] moving my Documents folder, which I tried. But I was really uncomfortable with moving my documents elsewhere on my hard drive, so I opted out. The other [recommendation][4] I saw was to use symlinks, but the downside to that is the low-level Windows API does not report file modification notifications, so incremental backups would be out. No thanks.
 

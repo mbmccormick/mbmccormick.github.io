@@ -1,4 +1,4 @@
----
+﻿---
 title: How To Geolocate Users by IP Address or Zip Code
 author: Matt
 layout: post
@@ -9,9 +9,7 @@ tags:
   - php
 ---
 
-The inspiration for my latest project comes from a web service called [Umbrella Today][1]. If you haven't checked out their website yet, it's worth a look. Their service gathers forecast information for your area and determines whether or not you need an umbrella today. You can sign up to receive text message notifications on the days you need an umbrella. Recently, Umbrella Today has been letting me down. I've been receiving late notifications or sometimes not at all on days when I clearly need my umbrella. I'm not quite sure how they determine whether or not I need an umbrella and for this reason I decided to write my own umbrella-reminder service.
-
- [1]: http://www.umbrellatoday.com/
+The inspiration for my latest project comes from a web service called [Umbrella Today](http://www.umbrellatoday.com/). If you haven't checked out their website yet, it's worth a look. Their service gathers forecast information for your area and determines whether or not you need an umbrella today. You can sign up to receive text message notifications on the days you need an umbrella. Recently, Umbrella Today has been letting me down. I've been receiving late notifications or sometimes not at all on days when I clearly need my umbrella. I'm not quite sure how they determine whether or not I need an umbrella and for this reason I decided to write my own umbrella-reminder service.
 
 I wanted my service to have the same functionality as Umbrella Today, but with more reliability, robustness, and a some unique new features. First and foremost, I wanted to get my information from [WeatherUnderground][2]. Their forecast information is updated hourly and provides dependable results, and most importantly, their API let's me retrieve the probability of precipitation for specific days. I decided to use this "probability of precipitation" variable as my determining factor. Next, I wanted the web interface for my service to be very intuitive.
 

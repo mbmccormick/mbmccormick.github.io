@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Early Look at Mojito: Mint.com for Windows Phone 7'
 author: Matt
 layout: post

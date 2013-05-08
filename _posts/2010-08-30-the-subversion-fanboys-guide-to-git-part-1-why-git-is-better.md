@@ -1,4 +1,4 @@
----
+﻿---
 title: 'The Subversion Fanboy&#8217;s Guide to Git, Part 1: Why Git is Better'
 author: Matt
 layout: post
@@ -11,12 +11,7 @@ tags:
   - tutorial
 ---
 
-Over the weekend, I made the switch from [Subversion][1] to [Git][2]. After seeing so many developers and open source projects moving to this new version control system, I decided to do a little research for myself. As many of you might now, Git has recently taken the software development world by storm. It began development in April 2005 by [Linus Torvalds][3], the mastermind behind [Linux][4]. After 8 months of development by Torvalds and several colleagues, the 1.0 release of Git came in December of that same year. As for the name, he has this to say: "I'm an egotistical bastard, and I name all my projects after myself. First Linux, now Git."
-
- [1]: http://en.wikipedia.org/wiki/Subversion_(software)
- [2]: http://en.wikipedia.org/wiki/Git_(software)
- [3]: http://en.wikipedia.org/wiki/Linus_Torvalds
- [4]: http://en.wikipedia.org/wiki/Linux
+Over the weekend, I made the switch from [Subversion](http://en.wikipedia.org/wiki/Subversion_(software)) to [Git](http://en.wikipedia.org/wiki/Git_(software)). After seeing so many developers and open source projects moving to this new version control system, I decided to do a little research for myself. As many of you might now, Git has recently taken the software development world by storm. It began development in April 2005 by [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds), the mastermind behind [Linux](http://en.wikipedia.org/wiki/Linux). After 8 months of development by Torvalds and several colleagues, the 1.0 release of Git came in December of that same year. As for the name, he has this to say: "I'm an egotistical bastard, and I name all my projects after myself. First Linux, now Git."
 
 Now what makes Git so much better (in my opinion) than the rest is that it was designed around the pros and cons of the existing version control systems. Subversion has been around for over 10 years, and [CVS][5] has been around for over 20 years. These systems are outdated and many features, such as branching, merging, etc. were added in after the fact. Git however, was built around this idea of branching and merging and makes it easy to visualize your software repository and to execute these functions.
 

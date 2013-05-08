@@ -1,4 +1,4 @@
----
+﻿---
 title: Connect Your Google Cr-48 Laptop to PAL2.0 at Purdue
 author: Matt
 layout: post
@@ -10,10 +10,7 @@ tags:
   - tutorial
 ---
 
-If you're one of the lucky people at Purdue to have received a [Google Cr-48][1] laptop like myself, then you may have realized that Chrome OS currently does not have support for WPA Enterprise wireless networks, the same protocol that Purdue uses to connect to PAL2.0. Thanks to this [wiki post][2] at the University of Utah, I have put together a working script with the necessary configurations to connect to PAL2.0 on your Google Cr-48.
-
- [1]: http://www.google.com/chromeos/pilot-program-cr48.html
- [2]: https://wiki.utah.edu/confluence/display/~u0226271/UConnect on Chrome OS
+If you're one of the lucky people at Purdue to have received a [Google Cr-48](http://www.google.com/chromeos/pilot-program-cr48.html) laptop like myself, then you may have realized that Chrome OS currently does not have support for WPA Enterprise wireless networks, the same protocol that Purdue uses to connect to PAL2.0. Thanks to this <a href="https://wiki.utah.edu/confluence/display/~u0226271/UConnect on Chrome OS">wiki post</a> at the University of Utah, I have put together a working script with the necessary configurations to connect to PAL2.0 on your Google Cr-48.
 
 In order for this to work, you will need to put your Cr-48 laptop into Developer Mode, which is detailed [here][3]. Once you do that, launch the Crosh terminal by hitting CTRL + ALT + T and issue the following commands:
 

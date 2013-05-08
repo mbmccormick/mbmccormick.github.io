@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Check Best Buy stock status with Webscript'
 author: Matt
 layout: post

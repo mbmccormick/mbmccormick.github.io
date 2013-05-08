@@ -1,4 +1,4 @@
----
+﻿---
 title: Authenticator for Windows Phone 7
 author: Matt
 layout: post

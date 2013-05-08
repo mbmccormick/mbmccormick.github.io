@@ -1,4 +1,4 @@
----
+﻿---
 title: 'The Subversion Fanboy&#8217;s Guide to Git, Part 2: Pushing to GitHub'
 author: Matt
 layout: post
@@ -10,10 +10,7 @@ tags:
   - tutorial
 ---
 
-Earlier this week, I [discussed][1] the reasoning behind why I switched from Subversion to Git. Let me just say that, with another week of using Git, I am happier than ever! Continuing with this series, I'll show you how to get setup on [GitHub][2], create your first repository, and push some changes from your workstation. Let's get started.
-
- [1]: http://mbmccormick.com/2010/08/the-subversion-fanboys-guide-to-git-part-1-why-git-is-better/
- [2]: http://github.com
+Earlier this week, I [discussed](http://mbmccormick.com/2010/08/the-subversion-fanboys-guide-to-git-part-1-why-git-is-better/) the reasoning behind why I switched from Subversion to Git. Let me just say that, with another week of using Git, I am happier than ever! Continuing with this series, I'll show you how to get setup on [GitHub](http://github.com), create your first repository, and push some changes from your workstation. Let's get started.
 
 First and foremost, you need to sign up for GitHub. There are some alternatives to GitHub, but this system is far more superior. The simplicity of Git combined with the social setting of the website makes it a breeding ground for open source projects. I'll assume you know the standard name, password, email dance, so let's move forward to getting our clients.
 

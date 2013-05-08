@@ -1,4 +1,4 @@
----
+﻿---
 title: SQL Server 2012 could not find the Database Engine startup handle
 author: Matt
 layout: post

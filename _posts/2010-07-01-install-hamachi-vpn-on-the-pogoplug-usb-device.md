@@ -1,4 +1,4 @@
----
+﻿---
 title: Install Hamachi VPN on the PogoPlug USB Device
 author: Matt
 layout: post
@@ -10,14 +10,9 @@ tags:
   - tutorial
 ---
 
-*Update: A newer version of this article has recently been [posted][1]. The information in this post may be obsolete!*  
+*Update: A newer version of this article has recently been [posted](http://mbmccormick.com/2010/09/install-hamachi-vpn-on-the-pogoplug-usb-device-updated/). The information in this post may be obsolete!*  
    
-I picked up the Seagate FreeAgent DockStar USB PogoPlug-enabled network adapter off of [Woot!][2] the other day with hopes off putting some of the unused external hard drives in this house to good, network-attached use. Since I'm away at school for about 75% of the year, our home network lives and breathes [LogMeIn Hamachi][3]. The device runs a custom build of Linux, which makes its current feature set possible. Tonight I decided to see what kind of potential this network adapter really had, and was able to (with a lot of hacking, of course) get the old [Linux version][4] of Hamachi up and running on the device. This post assumes your very familiar with Linux and command line environments.
-
- [1]: http://mbmccormick.com/2010/09/install-hamachi-vpn-on-the-pogoplug-usb-device-updated/
- [2]: http://woot.com/Forums/ViewPost.aspx?PostID=4000272
- [3]: https://secure.logmein.com/products/hamachi2/
- [4]: http://files.hamachi.cc/linux/nokia-770/
+I picked up the Seagate FreeAgent DockStar USB PogoPlug-enabled network adapter off of [Woot!](http://woot.com/Forums/ViewPost.aspx?PostID=4000272) the other day with hopes off putting some of the unused external hard drives in this house to good, network-attached use. Since I'm away at school for about 75% of the year, our home network lives and breathes [LogMeIn Hamachi](https://secure.logmein.com/products/hamachi2/). The device runs a custom build of Linux, which makes its current feature set possible. Tonight I decided to see what kind of potential this network adapter really had, and was able to (with a lot of hacking, of course) get the old [Linux version](http://files.hamachi.cc/linux/nokia-770/) of Hamachi up and running on the device. This post assumes your very familiar with Linux and command line environments.
 
 First, you need to enable SSH access on your [PogoPlug][5]-enabled device. You can do this by logging in to the [My PogoPlug][6] website and enabling this setting under Security Settings. Once you've done that, you can SSH into your PogoPlug device using any SSH client and login as root with the password you configured on the site. Before we can do anything with the device, we need to remount the file system to make it writable. After you've logged in, execute this command:
 

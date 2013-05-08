@@ -1,4 +1,4 @@
----
+﻿---
 title: Fix VirtualBox Guest Additions in Ubuntu 10.10
 author: Matt
 layout: post
@@ -10,10 +10,7 @@ tags:
   - tutorial
 ---
 
-I recently upgraded my [Ubuntu 10.04][1] installation on VirtualBox to the [Ubuntu 10.10][2] Beta. The upgrade process was pretty seamless, and I was able to do this unattended without any problems. From start to finish, it took about 10 minutes. However, after rebooting the VirtualBox machine, Guest Additions was not properly resizing the screen resolution. The problem is that the new xserver that is included in Ubuntu 10.10 is not supported by the previous installation of Guest Additions.
-
- [1]: http://releases.ubuntu.com/lucid/
- [2]: http://releases.ubuntu.com/maverick/
+I recently upgraded my [Ubuntu 10.04](http://releases.ubuntu.com/lucid/) installation on VirtualBox to the [Ubuntu 10.10](http://releases.ubuntu.com/maverick/) Beta. The upgrade process was pretty seamless, and I was able to do this unattended without any problems. From start to finish, it took about 10 minutes. However, after rebooting the VirtualBox machine, Guest Additions was not properly resizing the screen resolution. The problem is that the new xserver that is included in Ubuntu 10.10 is not supported by the previous installation of Guest Additions.
 
 To resolve this conflict, issue the following three commands from the terminal on the VirtualBox machine:
 

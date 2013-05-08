@@ -1,4 +1,4 @@
----
+﻿---
 title: Creating a Twitter Robot using Google App Engine
 author: Matt
 layout: post
@@ -9,9 +9,7 @@ tags:
   - python
 ---
 
-I love [Twitter][1] and in fact, I find myself spending more time on this social network than any other. It's quick, it's simple, and above all else it's a very unique platform through which to consume information. I follow my friends, favorite blogs, news outlets, software products, local businesses, etc. As a Purdue student, I am also able to get updates about student organizations, campus news, and even emergency alerts. For me, it has evolved from a fun social network to an essential tool.
-
- [1]: http://www.twitter.com/
+I love [Twitter](http://www.twitter.com/) and in fact, I find myself spending more time on this social network than any other. It's quick, it's simple, and above all else it's a very unique platform through which to consume information. I follow my friends, favorite blogs, news outlets, software products, local businesses, etc. As a Purdue student, I am also able to get updates about student organizations, campus news, and even emergency alerts. For me, it has evolved from a fun social network to an essential tool.
 
 The cool thing about Twitter is the recent increase in the "robot" population on the community. I can interact with my [Remember The Milk][2] task manager right from my timeline or see the latest deals on [Woot!][3]. During basketball games when I'm too busy studying (yet somehow have enough time to be on the Internet), I can even get live score updates. One thing that I didn't like was how the current weather robots worked. They all required me to send direct messages to the robot with my zip code and wait for a response, something I didn't want to do. I just wanted to see a forecast of my local weather in my timeline throughout the day. And that leads me to this post.
 

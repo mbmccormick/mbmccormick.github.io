@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Reading Phone Numbers, Access Codes with Twilio&#8217;s Speech Engine'
 author: Matt
 layout: post
@@ -9,10 +9,7 @@ tags:
   - php
 ---
 
-Here's a quick tip on how to get [Twilio][1] to read a phone number, access code, or how to spell out a word to users with the Twilio [speech engine][2]. The Python function below will take in any string, split the string into multiple characters, and then add a space and comma between each character. The result is that Twilio will say each letter or number separately at a slower speed.
-
- [1]: http://www.twilio.com
- [2]: http://www.twilio.com/docs/api/2010-04-01/twiml/say
+Here's a quick tip on how to get [Twilio](http://www.twilio.com) to read a phone number, access code, or how to spell out a word to users with the Twilio [speech engine](http://www.twilio.com/docs/api/2010-04-01/twiml/say). The Python function below will take in any string, split the string into multiple characters, and then add a space and comma between each character. The result is that Twilio will say each letter or number separately at a slower speed.
 
 <script src="https://gist.github.com/mbmccormick/758022.js"> </script>
 

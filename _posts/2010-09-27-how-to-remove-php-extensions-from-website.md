@@ -1,4 +1,4 @@
----
+﻿---
 title: How To Remove PHP Extensions From Website
 author: Matt
 layout: post

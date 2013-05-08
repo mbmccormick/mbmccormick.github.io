@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting Serious About Windows Phone 7 Development
 author: Matt
 layout: post

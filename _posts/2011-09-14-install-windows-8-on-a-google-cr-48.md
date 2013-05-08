@@ -1,4 +1,4 @@
----
+﻿---
 title: Install Windows 8 on a Google Cr-48
 author: Matt
 layout: post

@@ -1,4 +1,4 @@
----
+﻿---
 title: Help me raise $5,000 for my idea
 author: Matt
 layout: post

@@ -1,4 +1,4 @@
----
+﻿---
 title: Life has taught me
 author: Matt
 layout: post

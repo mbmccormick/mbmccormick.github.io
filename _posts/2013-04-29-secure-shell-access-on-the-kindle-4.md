@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Secure Shell Access on the Kindle 4'
 author: Matt
 layout: post

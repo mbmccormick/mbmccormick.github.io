@@ -1,4 +1,4 @@
----
+﻿---
 title: Developing for Hubot with CoffeeScript, Node.js, and Heroku
 author: Matt
 layout: post
