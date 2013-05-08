@@ -1,0 +1,45 @@
+﻿---
+title: How I Launched 4sqtransit in Two Weeks on Windows Azure
+author: Matt
+layout: post
+permalink: /2011/04/how-i-launched-4sqtransit-in-two-weeks-on-windows-azure/
+categories:
+  - Projects
+tags:
+  - aspnet
+  - azure
+  - csharp
+---
+
+My latest project, [4sqtransit](http://www.4sqtransit.com/), is a small application that delivers real-time public transit schedules to your phone via text message whenever you check in at a transit stop on [Foursquare](https://foursquare.com/). I'm still a little uncertain about how word got out about what I was doing, but I woke up one morning to find out that 72 people were using my service. Later that day, I got an email from the [co-founder](https://foursquare.com/naveen) of Foursquare. The following week, it was on the front page of [Mashable](http://mashable.com/2011/03/21/4sqtransit/). In the days following that, my user base surpassed 700 and my inbox was flooded with transit agencies asking to be added to my service. Today, 4sqtransit supports over 157 transit agencies around the globe and churns out nearly 400 text messages per day.
+
+I'd like to focus on the technical aspect of 4sqtransit today. I'll start by explaining the complete workflow of 4sqtransit from start to finish, the technologies that I am using, some of the challenges that I ran into, and then discuss how I was able to scale out my application using [Windows Azure][5] as more users signed up and my request rate increased exponentially. So first things first, I'll give you a top-down view of the 4sqtransit workflow. When a user checks in on Foursquare, I receive a notification from the Foursquare [Push API][6] that the user has checked in, with details about which of my users checked in and where they checked in at. My service then matches this Foursquare user to the user in my database to determine which transit agency they use, which they specified when they signed up for my application. I then query that transit agency for the nearest transit stop, based on the GPS coordinates of the user's check in location from Foursquare, and calculate the distance from the user to the transit stop. If the stop is within 100 meters of the user's check in location, then I move forward and deliver the stop times, otherwise I ignore the check in. To deliver stop times, I again query the user's transit agency for the stop times in the next 2 hours and send this information to the user by text message, using [Twilio][7].
+
+ [5]: http://www.microsoft.com/windowsazure/windowsazure/
+ [6]: https://github.com/foursquare/hackathon/wiki/Foursquare-Push-API
+ [7]: http://www.twilio.com/
+
+While this might sound fairly simple, consider this- 4sqtransit currently has around 800 users. A [recent tweet][8] from Foursquare on Twitter indicated that the average Foursquare user checks in around 3 to 4 times per day. Remember, the Foursquare Push API sends me every check in for all of my users, in real-time. That means 4sqtransit processes nearly 3200 check ins every day, and at peak times, that's roughly 150 check ins per hour. Keep that number in mind as I discuss how exactly I "query" these transit agencies for stop locations and times. 4sqtransit aims to provide real-time data to it's users. Real-time data has to be delivered as a web service, in some shape or form, in order to ensure accurate information. Each of these APIs is completely unique, and certain methods and parameters that I use for one agency don't always exist for another agency. I basically had to hard-code a unique consumer for each of these real-time transit agencies' APIs. For the agencies that did not support real-time data, I had to rely on scheduled data, delivered in [GTFS][9] (General Transit Feed Specification) format, which even then, [not every transit agency][10] provides. On occasion, I had to use a combination of GTFS and real-time API if an agency didn't provide a meaningful way of finding stop locations.
+
+ [8]: http://mashable.com/2010/05/28/foursquare-checkins/
+ [9]: http://code.google.com/transit/spec/transit_feed_specification.html
+ [10]: http://www.gtfs-data-exchange.com/
+
+Querying a real-time API is a no-brainer: I have the user's GPS coordinates, I just need to find the nearest stop location, and then find the upcoming departure times for that stop. The real challenge arises when I try to query a GTFS feed. A GTFS feed is basically a [ZIP file of roughly 10 CSV text files][11], which I store locally. When compressed, this ZIP file can range anywhere from 2MB to 200MB. Uncompressed, these CSV files can be anywhere from 6MB to 600MB. While the GTFS format is very thorough and standardized, it's not exactly convenient. To find a stop time, I have to query a list of a stop times, compare that to the list of trips, and compare that to the list of routes. I use a [massive LINQ query][12] to get the data that I'm looking for. Depending on the transit agency, this request can take anywhere from 10 seconds to 30 seconds to execute from start to finish.
+
+ [11]: http://code.google.com/transit/spec/transit_feed_specification.html#transitFileRequirements
+ [12]: http://stackoverflow.com/questions/5189171/how-can-i-make-this-linq-query-of-an-enumerable-datatable-of-gtfs-data-faster
+
+I initially decided to host this application on Windows Azure because I needed a cloud hosting provider that supported [SSL certificates with a custom domain name][13] for [free][14], something that Azure handled flawlessly, and something that AppHarbor has only [just started supporting][15]. Azure integrates very nicely with Visual Studio and makes [deployment a breeze][16]. One of the nice things about Windows Azure is you have full access to the server your application is running on. I often open up a [Remote Desktop connection][17] to my server to monitor performance or review log files. As my application's user base grew and the number of requests I was handling increased, I was able to [seamlessly scale out][18] my application with Windows Azure. Just by upgrading my application from an Extra Small compute instance to a Small compute instance, the average response time for my GTFS queries dropped by over 50%. I didn't modify any code, I simply upgraded my server in Windows Azure. Aside from the computational challenges, this application was quickly becoming fairly sizeable. With 157 transit agencies, some of which using GTFS in some form or another, the size of my project solution was easily in the multiple GB range. Deploying this to Azure Compute was quickly becoming an all day affair, literally. I decided to add a [Windows Azure Storage][19] account, which would allow me to host static files in Azure, separate from my application, at nearly local hard-disk I/O performance. I uploaded my GTFS files, outsourcing them from my project solution in Visual Studio, and made a few small changes to my code to access these from my Storage account.
+
+ [13]: http://msdn.microsoft.com/en-us/library/ff795779.aspx
+ [14]: http://www.microsoft.com/windowsazure/free-trial/
+ [15]: http://support.appharbor.com/kb/tips-and-tricks/ssl-and-certificates
+ [16]: http://blogs.infragistics.com/blogs/anton_staykov/archive/2010/08/31/how-to-publish-your-windows-azure-application-right-from-visual-studio-2010.aspx
+ [17]: http://blog.maartenballiauw.be/post/2010/11/30/Windows-Azure-Remote-Desktop-Access.aspx
+ [18]: http://blogs.msdn.com/b/jnak/archive/2010/01/22/windows-azure-instances-storage-limits.aspx
+ [19]: http://www.microsoft.com/windowsazure/storage/default.aspx
+
+I was stunned with the performance of Windows Azure. To be able to deploy my application to Azure, setup an SSL certificate, setup a [SQL Server database][20], scale up my compute instances, and provision a storage account in real-time without any training on this platform whatsoever, was amazing. Azure truly is a "command center" for web applications. If there's something you need, chances are that Windows Azure is already doing it. I'll admit I was a little concerned about deploying my application on a platform that I had never used before, but I am thoroughly impressed with how easy it is to develop for and how powerful it is. Azure has easily become a permanent asset to my business.
+
+ [20]: http://www.microsoft.com/en-us/SQLAzure/database.aspx
