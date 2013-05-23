@@ -1,4 +1,4 @@
-﻿---
+---
 title: Install Windows 8 on a Google Cr-48
 author: Matt
 layout: post
@@ -36,8 +36,8 @@ Clearly [I'm trying][1] to find a good use for my [Google Cr-48][2]. Today I was
 4.  Press CTRL ALT => (where => is where the F2 key would be) to launch a shell.
 5.  Login as the user `chronos`, no password is needed.
 6.  Elevate your permissions to root with `sudo su`.
-7.  Next, download the [InsydeH2O BIOS][5] with `wget http://mbmc.co/oAGPNk`.
-8.  Extract the archive with `tar -xvzf oAGPNk`.
+7.  Next, download the [InsydeH2O BIOS][5] with wget http://mbmc.co/oAGPNk -o cr48.bin.tar.gz.
+8.  Extract the archive with `tar -xvzf cr48.bin.tar.gz`.
 9.  Flash the BIOS with `flashrom -w cr48.bin`, ignoring any error output.
 10. Restart the computer to boot to the new BIOS, removing your installation media.
 
@@ -67,8 +67,8 @@ To restore your Cr-48 back to the default Chrome OS, follow this [Recovery Guide
  [5]: http://www.insydesw.com/solutions/pc/insydeh2o.cfm
  [6]: http://www.ghacks.net/2011/09/14/how-to-install-windows-8-from-usb-key/
  [7]: http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=2101&lang=eng&FamilyId=40
- [8]: http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Chipsets&ProductLine=Chipset Software&ProductProduct=Intel® Chipset Software Installation Utility&ProdId=816&LineId=1090&FamilyId=40
- [9]: http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Graphics&ProductLine=Netbook and Tablet Graphics&ProductProduct=Intel® Graphics Media Accelerator 3150 (Intel® GMA 3150)
+ [8]: http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Chipsets&ProductLine=Chipset%20Software&ProductProduct=Intel%20Chipset%20Software%20Installation%20Utility&ProdId=816&LineId=1090&FamilyId=40
+ [9]: http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Graphics&ProductLine=Netbook%20and%20Tablet%20Graphics&ProductProduct=Intel%20Graphics%20Media%20Accelerator%203150%20(Intel%20GMA%203150)
  [10]: http://www.synaptics.com/support/drivers
  [11]: https://docs.google.com/leaf?id=0B9rTgRm4OkZwNWI4ZmMyOTUtYmZmOC00ODQ0LWExY2YtNTZjMmIyOTZiYTg5&hl=en
  [12]: http://support.google.com/chromeos/bin/answer.py?hl=en&answer=1080595
