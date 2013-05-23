@@ -1,7 +1,7 @@
-﻿---
+---
+layout: post
 title: 'Check Best Buy stock status with Webscript'
 author: Matt
-layout: post
 permalink: /2013/05/check-best-buy-stock-status-with-webscript/
 categories:
   - Development
