@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Getting Serious About Windows Phone 7 Development
 author: Matt
-layout: post
 permalink: /2011/11/getting-serious-about-windows-phone-7-development/
 categories:
   - Development

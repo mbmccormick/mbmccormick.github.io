@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Reading Phone Numbers, Access Codes with Twilio&#8217;s Speech Engine'
 author: Matt
-layout: post
 permalink: /2010/12/reading-phone-numbers-access-codes-with-twilios-speech-engine/
 categories:
   - Development

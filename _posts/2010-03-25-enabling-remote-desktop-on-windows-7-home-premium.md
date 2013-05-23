@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Enabling Remote Desktop on Windows 7 Home Premium
 author: Matt
-layout: post
 permalink: /2010/03/enabling-remote-desktop-on-windows-7-home-premium/
 categories:
   - Miscellaneous

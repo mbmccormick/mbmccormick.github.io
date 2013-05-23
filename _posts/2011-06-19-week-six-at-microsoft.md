@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Week Six at Microsoft
 author: Matt
-layout: post
 permalink: /2011/06/week-six-at-microsoft/
 categories:
   - Life

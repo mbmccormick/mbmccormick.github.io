@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Help me raise $5,000 for my idea
 author: Matt
-layout: post
 permalink: /2012/02/help-me-raise-5000-for-my-idea/
 categories:
   - Projects

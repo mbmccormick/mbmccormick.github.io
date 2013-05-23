@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Secure Shell Access on the Kindle 4'
 author: Matt
-layout: post
 permalink: /2013/04/secure-shell-access-on-the-kindle-4/
 categories:
   - Projects

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Import Legacy mbox Files Into Gmail
 author: Matt
-layout: post
 permalink: /2012/01/import-legacy-mbox-files-into-gmail/
 categories:
   - Development

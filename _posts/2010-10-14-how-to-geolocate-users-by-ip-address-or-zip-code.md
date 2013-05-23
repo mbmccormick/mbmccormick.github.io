@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: How To Geolocate Users by IP Address or Zip Code
 author: Matt
-layout: post
 permalink: /2010/10/how-to-geolocate-users-by-ip-address-or-zip-code/
 categories:
   - Development

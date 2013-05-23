@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Continuous Deployment to Webscript from GitHub, Using Webscript'
 author: Matt
-layout: post
 permalink: /2013/04/continuous-deployment-to-webscript-from-github-using-webscript/
 categories:
   - Development

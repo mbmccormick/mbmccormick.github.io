@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Optical Character Recognition on Windows Phone 7
 author: Matt
-layout: post
 permalink: /2011/08/optical-character-recognition-on-windows-phone-7/
 categories:
   - Projects

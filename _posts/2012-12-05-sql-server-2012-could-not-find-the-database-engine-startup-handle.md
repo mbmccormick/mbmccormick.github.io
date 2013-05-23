@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: SQL Server 2012 could not find the Database Engine startup handle
 author: Matt
-layout: post
 permalink: /2012/12/sql-server-2012-could-not-find-the-database-engine-startup-handle/
 categories:
   - Miscellaneous

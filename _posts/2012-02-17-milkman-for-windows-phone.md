@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Milkman for Windows Phone
 author: Matt
-layout: post
 permalink: /2012/02/milkman-for-windows-phone/
 categories:
   - Projects

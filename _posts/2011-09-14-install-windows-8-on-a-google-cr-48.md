@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Install Windows 8 on a Google Cr-48
 author: Matt
-layout: post
 permalink: /2011/09/install-windows-8-on-a-google-cr-48/
 categories:
   - Development

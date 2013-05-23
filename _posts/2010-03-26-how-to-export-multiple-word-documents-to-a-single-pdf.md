@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: How to export multiple Word Documents to a single PDF
 author: Matt
-layout: post
 permalink: /2010/03/how-to-export-multiple-word-documents-to-a-single-pdf/
 categories:
   - Miscellaneous

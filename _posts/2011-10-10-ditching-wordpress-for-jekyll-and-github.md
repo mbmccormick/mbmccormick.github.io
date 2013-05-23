@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Ditching WordPress for Jekyll and GitHub
 author: Matt
-layout: post
 permalink: /2011/10/ditching-wordpress-for-jekyll-and-github/
 categories:
   - Development

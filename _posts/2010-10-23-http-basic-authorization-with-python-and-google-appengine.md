@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: HTTP Basic Authorization with Python and Google AppEngine
 author: Matt
-layout: post
 permalink: /2010/10/http-basic-authorization-with-python-and-google-appengine/
 categories:
   - Development

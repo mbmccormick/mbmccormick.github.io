@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Updating HTC Mazaa to Windows Phone &#8220;Tango&#8221; (build 8773)'
 author: Matt
-layout: post
 permalink: /2012/07/updating-htc-mazaa-to-windows-phone-tango-build-8773/
 categories:
   - Development

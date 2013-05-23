@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Install Ubuntu 11.04 on a Google Cr-48
 author: Matt
-layout: post
 permalink: /2011/08/install-ubuntu-11-04-on-a-google-cr-48/
 categories:
   - Development

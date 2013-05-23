@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'The Subversion Fanboy&#8217;s Guide to Git, Part 2: Pushing to GitHub'
 author: Matt
-layout: post
 permalink: /2010/09/the-subversion-fanboys-guide-to-git-part-2-pushing-to-github/
 categories:
   - Development

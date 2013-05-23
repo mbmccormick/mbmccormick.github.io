@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Telephony Made Easy with Twilio
 author: Matt
-layout: post
 permalink: /2010/05/telephony-made-easy-with-twilio/
 categories:
   - Development

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Uber Text for Windows Phone
 author: Matt
-layout: post
 permalink: /2012/03/uber-text-for-windows-phone/
 categories:
   - Projects

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Ending the Best Summer of My Life
 author: Matt
-layout: post
 permalink: /2011/08/ending-the-best-summer-of-my-life/
 categories:
   - Life

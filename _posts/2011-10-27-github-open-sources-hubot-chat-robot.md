@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: GitHub open-sources Hubot chat robot
 author: Matt
-layout: post
 permalink: /2011/10/github-open-sources-hubot-chat-robot/
 categories:
   - Development

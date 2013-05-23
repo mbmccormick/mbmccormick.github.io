@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Hello World
 author: Matt
-layout: post
 permalink: /2010/03/hello-world/
 categories:
   - Life

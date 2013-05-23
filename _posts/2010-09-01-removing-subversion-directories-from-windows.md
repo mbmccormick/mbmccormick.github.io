@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Removing Subversion Directories from Windows
 author: Matt
-layout: post
 permalink: /2010/09/removing-subversion-directories-from-windows/
 categories:
   - Miscellaneous

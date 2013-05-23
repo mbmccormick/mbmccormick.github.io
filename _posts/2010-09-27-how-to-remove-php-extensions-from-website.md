@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: How To Remove PHP Extensions From Website
 author: Matt
-layout: post
 permalink: /2010/09/how-to-remove-php-extensions-from-website/
 categories:
   - Miscellaneous

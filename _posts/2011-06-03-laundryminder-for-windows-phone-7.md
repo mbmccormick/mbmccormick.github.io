@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: LaundryMinder for Windows Phone 7
 author: Matt
-layout: post
 permalink: /2011/06/laundryminder-for-windows-phone-7/
 categories:
   - Projects

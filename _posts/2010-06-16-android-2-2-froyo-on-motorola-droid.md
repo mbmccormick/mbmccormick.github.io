@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Android 2.2 Froyo on Motorola Droid
 author: Matt
-layout: post
 permalink: /2010/06/android-2-2-froyo-on-motorola-droid/
 categories:
   - Miscellaneous

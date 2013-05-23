@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Crash Course in iTunes Library Administration
 author: Matt
-layout: post
 permalink: /2010/06/crash-course-in-itunes-library-administration/
 categories:
   - Miscellaneous

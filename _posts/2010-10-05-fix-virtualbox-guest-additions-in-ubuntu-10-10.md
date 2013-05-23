@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Fix VirtualBox Guest Additions in Ubuntu 10.10
 author: Matt
-layout: post
 permalink: /2010/10/fix-virtualbox-guest-additions-in-ubuntu-10-10/
 categories:
   - Miscellaneous

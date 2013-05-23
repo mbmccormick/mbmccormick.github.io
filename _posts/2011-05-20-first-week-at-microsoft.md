@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: First Week at Microsoft
 author: Matt
-layout: post
 permalink: /2011/05/first-week-at-microsoft/
 categories:
   - Life

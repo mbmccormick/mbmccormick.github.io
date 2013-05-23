@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Family Visit to Seattle
 author: Matt
-layout: post
 permalink: /2011/07/family-visit-to-seattle/
 categories:
   - Life

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Creating GitHub Style Post-Receive Webhooks in Gitosis
 author: Matt
-layout: post
 permalink: /2011/01/creating-github-style-post-receive-webhooks-in-gitosis/
 categories:
   - Development

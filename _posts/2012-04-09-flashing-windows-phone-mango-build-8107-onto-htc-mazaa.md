@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Flashing Windows Phone Mango (build 8107) onto HTC Mazaa
 author: Matt
-layout: post
 permalink: /2012/04/flashing-windows-phone-mango-build-8107-onto-htc-mazaa/
 categories:
   - Development

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: New Employee Orientation (NEO)
 author: Matt
-layout: post
 permalink: /2011/05/new-employee-orientation-neo/
 categories:
   - Life

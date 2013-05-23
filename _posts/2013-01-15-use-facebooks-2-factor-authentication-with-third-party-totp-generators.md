@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Use Facebook&#8217;s 2-factor Authentication with Third-Party TOTP Generators'
 author: Matt
-layout: post
 permalink: /2013/01/use-facebooks-2-factor-authentication-with-third-party-totp-generators/
 categories:
   - Miscellaneous

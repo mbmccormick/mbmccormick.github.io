@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Show Hidden Files in FileZilla
 author: Matt
-layout: post
 permalink: /2010/06/show-hidden-files-in-filezilla/
 categories:
   - Miscellaneous

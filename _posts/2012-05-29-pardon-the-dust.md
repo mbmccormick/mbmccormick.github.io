@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Pardon the dust
 author: Matt
-layout: post
 permalink: /2012/05/pardon-the-dust/
 categories:
   - Miscellaneous

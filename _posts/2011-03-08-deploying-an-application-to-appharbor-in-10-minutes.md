@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Deploying an Application to AppHarbor in 10 Minutes
 author: Matt
-layout: post
 permalink: /2011/03/deploying-an-application-to-appharbor-in-10-minutes/
 categories:
   - Development

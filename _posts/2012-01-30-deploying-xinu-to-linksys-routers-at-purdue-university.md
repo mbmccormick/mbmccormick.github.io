@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Deploying XINU to Linksys Routers at Purdue University
 author: Matt
-layout: post
 permalink: /2012/01/deploying-xinu-to-linksys-routers-at-purdue-university/
 categories:
   - Development

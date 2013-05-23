@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Rest Area for Windows Phone 7
 author: Matt
-layout: post
 permalink: /2011/12/rest-area-for-windows-phone-7/
 categories:
   - Projects

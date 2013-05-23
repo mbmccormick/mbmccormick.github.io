@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Getting Ready for Microsoft
 author: Matt
-layout: post
 permalink: /2011/05/getting-ready-for-microsoft/
 categories:
   - Life

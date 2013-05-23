@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Microsoft Intern Puzzle Day
 author: Matt
-layout: post
 permalink: /2011/07/microsoft-intern-puzzle-day/
 categories:
   - Life

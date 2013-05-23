@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Configure Dropbox to Sync Your Entire Documents Folder
 author: Matt
-layout: post
 permalink: /2010/09/configure-dropbox-to-sync-your-entire-documents-folder/
 categories:
   - Miscellaneous

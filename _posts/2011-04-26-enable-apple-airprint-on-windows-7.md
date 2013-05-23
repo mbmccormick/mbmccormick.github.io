@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Enable Apple AirPrint on Windows 7
 author: Matt
-layout: post
 permalink: /2011/04/enable-apple-airprint-on-windows-7/
 categories:
   - Miscellaneous

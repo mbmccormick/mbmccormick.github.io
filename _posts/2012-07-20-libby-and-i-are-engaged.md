@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Libby and I are Engaged!
 author: Matt
-layout: post
 permalink: /2012/07/libby-and-i-are-engaged/
 categories:
   - Life

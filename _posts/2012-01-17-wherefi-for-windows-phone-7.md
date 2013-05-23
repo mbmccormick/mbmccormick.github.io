@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: WhereFi for Windows Phone 7
 author: Matt
-layout: post
 permalink: /2012/01/wherefi-for-windows-phone-7/
 categories:
   - Projects

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Creating a Twitter Robot using Google App Engine
 author: Matt
-layout: post
 permalink: /2010/03/creating-a-twitter-robot-using-google-app-engine/
 categories:
   - Projects

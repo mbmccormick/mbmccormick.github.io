@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Deploying PHP Applications to Heroku
 author: Matt
-layout: post
 permalink: /2012/03/deploying-php-applications-to-heroku/
 categories:
   - Development

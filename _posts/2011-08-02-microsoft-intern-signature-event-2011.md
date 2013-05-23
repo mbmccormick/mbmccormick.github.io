@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Microsoft Intern Signature Event 2011
 author: Matt
-layout: post
 permalink: /2011/08/microsoft-intern-signature-event-2011/
 categories:
   - Life

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Remove OEM Login Screen Wallpaper on Windows 7
 author: Matt
-layout: post
 permalink: /2011/04/remove-oem-login-screen-wallpaper-on-windows-7/
 categories:
   - Miscellaneous

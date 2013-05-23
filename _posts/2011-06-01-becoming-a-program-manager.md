@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Becoming a Program Manager
 author: Matt
-layout: post
 permalink: /2011/06/becoming-a-program-manager/
 categories:
   - Life

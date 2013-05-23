@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Milkman: Remember The Milk for Windows Phone'
 author: Matt
-layout: post
 permalink: /2012/02/milkman-remember-the-milk-for-windows-phone/
 categories:
   - Projects

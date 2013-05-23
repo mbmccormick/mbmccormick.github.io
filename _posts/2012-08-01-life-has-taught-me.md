@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Life has taught me
 author: Matt
-layout: post
 permalink: /2012/08/life-has-taught-me/
 categories:
   - Life

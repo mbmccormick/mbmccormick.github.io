@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: POP and SMTP mail servers for Twitter Direct Messages
 author: Matt
-layout: post
 permalink: /2012/09/pop-and-smtp-mail-server-for-twitter-direct-messages/
 categories:
   - Development

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Connect Your Google Cr-48 Laptop to PAL2.0 at Purdue
 author: Matt
-layout: post
 permalink: /2011/02/connect-your-google-cr-48-laptop-to-pal2-0-at-purdue/
 categories:
   - Miscellaneous

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: How I Launched 4sqtransit in Two Weeks on Windows Azure
 author: Matt
-layout: post
 permalink: /2011/04/how-i-launched-4sqtransit-in-two-weeks-on-windows-azure/
 categories:
   - Projects

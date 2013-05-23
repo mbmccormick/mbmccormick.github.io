@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Install Hamachi VPN on the PogoPlug USB Device
 author: Matt
-layout: post
 permalink: /2010/07/install-hamachi-vpn-on-the-pogoplug-usb-device/
 categories:
   - Projects

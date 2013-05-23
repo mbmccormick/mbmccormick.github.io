@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Early Look at Mojito: Mint.com for Windows Phone 7'
 author: Matt
-layout: post
 permalink: /2011/08/early-look-at-mojito-mint-com-for-windows-phone-7/
 categories:
   - Projects

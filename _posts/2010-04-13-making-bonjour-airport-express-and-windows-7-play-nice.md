@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Making Bonjour, Airport Express, and Windows 7 play nice
 author: Matt
-layout: post
 permalink: /2010/04/making-bonjour-airport-express-and-windows-7-play-nice/
 categories:
   - Miscellaneous

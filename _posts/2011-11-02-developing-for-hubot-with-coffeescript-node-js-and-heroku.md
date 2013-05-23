@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Developing for Hubot with CoffeeScript, Node.js, and Heroku
 author: Matt
-layout: post
 permalink: /2011/11/developing-for-hubot-with-coffeescript-node-js-and-heroku/
 categories:
   - Development

@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Code Garage Sale
 author: Matt
-layout: post
 permalink: /2012/10/code-garage-sale/
 categories:
   - Projects

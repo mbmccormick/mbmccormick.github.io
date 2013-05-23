@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'The Subversion Fanboy&#8217;s Guide to Git, Part 1: Why Git is Better'
 author: Matt
-layout: post
 permalink: /2010/08/the-subversion-fanboys-guide-to-git-part-1-why-git-is-better/
 categories:
   - Development

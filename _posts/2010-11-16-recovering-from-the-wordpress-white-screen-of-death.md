@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Recovering From the WordPress White Screen of Death
 author: Matt
-layout: post
 permalink: /2010/11/recovering-from-the-wordpress-white-screen-of-death/
 categories:
   - Miscellaneous

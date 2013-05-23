@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Application Development for Windows Phone 7
 author: Matt
-layout: post
 permalink: /2011/07/application-development-for-windows-phone-7/
 categories:
   - Development

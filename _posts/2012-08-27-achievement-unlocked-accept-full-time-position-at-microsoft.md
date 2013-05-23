@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: 'Achievement Unlocked: Accept Full-Time Position at Microsoft'
 author: Matt
-layout: post
 permalink: /2012/08/achievement-unlocked-accept-full-time-position-at-microsoft/
 categories:
   - Life

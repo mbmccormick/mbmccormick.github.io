@@ -1,7 +1,7 @@
 ﻿---
+layout: post
 title: Bulk INSERT to SQL Azure using LINQ to SQL
 author: Matt
-layout: post
 permalink: /2011/09/bulk-insert-to-sql-azure-using-linq-to-sql/
 categories:
   - Development
