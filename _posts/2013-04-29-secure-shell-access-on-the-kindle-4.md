@@ -1,9 +1,10 @@
 ﻿---
 layout: post
-title: 'Secure Shell Access on the Kindle 4'
-permalink: /2013/04/secure-shell-access-on-the-kindle-4/
+title: Secure Shell Access on the Kindle 4
+date: 2012-03-21 00:00
+comments: true
+categories: []
 ---
-
 I bought a used [Kindle 4][1] the other day because I want to build a dashboard-type display for my apartment. The e-paper display is perfect for this because it is low-power and non-intrusive, which is great for displaying the weather or a calendar. I'll talk more about this project in another post, but today I wanted to share how to get root [SSH access][2] on the Kindle 4 and how to interact with the e-paper display.
 
  [1]: http://en.wikipedia.org/wiki/Amazon_Kindle
