@@ -1,19 +1,10 @@
 ﻿---
 layout: post
 title: 'Continuous Deployment to Webscript from GitHub, Using Webscript'
-author: Matt
-permalink: /2013/04/continuous-deployment-to-webscript-from-github-using-webscript/
-categories:
-  - Development
-tags:
-  - webscript
-  - github
-  - lua
-  - cloud
-  - hack
-  - code
+date: 2013-04-23 12:00
+comments: true
+categories: []
 ---
-
 <p>I have been playing around with <a href="https://www.webscript.io/">Webscript</a> a lot lately and it has quickly become one of my favorite cloud services. Webscript allows you to create web-based scripts in <a href="http://www.lua.org/">Lua</a> that can do any number of things. Each script runs on a unique URL and can respond to various HTTP requests or be invoked through scheduled cron jobs. It has a beautiful user interface and it functions as an amazingly powerful IDE right from your browser. You can easily write code, test it, and debug requests from their website.</p>
 
 <p>I've been using this service for a while now for a lot of different things, like: scanning my calendar for birthdays and adding them to my Rememeber The Milk reminders list, checking forecasts to see if I need an umbrella for the next day and adding that to my Remember The Milk list, reminding me to charge my Fitbit if the battery gets low using the Fitbit API, feeding weather data as a PNG to my Kindle display, and tons of other things. You can find the source code to all of the above scripts on my <a href="https://github.com/mbmccormick">GitHub page</a>.</p>
