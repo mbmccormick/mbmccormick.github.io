@@ -1,38 +1,33 @@
-﻿---
+---
 layout: post
 title: Connect Your Google Cr-48 Laptop to PAL2.0 at Purdue
-author: Matt
-permalink: /2011/02/connect-your-google-cr-48-laptop-to-pal2-0-at-purdue/
-categories:
-  - Miscellaneous
-tags:
-  - chromeos
-  - tutorial
+date: 2011-02-04 00:00
+comments: true
+categories: []
 ---
+<p>If you&rsquo;re one of the lucky people at Purdue to have received a <a href="http://www.google.com/chromeos/pilot-program-cr48.html" target="_blank">Google Cr-48</a> laptop like myself, then you may have realized that Chrome OS currently does not have support for WPA Enterprise wireless networks, the same protocol that Purdue uses to connect to PAL2.0. Thanks to this <a href="https://wiki.utah.edu/confluence/display/~u0226271/UConnect+on+Chrome+OS" target="_blank">wiki post</a> at the University of Utah, I have put together a working script with the necessary configurations to connect to PAL2.0 on your Google Cr-48.</p>
 
-If you're one of the lucky people at Purdue to have received a [Google Cr-48](http://www.google.com/chromeos/pilot-program-cr48.html) laptop like myself, then you may have realized that Chrome OS currently does not have support for WPA Enterprise wireless networks, the same protocol that Purdue uses to connect to PAL2.0. Thanks to this <a href="https://wiki.utah.edu/confluence/display/~u0226271/UConnect on Chrome OS">wiki post</a> at the University of Utah, I have put together a working script with the necessary configurations to connect to PAL2.0 on your Google Cr-48.
+<p>In order for this to work, you will need to put your Cr-48 laptop into Developer Mode, which is detailed <a href="http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information" target="_blank">here</a>. Once you do that, launch the Crosh terminal by hitting CTRL + ALT + T and issue the following commands:</p>
 
-In order for this to work, you will need to put your Cr-48 laptop into Developer Mode, which is detailed [here][3]. Once you do that, launch the Crosh terminal by hitting CTRL + ALT + T and issue the following commands:
+<script src="https://gist.github.com/811480.js"> </script>
 
- [3]: http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information
 
-<script src="https://gist.github.com/mbmccormick/811480.js"> </script>
+<p></p>
 
-My field tests have shown that after moving from HSSE to STEW (changing PAL2.0 access points), I did not need to re-execute the above commands. However, because these commands are stored in memory, I was required to re-execute the above commands in order to reconnect after a full reboot. Just going into standby, however, did not require me to re-execute.
+<p>My field tests have shown that after moving from HSSE to STEW (changing PAL2.0 access points), I did not need to re-execute the above commands. However, because these commands are stored in memory, I was required to re-execute the above commands in order to reconnect after a full reboot. Just going into standby, however, did not require me to re-execute.</p>
 
-Thanks to some help from [Nate Radebaugh][4] with his [modifications][5] using the above configurations to the [scripting format][6] by [teraflop][7] on [Reddit][8], I now have an automated script for the above commands, which can be [downloaded][9] to your Google Cr-48 laptop using the commands below from a fresh Crosh terminal:
+<p>Thanks to some help from <a href="http://naterad.com/" target="_blank">Nate Radebaugh</a> with his <a href="http://pastebin.com/3zhLb8qw" target="_blank">modifications</a> using the above configurations to the <a href="http://pastebin.com/G3ta4zsa" target="_blank">scripting format</a> by <a href="http://www.reddit.com/user/teraflop" target="_blank">teraflop</a> on <a href="http://www.reddit.com/r/CR48/comments/fcxhw/any_workarounds_for_wpa2_with_certificate/" target="_blank">Reddit</a>, I now have an automated script for the above commands, which can be <a href="http://archive.mbmccormick/files/pal2.sh" target="_blank">downloaded</a> to your Google Cr-48 laptop using the commands below from a fresh Crosh terminal:</p>
 
- [4]: http://naterad.com/
- [5]: http://pastebin.com/3zhLb8qw
- [6]: http://pastebin.com/G3ta4zsa
- [7]: http://www.reddit.com/user/teraflop
- [8]: http://www.reddit.com/r/CR48/comments/fcxhw/any_workarounds_for_wpa2_with_certificate/
- [9]: http://archive.mbmccormick/files/pal2.sh
+<script src="https://gist.github.com/827025.js"> </script>
 
-<script src="https://gist.github.com/mbmccormick/827025.js"> </script>
 
-Once installed, you can run the script by opening up a Crosh terminal and executing:
+<p></p>
 
-<script src="https://gist.github.com/mbmccormick/827049.js"> </script>
+<p>Once installed, you can run the script by opening up a Crosh terminal and executing:</p>
 
-You'll then be prompted for your Purdue network login credentials and, upon successful authentication, be connected to PAL2.0.
+<script src="https://gist.github.com/827049.js"> </script>
+
+
+<p></p>
+
+<p>You&rsquo;ll then be prompted for your Purdue network login credentials and, upon successful authentication, be connected to PAL2.0.</p>

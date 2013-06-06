@@ -1,16 +1,15 @@
-﻿---
-layout: post
-title: 'Reading Phone Numbers, Access Codes with Twilio&#8217;s Speech Engine'
-author: Matt
-permalink: /2010/12/reading-phone-numbers-access-codes-with-twilios-speech-engine/
-categories:
-  - Development
-tags:
-  - php
 ---
+layout: post
+title: Reading Phone Numbers, Access Codes with Twilio&#039;s Speech Engine
+date: 2010-12-26 00:00
+comments: true
+categories: []
+---
+<p>Here&rsquo;s a quick tip on how to get <a href="http://www.twilio.com" target="_blank">Twilio</a> to read a phone number, access code, or how to spell out a word to users with the Twilio <a href="http://www.twilio.com/docs/api/2010-04-01/twiml/say" target="_blank">speech engine</a>. The Python function below will take in any string, split the string into multiple characters, and then add a space and comma between each character. The result is that Twilio will say each letter or number separately at a slower speed.</p>
 
-Here's a quick tip on how to get [Twilio](http://www.twilio.com) to read a phone number, access code, or how to spell out a word to users with the Twilio [speech engine](http://www.twilio.com/docs/api/2010-04-01/twiml/say). The Python function below will take in any string, split the string into multiple characters, and then add a space and comma between each character. The result is that Twilio will say each letter or number separately at a slower speed.
+<script src="https://gist.github.com/758022.js"> </script>
 
-<script src="https://gist.github.com/mbmccormick/758022.js"> </script>
 
-Without separating the characters, Twilio's speech engine understands "ABC123" as a word and attempts to read it. But when you send "A, B, C, 1, 2, 3," in your TwiML, Twilio will read this naturally, at a speed slow enough that the caller can write it down. This is useful when reading phone numbers or access codes, depending on your service. This is a little tricky in Python, so I thought I'd share this.
+<p></p>
+
+<p>Without separating the characters, Twilio&rsquo;s speech engine understands &ldquo;ABC123&rdquo; as a word and attempts to read it. But when you send &ldquo;A, B, C, 1, 2, 3,&rdquo; in your TwiML, Twilio will read this naturally, at a speed slow enough that the caller can write it down. This is useful when reading phone numbers or access codes, depending on your service. This is a little tricky in Python, so I thought I&rsquo;d share this.</p>

@@ -1,15 +1,10 @@
-﻿---
+---
 layout: post
 title: Help me raise $5,000 for my idea
-author: Matt
-permalink: /2012/02/help-me-raise-5000-for-my-idea/
-categories:
-  - Projects
-format: link
+date: 2012-02-01 00:00
+comments: true
+categories: []
 ---
+<a href="http://5x5night.com/ideas/detail/paige-web-based-personnel-paging-made-easy1">Help me raise $5,000 for my idea</a>
 
-[Help me raise $5,000 for my idea][1]
-
- [1]: http://5x5night.com/ideas/detail/paige-web-based-personnel-paging-made-easy1
-
-5x5night provides people with the chance to present an idea and see if they will get the funds to take it to the next step. 5 people, 5 minutes, 5 judges, $5,000.
+<p>5x5night provides people with the chance to present an idea and see if they will get the funds to take it to the next step. 5 people, 5 minutes, 5 judges, $5,000.</p>

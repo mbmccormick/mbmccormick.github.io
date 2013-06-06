@@ -1,14 +1,13 @@
-﻿---
+---
 layout: post
 title: Remove OEM Login Screen Wallpaper on Windows 7
-author: Matt
-permalink: /2011/04/remove-oem-login-screen-wallpaper-on-windows-7/
-categories:
-  - Miscellaneous
-tags:
-  - tutorial
+date: 2011-04-25 00:00
+comments: true
+categories: []
 ---
+<p>If you follow me on <a href="http://twitter.com/mbmccormick" target="_blank">Twitter</a>, then I&rsquo;m sure you&rsquo;re aware of my current <a href="http://twitter.com/mbmccormick/status/58600614942355456" target="_blank">computer difficulties</a>. Long story short, Dell sent someone out to replace my motherboard and hard drive and now I&rsquo;m left with a fresh copy of Windows 7 that I need to restore to my working standards. One of those standards is removing the Dell wallpaper from the Windows 7 login screen. To do that, you just need to modify the following registry entry. Just change this <a href="http://en.wikipedia.org/wiki/Word_%28computing%29" target="_blank">DWORD</a> value from <code>1</code> to <code>0</code>.</p>
 
-If you follow me on [Twitter](http://twitter.com/mbmccormick), then I'm sure you're aware of my current [computer difficulties](http://twitter.com/mbmccormick/status/58600614942355456). Long story short, Dell sent someone out to replace my motherboard and hard drive and now I'm left with a fresh copy of Windows 7 that I need to restore to my working standards. One of those standards is removing the Dell wallpaper from the Windows 7 login screen. To do that, you just need to modify the following registry entry. Just change this [DWORD](http://en.wikipedia.org/wiki/Word_(computing)) value from `1` to `0`.
+<script src="https://gist.github.com/941666.js"> </script>
 
-<script src="https://gist.github.com/mbmccormick/941666.js"> </script>
+
+<p></p>
