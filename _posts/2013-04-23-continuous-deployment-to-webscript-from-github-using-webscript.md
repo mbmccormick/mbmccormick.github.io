@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 'Continuous Deployment to Webscript from GitHub, Using Webscript'
 date: 2013-04-23 12:00
