@@ -525,3 +525,10 @@ h1 a, h2 a, h3 a, h4 a {
 td.line-numbers {
     vertical-align: top;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+    .posts time {
+        display: none;
+    }
+}
