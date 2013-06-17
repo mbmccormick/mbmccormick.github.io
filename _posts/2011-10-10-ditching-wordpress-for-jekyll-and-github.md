@@ -13,8 +13,8 @@ categories: []
 
 <p>My old website, which was running on WordPress, had an average load time of 3.14 seconds. My new website, which is running on Jekyll, has an average load time of 782 milliseconds. Clearly this made a huge improvement to page speed performance. The reasoning behind this is because my website is essentially a bunch of HTML files for each of my pages and blog posts. Whereas with my old website, it was a few PHP files that then downloaded the content from a separate database server. By removing this additional component in my website setup and cutting out the cost of querying the database server on every page request, the page load time greatly reduced.</p>
 
-<img src="/wp-content/uploads/2012/05/old.png" />
+<img src="/images/2012/05/old.png" />
 
-<img src="/wp-content/uploads/2012/05/new.png" />
+<img src="/images/2012/05/new.png" />
 
 <p>You can take a look at the source code for my blog at GitHub <a href="https://github.com/mbmccormick/mbmccormick.github.com" target="_blank">here</a> to get a better idea of how the backend looks. Overall I&rsquo;m very satisfied with using Jekyll as my blog engine and the hosting that GitHub Pages offers. The founder of GitHub and lead developer for Jekyll has a great post entitled <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html" target="_blank">Blogging Like a Hacker</a> which details the inspiration for this project.</p>

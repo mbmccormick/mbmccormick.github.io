@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: 'Milkman: Remember The Milk for Windows Phone'
 date: 2012-02-19 00:00
@@ -9,7 +9,7 @@ Over the past week or so I have been working on my latest application for <a hre
 
 Milkman isn’t the first Remember The Milk client for Windows Phone, <a href="http://www.windowsphone.com/en-US/apps/2571dafd-7ee7-df11-a844-00237de2db9e" target="_blank">WinMilk</a> was the first application of it’s kind to hit the Marketplace and currently holds a lot of the market share. However, WinMilk hasn’t seen a lot of love lately and I didn’t really like the interface, so I decided to write my own client and I am really happy with how it turned out. Take a look at the screenshots below for a quick overview:
 
-<a href="/wp-content/uploads/2012/05/1.png" target="_blank"><img style="width: 150px !important;" title="Milkman's home screen, displaying task lists in a pivot control" src="/wp-content/uploads/2012/05/1.png" alt="" /></a>  <a href="/wp-content/uploads/2012/05/2.png" target="_blank"><img style="width: 150px !important;" title="Milkman's Task Details page, allowing you to view all of the information associated with a task." src="/wp-content/uploads/2012/05/2.png" alt="" /></a>  <a href="/wp-content/uploads/2012/05/8.png" target="_blank"><img style="width: 150px !important;" title="Milkman will popup an event reminder one hour before a task is due." src="/wp-content/uploads/2012/05/8.png" alt="" /></a>
+<a href="/images/2012/05/1.png" target="_blank"><img style="width: 150px !important;" title="Milkman's home screen, displaying task lists in a pivot control" src="/images/2012/05/1.png" alt="" /></a>  <a href="/images/2012/05/2.png" target="_blank"><img style="width: 150px !important;" title="Milkman's Task Details page, allowing you to view all of the information associated with a task." src="/images/2012/05/2.png" alt="" /></a>  <a href="/images/2012/05/8.png" target="_blank"><img style="width: 150px !important;" title="Milkman will popup an event reminder one hour before a task is due." src="/images/2012/05/8.png" alt="" /></a>
 
 You can also watch a quick video demo of <a href="http://www.youtube.com/watch?v=9zmR9IgxgDA" target="_blank">Milkman on YouTube</a>.
 

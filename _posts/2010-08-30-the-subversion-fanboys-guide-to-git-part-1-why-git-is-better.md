@@ -13,11 +13,11 @@ categories: []
 
 <p>Enough about the background, let&rsquo;s talk about Git. Unlike Subversion, Git uses a local repository to store files. As a developer, you would work on some changes and then commit these changes to your local repository or &ldquo;staging area&rdquo; as many like to call it. When you are satisfied with all of the changes you&rsquo;ve committed to your &ldquo;staging area&rdquo;, you can then push these changes to a public/private server. Take a look at the image below to get a better idea of typical Git workflow.</p>
 
-<a href="/wp-content/uploads/2012/05/local-remote.png"><img src="/wp-content/uploads/2012/05/local-remote.png" width="500" /></a>
+<a href="/images/2012/05/local-remote.png"><img src="/images/2012/05/local-remote.png" width="500" /></a>
 
 <p>Another reason why I switched to Git is because it is much faster than Subversion. I no longer wait for a checkout, a commit, or an update. Git is nearly instant with all of these actions. Take a look at the comparison below:</p>
 
-<a href="/wp-content/uploads/2012/05/graph.png"><img src="/wp-content/uploads/2012/05/graph.png" width="600" /></a>
+<a href="/images/2012/05/graph.png"><img src="/images/2012/05/graph.png" width="600" /></a>
 
 <p>Now let&rsquo;s get into how Git differs from what we&rsquo;re used to in Subversion. Instead of <code>checkout</code> like we are used to, Git uses the command <code>clone</code> to make a copy of a public repository on our local workstation. To <code>update</code> our local copy like we did in Subversion, we would use <code>pull</code> in Git.</p>
 

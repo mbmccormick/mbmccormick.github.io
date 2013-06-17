@@ -13,15 +13,15 @@ categories: []
 
 <p>Open Git Bash and enter the command shown in the window below, leaving all fields empty:</p>
 
-<a href="/wp-content/uploads/2012/05/cap1.png"><img src="/wp-content/uploads/2012/05/cap1.png" /></a>
+<a href="/images/2012/05/cap1.png"><img src="/images/2012/05/cap1.png" /></a>
 
 <p>Now that we have generated our SSH keys, we need to upload this information to GitHub. To do that, we need to first open our public key that was just generated. The output from the <code>ssh-keygen</code> command shows where our public key file is. Open this file with any text editor and copy all of the contents. Next, open up GitHub and click on Account Settings, SSH Public Keys. Create a new public key by clicking on the link. Paste the contents of your clipboard (our public SSH key) as shown below:</p>
 
-<a href="/wp-content/uploads/2012/05/cap2.png"><img src="/wp-content/uploads/2012/05/cap2.png" /></a>
+<a href="/images/2012/05/cap2.png"><img src="/images/2012/05/cap2.png" /></a>
 
 <p>Now that GitHub has our SSH public key, we are all set to push our code. First, setup a new repository on GitHub. After you create your repository, you will be redirected to a a page that discusses the Git commands you need to execute to setup your local repository. To do that, we need to execute the <code>git init</code> command. This will setup a local Git repository. Now, let&rsquo;s create a new text file in our repository. Call it whatever you want. Let&rsquo;s add this file to our Git repository. For that, we call <code>git add .</code>, which will add all of the files in our repository to the staging area. Next, we&rsquo;ll call <code>git commit -m &ldquo;Initial commit.&rdquo;</code> to commit these changes to our local repository. Alternatively, you can do this using the Git GUI as shown below:</p>
 
-<a href="/wp-content/uploads/2012/05/cap3.png"><img src="/wp-content/uploads/2012/05/cap3.png" /></a>
+<a href="/images/2012/05/cap3.png"><img src="/images/2012/05/cap3.png" /></a>
 
 <p>Lastly, to push our changes to GitHub, we need to call <code>git remote add origin git@github.com:mbmccormick/myfirstrepo.git</code>, which will add our remote repository, and finally <code>git push origin master</code>, which will push our code to the &ldquo;origin&rdquo; remote we just added on the &ldquo;master&rdquo; branch. And with that, we&rsquo;ve just pushed our code to GitHub!</p>
 

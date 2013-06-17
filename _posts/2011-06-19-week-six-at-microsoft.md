@@ -7,8 +7,8 @@ categories: []
 ---
 <p>It&rsquo;s been a while since I <a href="http://mbmccormick.com/2011/06/becoming-a-program-manager/" target="_blank">last updated</a>. As it stands today, I am heading into my sixth week here at <a href="http://www.microsoft.com/en-us/default.aspx" target="_blank">Microsoft</a>. I have been busy working away during the week and making the most of my time in the Seattle area on weekends. I&rsquo;ve met a lot of new people over the last few weeks, both fellow interns and people I work with on my team.</p>
 
-<a href="/wp-content/uploads/2012/05/248356_1478059603680_1599450320_31652388_2482181_n.jpg">
-<img src="/wp-content/uploads/2012/05/248356_1478059603680_1599450320_31652388_2482181_n.jpg" /></a>
+<a href="/images/2012/05/248356_1478059603680_1599450320_31652388_2482181_n.jpg">
+<img src="/images/2012/05/248356_1478059603680_1599450320_31652388_2482181_n.jpg" /></a>
 
 <p>A few weeks ago I got my first <a href="http://www.microsoft.com/windowsphone/en-us/default.aspx" target="_blank">Windows Phone</a> on <a href="http://www.verizonwireless.com/b2c/index.html" target="_blank">Verizon</a>. I waited in line at the Microsft-only Verizon Store on the morning it came out and got a great price on the <a href="http://phones.verizonwireless.com/htc/trophy/" target="_blank">device</a>. Unlike <a href="http://gizmodo.com/5598897/ballmer-yes-interns-you-get-free-windows-phone-7-phones-too" target="_blank">last year&rsquo;s interns</a>, my device was not free, but I did get to upgrade early and paid next to nothing for it. It&rsquo;s a great phone and, my employer aside, it&rsquo;s a great operating system. I honestly think that if more consumers went and used a Windows Phone 7 device, they would fall in love with it.</p>
 
@@ -16,7 +16,7 @@ categories: []
 
 <p>Lately, I&rsquo;ve been using the <a href="http://proclub.com/" target="_blank">Pro Sports Club</a> almost every night. Some friends and I meet up to play racquetball and I usually swim afterwards. On Friday last week we had a team morale event, Office Goes to the Movies. I saw <a href="http://www.imdb.com/title/tt1133985/" target="_blank">Green Lantern in 3D</a> on Friday morning. It was great to take a break from work and get to know my team a little better. On Friday night I went to a party at my <a href="https://foursquare.com/venue/387297" target="_blank">friend&rsquo;s apartment</a> in Bellevue. They had a beautiful patio on the roof of their apartment complex, so we had a barbecue and watched the sunset with <a href="http://en.wikipedia.org/wiki/Mount_Rainier" target="_blank">Mount Rainier</a> in the distance.</p>
 
-<a href="/wp-content/uploads/2012/05/259703_1918511117371_1079791409_32147636_5127330_o.jpg"><img src="/wp-content/uploads/2012/05/259703_1918511117371_1079791409_32147636_5127330_o.jpg" /></a>
+<a href="/images/2012/05/259703_1918511117371_1079791409_32147636_5127330_o.jpg"><img src="/images/2012/05/259703_1918511117371_1079791409_32147636_5127330_o.jpg" /></a>
 
 <p>This week I have my first Core Design Review on Monday, where I will be meeting with my team, my customers, and the stakeholders for my feature to present my proposed design. I have already met with most of these attendees to get feedback, so hopefully tomorrow will just be a review for everyone and I can just get everyone together to sign off on things. On Tuesday, I have my <a href="http://careers.microsoft.com/careers/en/us/internprogram.aspx" target="_blank">Checkpoint Review</a> with my manager. This is the halfway point for my internship, where my manager and I will discuss my progress thus far and review the commitments that I made at the beginning of the summer to ensure that I am on track. At the end of the meeting, my manager will make a decision of whether or not I am &ldquo;performing at a level that would indicate future success in a professional position&rdquo; or if I need to make some improvements.</p>
 

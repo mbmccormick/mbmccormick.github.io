@@ -7,7 +7,7 @@ categories: []
 ---
 <p>Today was my very first day at Microsoft. A lot happened during New Employee Orientation (NEO), so I will just run you through my whole day. This morning, I had to return my rental car from this weekend. So I drove down to Avis to drop it off and while I was there I ran into two other interns who were starting today as well, so we made small talk. They asked how I was getting from there to <a href="https://foursquare.com/venue/759468" target="_blank">Building 92</a>, where orientation was, and I said that my two friends from school are going to pick me up and I offered them a ride. Once my friends arrived, all five of us packed into their car and we drove to Building 92 to park and get started with orientation.</p>
 
-<a href="/wp-content/uploads/2012/05/badge1.png"><img src="/wp-content/uploads/2012/05/badge1.png" /></a>
+<a href="/images/2012/05/badge1.png"><img src="/images/2012/05/badge1.png" /></a>
 
 <p>First, we lined up at the reception desk where we received temporary badges for the day that allowed limited access to Building 92 and the <a href="https://foursquare.com/venue/47696" target="_blank">Commons</a>, where we would be having lunch. We also received some Microsoft swag- a free bag full of stuff like a water bottle, our lunch card, informational handouts, pens, paper, etc. After we received our materials, we then headed upstairs to fill out some online forms and verify our employment authorization. Then we had our badge pictures taken and we turned in our employment confirmation forms and filled out some other online forms.</p>
 
