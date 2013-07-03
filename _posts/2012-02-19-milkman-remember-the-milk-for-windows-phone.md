@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: 'Milkman: Remember The Milk for Windows Phone'
+title: Milkman&#058; Remember The Milk for Windows Phone
 date: 2012-02-19 00:00
 comments: true
 categories: []
