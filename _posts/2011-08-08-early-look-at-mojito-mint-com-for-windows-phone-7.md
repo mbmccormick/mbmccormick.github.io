@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Early Look at Mojito: Mint.com for Windows Phone 7
+title: Early Look at Mojito&#058; Mint.com for Windows Phone 7
 date: 2011-08-08 00:00
 comments: true
 categories: []
