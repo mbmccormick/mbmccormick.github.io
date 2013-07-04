@@ -13,8 +13,8 @@ categories: []
 
 <a href="/images/2012/05/cap.png"><img src="/images/2012/05/cap.png" /></a>
 
-<p>However, the main reason I&rsquo;m switching is because I love the web interface of Dropbox. Check out my Documents folder, synced to the web in this image:</p>
+<p>However, the main reason I'm switching is because I love the web interface of Dropbox. Check out my Documents folder, synced to the web in this image:</p>
 
 <a href="/images/2012/05/cap21.png"><img src="/images/2012/05/cap21.png" /></a>
 
-<p>Ahh, there&rsquo;s peace once again on my laptop. Dropbox has several different <a href="http://www.dropbox.com/pricing" target="_blank">plans</a> for your backup needs. The free plan, which is what I use, gives you 2GB of storage. You can also take the tour of Dropbox for an extra 256MB free. If you haven&rsquo;t set up an account on Dropbox, do it now. You&rsquo;ll thank me later. Use this <a href="http://www.dropbox.com/referrals/NTQ4NjEzOQ" target="_blank">link</a>, and we'll both get extra space for free.</p>
+<p>Ahh, there's peace once again on my laptop. Dropbox has several different <a href="http://www.dropbox.com/pricing" target="_blank">plans</a> for your backup needs. The free plan, which is what I use, gives you 2GB of storage. You can also take the tour of Dropbox for an extra 256MB free. If you haven't set up an account on Dropbox, do it now. You'll thank me later. Use this <a href="http://www.dropbox.com/referrals/NTQ4NjEzOQ" target="_blank">link</a>, and we'll both get extra space for free.</p>

@@ -38,9 +38,9 @@ tar -zxvf xinu-12Spring-lab1-linksys.tar.gz</li>
 
 You will have exactly 1 second to hit any key to interrupt the autoboot process.</li>
 	<li>If you successfully interrupt the Linux autoboot process, you should see the following low-level boot prompt:
-ar7100&gt;</li>
+ar7100></li>
 	<li>Now you need to load your XINU image that was downloaded onto the backend machine earlier. Issue the following commands:
-ar7100&gt; bootp 0x81000000ar7100&gt; bootm
+ar7100> bootp 0x81000000ar7100> bootm
 
 The bootp command will connect to the bootp server on helga.cs.purdue.edu to lease an IP address for the router’s network interface and then download your XINU image. The bootm command then loads this image.</li>
 	<li>At this point, your XINU kernel should be loaded and you should see whatever your system/main.c files is setup to do. By default it just prints “Hello World”.</li>

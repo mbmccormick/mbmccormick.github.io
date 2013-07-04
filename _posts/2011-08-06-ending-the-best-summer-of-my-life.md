@@ -5,7 +5,7 @@ date: 2011-08-06 00:00
 comments: true
 categories: []
 ---
-<p>This has been one hell of a summer for me and I could not have dreamed up an experience like this if I tried. I&rsquo;d like to finish up this series of blog posts about my internship here at <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a> by quoting an email that I came across this summer that does a great job at describing what it&rsquo;s been like to work for this company.</p>
+<p>This has been one hell of a summer for me and I could not have dreamed up an experience like this if I tried. I'd like to finish up this series of blog posts about my internship here at <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a> by quoting an email that I came across this summer that does a great job at describing what it's been like to work for this company.</p>
 
 <p>Copied below is an email from a <a href="http://sriramk.com/blog/2011/05/leaving-microsoft.html">post</a> by <a href="http://sriramk.com/">Sriram Krishnan</a>, a former Microsoft employee:</p>
 
@@ -26,4 +26,4 @@ categories: []
 </blockquote>
 
 
-<p>This has been the best summer of my life here at Microsoft and in Seattle. I&rsquo;ve worked on some challenging projects and I&rsquo;ve met some amazing friends that I look forward to seeing again next summer!</p>
+<p>This has been the best summer of my life here at Microsoft and in Seattle. I've worked on some challenging projects and I've met some amazing friends that I look forward to seeing again next summer!</p>

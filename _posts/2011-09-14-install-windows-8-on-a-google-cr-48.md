@@ -5,7 +5,7 @@ date: 2011-09-14 00:00
 comments: true
 categories: []
 ---
-<p>Clearly <a href="http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google-cr-48/" target="_blank">I&rsquo;m trying</a> to find a good use for my <a href="http://www.google.com/chromebook/" target="_blank">Google Cr-48</a>. Today I was able to get the <a href="http://www.microsoft.com/presspass/press/2011/sep11/09-13FutureofComputingPR.mspx" target="_blank">Windows 8 Developer Preview</a> installed on a Google Cr-48. It is somewhat involved, but nonetheless I will detail my steps here. This is not for the faint of heart, and I take no responsibility for what you do to your laptop. This guide assumes that you have backed up any important information from your existing OS on your Google Cr-48, whether that is Chrome OS, Ubuntu, or something else. The instructions below will completely erase the data on your laptop and overwrite with Windows 8.</p>
+<p>Clearly <a href="http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google-cr-48/" target="_blank">I'm trying</a> to find a good use for my <a href="http://www.google.com/chromebook/" target="_blank">Google Cr-48</a>. Today I was able to get the <a href="http://www.microsoft.com/presspass/press/2011/sep11/09-13FutureofComputingPR.mspx" target="_blank">Windows 8 Developer Preview</a> installed on a Google Cr-48. It is somewhat involved, but nonetheless I will detail my steps here. This is not for the faint of heart, and I take no responsibility for what you do to your laptop. This guide assumes that you have backed up any important information from your existing OS on your Google Cr-48, whether that is Chrome OS, Ubuntu, or something else. The instructions below will completely erase the data on your laptop and overwrite with Windows 8.</p>
 
 <p><strong>Disable BIOS protection:</strong></p>
 
@@ -27,7 +27,7 @@ categories: []
     <li>With the case still removed and your device in developer mode, turn on your Google Cr-48.</li>
     <li>At the unhappy Chrome face screen, press CTRL + D to bypass the warning.</li>
     <li>Let Chrome erase the stateful partition and, at the setup screen, select a wireless network and agree to the terms of service. Stop when you get to the login screen.</li>
-    <li>Press CTRL + ALT + =&gt; (where =&gt; is where the F2 key would be) to launch a shell.</li>
+    <li>Press CTRL + ALT + => (where => is where the F2 key would be) to launch a shell.</li>
     <li>Login as the user chronos, no password is needed.</li>
     <li>Elevate your permissions to root with sudo su.</li>
     <li>Next, download the <a href="http://www.insydesw.com/solutions/pc/insydeh2o.cfm" target="_blank">InsydeH2O BIOS</a> with wget http://mbmc.co/oAGPNk.</li>
@@ -51,11 +51,11 @@ categories: []
 <div>
 <ol>
     <li>Install the following hardware drivers in order.</li>
-    <li>Increase SSD I/O performance with <a href="http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=2101&amp;lang=eng&amp;FamilyId=40" target="_blank">Intel Rapid Storage Technology</a>.</li>
-    <li>Update the chipset firmware with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&amp;ProductFamily=Chipsets&amp;ProductLine=Chipset+Software&amp;ProductProduct=Intel%C2%AE+Chipset+Software+Installation+Utility&amp;ProdId=816&amp;LineId=1090&amp;FamilyId=40" target="_blank">Intel Chipset Installation Utility</a>.</li>
-    <li>Improve graphics performance with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&amp;ProductFamily=Graphics&amp;ProductLine=Netbook+and+Tablet+Graphics&amp;ProductProduct=Intel%C2%AE+Graphics+Media+Accelerator+3150+%28Intel%C2%AE+GMA+3150%29" target="_blank">Intel Graphics Media Accelerator 3150</a>.</li>
+    <li>Increase SSD I/O performance with <a href="http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=2101&lang=eng&FamilyId=40" target="_blank">Intel Rapid Storage Technology</a>.</li>
+    <li>Update the chipset firmware with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Chipsets&ProductLine=Chipset+Software&ProductProduct=Intel%C2%AE+Chipset+Software+Installation+Utility&ProdId=816&LineId=1090&FamilyId=40" target="_blank">Intel Chipset Installation Utility</a>.</li>
+    <li>Improve graphics performance with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Graphics&ProductLine=Netbook+and+Tablet+Graphics&ProductProduct=Intel%C2%AE+Graphics+Media+Accelerator+3150+%28Intel%C2%AE+GMA+3150%29" target="_blank">Intel Graphics Media Accelerator 3150</a>.</li>
     <li>Enable multitouch support, including two-finger scrolling, with <a href="http://www.synaptics.com/support/drivers" target="_blank">Synaptics Gesture Suite</a>.</li>
-    <li>Lastly, enable bluetooth with <a href="https://docs.google.com/leaf?id=0B9rTgRm4OkZwNWI4ZmMyOTUtYmZmOC00ODQ0LWExY2YtNTZjMmIyOTZiYTg5&amp;hl=en" target="_blank">Atheros Bluetooth</a>.</li>
+    <li>Lastly, enable bluetooth with <a href="https://docs.google.com/leaf?id=0B9rTgRm4OkZwNWI4ZmMyOTUtYmZmOC00ODQ0LWExY2YtNTZjMmIyOTZiYTg5&hl=en" target="_blank">Atheros Bluetooth</a>.</li>
 </ol>
 </div>
 Most of the hardware works out of the box, with the exception of the drivers listed above. My device was reporting a Windows Experience Index of 2.2 and the OS was running very smoothly, with Metro UI loading properly. One <strong>important</strong> tip is that because the Google Cr-48 does not have a Windows key, you will need to press either the Search key or CTRL + ESC to return to the start menu when using the Metro UI.
