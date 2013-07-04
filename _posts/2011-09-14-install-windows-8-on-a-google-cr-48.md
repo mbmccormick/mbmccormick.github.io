@@ -51,11 +51,11 @@ categories: []
 <div>
 <ol>
     <li>Install the following hardware drivers in order.</li>
-    <li>Increase SSD I/O performance with <a href="http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=2101&lang=eng&FamilyId=40" target="_blank">Intel Rapid Storage Technology</a>.</li>
-    <li>Update the chipset firmware with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Chipsets&ProductLine=Chipset+Software&ProductProduct=Intel%C2%AE+Chipset+Software+Installation+Utility&ProdId=816&LineId=1090&FamilyId=40" target="_blank">Intel Chipset Installation Utility</a>.</li>
-    <li>Improve graphics performance with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Graphics&ProductLine=Netbook+and+Tablet+Graphics&ProductProduct=Intel%C2%AE+Graphics+Media+Accelerator+3150+%28Intel%C2%AE+GMA+3150%29" target="_blank">Intel Graphics Media Accelerator 3150</a>.</li>
+    <li>Increase SSD I/O performance with <a href="http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=2101&amp;lang=eng&amp;FamilyId=40" target="_blank">Intel Rapid Storage Technology</a>.</li>
+    <li>Update the chipset firmware with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&amp;ProductFamily=Chipsets&amp;ProductLine=Chipset+Software&amp;ProductProduct=Intel%C2%AE+Chipset+Software+Installation+Utility&amp;ProdId=816&amp;LineId=1090&amp;FamilyId=40" target="_blank">Intel Chipset Installation Utility</a>.</li>
+    <li>Improve graphics performance with <a href="http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&amp;ProductFamily=Graphics&amp;ProductLine=Netbook+and+Tablet+Graphics&amp;ProductProduct=Intel%C2%AE+Graphics+Media+Accelerator+3150+%28Intel%C2%AE+GMA+3150%29" target="_blank">Intel Graphics Media Accelerator 3150</a>.</li>
     <li>Enable multitouch support, including two-finger scrolling, with <a href="http://www.synaptics.com/support/drivers" target="_blank">Synaptics Gesture Suite</a>.</li>
-    <li>Lastly, enable bluetooth with <a href="https://docs.google.com/leaf?id=0B9rTgRm4OkZwNWI4ZmMyOTUtYmZmOC00ODQ0LWExY2YtNTZjMmIyOTZiYTg5&hl=en" target="_blank">Atheros Bluetooth</a>.</li>
+    <li>Lastly, enable bluetooth with <a href="https://docs.google.com/leaf?id=0B9rTgRm4OkZwNWI4ZmMyOTUtYmZmOC00ODQ0LWExY2YtNTZjMmIyOTZiYTg5&amp;hl=en" target="_blank">Atheros Bluetooth</a>.</li>
 </ol>
 </div>
 Most of the hardware works out of the box, with the exception of the drivers listed above. My device was reporting a Windows Experience Index of 2.2 and the OS was running very smoothly, with Metro UI loading properly. One <strong>important</strong> tip is that because the Google Cr-48 does not have a Windows key, you will need to press either the Search key or CTRL + ESC to return to the start menu when using the Metro UI.
@@ -63,6 +63,6 @@ Most of the hardware works out of the box, with the exception of the drivers lis
 <br />
 <br />
 
-To restore your Cr-48 back to the default Chrome OS, follow this <a href="http://support.google.com/chromeos/bin/answer.py?hl=en&answer=1080595" target="_blank">Recovery Guide</a> from Google. Feel free to get in touch with me about any questions or concerns via Twitter.
+To restore your Cr-48 back to the default Chrome OS, follow this <a href="http://support.google.com/chromeos/bin/answer.py?hl=en&amp;answer=1080595" target="_blank">Recovery Guide</a> from Google. Feel free to get in touch with me about any questions or concerns via Twitter.
 
 </div>

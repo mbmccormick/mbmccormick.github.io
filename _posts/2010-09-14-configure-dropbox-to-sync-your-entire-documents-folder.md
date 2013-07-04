@@ -5,7 +5,7 @@ date: 2010-09-14 00:00
 comments: true
 categories: []
 ---
-<p>I recently decided to switch my online backup solution from <a href="http://syncplicity.com/" target="_blank">Syncplicity</a> to <a href="http://www.dropbox.com/" target="_blank">Dropbox</a>. The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the &ldquo;My Dropbox&rdquo; folder for all of my syncing, something I did not want to do.</p>
+<p>I recently decided to switch my online backup solution from <a href="http://syncplicity.com/" target="_blank">Syncplicity</a> to <a href="http://www.dropbox.com/" target="_blank">Dropbox</a>. The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the &amp;ldquo;My Dropbox&amp;rdquo; folder for all of my syncing, something I did not want to do.</p>
 
 <p>There are several methods for overcoming this issue. Some articles <a href="http://storecrowd.com/blog/dropbox-hacks/" target="_blank">recommended</a> moving my Documents folder, which I tried. But I was really uncomfortable with moving my documents elsewhere on my hard drive, so I opted out. The other <a href="http://wiki.dropbox.com/TipsAndTricks/SyncOtherFolders" target="_blank">recommendation</a> I saw was to use symlinks, but the downside to that is the low-level Windows API does not report file modification notifications, so incremental backups would be out. No thanks.</p>
 

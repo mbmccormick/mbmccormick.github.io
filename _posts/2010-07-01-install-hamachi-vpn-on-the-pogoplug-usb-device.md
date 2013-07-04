@@ -6,7 +6,7 @@ comments: true
 categories: []
 ---
 <p><em>Update: A newer version of this article has recently been <a href="http://mbmccormick.com/2010/09/install-hamachi-vpn-on-the-pogoplug-usb-device-updated/" target="_self">posted</a>. The information in this post may be obsolete!</em>
-&nbsp;<br />
+&amp;nbsp;<br />
 I picked up the Seagate FreeAgent DockStar USB PogoPlug-enabled network adapter off of <a href="http://woot.com/Forums/ViewPost.aspx?PostID=4000272" target="_blank">Woot!</a> the other day with hopes off putting some of the unused external hard drives in this house to good, network-attached use. Since I'm away at school for about 75% of the year, our home network lives and breathes <a href="https://secure.logmein.com/products/hamachi2/" target="_blank">LogMeIn Hamachi</a>. The device runs a custom build of Linux, which makes its current feature set possible. Tonight I decided to see what kind of potential this network adapter really had, and was able to (with a lot of hacking, of course) get the old <a href="http://files.hamachi.cc/linux/nokia-770/" target="_blank">Linux version</a> of Hamachi up and running on the device. This post assumes your very familiar with Linux and command line environments.</p>
 
 <p>First, you need to enable SSH access on your <a href="http://pogoplug.com/" target="_blank">PogoPlug</a>-enabled device. You can do this by logging in to the <a href="http://my.pogoplug.com/" target="_blank">My PogoPlug</a> website and enabling this setting under Security Settings. Once you've done that, you can SSH into your PogoPlug device using any SSH client and login as root with the password you configured on the site. Before we can do anything with the device, we need to remount the file system to make it writable. After you've logged in, execute this command:</p>
@@ -44,7 +44,7 @@ I picked up the Seagate FreeAgent DockStar USB PogoPlug-enabled network adapter 
 <script src="https://gist.github.com/1273155.js"> </script>
 
 
-<p>You can set this setting to any value, in seconds, or 0 to disable it. When finished, save the file and exit vi by pressing the escape key, then &ldquo;wq&rdquo; and hit enter. Once you've saved the file restart the Hamachi service. Lastly, we need to create a startup script to keep execute the Hamachi script when our PogoPlug device boots up. Execute the following lines:</p>
+<p>You can set this setting to any value, in seconds, or 0 to disable it. When finished, save the file and exit vi by pressing the escape key, then &amp;ldquo;wq&amp;rdquo; and hit enter. Once you've saved the file restart the Hamachi service. Lastly, we need to create a startup script to keep execute the Hamachi script when our PogoPlug device boots up. Execute the following lines:</p>
 
 <script src="https://gist.github.com/1273156.js"> </script>
 

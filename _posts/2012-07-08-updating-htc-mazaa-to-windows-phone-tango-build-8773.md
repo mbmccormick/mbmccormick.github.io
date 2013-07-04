@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Updating HTC Mazaa to Windows Phone &quot;Tango&quot; (build 8773)
+title: Updating HTC Mazaa to Windows Phone &amp;quot;Tango&amp;quot; (build 8773)
 date: 2012-07-08 18:55
 comments: true
 categories: []

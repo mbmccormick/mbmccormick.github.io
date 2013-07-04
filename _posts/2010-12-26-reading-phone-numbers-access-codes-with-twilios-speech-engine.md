@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading Phone Numbers, Access Codes with Twilio&#039;s Speech Engine
+title: Reading Phone Numbers, Access Codes with Twilio&amp;#039;s Speech Engine
 date: 2010-12-26 00:00
 comments: true
 categories: []
@@ -12,4 +12,4 @@ categories: []
 
 <p></p>
 
-<p>Without separating the characters, Twilio's speech engine understands &ldquo;ABC123&rdquo; as a word and attempts to read it. But when you send &ldquo;A, B, C, 1, 2, 3,&rdquo; in your TwiML, Twilio will read this naturally, at a speed slow enough that the caller can write it down. This is useful when reading phone numbers or access codes, depending on your service. This is a little tricky in Python, so I thought I'd share this.</p>
+<p>Without separating the characters, Twilio's speech engine understands &amp;ldquo;ABC123&amp;rdquo; as a word and attempts to read it. But when you send &amp;ldquo;A, B, C, 1, 2, 3,&amp;rdquo; in your TwiML, Twilio will read this naturally, at a speed slow enough that the caller can write it down. This is useful when reading phone numbers or access codes, depending on your service. This is a little tricky in Python, so I thought I'd share this.</p>
