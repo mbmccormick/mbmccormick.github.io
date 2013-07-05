@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Achievement Unlocked: Accept Full-Time Position at Microsoft
+title: Achievement Unlocked&#058; Accept Full-Time Position at Microsoft
 date: 2012-08-27 12:47
 comments: true
 categories: []
