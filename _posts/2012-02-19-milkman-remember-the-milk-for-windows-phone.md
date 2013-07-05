@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 'Milkman: Remember The Milk for Windows Phone'
 date: 2012-02-19 00:00
@@ -9,10 +9,10 @@ Over the past week or so I have been working on my latest application for <a hre
 
 Milkman isn't the first Remember The Milk client for Windows Phone, <a href="http://www.windowsphone.com/en-US/apps/2571dafd-7ee7-df11-a844-00237de2db9e" target="_blank">WinMilk</a> was the first application of it's kind to hit the Marketplace and currently holds a lot of the market share. However, WinMilk hasn't seen a lot of love lately and I didn't really like the interface, so I decided to write my own client and I am really happy with how it turned out. Take a look at the screenshots below for a quick overview:
 
-<a href="/images/2012/02/1.png" target="_blank"><img src="/images/2012/02/1.png" style="width: 150px !important;" title="Milkman's home screen, displaying task lists in a pivot control" /></a>
-<a href="/images/2012/02/2.png" target="_blank"><img src="/images/2012/02/2.png" style="width: 150px !important;" title="Milkman's Task Details page, allowing you to view all of the information associated with a task." /></a>
-<a href="/images/2012/02/7.png" target="_blank"><img src="/images/2012/02/7.png" style="width: 150px !important;" title="Milkman's location-based reminder toast, notifying you when you're near a task." /></a>
-<a href="/images/2012/02/8.png" target="_blank"><img src="/images/2012/02/8.png" style="width: 150px !important;" title="Milkman will popup an event reminder one hour before a task is due." /></a>
+<a href="/images/2012/02/1.png" target="_blank"><img src="/images/2012/02/1.png" style="width: 150px !important;" title="Home screen displaying task lists in a pivot control." /></a>
+<a href="/images/2012/02/2.png" target="_blank"><img src="/images/2012/02/2.png" style="width: 150px !important;" title="Task Details page allowing you to view all of the information associated with a task." /></a>
+<a href="/images/2012/02/7.png" target="_blank"><img src="/images/2012/02/7.png" style="width: 150px !important;" title="Location-based reminder toast notifying you when a task is nearby." /></a>
+<a href="/images/2012/02/8.png" target="_blank"><img src="/images/2012/02/8.png" style="width: 150px !important;" title="Event reminder popup before a task is due." /></a>
 
 You can also watch a quick video demo of <a href="http://www.youtube.com/watch?v=9zmR9IgxgDA" target="_blank">Milkman on YouTube</a>.
 
