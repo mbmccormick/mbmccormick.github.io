@@ -54,4 +54,4 @@ Credit for most of this information comes from the <a href="http://forum.xda-dev
 
 <a href="http://forum.xda-developers.com/showthread.php?t=1306415" target="_blank">[CAB] Official WP7 Updates List: 7.10.8107 + ALL LANGUAGES complete + OEM updates</a>
 
-<a href="http://forum.xda-developers.com/showthread.php?t=1447231 target="_blank">HTC Mazaa Stock ROM Mango [FFU]</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1447231" target="_blank">HTC Mazaa Stock ROM Mango [FFU]</a>
