@@ -55,4 +55,4 @@ Clearly <a href="http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google
 
 Most of the hardware works out of the box, with the exception of the drivers listed above. My device was reporting a Windows Experience Index of 2.2 and the OS was running very smoothly, with Metro UI loading properly. One **important** tip is that because the Google Cr-48 does not have a Windows key, you will need to press either the Search key or CTRL + ESC to return to the start menu when using the Metro UI.
 
-To restore your Cr-48 back to the default Chrome OS, follow this <a href="http://support.google.com/chromeos/bin/answer.py?hl=en&answer=1080595" target="_blank">Recovery Guide</a> from Google. Feel free to get in touch with me about any questions or concerns via Twitter.
+To restore your Cr-48 back to the default Chrome OS, follow this <a href="http://support.google.com/chromeos/bin/answer.py?hl=en&amp;answer=1080595" target="_blank">Recovery Guide</a> from Google. Feel free to get in touch with me about any questions or concerns via Twitter.
