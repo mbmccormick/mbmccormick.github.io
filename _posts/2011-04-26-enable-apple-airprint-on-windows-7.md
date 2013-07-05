@@ -5,7 +5,7 @@ date: 2011-04-26 00:00
 comments: true
 categories: []
 ---
-<p>About a month ago, I bought the new <a href="http://www.apple.com/ipad/" target="_blank">Apple iPad 2</a>. I'll spare you the details, but in short, I love it. One of the neat features available to new Apple iOS devices is <a href="http://www.apple.com/ipad/features/airprint.html" target="_blank">AirPrint</a>, which allows you to wirelessly print to AirPrint-enabled printers or printers attached to a Mac. I have neither a Mac nor an AirPrint-enabled printer. Nonetheless, there is a <a href="http://jaxov.com/2010/11/how-to-enable-airprint-service-on-windows/" target="_blank">leaked beta</a> of the Apple AirPrint software for Windows that brings this functionality to Windows users. Here's what you need to do to run it on your own computer:</p>
+<p>About a month ago, I bought the new <a href="http://www.apple.com/ipad/" target="_blank">Apple iPad 2</a>. I&rsquo;ll spare you the details, but in short, I love it. One of the neat features available to new Apple iOS devices is <a href="http://www.apple.com/ipad/features/airprint.html" target="_blank">AirPrint</a>, which allows you to wirelessly print to AirPrint-enabled printers or printers attached to a Mac. I have neither a Mac nor an AirPrint-enabled printer. Nonetheless, there is a <a href="http://jaxov.com/2010/11/how-to-enable-airprint-service-on-windows/" target="_blank">leaked beta</a> of the Apple AirPrint software for Windows that brings this functionality to Windows users. Here&rsquo;s what you need to do to run it on your own computer:</p>
 
 <ol>
     <li>If you haven't already, download and install the latest <a href="http://www.apple.com/itunes/download/" target="_blank">iTunes</a>. You will need at least iTunes 10.1.</li>
