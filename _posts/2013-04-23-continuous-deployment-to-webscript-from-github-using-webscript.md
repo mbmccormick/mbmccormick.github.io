@@ -13,6 +13,6 @@ categories: []
 
 <script src="https://gist.github.com/mbmccormick/5447302.js"> </script>
 
-<p>To use this on your own GitHub repository, just add a webhook with the URL <code>https://code.webscript.io/github?email=YOUR_EMAIL_ADDRESS&amp;key=YOUR_API_KEY</code>. Then every time you push to GitHub, your Lua scripts will be deployed to your Webscript account. This is a great way to keep your scripts under source control and streamline the deployment process.</p>
+<p>To use this on your own GitHub repository, just add a webhook with the URL <code>https://code.webscript.io/github?email=YOUR_EMAIL_ADDRESS&key=YOUR_API_KEY</code>. Then every time you push to GitHub, your Lua scripts will be deployed to your Webscript account. This is a great way to keep your scripts under source control and streamline the deployment process.</p>
 
 <p>You can check out the full source code and documentation for this <a href="https://github.com/mbmccormick/webscript-github-hook">project on GitHub</a>.</p>

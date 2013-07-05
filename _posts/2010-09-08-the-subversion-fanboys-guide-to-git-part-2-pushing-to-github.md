@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Subversion Fanboy&amp;#039;s Guide to Git, Part 2&amp;#058; Pushing to GitHub
+title: The Subversion Fanboy&#039;s Guide to Git, Part 2&#058; Pushing to GitHub
 date: 2010-09-08 00:00
 comments: true
 categories: []
@@ -19,10 +19,10 @@ categories: []
 
 <a href="/images/2012/05/cap2.png"><img src="/images/2012/05/cap2.png" /></a>
 
-<p>Now that GitHub has our SSH public key, we are all set to push our code. First, setup a new repository on GitHub. After you create your repository, you will be redirected to a a page that discusses the Git commands you need to execute to setup your local repository. To do that, we need to execute the <code>git init</code> command. This will setup a local Git repository. Now, let's create a new text file in our repository. Call it whatever you want. Let's add this file to our Git repository. For that, we call <code>git add .</code>, which will add all of the files in our repository to the staging area. Next, we'll call <code>git commit -m &amp;ldquo;Initial commit.&amp;rdquo;</code> to commit these changes to our local repository. Alternatively, you can do this using the Git GUI as shown below:</p>
+<p>Now that GitHub has our SSH public key, we are all set to push our code. First, setup a new repository on GitHub. After you create your repository, you will be redirected to a a page that discusses the Git commands you need to execute to setup your local repository. To do that, we need to execute the <code>git init</code> command. This will setup a local Git repository. Now, let's create a new text file in our repository. Call it whatever you want. Let's add this file to our Git repository. For that, we call <code>git add .</code>, which will add all of the files in our repository to the staging area. Next, we'll call <code>git commit -m &ldquo;Initial commit.&rdquo;</code> to commit these changes to our local repository. Alternatively, you can do this using the Git GUI as shown below:</p>
 
 <a href="/images/2012/05/cap3.png"><img src="/images/2012/05/cap3.png" /></a>
 
-<p>Lastly, to push our changes to GitHub, we need to call <code>git remote add origin git@github.com:mbmccormick/myfirstrepo.git</code>, which will add our remote repository, and finally <code>git push origin master</code>, which will push our code to the &amp;ldquo;origin&amp;rdquo; remote we just added on the &amp;ldquo;master&amp;rdquo; branch. And with that, we've just pushed our code to GitHub!</p>
+<p>Lastly, to push our changes to GitHub, we need to call <code>git remote add origin git@github.com:mbmccormick/myfirstrepo.git</code>, which will add our remote repository, and finally <code>git push origin master</code>, which will push our code to the &ldquo;origin&rdquo; remote we just added on the &ldquo;master&rdquo; branch. And with that, we've just pushed our code to GitHub!</p>
 
-<p>For more information about the social aspect of GitHub, you can visit the expansive <a href="http://help.github.com/" target="_blank">GitHub Help</a> website. There are several Git and GitHub tutorials there for you to peruse. And lastly, as a conclusion for my &amp;ldquo;Subversion Fanboy's Guide to Git&amp;rdquo; series, I encourage anyone who is still skeptical about Git to visit <a href="http://whygitisbetterthanx.com/" target="_blank">Why Git is Better Than X</a>.</p>
+<p>For more information about the social aspect of GitHub, you can visit the expansive <a href="http://help.github.com/" target="_blank">GitHub Help</a> website. There are several Git and GitHub tutorials there for you to peruse. And lastly, as a conclusion for my &ldquo;Subversion Fanboy's Guide to Git&rdquo; series, I encourage anyone who is still skeptical about Git to visit <a href="http://whygitisbetterthanx.com/" target="_blank">Why Git is Better Than X</a>.</p>
