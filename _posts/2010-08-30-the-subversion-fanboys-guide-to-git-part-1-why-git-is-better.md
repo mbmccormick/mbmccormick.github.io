@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Subversion Fanboy&#039;s Guide to Git, Part 1&#058; Why Git is Better
+title: The Subversion Fanboy&#039;s Guide to Git, Part 1: Why Git is Better
 date: 2010-08-30 00:00
 comments: true
 categories: []

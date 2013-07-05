@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Subversion Fanboy&#039;s Guide to Git, Part 2&#058; Pushing to GitHub
+title: The Subversion Fanboy&#039;s Guide to Git, Part 2: Pushing to GitHub
 date: 2010-09-08 00:00
 comments: true
 categories: []
