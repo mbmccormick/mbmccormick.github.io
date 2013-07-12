@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="http://www.gravatar.com/avatar/10f112c27a538601fcdefc994da16fa3?s=200" class="alignRight profile" style="padding-top:0px;" />
+<img src="http://www.gravatar.com/avatar/10f112c27a538601fcdefc994da16fa3?s=200" alt="profile" style="float: left;" />
 
 My name is Matt McCormick and I am a Program Manager at Microsoft and a Computer Science graduate from <a href="http://www.purdue.edu" target="_blank">Purdue University</a>. During the day, I am a Product Owner for the Skype team. At night, I am a hacker/chef/gardener/dog-lover/beer-connoisseur in Seattle.
 
