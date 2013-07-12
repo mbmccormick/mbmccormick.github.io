@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>        
-        <title>{{ page.title }}</title>
+        <title>{{ page.title }}{% unless page.url == '/index.html' %} - Matt McCormick{% endunless %}</title>
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         <meta name="author" content="{{ site.author }}" />
         
