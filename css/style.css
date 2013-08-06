@@ -527,9 +527,18 @@ td.line-numbers {
     vertical-align: top;
 }
 
+.profile {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
 @media screen and (max-width:720px)
 {
     .posts time {
         display: none;
+    }
+    
+    .profile {
+        max-width: 100%;
     }
 }
