@@ -10,3 +10,5 @@ My name is Matt McCormick and I am a Program Manager at Microsoft and a Computer
 You can take a look at my source projects on <a href="https://www.github.com/mbmccormick" target="_blank">GitHub</a>. If you see something you like, enjoyed one of my blog posts, or use one of my applications, share the love and <a href="/donate">buy me a beer</a> on PayPal!
 
 Want to get in touch? Send me an email at <a href="mailto:matt@mbmccormick.com">matt@mbmccormick.com</a>.
+
+<br />
