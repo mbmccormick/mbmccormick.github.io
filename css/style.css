@@ -394,7 +394,7 @@ body, html {
 }
 
 ::selection {
-    background: #999;
+    background: #f8ff6e;
     color: #222;
     text-shadow: none;
 }
@@ -421,7 +421,7 @@ a {
     }
 
 [role=banner] ::selection, [role=contentinfo] ::selection, .about ::selection {
-    background: #ccc;
+    background: #f8ff6e;
     color: #fff;
 }
 
