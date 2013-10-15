@@ -490,13 +490,13 @@ h1 a, h2 a, h3 a, h4 a {
     opacity: 0.7;
 }
 
-.links .dribbble {
+.links .linkedin {
     background-position: -42px 0;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)
 {
-    .links .dribbble {
+    .links .linkedin {
         background-position: -37px 0;
     }
 }
