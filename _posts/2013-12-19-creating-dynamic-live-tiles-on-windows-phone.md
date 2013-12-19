@@ -12,13 +12,13 @@ tags:
   - code
 ---
 
-Recently, I was working on updating Milkman to include a more advanced live tile for showing upcoming tasks for users’s lists. Windows Phone has some great facilities in place for creating generic live tiles, but it doesn’t allow for much customization. Anything beyond those three basic templates requires you to create a dynamic template and render it as an image. This allows you to design your live tile in XAML, the same language you are using to design the user interfaces in the rest of your application.
+Recently, I was working on updating Milkman to include a more advanced live tile for showing upcoming tasks for user's lists. Windows Phone has some great facilities in place for creating generic live tiles, but it doesn't allow for much customization. Anything beyond those three basic templates requires you to create a dynamic template and render it as an image. This allows you to design your live tile in XAML, the same language you are using to design the user interfaces in the rest of your application.
 
-The first thing you need to do is create a custom `UserControl` and add it to your project. This allows you to design the tile in XAML and add the necessary codebehind to render that control as an image. Here’s the XAML for my medium (square) live tile, notice the dimensions:
+The first thing you need to do is create a custom `UserControl` and add it to your project. This allows you to design the tile in XAML and add the necessary codebehind to render that control as an image. Here's the XAML for my medium (square) live tile, notice the dimensions:
 
 {% gist 8043664 %}
 
-The codebehind is really where things get interesting. I create a public method `RenderLiveTileImage()` which, when called, renders the user control in memory and then generates a PNG image file, which can then be used as the BackgroundImage property of the live tile. Here’s the code:
+The codebehind is really where things get interesting. I create a public method `RenderLiveTileImage()` which, when called, renders the user control in memory and then generates a PNG image file, which can then be used as the BackgroundImage property of the live tile. Here's the code:
 
 {% gist 8043676 %}
 
