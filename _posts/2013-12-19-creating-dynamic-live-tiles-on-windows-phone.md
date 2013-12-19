@@ -26,4 +26,6 @@ Here I am setting the title and content properties of my live tile (see XAML abo
 
 {% gist 8043694 %}
 
-You can see this in action in the latest update to Milkman, the premier Remember The Milk application for Windows Phone. You can also find out more about this in Jay Way's article on [Advanced Transparent Live Tiles with Count for Windows Phone](http://www.jayway.com/2012/04/03/advanced-transparent-live-tiles-with-count-for-windows-phone/).
+You can see this in action in the latest update to Milkman, the premier Remember The Milk application for Windows Phone. You can also find out more about this in Jay Way's article on [Advanced Transparent Live Tiles with Count for Windows Phone][1].
+
+ [1]: http://www.jayway.com/2012/04/03/advanced-transparent-live-tiles-with-count-for-windows-phone/
