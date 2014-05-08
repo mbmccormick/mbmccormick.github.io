@@ -1,5 +1,3 @@
-_posts/2014-05-08-syncing-fitbit-on-raspberry-pi-with-galileo.md
-
 ---
 layout: post
 title: 'Syncing Fitbit on Raspberry Pi with galileo'
