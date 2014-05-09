@@ -27,6 +27,6 @@ In order for that change to take effect, you will need to either remove and rein
 
 {% gist mbmccormick/e62e331543ce1e7f876b %}
 
-This will configure your Raspberry Pi to run the galileo binary every 5 minutes. galileo will scan for any nearby Fitbit devices and if it finds one and that Fitbit tracker has not synchronized in the last 15 minutes, then it will upload the data to the Fitbit website. The output of the galileo command is logged to `/home/pi/galileo.log` in case you want to check in and see how it is doing. That file is deleted every 24 hours to prevent it from eating up the limited disk space on your Raspberry Pi.
+This will configure your Raspberry Pi to run galileo every 2 minutes. galileo will scan for any nearby Fitbit devices and if it finds one and that Fitbit tracker has not synchronized in the last 15 minutes, then it will upload the data to the Fitbit website. The output of the galileo command is logged to `/home/pi/galileo.log` in case you want to check in and see how it is doing. That file is deleted every 24 hours to prevent it from eating up the limited disk space on your Raspberry Pi.
 
 Special thanks to [Ben Allard](https://bitbucket.org/benallard) for developing the galileo project and to the [libfitbit community](https://github.com/openyou/libfitbit/issues/46) for getting the galileo project off the ground.
