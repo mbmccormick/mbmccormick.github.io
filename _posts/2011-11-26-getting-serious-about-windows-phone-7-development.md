@@ -45,7 +45,7 @@ If you’re writing an app that could make use of another built-in function of t
 <a href="http://msdn.microsoft.com/en-us/library/microsoft.phone.tasks(v=vs.92).aspx" target="_blank">Complete list of Launchers and Choosers</a>
 
 <h2>Release often, but not early</h2>
-Getting your application certified and published on the Windows Phone Marketplace takes an average of 3 days. If your publishing on a weekend, expect a 4 to 5 day turnaround time. Microsoft has real people testing your application on real phones, and that takes a while. So make sure that you test your application thoroughly before you submit it to the Marketplace. If you discover a bug right after you submit your application for certification, it will be about a week before your users will see a fix. Not only do you have to wait for the 3 day certification process of your fix, you can’t resubmit your application until your initial submission has been tested in full.
+Getting your application certified and published on the Windows Phone Marketplace takes an average of 3 days. If you're publishing on a weekend, expect a 4 to 5 day turnaround time. Microsoft has real people testing your application on real phones, and that takes a while. So make sure that you test your application thoroughly before you submit it to the Marketplace. If you discover a bug right after you submit your application for certification, it will be about a week before your users will see a fix. Not only do you have to wait for the 3 day certification process of your fix, you can’t resubmit your application until your initial submission has been tested in full.
 
 <a href="http://msdn.microsoft.com/en-us/library/hh202928(v=vs.92).aspx" target="_blank">Windows Phone Marketplace certification process</a>
 
