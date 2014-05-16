@@ -18,3 +18,6 @@ sitemap:
     include: ["/index.html"]
 
 exclude: ["README.md"]
+
+github_user: mbmccormick
+github_repo_url: https://github.com/mbmccormick/mbmccormick.github.io/
