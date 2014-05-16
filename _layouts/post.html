@@ -9,9 +9,18 @@ layout: default
             <time datetime="{{ page.date }}">{{ page.date | date:'%d %b %Y' }}</time>
             {{ content }}
         </article>
-        
-        <br />
+    </div>
 
+    <section class="contribute">
+        <div class="content">
+            <div class="contribute-inner">
+                <h4>Contribute to this post</h4>
+                <p>Want to edit or suggest changes to this content? You can edit and submit changes to <a href="{{ site.github_repo_url }}edit/master/{{ path }}">this post</a> using GitHub.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="content">
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             var disqus_shortname = 'mbmccormick';
