@@ -488,6 +488,10 @@ h1 a, h2 a, h3 a, h4 a {
     padding-left: 80px;
 }
 
+.contribute-inner h4, .contribute-inner p {
+    margin: 1em 0;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)
 {
     .links a {
