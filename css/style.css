@@ -558,4 +558,9 @@ td.line-numbers {
         margin: 0;
         width: 100%;
     }
+
+    .contribute-inner {
+        background-image: none;
+        padding-left: 0px;
+    }
 }
