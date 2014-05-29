@@ -16,7 +16,7 @@
 
         <link rel="prerender" href="{% if page.url == '/index.html' %}{{ site.posts.first.url }}{% else %}/{% endif %}" />
 
-        {% unless page.previous == nil %}<link rel="next" href="{{ page.previous.url }}"/>{% endunless %}
+        {% if page.url == '/index.html' %}<link rel="next" href="{{ site.posts.first.url }}"/>{% else %}{% unless page.previous == nil %}<link rel="next" href="{{ page.previous.url }}"/>{% endunless %}{% endif %}
         {% unless page.next == nil %}<link rel="prev" href="{{ page.next.url }}"/>{% endunless %}
 
         <!--[if lt IE 9]>
