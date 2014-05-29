@@ -11,4 +11,4 @@ You can take a look at my source projects on <a href="https://www.github.com/mbm
 
 Want to get in touch? Send me an email at <a href="mailto:matt@mbmccormick.com">matt@mbmccormick.com</a>.
 
-<br />
+Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my employer's view in any way.
