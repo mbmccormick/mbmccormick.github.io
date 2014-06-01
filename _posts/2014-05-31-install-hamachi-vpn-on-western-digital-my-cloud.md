@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 layout: post
 title: Install Hamachi VPN on Western Digital My Cloud
 author: Matt
