@@ -6,9 +6,9 @@ permalink: "/2014/05/install-hamachi-vpn-on-western-digital-my-cloud/"
 published: false
 ---
 
-Recently, I bought a Western Digital My Cloud network attached storage device to use for bacing up our PCs and storing our photos. This is a fantastic device and comes with a bunch of great features. What's even better is that it runs Linux and SSH access can be easily enabled through the web-based control panel. This post will walk you through how to install the Hamachi VPN client on the WD My Cloud so that you can access your files from anywhere.
+Recently, I bought a [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to use for bacing up our PCs and storing our photos. This is a fantastic device and comes with a bunch of great features. What's even better is that it runs Linux and SSH access can be easily enabled through the web-based control panel. This post will walk you through how to install the [Hamachi VPN](https://secure.logmein.com/products/hamachi/default.aspx) software on the WD My Cloud so that you can access your files from anywhere.
 
-LogMeIn recently announced Beta support for the Linux distributions of their Hamachi software. We will make some slight modifications to that so that it works for the WD My Cloud. First, let's enable SSH on the device:
+LogMeIn recently announced [Beta support](https://secure.logmein.com/labs/#HamachiforLinux) for the Linux distributions of their Hamachi software. We will make some slight modifications to that so that it works for the WD My Cloud. First, let's enable SSH on the device:
 
 Navigate to `http://wdmycloud` in your web browser to access the device's control panel. From there click on Settings and the Network. Under Network Services, flip the switch to enable SSH access. By default, the username is `root` and the password is `welc0me`.
 
@@ -22,7 +22,7 @@ Next, we need to extract the package and make a slight modification to the insta
 
 {% gist mbmccormick/ef513f416d4392ed56e3 %}
 
-The modified install and uninstall scripts that I created remove the dependency on the LSB package, which I couldn't manage to install on the WD My Cloud. It turns out that the only thing that Hamachi is using in the LSB package for is to install the init.d script so that the Hamachi daemon is started on boot. I managed to get around this by using update-rc.d instead and removing the checks to see if LSB is installed.
+The modified install and uninstall scripts that I created remove the dependency on the [LSB package](https://packages.debian.org/wheezy/lsb), which I couldn't manage to install on the WD My Cloud. It turns out that the only thing that Hamachi is using in the LSB package for is to [install](http://refspecs.linuxbase.org/LSB_1.2.0/gLSB/installinitd.html) the [init.d script](http://www.novell.com/documentation/suse91/suselinux-adminguide/html/ch13s04.html) so that the Hamachi daemon is started on boot. I managed to get around this by using [update-rc.d](http://www.tin.org/bin/man.cgi?section=8&topic=update-rc.d) instead and removing the checks to see if LSB is installed.
 
 Next, run the modified install script to install Hamachi:
 
