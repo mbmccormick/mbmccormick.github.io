@@ -3,7 +3,7 @@ layout: post
 title: Install Hamachi VPN on Western Digital My Cloud
 author: Matt
 permalink: "/2014/05/install-hamachi-vpn-on-western-digital-my-cloud/"
-published: false
+published: true
 ---
 
 Recently, I bought a [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to use for bacing up our PCs and storing our photos. This is a fantastic device and comes with a bunch of great features. What's even better is that it runs Linux and SSH access can be easily enabled through the web-based control panel. This post will walk you through how to install the [Hamachi VPN](https://secure.logmein.com/products/hamachi/default.aspx) software on the WD My Cloud so that you can access your files from anywhere.
@@ -12,7 +12,7 @@ LogMeIn recently announced [Beta support](https://secure.logmein.com/labs/#Hamac
 
 Navigate to `http://wdmycloud` in your web browser to access the device's control panel. From there click on Settings and the Network. Under Network Services, flip the switch to enable SSH access. By default, the username is `root` and the password is `welc0me`.
 
-Next, login to your WD My Cloud via SSH using the credentials above. The WD My Cloud runs on an ARM HF architecture. Download the latest version of the Hamachi software for Linux from the LogMeIn website using the following command:
+Next, login to your WD My Cloud via SSH using the credentials above. The WD My Cloud runs on an [ARM HF architecture](http://en.wikipedia.org/wiki/ARMhf). Download the latest version of the Hamachi software for Linux from the LogMeIn website using the following command:
 
 {% gist mbmccormick/3c90ccd38ae673c7e85a %}
 
@@ -28,4 +28,4 @@ Next, run the modified install script to install Hamachi:
 
 {% gist mbmccormick/21b71e25f6bf2f48c6fc %}
 
-Hamachi should now be installed and you can bring it online, join networks, etc. using the `hamachi` command. The Hamachi daemon will also start and go online whenever the WD My Cloud reboots. You should now be able to access your WD My Cloud from any of the machines on your Hamachi networks!
+Hamachi should now be installed and you can bring it online, join networks, etc. using the `hamachi` command. The Hamachi daemon should be configured start and go online whenever the WD My Cloud reboots. You should now be able to access your WD My Cloud from any of the machines on your Hamachi networks!
