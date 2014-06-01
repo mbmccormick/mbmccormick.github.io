@@ -28,7 +28,7 @@ Next, login to your WD My Cloud via SSH using the credentials above. The WD My C
 
 If that doesn't work for you, you can download the package on your local machine and copy it over via Windows Explorer.
 
-Next, we need to extract the package and make a slight modification to the install and uninstall scripts. Do that with the following commands:
+Next, we need to extract the package and make a slight modification to the [install](https://github.com/mbmccormick/hamachi-wdmycloud/blob/master/install.sh) and [uninstall](https://github.com/mbmccormick/hamachi-wdmycloud/blob/master/uninstall.sh) scripts. Do that with the following commands:
 
 {% gist mbmccormick/ef513f416d4392ed56e3 %}
 
