@@ -22,20 +22,28 @@ LogMeIn recently announced [Beta support](https://secure.logmein.com/labs/#Hamac
 
 Navigate to `http://wdmycloud` in your web browser to access the device's control panel. From there click on Settings and the Network. Under Network Services, flip the switch to enable SSH access. By default, the username is `root` and the password is `welc0me`.
 
-Next, login to your WD My Cloud via SSH using the credentials above. The WD My Cloud runs on an [ARM HF architecture](http://en.wikipedia.org/wiki/ARMhf). Download the latest version of the Hamachi software for Linux from the LogMeIn website using the following command:
+Next, login to your WD My Cloud via SSH using the credentials above. Download the latest version of the CrashPlan software for Linux from the CrashPlan website using the following command:
 
-{% gist mbmccormick/3c90ccd38ae673c7e85a %}
+{% gist mbmccormick/e282a46e1cfdad5cf3e9 %}
 
 If that doesn't work for you, you can download the package on your local machine and copy it over via Windows Explorer.
 
-Next, we need to extract the package and make a slight modification to the [install](https://github.com/mbmccormick/hamachi-wdmycloud/blob/master/install.sh) and [uninstall](https://github.com/mbmccormick/hamachi-wdmycloud/blob/master/uninstall.sh) scripts. Do that with the following commands:
+Next, we need to extract the package. Do that with the following commands:
 
-{% gist mbmccormick/ef513f416d4392ed56e3 %}
+{% gist mbmccormick/a27710f85c38262806e0 %}
 
-The modified install and uninstall scripts that I created remove the dependency on the [LSB package](https://packages.debian.org/wheezy/lsb), which I couldn't manage to install on the WD My Cloud. It turns out that the only thing that Hamachi is using in the LSB package for is to [install](http://refspecs.linuxbase.org/LSB_1.2.0/gLSB/installinitd.html) the [init.d script](http://www.novell.com/documentation/suse91/suselinux-adminguide/html/ch13s04.html) so that the Hamachi daemon is started on boot. I managed to get around this by using [update-rc.d](http://www.tin.org/bin/man.cgi?section=8&topic=update-rc.d) instead and removing the checks to see if LSB is installed.
+Before we can install CrashPlan, we need to install some pre-requisites. By default, the CrashPlan installer will check to make sure the Java Runtime Environment (JRE) is installed on your system and, if it isn't, install it for you. However, the version of the JRE that CrashPlan uses doesn't work well with the WD My Cloud. Instead, we'll install it manually from our package management system:
 
-Next, run the modified install script to install Hamachi:
+{% gist mbmccormick/ae3746a00f5873d12d44 %}
 
-{% gist mbmccormick/21b71e25f6bf2f48c6fc %}
+Now we can run the CrashPlan installer. Issue the following commands:
 
-Hamachi should now be installed and you can bring it online, join networks, etc. using the `hamachi` command. The Hamachi daemon should be configured start and go online whenever the WD My Cloud reboots. You should now be able to access your WD My Cloud from any of the machines on your Hamachi networks!
+{% gist mbmccormick/698242350235bd567ee8 %}
+
+When prompted, enter `/opt/crashplan` for the installation directory, `/usr/bin` for the linked executable directory, `/DataVolume/Temp/CrashPlan` for the backups directory, and accept the default for the SYSV init scripts directory. Continue following the installer until it completes.
+
+Now there is one last modification we need to make to the CrashPlan installation. We need to replace the `libjtux.so` library with one that will work with our ARM system. Download and replace the `libjtux.so` file that we just installed with this new one:
+
+{% gist mbmccormick/f3f9cdd21080fd73cd4c %}
+
+CrashPlan should now be installed and online. For information about how to configure your new CrashPlan instance, follow steps on the CrashPlan website or the tutorial on Scott Hanselman's blog. Once you get everything configured, your WD My Cloud should be creating continuous off-site backups with CrashPlan!
