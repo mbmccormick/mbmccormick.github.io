@@ -13,7 +13,7 @@ tags:
   - vpn
   - networking
   - hacking
-published: false
+published: true
 ---
 
 Lately, I've been messing around with my new [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to setup a seamless backups of my PCs and photos. I recently wrote about how to install the Hamachi VPN software on the device to enable secure, remote access. Today, I will discuss how to create continuous off-set backups of WD My Cloud using [CrashPlan](http://www.code42.com/crashplan/).
