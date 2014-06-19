@@ -16,9 +16,9 @@ tags:
 published: false
 ---
 
-Recently, I bought a [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to use for bacing up our PCs and storing our photos. This is a fantastic device and comes with a bunch of great features. What's even better is that it runs Linux and SSH access can be easily enabled through the web-based control panel. This post will walk you through how to install the [Hamachi VPN](https://secure.logmein.com/products/hamachi/default.aspx) software on the WD My Cloud so that you can access your files from anywhere.
+Lately, I've been messing around with my new [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to setup a seamless backups of my PCs and photos. I recently wrote about how to install the Hamachi VPN software on the device to enable secure, remote access. Today, I will discuss how to create continuous off-set backups of WD My Cloud using [CrashPlan](http://www.code42.com/crashplan/).
 
-LogMeIn recently announced [Beta support](https://secure.logmein.com/labs/#HamachiforLinux) for the Linux distributions of their Hamachi software. We will make some slight modifications to that so that it works for the WD My Cloud. First, let's enable SSH on the device:
+CrashPlan is a fantastic backup service and offers easy [off-site backups](http://www.code42.com/crashplan/features/backup-destinations/) for a very affordable price. If I ever need to restore my data, I can do so from their website or they'll [ship me a replacement hard drive](http://support.code42.com/CrashPlan/Latest/Restoring/Restore-To-Door_Overview) with all of my data on it. What's more is that they offer a cross-platform solution, available for Windows, Max, and Linux. I wanted to set this up on my WD My Cloud to backup our shared data and PC backups in the event of a hard drive failure. First, let's enable SSH on the device:
 
 Navigate to `http://wdmycloud` in your web browser to access the device's control panel. From there click on Settings and the Network. Under Network Services, flip the switch to enable SSH access. By default, the username is `root` and the password is `welc0me`.
 
@@ -46,4 +46,4 @@ Now there is one last modification we need to make to the CrashPlan installation
 
 {% gist mbmccormick/f3f9cdd21080fd73cd4c %}
 
-CrashPlan should now be installed and online. For information about how to configure your new CrashPlan instance, follow steps on the CrashPlan website or the tutorial on Scott Hanselman's blog. Once you get everything configured, your WD My Cloud should be creating continuous off-site backups with CrashPlan!
+CrashPlan should now be installed and online. For information about how to configure your new CrashPlan instance, follow the [headless configuration](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client) steps on the CrashPlan website or the [tutorial](http://www.hanselman.com/blog/UPDATED2014HowToSetupCrashPlanCloudBackupOnASynologyNASRunningDSM50.aspx) on Scott Hanselman's blog. Once you get everything configured, your WD My Cloud should be creating continuous off-site backups with CrashPlan!
