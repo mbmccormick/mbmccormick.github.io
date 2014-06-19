@@ -16,7 +16,7 @@ tags:
 published: true
 ---
 
-Recently, I bought a [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to use for bacing up our PCs and storing our photos. This is a fantastic device and comes with a bunch of great features. What's even better is that it runs Linux and SSH access can be easily enabled through the web-based control panel. This post will walk you through how to install the [Hamachi VPN](https://secure.logmein.com/products/hamachi/default.aspx) software on the WD My Cloud so that you can access your files from anywhere.
+Recently, I bought a [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to use for backing up our PCs and storing our photos. This is a fantastic device and comes with a bunch of great features. What's even better is that it runs Linux and SSH access can be easily enabled through the web-based control panel. This post will walk you through how to install the [Hamachi VPN](https://secure.logmein.com/products/hamachi/default.aspx) software on the WD My Cloud so that you can access your files from anywhere.
 
 LogMeIn recently announced [Beta support](https://secure.logmein.com/labs/#HamachiforLinux) for the Linux distributions of their Hamachi software. We will make some slight modifications to that so that it works for the WD My Cloud. First, let's enable SSH on the device:
 
