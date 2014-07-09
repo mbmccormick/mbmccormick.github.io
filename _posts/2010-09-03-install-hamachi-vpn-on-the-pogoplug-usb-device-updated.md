@@ -39,7 +39,7 @@ categories: []
 <script src="https://gist.github.com/1273105.js"> </script>
 
 
-<p>Lastly, we need to setup our device to enable write access and start Hamachi on boot:</p>
+<p>Lastly, we need to set up our device to enable write access and start Hamachi on boot:</p>
 
 <script src="https://gist.github.com/1273107.js"> </script>
 
