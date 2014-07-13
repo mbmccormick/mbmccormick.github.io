@@ -16,6 +16,8 @@ tags:
 published: true
 ---
 
+*UPDATE:* The WD My Cloud device firmware versions 04.00.00 and later use a modified version of Debian Linux which uses 64K sized memory pages. In order to build Debian packages for use on a 64K page-size device, an "qemu-emulated native" build system is used, which contains the binutils package modified for 64K page-size alignment. As a result, the latest firmware has broken this guide. I am working on a fix, but in the mean time it is best to not upgrade your WD My Cloud device firmware.
+
 Lately, I've been messing around with my new [Western Digital My Cloud](http://www.wdc.com/en/products/products.aspx?id=1140) network attached storage device to setup a seamless backups of my PCs and photos. I recently wrote about how to install the Hamachi VPN software on the device to enable secure, remote access. Today, I will discuss how to create continuous off-site backups of WD My Cloud using [CrashPlan](http://www.code42.com/crashplan/).
 
 CrashPlan is a fantastic backup service and offers easy [off-site backups](http://www.code42.com/crashplan/features/backup-destinations/) for a very affordable price. If I ever need to restore my data, I can do so from their website or they'll [ship me a replacement hard drive](http://support.code42.com/CrashPlan/Latest/Restoring/Restore-To-Door_Overview) with all of my data on it. What's more is that they offer a cross-platform solution, available for Windows, Max, and Linux. I wanted to set this up on my WD My Cloud to backup our shared data and PC backups in the event of a hard drive failure. First, let's enable SSH on the device:
