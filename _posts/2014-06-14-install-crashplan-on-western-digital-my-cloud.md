@@ -42,7 +42,7 @@ Now we can run the CrashPlan installer. Issue the following commands:
 
 {% gist mbmccormick/698242350235bd567ee8 %}
 
-When prompted, enter `/opt/crashplan` for the installation directory, `/usr/bin` for the linked executable directory, `/DataVolume/Temp/CrashPlan` for the backups directory, and accept the default for the SYSV init scripts directory. Continue following the installer until it completes.
+When prompted, enter `/opt/crashplan` for the installation directory, `/usr/bin` for the linked executable directory, `/DataVolume/Temp/CrashPlan` for the backups directory, and accept the default for the SYSV init scripts directory and the runlevel init links directory. Continue following the installer until it completes.
 
 Now there is one last modification we need to make to the CrashPlan installation. We need to replace the `libjtux.so` library with one that will work with our ARM system. Download and replace the `libjtux.so` file that we just installed with this new one:
 
