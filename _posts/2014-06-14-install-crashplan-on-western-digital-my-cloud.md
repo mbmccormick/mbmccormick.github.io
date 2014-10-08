@@ -30,7 +30,7 @@ Next, login to your WD My Cloud via SSH using the credentials above. Download th
 
 If that doesn't work for you, you can download the package on your local machine and copy it over via Windows Explorer.
 
-Next, we need to extract the package. Do that with the following commands:
+Next, we need to extract the package. Do that with the following command:
 
 {% gist mbmccormick/a27710f85c38262806e0 %}
 
