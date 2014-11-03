@@ -26,6 +26,6 @@ I've been actively checking the [Best Buy][3] website to see if any of my local 
 
 {% gist 5534903 %} 
 
-In about 15 minutes, I had a cron job running every half hour that would query the [Best Buy API][5] and send me a text message as soon as local store had the device in stock. I was impressed with Best Buy's open API and the functionality that it provides and I was satisfied, yet again, with Webscript's ability to make complex tasks like this so easy.
+In about 15 minutes, I had a cron job running every half hour that would query the [Best Buy API][5] and send me a text message as soon as a local store had the device in stock. I was impressed with Best Buy's open API and the functionality that it provides and I was satisfied, yet again, with Webscript's ability to make complex tasks like this so easy.
 
  [5]: https://bbyopen.com/developer
