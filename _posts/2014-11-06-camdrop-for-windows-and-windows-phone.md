@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Camdrop for Windows and Windows Phone
-date: 2014-11-07 00:00
+date: 2014-11-06 00:00
 comments: true
 categories: []
-published: false
 ---
 <a href="http://apps.microsoft.com/windows/en-US/app/camdrop/ada41b87-f796-4cb7-b548-a19c90fb1009">Camdrop for Windows</a>
 
