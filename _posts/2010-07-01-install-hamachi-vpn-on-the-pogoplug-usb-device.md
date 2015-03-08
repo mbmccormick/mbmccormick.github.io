@@ -30,12 +30,12 @@ categories: []
 <script src="https://gist.github.com/1273148.js"> </script>
 
 
-<p>The libraries should now be installed on our PogoPlug. Next, we need to install Hamachi. While the Hamachi 2 software is now developed by LogMeIn and no longer supports the Linux or Mac operating systems, you can still access the original Hamachi <a href="http://files.hamachi.cc/linux/" target="_blank">source code</a>. The PogoPlug device uses an ARM processor and lucky for us, Hamachi has an ARM build for the Nokia N770 phone which works perfectly for this. Download and install it with the following commands:</p>
+<p>The libraries should now be installed on our PogoPlug. Next, we need to install Hamachi. While the Hamachi 2 software is now developed by LogMeIn and no longer supports the Linux or Mac operating systems, you can still access the original Hamachi <a href="http://files.hamachi.cc/linux/" target="_blank" data-proofer-ignore>source code</a>. The PogoPlug device uses an ARM processor and lucky for us, Hamachi has an ARM build for the Nokia N770 phone which works perfectly for this. Download and install it with the following commands:</p>
 
 <script src="https://gist.github.com/1273151.js"> </script>
 
 
-<p>Now that all of the pieces of this puzzle are in place, its time to set things in motion. Next we will configure the <a href="http://en.wikipedia.org/wiki/TUN/TAP" target="_blank">tun driver</a> and setup Hamachi, and if all succeeds we should be online. Here we go:</p>
+<p>Now that all of the pieces of this puzzle are in place, its time to set things in motion. Next we will configure the <a href="http://en.wikipedia.org/wiki/TUN/TAP" target="_blank" data-proofer-ignore>tun driver</a> and setup Hamachi, and if all succeeds we should be online. Here we go:</p>
 
 <script src="https://gist.github.com/1273152.js"> </script>
 
