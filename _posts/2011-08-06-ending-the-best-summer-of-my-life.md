@@ -5,9 +5,9 @@ date: 2011-08-06 00:00
 comments: true
 categories: []
 ---
-<p>This has been one hell of a summer for me and I could not have dreamed up an experience like this if I tried. I&rsquo;d like to finish up this series of blog posts about my internship here at <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a> by quoting an email that I came across this summer that does a great job at describing what it&rsquo;s been like to work for this company.</p>
+<p>This has been one hell of a summer for me and I could not have dreamed up an experience like this if I tried. I'd like to finish up this series of blog posts about my internship here at <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a> by quoting an email that I came across this summer that does a great job at describing what it's been like to work for this company.</p>
 
-<p>Copied below is an email from a <a href="http://sriramk.com/blog/2011/05/leaving-microsoft.html">post</a> by <a href="http://sriramk.com/">Sriram Krishnan</a>, a former Microsoft employee:</p>
+<p>Copied below is an email from a <a href="http://sriramk.com/leaving-microsoft">post</a> by <a href="http://sriramk.com/">Sriram Krishnan</a>, a former Microsoft employee:</p>
 
 <blockquote>
 <p>I always imagined my last day at Microsoft will end with me being fired and getting carried out by some burly security guys as I kick and scream. And as a finishing touch, they’ll come dump my belongings on me in the parking lot as I crawl sadly away with the camera panning out to gloomy music. I’m honestly a bit surprised that hasn’t happened given all the crazy things I’ve done over the years. For some weird reason, Microsoft has been surprisingly nice to me and even chose to trust me with bigger and bigger things.</p>
@@ -26,4 +26,4 @@ categories: []
 </blockquote>
 
 
-<p>This has been the best summer of my life here at Microsoft and in Seattle. I&rsquo;ve worked on some challenging projects and I&rsquo;ve met some amazing friends that I look forward to seeing again next summer!</p>
+<p>This has been the best summer of my life here at Microsoft and in Seattle. I've worked on some challenging projects and I've met some amazing friends that I look forward to seeing again next summer!</p>

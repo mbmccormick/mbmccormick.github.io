@@ -5,13 +5,13 @@ date: 2012-04-09 00:00
 comments: true
 categories: []
 ---
-If you follow me on Twitter, you may have noticed that my beloved <a href="http://www.htc.com/us/products/trophy-verizon/" target="_blank">HTC Trophy</a> and I went swimming in the Gulf of Mexico. I have been without a Windows Phone device ever since and what's worse, I was forced to use an Android device. Without getting into a heated post here, I'll just say that having to use an Android device after using a Windows Phone was absolute torture! Thankfully, <a href="http://twitter.com/benlower" target="_blank">Ben Lower</a> sent me a <a href="http://www.xda-developers.com/windows-mobile/xda-developers-exclusive-first-leaked-pics-of-htc-mazaa/" target="_blank">HTC Mazaa</a> to use last week. 
+If you follow me on Twitter, you may have noticed that my beloved <a href="http://www.htc.com/us/products/trophy-verizon/" target="_blank" data-proofer-ignore>HTC Trophy</a> and I went swimming in the Gulf of Mexico. I have been without a Windows Phone device ever since and what's worse, I was forced to use an Android device. Without getting into a heated post here, I'll just say that having to use an Android device after using a Windows Phone was absolute torture! Thankfully, <a href="http://twitter.com/benlower" target="_blank">Ben Lower</a> sent me a <a href="http://www.xda-developers.com/windows-mobile/xda-developers-exclusive-first-leaked-pics-of-htc-mazaa/" target="_blank">HTC Mazaa</a> to use last week. 
 
 The HTC Mazaa is nearly identical to the HTC Trophy, except it has a gyroscope sensor inside. The Mazaa was used by Microsoft internally for development by the Windows Phone team. As I had expected, my device came pre-installed with an older build of Windows Phone on it and some development "zApps" that Microsoft must have used internally. Because the HTC Mazaa was never released as a commercial device, it is not able to receive updates from Microsoft using Zune. This post will walk through how to manually flash a stock Windows Phone Mango ROM onto the HTC Mazaa and then update it to the latest 8107 build of Mango.
 
 ## Download Windows Phone Update Tool and FFU
 
-To begin, download this <a href="http://files.mbmccormick.com/HTC Mazaa - Stock Mango.zip" target="_blank">package</a> that I have created which includes the Windows Phone Update Tool and the HTC Mazaa FFU for Windows Phone Mango build 7720. Extract this package and then move the FFU file into the appropriate directory depending on your computer's architecture, either 32-bit or 64-bit. 
+To begin, download this <a href="http://files.mbmccormick.com/HTC Mazaa - Stock Mango.zip" target="_blank" data-proofer-ignore>package</a> that I have created which includes the Windows Phone Update Tool and the HTC Mazaa FFU for Windows Phone Mango build 7720. Extract this package and then move the FFU file into the appropriate directory depending on your computer's architecture, either 32-bit or 64-bit. 
 
 You are now ready to flash Windows Phone Mango build 7720 onto your HTC Mazaa.
 

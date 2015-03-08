@@ -5,9 +5,9 @@ date: 2010-06-16 00:00
 comments: true
 categories: []
 ---
-<p>After I couldn&rsquo;t stand not having Froyo on my Motorola Droid, I finally gave in. I decided it was time to upgrade after seeing this blog <a href="http://www.droid-life.com/2010/06/08/download-newer-motorola-droid-froyo-leak-frf57/" target="_blank">post</a>, indicating that a very stable port of Android 2.2 was available for the Droid. This post will walk through the process of going from stock Android 2.1, without root, to Android 2.2, with root. Fasten your seat belts, as this is somewhat of a bumpy ride. Let&rsquo;s begin&hellip;</p>
+<p>After I couldn't stand not having Froyo on my Motorola Droid, I finally gave in. I decided it was time to upgrade after seeing this blog <a href="http://www.droid-life.com/2010/06/08/download-newer-motorola-droid-froyo-leak-frf57/" target="_blank">post</a>, indicating that a very stable port of Android 2.2 was available for the Droid. This post will walk through the process of going from stock Android 2.1, without root, to Android 2.2, with root. Fasten your seat belts, as this is somewhat of a bumpy ride. Let's begin&hellip;</p>
 
-<p>First, you need to flash a new recovery system (SPRecovery) onto your device. To do that, we&rsquo;re going to be using some tools that Motorola uses to install software onto your phone. Here&rsquo;s what you do:</p>
+<p>First, you need to flash a new recovery system (SPRecovery) onto your device. To do that, we're going to be using some tools that Motorola uses to install software onto your phone. Here's what you do:</p>
 
 <ol>
     <li>Download the SPRecovery <a href="http://www.mediafire.com/?jgt1gjgx5gv" target="_blank">file</a>.</li>
@@ -23,7 +23,7 @@ categories: []
 </ol>
 
 
-<p>Next, we need to install the ported Android 2.2 software to your device. We simply need to copy this software to your phone&rsquo;s microSD card and reboot into the newly-flashed recovery system and install this. Here&rsquo;s what to do:</p>
+<p>Next, we need to install the ported Android 2.2 software to your device. We simply need to copy this software to your phone's microSD card and reboot into the newly-flashed recovery system and install this. Here's what to do:</p>
 
 <ol>
     <li>Download the ported Android 2.2 software from <a href="http://www.megaupload.com/?d=5X0248JI" target="_blank">here</a>.</li>

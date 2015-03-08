@@ -19,7 +19,7 @@ The first thing you need to do is install a few Python dependencies and the actu
 
 {% gist mbmccormick/95cd66b69c90ff2ee4eb %}
 
-Next you will need to modify some permissions so that non-priviledged users can access the [Fitbit USB dongle](https://help.fitbit.com/customer/portal/articles/831801-what-is-the-wireless-sync-dongle-and-how-do-i-use-it-) throughout the system. Create and add the following lines to `/etc/udev/rules.d/99-fitbit.rules`:
+Next you will need to modify some permissions so that non-priviledged users can access the [Fitbit USB dongle](https://help.fitbit.com/articles/en_US/Help_article/What-is-the-wireless-sync-dongle-and-how-do-I-use-it/) throughout the system. Create and add the following lines to `/etc/udev/rules.d/99-fitbit.rules`:
 
 {% gist mbmccormick/35baac181b00bc2696ca %}
 
