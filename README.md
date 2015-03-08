@@ -2,7 +2,7 @@
 
 This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [mbmccormick.com](http://mbmccormick.com). Feel free to browse the source, fork this repository, or [ask me questions](http://twitter.com/mbmccormick). You can read about my transition from WordPress to Jekyll [here](http://mbmccormick.com/2011/10/ditching-wordpress-for-jekyll-and-github/).
 
-[ ![Codeship Status for mbmccormick/mbmccormick.github.io](https://www.codeship.io/projects/c2842ed0-c655-0130-5f1e-5a15a7ca5f29/status?branch=master)](https://www.codeship.io/projects/4724)
+[![Build Status](https://travis-ci.org/mbmccormick/mbmccormick.github.io?branch=master)](https://travis-ci.org/mbmccormick/mbmccormick.github.io)
 
 ## Website Design
 
