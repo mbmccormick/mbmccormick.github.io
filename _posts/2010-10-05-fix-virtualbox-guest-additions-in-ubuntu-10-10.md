@@ -14,4 +14,4 @@ categories: []
 
 <p></p>
 
-<p>After rebooting your VirtualBox installation, your machine should be resizing the window like normal. More information about this fix can be found <a href="https://www.unixmen.com/install-guest-addition-in-ubuntu-1010-maverick-meerkat-fix/" target="_blank">here</a>.</p>
+<p>After rebooting your VirtualBox installation, your machine should be resizing the window like normal. More information about this fix can be found <a href="https://www.unixmen.com/install-guest-addition-in-ubuntu-1010-maverick-meerkat-fix/" target="_blank" data-proofer-ignore>here</a>.</p>
