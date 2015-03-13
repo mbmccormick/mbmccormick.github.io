@@ -15,9 +15,15 @@ analytics:
 permalink: /:year/:month/:title
 
 sitemap:
-    include: ["/index.html"]
+    include:
+      - /
+      - /about/
 
-exclude: ["README.md"]
+exclude:
+  - CNAME
+  - Gemfile
+  - LICENSE.txt
+  - README.md
 
 github_user: mbmccormick
 github_repo_url: https://github.com/mbmccormick/mbmccormick.github.io/
