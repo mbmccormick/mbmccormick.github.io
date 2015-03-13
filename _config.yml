@@ -8,10 +8,8 @@ email: matt@mbmccormick.com
 
 permalink: /:year/:month/:title
 
-sitemap:
-  include:
-    - /
-    - /about/
+gems:
+  - jekyll-sitemap
 
 exclude:
   - CNAME
