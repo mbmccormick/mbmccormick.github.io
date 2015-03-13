@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>        
-        <title>{{ page.title }}{% unless page.url == '/index.html' %} - Matt McCormick{% endunless %}</title>
+        <title>{{ page.title }}{% unless page.url == '/index.html' %} - {{ site.author }}{% endunless %}</title>
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         <meta name="author" content="{{ site.author }}" />
         
@@ -27,7 +27,7 @@
         <script type="text/javascript">
 
             var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', '{{ site.analytics.profile }}']);
+            _gaq.push(['_setAccount', '{{ site.google.analytics.profile }}']);
             _gaq.push(['_trackPageview']);
             
             (function() {
