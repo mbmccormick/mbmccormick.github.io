@@ -19,7 +19,7 @@ This tutorial will walk you through setting up your local environment on `lore.c
 
 ## Build XINU for Linksys
 
-1. Download the kernel source from <a href="http://www.cs.purdue.edu/homes/cs354/Lab1/xinu-12Spring-lab1-linksys.tar.gz" data-proofer-ignore>the course website</a> to your workstation.
+1. Download the kernel source from <a href="http://www.cs.purdue.edu/homes/cs354/Lab1/xinu-12Spring-lab1-linksys.tar.gz">the course website</a> to your workstation.
 
 2. Extract the source code with the following command.  
 `tar -zxvf xinu-12Spring-lab1-linksys.tar.gz`

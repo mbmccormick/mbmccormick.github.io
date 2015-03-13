@@ -6,7 +6,7 @@ comments: true
 categories: []
 ---
 
-<p>I bought a used <a href="http://en.wikipedia.org/wiki/Amazon_Kindle" data-proofer-ignore>Kindle 4</a> the other day because I want to build a dashboard-type display for my apartment. The e-paper display is perfect for this because it is low-power and non-intrusive, which is great for displaying the weather or a calendar. I'll talk more about this project in another post, but today I wanted to share how to get root <a href="http://en.wikipedia.org/wiki/Secure_Shell" data-proofer-ignore>SSH access</a> on the Kindle 4 and how to interact with the e-paper display.</p>
+<p>I bought a used <a href="http://en.wikipedia.org/wiki/Amazon_Kindle">Kindle 4</a> the other day because I want to build a dashboard-type display for my apartment. The e-paper display is perfect for this because it is low-power and non-intrusive, which is great for displaying the weather or a calendar. I'll talk more about this project in another post, but today I wanted to share how to get root <a href="http://en.wikipedia.org/wiki/Secure_Shell">SSH access</a> on the Kindle 4 and how to interact with the e-paper display.</p>
 
 <p>To do this, you will need to jailbreak your Kindle. I used the black non-touch Kindle 4 that was released in 2012 and retails on <a href="http://www.amazon.com/dp/B007HCCNJU">Amazon.com for $69</a>. Here's what you need to do:</p>
 

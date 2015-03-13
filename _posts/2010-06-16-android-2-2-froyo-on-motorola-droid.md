@@ -12,7 +12,7 @@ categories: []
 <ol>
     <li>Download the SPRecovery <a href="http://www.mediafire.com/?jgt1gjgx5gv" target="_blank">file</a>.</li>
     <li>Download and install the Motorola USB drivers to your PC, for either <a href="http://direct.motorola.com/hellomoto/Common/Drivers%20and%20Plug%20ins/USB_Drivers_32_bit_4.2.0.zip" target="_blank">32-bit</a> or <a href="http://direct.motorola.com/hellomoto/Common/Drivers%20and%20Plug%20ins/USB_Drivers_64_bit_4.2.0.zip" target="_blank">64-bit</a>.</li>
-    <li>Download and install RSD Lite 4.6 from <a href="http://www.megaupload.com/?d=HBOOU08Y" target="_blank" data-proofer-ignore>here</a>.</li>
+    <li>Download and install RSD Lite 4.6 from <a href="http://www.megaupload.com/?d=HBOOU08Y" target="_blank">here</a>.</li>
     <li>Connect your phone to your PC, and power it off.</li>
     <li>Open RSD Lite as an Administrator.</li>
     <li>Slide open the keyboard on your Motorola Droid and, while holding the "up" key on the D-pad, press and hold the power button for 5 seconds. You should see a blank screen with some white text on it. This is the boot loader.</li>
@@ -26,7 +26,7 @@ categories: []
 <p>Next, we need to install the ported Android 2.2 software to your device. We simply need to copy this software to your phone's microSD card and reboot into the newly-flashed recovery system and install this. Here's what to do:</p>
 
 <ol>
-    <li>Download the ported Android 2.2 software from <a href="http://www.megaupload.com/?d=5X0248JI" target="_blank" data-proofer-ignore>here</a>.</li>
+    <li>Download the ported Android 2.2 software from <a href="http://www.megaupload.com/?d=5X0248JI" target="_blank">here</a>.</li>
     <li>Unzip the archive and copy that folder to the "/nandroid" folder on your phone's microSD card.</li>
     <li>Next, we need to reboot your phone in recovery mode. To do this, hold the "x" key on the keyboard while pressing the power button, keep holding these keys until you see the recovery menu.</li>
     <li>Scroll down to "Wipe Data/Factory Reset", using the volume up/down keys. Select this option, using the camera button.</li>

@@ -17,7 +17,7 @@ I was looking through my <a href="https://github.com/mbmccormick" target="_blank
 
 The POP and SMTP servers are built using Java and are based off a simple server architecture. There's a single <a href="https://github.com/mbmccormick/twitter-dm-server/blob/master/Server.java" target="_blank">server object</a> that creates a thread for the POP server and a thread for the SMTP server. Then each of the <a href="https://github.com/mbmccormick/twitter-dm-server/blob/master/POPServer.java" target="_blank">POP server</a> and <a href="https://github.com/mbmccormick/twitter-dm-server/blob/master/SMTPServer.java" target="_blank">SMTP server</a> objects simply listen for connections and create a new thread for each connection. The <a href="https://github.com/mbmccormick/twitter-dm-server/blob/master/POPServerConnection.java" target="_blank">POP connection</a> and <a href="https://github.com/mbmccormick/twitter-dm-server/blob/master/SMTPServerConnection.java" target="_blank">SMTP connection</a> objects are where the fun stuff is.
 <h3>POP Server Implementation</h3>
-Let's first start with a quick background on how <a href="http://en.wikipedia.org/wiki/Post_Office_Protocol" target="_blank" data-proofer-ignore>POP (Post Office Protocol)</a> email servers work. When a user opens their email client, it sends a series of commands to a POP email server to login, check for new messages, and download those new messages. Here's what this transaction might look like over the wire:
+Let's first start with a quick background on how <a href="http://en.wikipedia.org/wiki/Post_Office_Protocol" target="_blank">POP (Post Office Protocol)</a> email servers work. When a user opens their email client, it sends a series of commands to a POP email server to login, check for new messages, and download those new messages. Here's what this transaction might look like over the wire:
 
 ```
 C: AUTH
@@ -50,7 +50,7 @@ Once I built my POP email server and connection manager, it was easy to hook thi
 
 I also had to implement support for deleting direct messages, etc. Once I was able to successfully fetch and read my Direct Messages from Twitter using my email client, the next logical step was to implement SMTP support so I could reply to these messages.
 <h3>SMTP Server Implementation</h3>
-Sending messages is done using <a href="http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol" target="_blank" data-proofer-ignore>SMTP (Simple Mail Transfer Protocol)</a> and is the only standard for sending messages, unlike receiving messages which has POP, IMAP, Exchange, etc. The client/server communication for SMTP is very similar to the mechanism we discussed for POP, but better resembles a web server as you can see below in this example SMTP transaction:
+Sending messages is done using <a href="http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol" target="_blank">SMTP (Simple Mail Transfer Protocol)</a> and is the only standard for sending messages, unlike receiving messages which has POP, IMAP, Exchange, etc. The client/server communication for SMTP is very similar to the mechanism we discussed for POP, but better resembles a web server as you can see below in this example SMTP transaction:
 
 ```
 C: HELO
