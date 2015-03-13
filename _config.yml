@@ -1,23 +1,17 @@
-url: http://mbmccormick.com
+url: "http://mbmccormick.com"
 title: Matt McCormick
-description: I'm a Program Manager at Microsoft and a Computer Science graduate from Purdue University. I live in Seattle with my wife and our dog and I'm always hacking away on something.
+description: "I'm a Program Manager at Microsoft and a Computer Science graduate from Purdue University. I live in Seattle with my wife and our dog and I'm always hacking away on something."
 language: en-us
 
 author: Matt McCormick
 email: matt@mbmccormick.com
 
-twitter: mbmccormick
-linkedin: mbmccorm
-
-analytics:
-    profile: UA-6872595-6
-
 permalink: /:year/:month/:title
 
 sitemap:
-    include:
-      - /
-      - /about/
+  include:
+    - /
+    - /about/
 
 exclude:
   - CNAME
@@ -25,5 +19,12 @@ exclude:
   - LICENSE.txt
   - README.md
 
-github_user: mbmccormick
-github_repo_url: https://github.com/mbmccormick/mbmccormick.github.io/
+google:
+  analytics:
+    profile: 'UA-6872595-6'
+
+twitter
+  username: mbmccormick
+
+linkedin
+  username: mbmccorm
