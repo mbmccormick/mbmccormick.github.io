@@ -1,11 +1,5 @@
 User-agent: *
-Disallow: /_includes
-Disallow: /_layouts
-Disallow: /_posts
 Disallow: /css
 Disallow: /images
 Disallow: /js
-Disallow: /.gitignore
-Disallow: /_config.yml
-Disallow: /CNAME
 Disallow: /404.html
