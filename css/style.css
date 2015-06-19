@@ -42,11 +42,11 @@ h1 {
     margin: 0.67em 0;
 }
 
-h1.head {
-    font-size: 100%;
-    font-weight: normal;
-    margin: 0;
-}
+    h1.head {
+        font-size: 100%;
+        font-weight: normal;
+        margin: 0;
+    }
 
 h2 {
     font-size: 1.5em;
@@ -106,11 +106,10 @@ p, pre {
 
 pre, code, kbd, samp {
     font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
     font-size: 1em;
 }
 
-pre {
+pre, code {
     white-space: pre;
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -361,8 +360,7 @@ body, html {
     margin: 1em 0 -1em;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
-{
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .fb_iframe_widget {
         width: auto !important;
         display: block !important;
@@ -466,12 +464,11 @@ h1 a, h2 a, h3 a, h4 a {
     padding-left: 80px;
 }
 
-.contribute-inner h4, .contribute-inner p {
-    margin: 1em 0;
-}
+    .contribute-inner h4, .contribute-inner p {
+        margin: 1em 0;
+    }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)
-{
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     .links a {
         background: url("../images/icons@2x.png");
         background-size: 143px 32px;
@@ -487,8 +484,7 @@ h1 a, h2 a, h3 a, h4 a {
     background-position: -42px 0;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)
-{
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     .links .linkedin {
         background-position: -37px 0;
     }
@@ -498,8 +494,7 @@ h1 a, h2 a, h3 a, h4 a {
     background-position: -84px 0;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)
-{
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     .links .github {
         background-position: -74px 0;
     }
@@ -509,8 +504,7 @@ h1 a, h2 a, h3 a, h4 a {
     background-position: -126px 0;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)
-{
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     .links .google {
         background-position: -111px 0;
     }
@@ -525,12 +519,11 @@ td.line-numbers {
     margin: 0 0 20px 20px;
 }
 
-@media screen and (max-width:720px)
-{
+@media screen and (max-width:720px) {
     .posts time {
         display: none;
     }
-    
+
     .profile {
         float: none;
         margin: 0;
