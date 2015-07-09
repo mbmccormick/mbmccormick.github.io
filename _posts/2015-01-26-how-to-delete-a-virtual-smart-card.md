@@ -17,9 +17,7 @@ Over the holidays I had reformatted my work laptop to start the year anew with a
 
 Fortunately, you can do this using the [tpmvscmgr.exe][4] utility. Here's how to remove a Virtual Smart Card from your Windows machine:
 
-```
-tpmvscmgr destroy /instance ROOT\SMARTCARDREADER\000n
-```
+```tpmvscmgr destroy /instance ROOT\SMARTCARDREADER\000n```
 
 Where `n` is the instance number of the Virtual Smart Card on your machine, in the order it was installed, starting with 0. If you just want to delete all of the Virtual Smart Cards on your machine, you can run this command multiple times, iterating `n` each time, until you receive an error message indicating that the instance could not be found.
 
