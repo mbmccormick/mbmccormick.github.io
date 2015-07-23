@@ -6,7 +6,7 @@ language: en-us
 author: Matt McCormick
 email: matt@mbmccormick.com
 
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 
 gems:
   - jekyll-sitemap
