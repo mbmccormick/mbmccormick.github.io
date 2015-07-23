@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Early Look at Mojito&#058; Mint.com for Windows Phone 7
-date: 2011-08-08 00:00
+title: 'Early Look at Mojito: Mint.com for Windows Phone 7'
 comments: true
-categories: []
 ---
 <p><em>Update: Mojito has been updated with support for budgets, notifications, and displaying net worth balance on a live tile. The screenshots below and the XAP file have all been updated to reflect these changes.</em></p>
 

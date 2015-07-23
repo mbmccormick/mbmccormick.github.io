@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Updating HTC Mazaa to Windows Phone &quot;Tango&quot; (build 8773)
-date: 2012-07-08 18:55
+title: 'Updating HTC Mazaa to Windows Phone \"Tango\" (build 8773)'
 comments: true
-categories: []
 ---
 Microsoft recently released the Windows Phone "Tango" update for all Windows Phone devices. If you read my <a href="http://mbmccormick.com/2012/04/flashing-windows-phone-mango-build-8107-onto-htc-mazaa/">previous post</a>, you'll understand why I am using the HTC Mazaa and some of the challenges I have faced with this non-commercial device. Long story short, the Mazaa is not able to receive updates from Microsoft using Zune. This post will walk through how to manually update the Mazaa to the latest 8773 build of Windows Phone, known as "Tango".
 <h3>Download Windows Phone Update Tool</h3>

@@ -1,19 +1,7 @@
 ---
 layout: post
-title: Install CrashPlan on Western Digital My Cloud
-author: Matt
-permalink: "/2014/06/install-crashplan-on-western-digital-my-cloud/"
-categories: 
-  - Tutorial
-tags: 
-  - hamachi
-  - westerndigital
-  - mycloud
-  - linux
-  - vpn
-  - networking
-  - hacking
-published: true
+title: 'Install CrashPlan on Western Digital My Cloud'
+comments: true
 ---
 
 <i><b>UPDATE:</b> The WD My Cloud device firmware versions 04.00.00 and later use a modified version of Debian Linux which uses 64K sized memory pages. In order to build Debian packages for use on a 64K page-size device, an "qemu-emulated native" build system is used, which contains the binutils package modified for 64K page-size alignment. As a result, the latest firmware has broken this guide. I am working on a fix, but in the mean time it is best to not upgrade your WD My Cloud device firmware.</i>

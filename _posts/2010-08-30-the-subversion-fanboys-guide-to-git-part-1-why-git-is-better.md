@@ -1,9 +1,7 @@
 ---
 layout: post
-title: The Subversion Fanboy&#039;s Guide to Git, Part 1&#058; Why Git is Better
-date: 2010-08-30 00:00
+title: 'The Subversion Fanboy&#039;s Guide to Git, Part 1&#058; Why Git is Better'
 comments: true
-categories: []
 ---
 <p>Over the weekend, I made the switch from <a href="http://en.wikipedia.org/wiki/Subversion_(software)" target="_blank">Subversion</a> to <a href="http://en.wikipedia.org/wiki/Git_(software)" target="_blank">Git</a>. After seeing so many developers and open source projects moving to this new version control system, I decided to do a little research for myself. As many of you might now, Git has recently taken the software development world by storm. It began development in April 2005 by <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a>, the mastermind behind <a href="http://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a>. After 8 months of development by Torvalds and several colleagues, the 1.0 release of Git came in December of that same year. As for the name, he has this to say: "I'm an egotistical bastard, and I name all my projects after myself. First Linux, now Git."</p>
 

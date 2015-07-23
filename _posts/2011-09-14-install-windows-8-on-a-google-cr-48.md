@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Install Windows 8 on a Google Cr-48
-date: 2011-09-14 00:00
+title: 'Install Windows 8 on a Google Cr-48'
 comments: true
-categories: []
 ---
 Clearly <a href="http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-google-cr-48/" target="_blank">I'm trying</a> to find a good use for my <a href="http://www.google.com/chromebook/" target="_blank">Google Cr-48</a>. Today I was able to get the <a href="http://www.microsoft.com/presspass/press/2011/sep11/09-13FutureofComputingPR.mspx" target="_blank">Windows 8 Developer Preview</a> installed on a Google Cr-48. It is somewhat involved, but nonetheless I will detail my steps here. This is not for the faint of heart, and I take no responsibility for what you do to your laptop. This guide assumes that you have backed up any important information from your existing OS on your Google Cr-48, whether that is Chrome OS, Ubuntu, or something else. The instructions below will completely erase the data on your laptop and overwrite with Windows 8.
 

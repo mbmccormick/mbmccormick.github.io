@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Flashing Windows Phone Mango (build 8107) onto HTC Mazaa
-date: 2012-04-09 00:00
+title: 'Flashing Windows Phone Mango (build 8107) onto HTC Mazaa'
 comments: true
-categories: []
 ---
 If you follow me on Twitter, you may have noticed that my beloved <a href="http://www.htc.com/us/products/trophy-verizon/" target="_blank">HTC Trophy</a> and I went swimming in the Gulf of Mexico. I have been without a Windows Phone device ever since and what's worse, I was forced to use an Android device. Without getting into a heated post here, I'll just say that having to use an Android device after using a Windows Phone was absolute torture! Thankfully, <a href="http://twitter.com/benlower" target="_blank">Ben Lower</a> sent me a <a href="http://www.xda-developers.com/windows-mobile/xda-developers-exclusive-first-leaked-pics-of-htc-mazaa/" target="_blank">HTC Mazaa</a> to use last week. 
 

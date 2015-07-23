@@ -1,15 +1,7 @@
 ---
 layout: post
-title: Use Facebook&#039;s 2-factor Authentication with Third-Party TOTP Generators
-date: 2013-01-15 16:08
+title: 'Use Facebook\'s 2-factor Authentication with Third-Party TOTP Generators'
 comments: true
-categories:
-  - Tutorial
-tags:
-  - hack
-  - authentication
-  - security
-  - facebook
 ---
 If you don't know what <a href="http://en.wikipedia.org/wiki/Two_factor_authentication" target="_blank">2-Factor Authentication</a> is, you can read up about it <a href="http://support.google.com/accounts/bin/answer.py?hl=en&amp;answer=180744" target="_blank">here</a>. Essentially it is a service that makes it nearly impossible for any of your online accounts to be hacked, by requiring two forms of authentication: something you know (a password) and something you have (a mobile phone). Google provides a great, open <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en" target="_blank">application</a> for iPhone and Android that generates one time use codes that you enter into a website when you login. Many online services offer this such as Google, Facebook, Blizzard games, banking websites, etc.
 

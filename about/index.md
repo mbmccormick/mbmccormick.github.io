@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 'About'
 ---
 
 <img src="http://www.gravatar.com/avatar/10f112c27a538601fcdefc994da16fa3?s=250" alt="profile" class="profile" />

@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Milkman for Windows Phone
-date: 2012-02-17 00:00
+title: 'Milkman for Windows Phone'
 comments: true
-categories: []
 ---
 <a href="http://www.windowsphone.com/en-US/apps/2d14a2ea-9445-4d46-b385-8b2e45f7f6d8">Milkman for Windows Phone</a>
 

@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Developing for Hubot with CoffeeScript, Node.js, and Heroku
-date: 2011-11-02 00:00
+title: 'Developing for Hubot with CoffeeScript, Node.js, and Heroku'
 comments: true
-categories: []
 ---
 <p>Over the weekend I started playing around with <a href="http://hubot.github.com/" target="_blank">Hubot</a>, <a href="http://github.com/" target="_blank">GitHub</a>'s <a href="https://github.com/blog/968-say-hello-to-hubot" target="_blank">recently</a> open-sourced robot written in <a href="http://coffeescript.org/" target="_blank">CoffeeScript</a> and <a href="http://nodejs.org/" target="_blank">Node.js</a>. Hubot is made up of three main components: the robot engine itself, the communication adapters, and the command scripts. Hubot has multiple communication adapters that allow you to talk to Hubot through <a href="http://campfirenow.com/" target="_blank">Campfire</a>, <a href="http://xmpp.org/" target="_blank">XMPP</a>, <a href="https://www.hipchat.com/" target="_blank">HipChat</a>, <a href="http://twitter.com/" target="_blank">Twitter</a>, <a href="http://www.twilio.com" target="_blank">SMS</a>, email, and many more. These communication adapters feed messages to different command scripts for weather, news, stocks, and other useful information. And these scripts are also very extensible, making it easy for people to build customized scripts for their own Hubot installation. The robot engine is the glue that brings these two components together to form a friendly, integrated robot.</p>
 
@@ -15,8 +13,7 @@ categories: []
 
 <p>The second contribution that I made to Hubot was on the <a href="https://github.com/github/hubot-scripts/blob/141f19e4c8d83d54b027f9a5dc0f791bd2ff011a/src/scripts/weather.coffee" target="_blank">weather script</a>. Originally, when you asked Hubot for <a href="https://github.com/github/hubot-scripts/blob/6f5cbe66a7c242523f22f40b1b8e885891143eed/src/scripts/weather.coffee" target="_blank">weather information</a>, the script would merely dump the data to you in an instant message. Keeping with the "friendly" personality that Hubot has, I decided to revamp the formatting to provide a more "natural language" in Hubot's replies and add some additional features to this script. This post wouldn't be complete without some code, so take a look at the snippet below:</p>
 
-<script src="https://gist.github.com/1335716.js"> </script>
-
+{% gist mbmccormick/1335716 %}
 
 <p>So what I'm doing in the script above is downloading the weather data from a hidden Google API, for simplicity's sake, and parsing this data when the robot engine hears the words "weather me ..". Unfortunately, this Google API only responds in XML format, which requires some additional legwork to extract the data. You can also see how Hubot responds in a "natural" format, making him seem more like a "person" rather than a command line. I forked the Hubot scripts <a href="https://github.com/github/hubot-scripts" target="_blank">repository</a> on GitHub and these changes were later <a href="https://github.com/github/hubot-scripts/pull/78" target="_blank">pulled</a> into the master branch.</p>
 

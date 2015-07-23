@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Hacker News for Windows Phone
-date: 2013-06-03 00:00
+title: 'Hacker News for Windows Phone'
 comments: true
-categories: []
 ---
 <a href="http://www.windowsphone.com/en-US/apps/57a88f24-7dce-47cb-b322-33a1a4178533">Hacker News for Windows Phone</a>
 

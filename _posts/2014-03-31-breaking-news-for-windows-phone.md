@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Breaking News for Windows Phone
-date: 2014-03-31 00:00
+title: 'Breaking News for Windows Phone'
 comments: true
-categories: []
 ---
 <a href="http://www.windowsphone.com/en-us/store/app/breaking-news/c7cd77bf-550d-4f49-83de-efce9104d23d">Breaking News for Windows Phone</a>
 

@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Telephony Made Easy with Twilio
-date: 2010-05-28 00:00
+title: 'Telephony Made Easy with Twilio'
 comments: true
-categories: []
 ---
 <p>I've been working on a new project lately over on the <a href="http://code.google.com/appengine/" target="_blank">Google App Engine</a>. I ran across this <a href="http://code.google.com/p/parsedatetime/" target="_blank">project</a> that makes parsing human-readable date and time values extremely easy in Python, a language that seems to have difficulties with dates and times. I decided to write a simple reminder service that let's the user specify a time, an email address, and a message to be delivered to the user. After wrestling with timezones in Python, I finally got it to work. But I wasn't satisfied, I wanted to expand the application to deliver more useful reminders- text messages or phone calls.</p>
 
@@ -13,17 +11,14 @@ categories: []
 
 <p>Enough about the service, down to the nitty gritty. Texting was by far the easiest function to implement. I added the Twilio Python <a href="http://www.twilio.com/docs/libraries/" target="_blank">library</a> to my Google App Engine project. Take a look at the snippet below:</p>
 
-<script src="https://gist.github.com/1273136.js"> </script>
-
+{% gist mbmccormick/1273136 %}
 
 <p>That was literally it! My reminder service was sending text messages left and right. Excited with the new web service I had to play around with, I decided to add phone call functionality. This is a little more in-depth, but not by much at all. Calling is two-fold: you send an HTTP POST request to Twilio which initiates the phone call. When the user picks up, Twilio places an HTTP POST request to my reminder service, which responds with the reminder message. Take a look at the first method below:</p>
 
-<script src="https://gist.github.com/1273138.js"> </script>
-
+{% gist mbmccormick/1273138 %}
 
 <p>Next, I created a method that would respond with a simple XML response that Twilio would use during the phone call, have a look:</p>
 
-<script src="https://gist.github.com/1273141.js"> </script>
-
+{% gist mbmccormick/1273141 %}
 
 <p>See how easy that was? I was amazed. Using what I learned from the texting, I had phone calling up and running in about an hour. I could not believe how easy and affordable telephony was for developers. I can't wait to play around with the other features that Twilio has to offer. You can be sure that there will be many more projects from me this summer that take advantage of this service. It is truly the coolest web service I've ever used.</p>

@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Fitminder - Fitbit Idle Alert
-date: 2015-07-09 00:00
+title: 'Fitminder - Fitbit Idle Alert'
 comments: true
-categories: []
 ---
 I love my <a href="http://fitbit.com">Fitbit</a>. I consider myself to be quite the <a href="http://quantifiedself.com">quantified self</a> nerd. Though one thing I wish my Fitbit had is an idle alert. <a href="http://jawbone.com">Jawbone</a>'s <a href="https://jawbone.com/up">UP wearables</a> do a great job at this. When your fitness tracker detects that you've been sitting idle for too long, it will give you subtle nudge to get moving by vibrating. It's not clear whether this is on Fitbit's roadmap, but that didn't stop me from creating my own implementation for it. Enter <a href="http://fitminder.herokuapp.com">Fitminder</a>.
 

@@ -1,17 +1,7 @@
 ---
 layout: post
-title: POP and SMTP mail servers for Twitter Direct Messages
-date: 2012-09-04 12:01
+title: 'POP and SMTP mail servers for Twitter Direct Messages'
 comments: true
-categories:
-  - Development
-tags:
-  - code
-  - twitter
-  - smtp
-  - pop
-  - hack
-  - java
 ---
 I was looking through my <a href="https://github.com/mbmccormick" target="_blank">GitHub</a> repositories last night and realized that I never ended up writing a blog post for the POP and SMTP mail servers that I built for sending and receiving Twitter Direct Messages though an email client. I built this after I created my first web server in my <a href="http://www.cs.purdue.edu/homes/cs252/" target="_blank">Systems Programming</a> class last year. In fact, the whole implementation was fairly easy once I read through a few RFC specifications for the POP and SMTP protocols.
 
@@ -46,7 +36,7 @@ So what's happening above is the client tries to authenticate with the POP serve
 
 Once I built my POP email server and connection manager, it was easy to hook this up to Twitter. I'm using the <a href="http://twitter4j.org/en/index.html" target="_blank">twitter4j</a> library for interacting with Twitter from Java. It's extremely easy to setup and configure. Then I simply fetched Direct Messages on the user's behalf and formatted these to look like email messages that could be properly parsed by the email client. Here's how I am formatting the Direct Messages to look like email messages:
 
-<script src="https://gist.github.com/3621333.js"> </script>
+{% gist mbmccormick/3621333 %}
 
 I also had to implement support for deleting direct messages, etc. Once I was able to successfully fetch and read my Direct Messages from Twitter using my email client, the next logical step was to implement SMTP support so I could reply to these messages.
 <h3>SMTP Server Implementation</h3>

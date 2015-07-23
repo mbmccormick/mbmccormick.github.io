@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Creating GitHub Style Post-Receive Webhooks in Gitosis
-date: 2011-01-27 00:00
+title: 'Creating GitHub Style Post-Receive Webhooks in Gitosis'
 comments: true
-categories: []
 ---
 <p>As I mentioned in an <a href="http://mbmccormick.com/2010/12/rapid-application-development-with-limonade-and-php/" target="_blank">earlier blog post</a>, I've been working on the first product for my business. The tool that I'm writing is really geared toward helping freelance software developers keep track of their projects. No, this is not just another project management system, in fact, I don't even know that I would consider it project management software.</p>
 
@@ -13,17 +11,11 @@ categories: []
 
 <p>If you've never written a hook for Gitosis before, it can be a bit tricky. There is very little documentation on this subject and it is really hard to debug your hook short of obliterating a temporary Git repository. Perhaps the biggest problem I ran into was reading the parameters that Gitosis passes to your hook about a given push. Initially, I had written my hook to use the standard Bash input parameters, like this:</p>
 
-<script src="https://gist.github.com/799680.js"> </script>
-
-
-<p></p>
+{% gist mbmccormick/799680 %}
 
 <p>However, this does not read input from STDIN, which is where Gitosis sends its parameters to your hook. And in fact, unless you perform some read from STDIN, Gitosis will not even execute your hook. By modifying the way I was reading my input parameters, my hook started executing and I was in business, take a look:</p>
 
-<script src="https://gist.github.com/799682.js"> </script>
-
-
-<p></p>
+{% gist mbmccormick/799682 %}
 
 <p>A huge thanks goes out to <a href="https://github.com/carsonmcdonald" target="_blank">Carson McDonald</a> and his <a href="http://www.ioncannon.net/system-administration/1362/example-git-pre-receive-and-post-receive-hooks-to-avoid-a-signal-13-error/" target="_blank">blog post</a> which detailed this little STDIN caveat with Gitosis. This had been driving me nuts for about three days and I was amazed that one line of code fixed this issue.</p>
 

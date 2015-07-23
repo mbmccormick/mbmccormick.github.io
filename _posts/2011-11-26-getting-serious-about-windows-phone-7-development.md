@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Getting Serious About Windows Phone 7 Development
-date: 2011-11-26 00:00
+title: 'Getting Serious About Windows Phone 7 Development'
 comments: true
-categories: []
 ---
 Today I’d like to talk, and perhaps rant, about Windows Phone development. I’ve just published my third Windows Phone application to the Marketplace and I have four other apps that I’m working on. I’ve been doing this for about 6 months now and I’ve picked up a few things along the way that I’d like to share. These tips, suggestions, and best practices should be used by every developer to ensure that the apps they create are seamless extensions of the beautiful Windows Phone operating system.
 

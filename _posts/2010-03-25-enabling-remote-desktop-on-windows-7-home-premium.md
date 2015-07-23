@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Enabling Remote Desktop on Windows 7 Home Premium
-date: 2010-03-25 00:00
+title: 'Enabling Remote Desktop on Windows 7 Home Premium'
 comments: true
-categories: []
 ---
 <p>My reasoning for this post is two-fold: I wanted to get Remote Desktop enabled on my new laptop, so that I can connect remotely from my Android phone. I also wanted to enable concurrent sessions for the laptop computers at home, in the common event that my family members need assistance from me while I'm at home.</p>
 

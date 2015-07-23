@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Send To Reader for Windows Phone
-date: 2014-10-24 00:00
+title: 'Send To Reader for Windows Phone'
 comments: true
-categories: []
 ---
 <a href="http://www.windowsphone.com/en-us/store/app/send-to-reader/484696ad-b696-4d62-82a8-207d5e17e4b3">Send To Reader for Windows Phone</a>
 

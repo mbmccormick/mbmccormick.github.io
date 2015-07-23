@@ -1,9 +1,7 @@
 ---
 layout: post
-title: vso.io - Short URL for Visual Studio Online work items
-date: 2015-06-10 00:00
+title: 'vso.io - Short URL for Visual Studio Online work items'
 comments: true
-categories: []
 ---
 <p>I built a small website that makes it easy to reference <a href="https://www.visualstudio.com/products/what-is-visual-studio-online-vs">Visual Studio Online</a> work items: <a href="http://vso.io">http://vso.io</a>.</p>
 
