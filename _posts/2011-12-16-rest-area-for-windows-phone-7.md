@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rest Area for Windows Phone 7'
+title: "Rest Area for Windows Phone 7"
 ---
 
 [Rest Area for Windows Phone 7](http://www.windowsphone.com/en-us/apps/56ed3cb5-37f9-480b-bf8d-ded098947e2a)

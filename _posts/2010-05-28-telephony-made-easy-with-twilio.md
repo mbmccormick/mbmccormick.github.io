@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Telephony Made Easy with Twilio'
+title: "Telephony Made Easy with Twilio"
 ---
 
 I've been working on a new project lately over on the [Google App Engine](http://code.google.com/appengine/). I ran across this [project](http://code.google.com/p/parsedatetime/) that makes parsing human-readable date and time values extremely easy in Python, a language that seems to have difficulties with dates and times. I decided to write a simple reminder service that let's the user specify a time, an email address, and a message to be delivered to the user. After wrestling with timezones in Python, I finally got it to work. But I wasn't satisfied, I wanted to expand the application to deliver more useful reminders- text messages or phone calls.

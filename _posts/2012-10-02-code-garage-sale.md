@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Code Garage Sale'
+title: "Code Garage Sale"
 ---
 
 I was browsing through some older articles on [Scott Hanselman's blog](http://www.hanselman.com/blog/) and I found one from a few years ago about something called a "[code garage sale](http://www.hanselman.com/blog/GarageSalesAndGarageSaleQualityCode.aspx)". I won't summarize the article here, but basically it talked about publishing old projects or code snippets so that other people could use it or maintain it. Scott talks about making sure that your code is complete, concise, clear, cheap, and quite possibly crap. There's also a personal aspect to garage sales: this is stuff that I spent long hours late at night hacking away on. And I do that quite a bit. So I am having a garage sale! I figured I would highlight some of my older projects here and like most items at a [real garage sale](http://en.wikipedia.org/wiki/Garage_sale), each of my projects has a story to go with it.

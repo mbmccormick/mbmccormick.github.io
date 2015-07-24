@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Show Hidden Files in FileZilla'
+title: "Show Hidden Files in FileZilla"
 ---
 
 The much-anticipated (and now currently in operation on this blog) [Wordpress 3.0](http://wordpress.org/development/2010/06/thelonious/) was released today. I had a minor hiccup during the upgrade process which prevented my blog from exiting "maintenance mode" after the upgrade finished. The way it works is Wordpress will place a ".maintenance" file in the root of your blog, which will prevent all access to the front end and, stupidly, the administration panel. The only manual way to exit this mode is to delete this ".maintenance" file.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Creating GitHub Style Post-Receive Webhooks in Gitosis'
+title: "Creating GitHub Style Post-Receive Webhooks in Gitosis"
 ---
 
 As I mentioned in an [earlier blog post](http://mbmccormick.com/2010/12/rapid-application-development-with-limonade-and-php/), I've been working on the first product for my business. The tool that I'm writing is really geared toward helping freelance software developers keep track of their projects. No, this is not just another project management system, in fact, I don't even know that I would consider it project management software.

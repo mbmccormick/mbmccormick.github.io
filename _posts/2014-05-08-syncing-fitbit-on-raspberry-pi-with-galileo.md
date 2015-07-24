@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Syncing Fitbit on Raspberry Pi with galileo'
+title: "Syncing Fitbit on Raspberry Pi with galileo"
 ---
 
 My brother gave me a [Raspberry Pi](http://www.raspberrypi.org/) for my birthday a few months ago and since then, I have been messing around with various projects, but hadn't found a permanent use for it. It's a great little device and is perfect for "internet of things" projects and other miscellaneous hacks. The other day I found the [galileo project](https://bitbucket.org/benallard/galileo), an open source Python binary for syncing [Fitbit](https://www.fitbit.com/) devices on any Linux platform. I decided to set it up on my Raspberry Pi so that my Fitbit would always sync when I am at home, without needing to leave my laptop on all the time.

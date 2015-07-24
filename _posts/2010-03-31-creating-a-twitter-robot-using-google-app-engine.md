@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Creating a Twitter Robot using Google App Engine'
+title: "Creating a Twitter Robot using Google App Engine"
 ---
 
 I love [Twitter](http://www.twitter.com/) and in fact, I find myself spending more time on this social network than any other. It's quick, it's simple, and above all else it's a very unique platform through which to consume information. I follow my friends, favorite blogs, news outlets, software products, local businesses, etc. As a Purdue student, I am also able to get updates about student organizations, campus news, and even emergency alerts. For me, it has evolved from a fun social network to an essential tool.

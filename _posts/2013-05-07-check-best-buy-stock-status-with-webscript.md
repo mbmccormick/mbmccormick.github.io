@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Check Best Buy stock status with Webscript'
+title: "Check Best Buy stock status with Webscript"
 ---
 
 [Fitbit](http://www.fitbit.com) recently launched the latest update to their line of wireless activity trackers, the [Fitbit Flex](http://www.fitbit.com/flex). I’ve been an avid Fitbit user since last August and I love their devices. Fitbit has a great end-to-end experience with their products and I’ve been eagerly waiting to get my hands on (or in?) the Fitbit Flex wristband. However, Fitbit is notorious for poor logistics when launching a new product and as a result, the device is hard to come by right now.

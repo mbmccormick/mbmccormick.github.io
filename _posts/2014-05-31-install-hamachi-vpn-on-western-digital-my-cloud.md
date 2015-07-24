@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Install Hamachi VPN on Western Digital My Cloud'
+title: "Install Hamachi VPN on Western Digital My Cloud"
 ---
 
 _**UPDATE:** The WD My Cloud device firmware versions 04.00.00 and later use a modified version of Debian Linux which uses 64K sized memory pages. In order to build Debian packages for use on a 64K page-size device, an "qemu-emulated native" build system is used, which contains the binutils package modified for 64K page-size alignment. As a result, the latest firmware has broken this guide. I am working on a fix, but in the mean time it is best to not upgrade your WD My Cloud device firmware._

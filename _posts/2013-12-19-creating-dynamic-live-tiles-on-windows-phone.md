@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Creating Dynamic Live Tiles on Windows Phone'
+title: "Creating Dynamic Live Tiles on Windows Phone"
 ---
 
 Recently, I was working on updating Milkman to include a more advanced live tile for showing upcoming tasks for user's lists. Windows Phone has some great facilities in place for creating generic live tiles, but it doesn't allow for much customization. Anything beyond those three basic templates requires you to create a dynamic template and render it as an image. This allows you to design your live tile in XAML, the same language you are using to design the user interfaces in the rest of your application.

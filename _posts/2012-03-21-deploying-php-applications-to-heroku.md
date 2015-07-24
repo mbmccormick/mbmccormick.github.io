@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Deploying PHP Applications to Heroku'
+title: "Deploying PHP Applications to Heroku"
 ---
 
 I’ve been trying to find a straight-forward guide on how to deploy PHP applications to Heroku to share with people, but I can’t find one that covers both setting up Heroku and deploying PHP applications. While no configuration is necessary to deploy a PHP application on the Cedar stack, I think this guide will be a useful reference.

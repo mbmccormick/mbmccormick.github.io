@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Breaking News for Windows Phone'
+title: "Breaking News for Windows Phone"
 ---
 
 [Breaking News for Windows Phone](http://www.windowsphone.com/en-us/store/app/breaking-news/c7cd77bf-550d-4f49-83de-efce9104d23d)

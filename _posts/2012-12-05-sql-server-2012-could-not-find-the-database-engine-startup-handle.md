@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'SQL Server 2012 could not find the Database Engine startup handle'
+title: "SQL Server 2012 could not find the Database Engine startup handle"
 ---
 
 I was trying to install [SQL Server 2012 Developer edition](http://www.microsoft.com/sqlserver/en/us/editions/2012-editions/enterprise.aspx) on our new development server, running [Windows Server 2012](http://www.microsoft.com/en-us/server-cloud/windows-server/default.aspx), in our virtualized datacenter environment. I stepped through the massive installation wizard and started the installation process. The installer began setting up the necessary components, SDKs, and configuration tools. However when it reached the actual Database Engine, the installation failed giving the following error:

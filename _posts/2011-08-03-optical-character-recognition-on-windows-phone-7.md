@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Optical Character Recognition on Windows Phone 7'
+title: "Optical Character Recognition on Windows Phone 7"
 ---
 
 I'm working on a new [Windows Phone](http://www.microsoft.com/windowsphone/en-us/default.aspx) application that uses some new [Mango features](http://www.engadget.com/2011/05/24/microsoft-announces-windows-phone-mango-update-early-and-in/), which has been a pretty fun project thus far. Mango has some new functionality that I need access to, namely the [ability to save contacts](http://www.windowsphonegeek.com/tips/8-How-to-use-SaveContactTask-in-Windows-Phone-Mango) to the phone's address book. However, this post is going to talk about some additional functionality available for Windows Phone 7 that is enabled through [Project Hawaii](http://research.microsoft.com/en-us/um/redmond/projects/hawaii/), developed by [Microsoft Research](http://research.microsoft.com/en-us/).

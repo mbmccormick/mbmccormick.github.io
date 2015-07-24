@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Bulk INSERT to SQL Azure using LINQ to SQL'
+title: "Bulk INSERT to SQL Azure using LINQ to SQL"
 ---
 
 Recently I have been working on developing an API for real-time and scheduled public transit data. Currently, my API supports 173 transit agencies. Each of these transit agencies provides a [GTFS feed](http://code.google.com/transit/spec/transit_feed_specification.html) of their scheduled transit data in CSV format. This data ranges anywhere from 25mb to 250mb in size, with some CSV files containing well over 750,000 records. In order to efficiently query this data, I download the scheduled data and insert it to a SQL Server database. My original method of inserting this data was to use [LINQ to SQL](http://msdn.microsoft.com/en-us/library/bb425822.aspx) and insert the records one at a time. Consistently, LINQ to SQL would fail after about 10,000 records and rollback the transaction. This process took about 3 hours, multiply that by 50 and 150 hours was not going to cut it. I even tried batching my queries, eliminating the transaction, and increasing the timeout window, [among other things](http://www.sidarok.com/web/blog/content/2008/05/02/10-tips-to-improve-your-linq-to-sql-application-performance.html). This didn't work and I needed another solution.

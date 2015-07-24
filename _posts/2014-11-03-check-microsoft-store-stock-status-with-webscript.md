@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Check Microsoft Store stock status with Webscript'
+title: "Check Microsoft Store stock status with Webscript"
 ---
 
 [Microsoft](http://www.microsoft.com) launched their first wearable device last week, the [Microsoft Band](http://www.microsoft.com/microsoft-band/en-us). I picked one up last week at my local Microsoft Store and absolutely love it. Call me a fanboy, but I am loving the Microsoft kool-aid right now. The device has been getting great reviews from the press and is currently out of stock online and in stores.

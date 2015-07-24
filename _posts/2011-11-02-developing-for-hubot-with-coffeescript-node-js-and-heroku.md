@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Developing for Hubot with CoffeeScript, Node.js, and Heroku'
+title: "Developing for Hubot with CoffeeScript, Node.js, and Heroku"
 ---
 
 Over the weekend I started playing around with [Hubot](http://hubot.github.com/), [GitHub](http://github.com/)'s [recently](https://github.com/blog/968-say-hello-to-hubot) open-sourced robot written in [CoffeeScript](http://coffeescript.org/) and [Node.js](http://nodejs.org/). Hubot is made up of three main components: the robot engine itself, the communication adapters, and the command scripts. Hubot has multiple communication adapters that allow you to talk to Hubot through [Campfire](http://campfirenow.com/), [XMPP](http://xmpp.org/), [HipChat](https://www.hipchat.com/), [Twitter](http://twitter.com/), [SMS](http://www.twilio.com), email, and many more. These communication adapters feed messages to different command scripts for weather, news, stocks, and other useful information. And these scripts are also very extensible, making it easy for people to build customized scripts for their own Hubot installation. The robot engine is the glue that brings these two components together to form a friendly, integrated robot.

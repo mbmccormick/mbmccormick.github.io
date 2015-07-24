@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'POP and SMTP mail servers for Twitter Direct Messages'
+title: "POP and SMTP mail servers for Twitter Direct Messages"
 ---
 
 I was looking through my [GitHub](https://github.com/mbmccormick) repositories last night and realized that I never ended up writing a blog post for the POP and SMTP mail servers that I built for sending and receiving Twitter Direct Messages though an email client. I built this after I created my first web server in my [Systems Programming](http://www.cs.purdue.edu/homes/cs252/) class last year. In fact, the whole implementation was fairly easy once I read through a few RFC specifications for the POP and SMTP protocols.

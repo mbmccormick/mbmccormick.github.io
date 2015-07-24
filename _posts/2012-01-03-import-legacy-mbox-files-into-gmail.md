@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Import Legacy mbox Files Into Gmail'
+title: "Import Legacy mbox Files Into Gmail"
 ---
 
 One of the more notable technology problems that I encountered over the holidays last week was that of my [girlfriend](http://elizabethpuccinelli.com/)'s mom's email. She uses [Thunderbird](http://www.mozilla.org/en-US/thunderbird/) to access her email from her desktop, but recently it had been "eating" older email messages. Thunderbird had begun, with good reason, archiving her older email messages (all 75,000 of them). And somehow, this archiving process failed and she could no longer access her older messages. So we decided to move her to [Gmail](https://gmail.com) which would provide enough space for all of her email, improved spam filtering, and a much easier user interface. Gmail allowed us to import what was left in her Inbox at her old email provider via [POP3](http://en.wikipedia.org/wiki/Post_Office_Protocol) download, however some messages were still missing.

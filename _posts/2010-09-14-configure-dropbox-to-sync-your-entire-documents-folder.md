@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Configure Dropbox to Sync Your Entire Documents Folder'
+title: "Configure Dropbox to Sync Your Entire Documents Folder"
 ---
 
 I recently decided to switch my online backup solution from [Syncplicity](http://syncplicity.com/) to [Dropbox](http://www.dropbox.com/). The web interface that Dropbox has is just beautiful and well worth the switch, not to mention that it seems to be much more lightweight and sync my files a lot faster. The only thing I did not like about Dropbox is that I was forced to use the "My Dropbox" folder for all of my syncing, something I did not want to do.

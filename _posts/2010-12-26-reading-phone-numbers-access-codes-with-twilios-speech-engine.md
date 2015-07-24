@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Reading Phone Numbers, Access Codes with Twilio\'s Speech Engine'
+title: "Reading Phone Numbers, Access Codes with Twilio's Speech Engine"
 ---
 
 Here's a quick tip on how to get [Twilio](http://www.twilio.com) to read a phone number, access code, or how to spell out a word to users with the Twilio [speech engine](http://www.twilio.com/docs/api/2010-04-01/twiml/say). The Python function below will take in any string, split the string into multiple characters, and then add a space and comma between each character. The result is that Twilio will say each letter or number separately at a slower speed.

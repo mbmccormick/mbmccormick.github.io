@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Install Ubuntu 11.04 on a Google Cr-48'
+title: "Install Ubuntu 11.04 on a Google Cr-48"
 ---
 
 If you remember [earlier this year](http://mbmccormick.com/2011/02/connect-your-google-cr-48-laptop-to-pal2-0-at-purdue/), I was lucky enough to receive a [Google Cr-48 laptop](http://www.google.com/chromebook/). They're still pretty useful devices, however they're pretty restricted and, as a developer, it would be great to get more functionality out of this thing. Below is a re-post of [Jay Lee](http://www.blogger.com/profile/00619758583418639317)'s [instructions](http://chromeos-cr48.blogspot.com/2011/04/ubuntu-1104-for-cr-48-is-ready.html) on how to install [Ubuntu 11.04](http://www.ubuntu.com/) on a Google Cr-48 laptop. I don't take credit or responsibility for these instructions, but I've found them very helpful and want to provide some more visibility.

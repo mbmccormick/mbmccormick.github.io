@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'How To Geolocate Users by IP Address or Zip Code'
+title: "How To Geolocate Users by IP Address or Zip Code"
 ---
 
 The inspiration for my latest project comes from a web service called [Umbrella Today](http://www.umbrellatoday.com/). If you haven't checked out their website yet, it's worth a look. Their service gathers forecast information for your area and determines whether or not you need an umbrella today. You can sign up to receive text message notifications on the days you need an umbrella. Recently, Umbrella Today has been letting me down. I've been receiving late notifications or sometimes not at all on days when I clearly need my umbrella. I'm not quite sure how they determine whether or not I need an umbrella and for this reason I decided to write my own umbrella-reminder service.

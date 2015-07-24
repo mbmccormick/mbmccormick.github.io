@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'How I Launched 4sqtransit in Two Weeks on Windows Azure'
+title: "How I Launched 4sqtransit in Two Weeks on Windows Azure"
 ---
 
 My latest project, [4sqtransit](http://www.4sqtransit.com/), is a small application that delivers real-time public transit schedules to your phone via text message whenever you check in at a transit stop on [Foursquare](https://foursquare.com/). I'm still a little uncertain about how word got out about what I was doing, but I woke up one morning to find out that 72 people were using my service. Later that day, I got an email from the [co-founder](https://foursquare.com/naveen) of Foursquare. The following week, it was on the front page of [Mashable](http://mashable.com/2011/03/21/4sqtransit/). In the days following that, my user base surpassed 700 and my inbox was flooded with transit agencies asking to be added to my service. Today, 4sqtransit supports over 157 transit agencies around the globe and churns out nearly 400 text messages per day.

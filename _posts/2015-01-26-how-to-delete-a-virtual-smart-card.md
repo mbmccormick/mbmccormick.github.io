@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'How to delete a Virtual Smart Card'
+title: "How to delete a Virtual Smart Card"
 ---
 
 Over the holidays I had reformatted my work laptop to start the year anew with a clean machine. Part of that process involved setting up my [Virtual Smart Card](https://technet.microsoft.com/en-us/library/dn593708.aspx) so that I could access our corporate network without needing to have my physical [Smart Card](http://en.wikipedia.org/wiki/Smart_card) with me, thanks to the [Trusted Platform Module (TPM)](http://en.wikipedia.org/wiki/Trusted_Platform_Module) in my laptop. Unfortunately, I managed to screw up the enrollment process and it left me with a bunch of dead Virtual Smart Cards installed on my machine. Figuring out how to remove these dead entries was more difficult than it should have been.

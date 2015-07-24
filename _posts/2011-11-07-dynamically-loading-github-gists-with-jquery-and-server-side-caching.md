@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Dynamically Loading GitHub Gists with jQuery and Server-Side Caching'
+title: "Dynamically Loading GitHub Gists with jQuery and Server-Side Caching"
 ---
 
 In case you haven't noticed, I [moved my website](http://mbmccormick.com/2011/10/ditching-wordpress-for-jekyll-and-github/) to [GitHub Pages](http://pages.github.com/) last month. During the transition, I decided to redesign my website and upgrade it to [HTML5](http://www.html5rocks.com/en/). One of the coolest features of HTML5 is the [History API](http://html5demos.com/history). Today I'd like to focus on why I am using the History API and the challenges that I've come across while using it.

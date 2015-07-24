@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Send To Reader for Windows Phone'
+title: "Send To Reader for Windows Phone"
 ---
 
 [Send To Reader for Windows Phone](http://www.windowsphone.com/en-us/store/app/send-to-reader/484696ad-b696-4d62-82a8-207d5e17e4b3)

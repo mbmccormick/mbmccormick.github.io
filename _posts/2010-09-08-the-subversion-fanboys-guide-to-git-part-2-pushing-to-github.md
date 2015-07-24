@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The Subversion Fanboy\'s Guide to Git, Part 2: Pushing to GitHub'
+title: "The Subversion Fanboy's Guide to Git, Part 2: Pushing to GitHub"
 ---
 
 Earlier this week, I [discussed](http://mbmccormick.com/2010/08/the-subversion-fanboys-guide-to-git-part-1-why-git-is-better/) the reasoning behind why I switched from Subversion to Git. Let me just say that, with another week of using Git, I am happier than ever! Continuing with this series, I'll show you how to get setup on [GitHub](http://github.com), create your first repository, and push some changes from your workstation. Let's get started.

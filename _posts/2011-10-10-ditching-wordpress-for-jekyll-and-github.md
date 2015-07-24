@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ditching WordPress for Jekyll and GitHub'
+title: "Ditching WordPress for Jekyll and GitHub"
 ---
 
 I recently switched my blog engine from [WordPress](http://www.wordpress.org/) to [Jekyll](https://github.com/mojombo/jekyll) using [GitHub](https://github.com/) as the hosting provider. I was getting tired of WordPress and all of it's bloat: load times were unnecessarily long for a very simple website. For a while I had been interested in trying out Jekyll using GitHub, so I decided to pull the trigger and do it.

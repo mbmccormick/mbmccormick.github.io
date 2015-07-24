@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rapid Application Development with Limonade and PHP'
+title: "Rapid Application Development with Limonade and PHP"
 ---
 
 Recently, I've been working on the first product for McCormick Technologies (more information about that to come). My application started out as a very simple utility that I was using for internal workflows and over the past couple of months the feature set has really grown. I decided that it was time to move to a MVC framework to keep the application organized and reduce duplicate code. So I began searching for a light-weight MVC framework for PHP, or "micro-framework" as it's called.

@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: 'Application Development for Windows Phone 7'
+title: "Application Development for Windows Phone 7"
 ---
 
 Over the past couple of weeks, I have been working on my first [Windows Phone 7](http://www.microsoft.com/windowsphone/en-us/default.aspx) application for my new [HTC Trophy](http://www.htc.com/us/products/trophy-verizon?view=1-1&sort=0&filters=4-0-0) on [Verizon](http://www.verizonwireless.com/b2c/index.html). First off, I absolutely love my Windows Phone and no, I have not been drinking too much koolaid here in Redmond. I truly think that the Windows Phone software has a great user interface and is packed with features that just make life easier, with over [500 new features](http://techcrunch.com/2011/05/24/microsoft-officially-announces-windows-phone-7-1-mango-with-500-new-features/) coming in [Mango](http://www.youtube.com/watch?v=OP30F3ZxTmw). Back to the topic at hand, Windows Phone is a fantastic platform to develop on and for developers that already use [C#](http://msdn.microsoft.com/en-us/vcsharp/aa336809) and the [.NET Framework](http://www.microsoft.com/net/) for their applications, [Silverlight](http://www.silverlight.net/) applications for Windows Phone is a no brainer. Aside from the development aspect, actually going from code to [Marketplace](http://www.microsoft.com/windowsphone/en-us/apps/default.aspx) was extremely easy. I was able to launch my application in 24 hours, without any problems.

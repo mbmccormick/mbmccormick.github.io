@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Crash Course in iTunes Library Administration'
+title: "Crash Course in iTunes Library Administration"
 ---
 
 For about the seventh time this year I have had to help my dad reorganize, move, expand or do something that involved his iTunes Library. To most people this would seem like a fairly straight-forward process, but, in fact it is quite a lengthy and in-depth hackery performance. So let's go over the process of moving the iTunes Library from one location (old computer, current computer, etc.) to another location (new computer, external drive, etc.).

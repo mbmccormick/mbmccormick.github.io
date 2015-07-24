@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Milkman: Remember The Milk for Windows Phone'
+title: "Milkman: Remember The Milk for Windows Phone"
 ---
 
 Over the past week or so I have been working on my latest application for [Windows Phone](http://www.microsoft.com/windowsphone/en-us/default.aspx). It's a simple task manager application that syncs with [Remember The Milk](http://www.rememberthemilk.com), called Milkman. Milkman is a beautiful, clean interface for your Remember The Milk tasks that seamlessly integrates with the Windows Phone experience. 

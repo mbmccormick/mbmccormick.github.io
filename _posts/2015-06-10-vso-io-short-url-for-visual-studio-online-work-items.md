@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'vso.io - Short URL for Visual Studio Online work items'
+title: "vso.io - Short URL for Visual Studio Online work items"
 ---
 
 I built a small website that makes it easy to reference [Visual Studio Online](https://www.visualstudio.com/products/what-is-visual-studio-online-vs) work items: [http://vso.io](http://vso.io).

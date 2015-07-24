@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'LaundryMinder for Windows Phone 7'
+title: "LaundryMinder for Windows Phone 7"
 ---
 
 [LaundryMinder for Windows Phone 7](http://www.windowsphone.com/en-us/apps/2b36d281-9189-e011-986b-78e7d1fa76f8)
