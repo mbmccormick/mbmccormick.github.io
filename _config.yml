@@ -10,6 +10,7 @@ permalink: /:year/:month/:title/
 
 gems:
   - jekyll-sitemap
+  - jekyll-mentions
 
 exclude:
   - CNAME
