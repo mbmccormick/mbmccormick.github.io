@@ -221,7 +221,7 @@ body, button, input, select, textarea {
 }
 
 body {
-    font-size: 14px;
+    font-size: 95%;
     line-height: 1.61;
     font-weight: 400;
 }
