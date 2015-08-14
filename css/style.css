@@ -376,13 +376,13 @@ body, html {
 
 a {
     text-decoration: none;
-    color: #08c;
-    border-bottom: 1px solid #08c;
+    color: #007acc;
+    border-bottom: 1px solid #007acc;
 }
 
     a:hover, a:focus, a:active {
-        color: #c00;
-        border-color: #c00;
+        color: #23527c;
+        border-color: #23527c;
         outline: 0;
     }
 
@@ -402,11 +402,11 @@ a {
 
 h1 a, h2 a, h3 a, h4 a {
     border: 0;
-    color: #08c;
+    color: #007acc;
 }
 
     h1 a:hover, h1 a:focus, h1 a:active, h2 a:hover, h2 a:focus, h2 a:active, h3 a:hover, h3 a:focus, h3 a:active, h4 a:hover, h4 a:focus, h4 a:active {
-        color: #c00;
+        color: #23527c;
     }
 
 [role=link] {
