@@ -11,8 +11,7 @@
         <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-        <link rel="stylesheet" href="/css/style.css" media="all" />
-        <link rel="stylesheet" href="/css/print.css" media="print" />
+        <link rel="stylesheet" href="/css/style.css" />
         <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
 
         <link rel="prerender" href="{% if page.url == '/index.html' %}{{ site.posts.first.url }}{% else %}/{% endif %}" />
@@ -39,9 +38,9 @@
         </script>
     </head>
     <body>
-        <header role="banner">
+        <header>
             <div class="content">
-                <a href="/about" role="link">About</a>
+                <a href="/about" class="link">About</a>
                 <h1 class="head">
                     <a href="/">{{ site.title }}</a>
                 </h1>
@@ -50,7 +49,7 @@
 
         {{ content }}
 
-        <footer role="contentinfo">
+        <footer>
             <div class="content">
                 &copy; {{ site.time | date: '%Y' }} {{ site.author }}
             </div>
