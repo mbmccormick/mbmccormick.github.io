@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Dynamically Loading GitHub Gists with jQuery and Server-Side Caching"
 ---

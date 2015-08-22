@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "The Subversion Fanboy's Guide to Git, Part 2: Pushing to GitHub"
 ---

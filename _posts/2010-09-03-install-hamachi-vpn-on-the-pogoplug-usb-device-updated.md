@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Install Hamachi VPN on the PogoPlug USB Device (Updated)"
 ---

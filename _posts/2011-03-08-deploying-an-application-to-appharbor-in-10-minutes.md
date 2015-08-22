@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Deploying an Application to AppHarbor in 10 Minutes"
 ---

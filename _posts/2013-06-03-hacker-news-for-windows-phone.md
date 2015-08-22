@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Hacker News for Windows Phone"
 ---

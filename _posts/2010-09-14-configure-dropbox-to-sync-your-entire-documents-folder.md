@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Configure Dropbox to Sync Your Entire Documents Folder"
 ---

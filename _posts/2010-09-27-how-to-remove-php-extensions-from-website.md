@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "How To Remove PHP Extensions From Website"
 ---

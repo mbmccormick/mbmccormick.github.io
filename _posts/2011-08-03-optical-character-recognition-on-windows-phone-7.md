@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Optical Character Recognition on Windows Phone 7"
 ---

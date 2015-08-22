@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
 title: "Android 2.2 Froyo on Motorola Droid"
 ---
 
-After I couldn't stand not having Froyo on my Motorola Droid, I finally gave in. I decided it was time to upgrade after seeing this blog [post](http://www.droid-life.com/2010/06/08/download-newer-motorola-droid-froyo-leak-frf57/), indicating that a very stable port of Android 2.2 was available for the Droid. This post will walk through the process of going from stock Android 2.1, without root, to Android 2.2, with root. Fasten your seat belts, as this is somewhat of a bumpy ride. Let's begin…
+After I couldn't stand not having Froyo on my Motorola Droid, I finally gave in. I decided it was time to upgrade after seeing this blog [post](http://www.droid-life.com/2010/06/08/download-newer-motorola-droid-froyo-leak-frf57/), indicating that a very stable port of Android 2.2 was available for the Droid. This post will walk through the process of going from stock Android 2.1, without root, to Android 2.2, with root. Fasten your seat belts, as this is somewhat of a bumpy ride. Let's beginâ€¦
 
 First, you need to flash a new recovery system (SPRecovery) onto your device. To do that, we're going to be using some tools that Motorola uses to install software onto your phone. Here's what you do:
 

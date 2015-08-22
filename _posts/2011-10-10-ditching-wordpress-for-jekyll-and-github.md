@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Ditching WordPress for Jekyll and GitHub"
 ---

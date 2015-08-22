@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Syncing Fitbit on Raspberry Pi with galileo"
 ---

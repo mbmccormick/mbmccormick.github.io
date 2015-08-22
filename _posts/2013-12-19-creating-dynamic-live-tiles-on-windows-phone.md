@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Creating Dynamic Live Tiles on Windows Phone"
 ---

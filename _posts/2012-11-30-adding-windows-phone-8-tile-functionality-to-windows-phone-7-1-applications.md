@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Adding Windows Phone 8 Tile functionality to Windows Phone 7.1 applications"
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Updating HTC Mazaa to Windows Phone \"Tango\" (build 8773)"
 ---
@@ -7,13 +7,13 @@ Microsoft recently released the Windows Phone "Tango" update for all Windows Pho
 
 ### Download Windows Phone Update Tool
 
-To begin, download this [package](http://files.mbmccormick.com/Windows Phone Update Tool.zip) that I have created which includes the Windows Phone Update Tool. Extract this package and open up the appropriate directory depending on your computer’s architecture, either 32-bit or 64-bit.
+To begin, download this [package](http://files.mbmccormick.com/Windows Phone Update Tool.zip) that I have created which includes the Windows Phone Update Tool. Extract this package and open up the appropriate directory depending on your computerâ€™s architecture, either 32-bit or 64-bit.
 
 You are now ready to install the Windows Phone "Tango" build 8773 updates onto your HTC Mazaa.
 
 ### Update to Windows Phone build 8773
 
-Next, you need to download a series of CAB updates from Microsoft in order to get your device up to 8773\. Here’s the list of updates you need to download:
+Next, you need to download a series of CAB updates from Microsoft in order to get your device up to 8773\. Hereâ€™s the list of updates you need to download:
 
 [diff-7.10.8107.79-7.10.8112.7-armv7-retail-microsoft-pluspkr.pks_d500a10eeb11fb6c1913adac4759d67185474d3e.cab](http://download.windowsupdate.com/msdownload/update/software/dflt/2012/05/diff-7.10.8107.79-7.10.8112.7-armv7-retail-microsoft-pluspkr.pks_d500a10eeb11fb6c1913adac4759d67185474d3e.cab)
 

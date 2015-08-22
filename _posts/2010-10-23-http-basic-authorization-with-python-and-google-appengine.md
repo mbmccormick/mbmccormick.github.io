@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "HTTP Basic Authorization with Python and Google AppEngine"
 ---

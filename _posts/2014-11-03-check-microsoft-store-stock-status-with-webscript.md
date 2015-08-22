@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Check Microsoft Store stock status with Webscript"
 ---

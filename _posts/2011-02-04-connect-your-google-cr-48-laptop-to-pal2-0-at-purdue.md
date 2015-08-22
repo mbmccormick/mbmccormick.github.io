@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Connect Your Google Cr-48 Laptop to PAL2.0 at Purdue"
 ---

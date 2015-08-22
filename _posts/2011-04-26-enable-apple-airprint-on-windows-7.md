@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Enable Apple AirPrint on Windows 7"
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Making Bonjour, Airport Express, and Windows 7 play nice"
 ---
