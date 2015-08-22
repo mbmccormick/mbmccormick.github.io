@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Developing for Hubot with CoffeeScript, Node.js, and Heroku"
 ---

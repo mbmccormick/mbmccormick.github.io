@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Recovering From the WordPress White Screen of Death"
 ---

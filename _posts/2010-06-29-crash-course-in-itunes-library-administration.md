@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Crash Course in iTunes Library Administration"
 ---

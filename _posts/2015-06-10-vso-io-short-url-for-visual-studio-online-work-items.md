@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "vso.io - Short URL for Visual Studio Online work items"
 ---

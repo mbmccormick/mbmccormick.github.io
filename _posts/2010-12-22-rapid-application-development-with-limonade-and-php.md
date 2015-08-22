@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Rapid Application Development with Limonade and PHP"
 ---

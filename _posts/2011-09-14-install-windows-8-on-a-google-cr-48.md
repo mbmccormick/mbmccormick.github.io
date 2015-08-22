@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Install Windows 8 on a Google Cr-48"
 ---
@@ -23,7 +23,7 @@ Clearly [I'm trying](http://mbmccormick.com/2011/08/install-ubuntu-11-04-on-a-go
 4. Press CTRL + ALT + => (where => is where the F2 key would be) to launch a shell.
 5. Login as the user `chronos`, no password is needed.
 6. Elevate your permissions to root with `sudo su`.
-7. Next, download the [InsydeH2O BIOS](http://www.insydesw.com/solutions/pc/insydeh2o.cfm) with `wgetÂ http://mbmc.co/oAGPNk`.
+7. Next, download the [InsydeH2O BIOS](http://www.insydesw.com/solutions/pc/insydeh2o.cfm) with `wget http://mbmc.co/oAGPNk`.
 8. Extract the archive with `tar -xvzf oAGPNk`.
 9. Flash the BIOS with `flashrom -w cr48.bin`, ignoring any error output.
 10. Restart the computer to boot to the new BIOS, removing your installation media.

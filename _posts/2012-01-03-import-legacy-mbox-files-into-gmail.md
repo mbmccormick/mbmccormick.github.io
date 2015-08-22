@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Import Legacy mbox Files Into Gmail"
 ---

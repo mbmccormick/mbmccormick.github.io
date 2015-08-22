@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Fitminder - Fitbit Idle Alert"
 ---

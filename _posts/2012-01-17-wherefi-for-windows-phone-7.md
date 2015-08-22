@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "WhereFi for Windows Phone 7"
 ---

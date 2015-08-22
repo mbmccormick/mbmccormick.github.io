@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Secure Shell Access on the Kindle 4"
 ---

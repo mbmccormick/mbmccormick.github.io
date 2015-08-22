@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Install Hamachi VPN on the PogoPlug USB Device"
 ---
@@ -11,7 +11,7 @@ First, you need to enable SSH access on your [PogoPlug](http://pogoplug.com/)-en
 
 {% gist mbmccormick/1273144 %}
 
-Our file system should now writable. Next, we need to install some Â libraries. I unpacked the [libstdc++](http://gcc.gnu.org/libstdc++/) and [openssl](http://www.openssl.org/) library files from the OpenPogo [repository](http://openpogo.com/repo/) and reorganized them for easy installation. Download the two files to your device using the following commands:
+Our file system should now writable. Next, we need to install some  libraries. I unpacked the [libstdc++](http://gcc.gnu.org/libstdc++/) and [openssl](http://www.openssl.org/) library files from the OpenPogo [repository](http://openpogo.com/repo/) and reorganized them for easy installation. Download the two files to your device using the following commands:
 
 {% gist mbmccormick/1273145 %}
 

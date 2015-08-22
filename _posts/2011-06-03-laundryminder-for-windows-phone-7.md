@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "LaundryMinder for Windows Phone 7"
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Rest Area for Windows Phone 7"
 ---

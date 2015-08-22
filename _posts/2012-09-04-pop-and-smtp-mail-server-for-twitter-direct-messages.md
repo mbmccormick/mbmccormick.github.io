@@ -1,9 +1,9 @@
-﻿---
+---
 layout: post
 title: "POP and SMTP mail servers for Twitter Direct Messages"
 ---
 
-I was looking through my [GitHub](https://github.com/mbmccormick) repositories last night and realized that I never ended up writing a blog post for the POP and SMTP mail servers that I built for sending and receiving Twitter Direct Messages though an email client. I built this after I created my first web server in my [Systems Programming](http://www.cs.purdue.edu/homes/cs252/) class last year. In fact, the whole implementation was fairly easy once I read throughÂ a few RFC specifications for the POP and SMTP protocols.
+I was looking through my [GitHub](https://github.com/mbmccormick) repositories last night and realized that I never ended up writing a blog post for the POP and SMTP mail servers that I built for sending and receiving Twitter Direct Messages though an email client. I built this after I created my first web server in my [Systems Programming](http://www.cs.purdue.edu/homes/cs252/) class last year. In fact, the whole implementation was fairly easy once I read through a few RFC specifications for the POP and SMTP protocols.
 
 The POP and SMTP servers are built using Java and are based off a simple server architecture. There's a single [server object](https://github.com/mbmccormick/twitter-dm-server/blob/master/Server.java) that creates a thread for the POP server and a thread for the SMTP server. Then each of the [POP server](https://github.com/mbmccormick/twitter-dm-server/blob/master/POPServer.java) and [SMTP server](https://github.com/mbmccormick/twitter-dm-server/blob/master/SMTPServer.java) objects simply listen for connections and create a new thread for each connection. The [POP connection](https://github.com/mbmccormick/twitter-dm-server/blob/master/POPServerConnection.java) and [SMTP connection](https://github.com/mbmccormick/twitter-dm-server/blob/master/SMTPServerConnection.java) objects are where the fun stuff is.
 

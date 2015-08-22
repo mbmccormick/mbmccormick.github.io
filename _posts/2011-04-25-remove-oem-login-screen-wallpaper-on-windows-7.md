@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Remove OEM Login Screen Wallpaper on Windows 7"
 ---

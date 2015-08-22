@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Bulk INSERT to SQL Azure using LINQ to SQL"
 ---

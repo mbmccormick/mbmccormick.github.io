@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Continuous Deployment to Webscript from GitHub, Using Webscript"
 ---

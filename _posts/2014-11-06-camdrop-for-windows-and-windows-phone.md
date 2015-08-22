@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Camdrop for Windows and Windows Phone"
 ---

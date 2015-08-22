@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Creating GitHub Style Post-Receive Webhooks in Gitosis"
 ---

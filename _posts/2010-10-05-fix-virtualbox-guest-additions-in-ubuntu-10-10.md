@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Fix VirtualBox Guest Additions in Ubuntu 10.10"
 ---

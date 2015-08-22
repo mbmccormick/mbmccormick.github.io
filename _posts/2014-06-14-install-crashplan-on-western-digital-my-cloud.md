@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Install CrashPlan on Western Digital My Cloud"
 ---

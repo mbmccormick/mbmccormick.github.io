@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Use Facebook\'s 2-factor Authentication with Third-Party TOTP Generators"
 ---
