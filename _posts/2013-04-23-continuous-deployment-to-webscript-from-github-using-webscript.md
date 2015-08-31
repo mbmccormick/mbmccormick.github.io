@@ -9,7 +9,7 @@ I've been using this service for a while now for a lot of different things, like
 
 Recently, I was playing around with GitHub webhooks and wanted to create a continuous deployment mechanism for Webscript. This would allow me to keep my webscripts under source control and deploy them as soon as I pushed my changes. I took a look at the [GitHub documentation](https://help.github.com/articles/post-receive-hooks) and the [Webscript API documentation](https://www.webscript.io/documentation#api) and found everything I needed to do this. I created a small script, on Webscript, that reads the GitHub post-receive hook payload and makes a few HTTP requests to the Webscript API to sync the changes. Take a look at the code below:
 
-{% gist mbmccormick/5447302 %}
+{% gist 5447302 %}
 
 To use this on your own GitHub repository, just add a webhook with the URL `https://code.webscript.io/github?email=YOUR_EMAIL_ADDRESS&key=YOUR_API_KEY`. Then every time you push to GitHub, your Lua scripts will be deployed to your Webscript account. This is a great way to keep your scripts under source control and streamline the deployment process.
 

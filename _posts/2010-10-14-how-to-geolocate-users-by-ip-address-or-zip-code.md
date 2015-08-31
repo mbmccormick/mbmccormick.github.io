@@ -9,11 +9,11 @@ I wanted my service to have the same functionality as Umbrella Today, but with m
 
 I stumbled onto another simple weather service, [goingtorain.com](http://goingtorain.com/). What I like most about this service is that it automatically knows where you are as soon as you visit the page. I couldn't figure out how they did it, but I had a hunch that it had to do with the user's IP address. I did some research and found that, while there isn't a specific "web service" to accomplish this, there was a database of geocoded IP addresses called [GeoIP](http://www.maxmind.com/app/ip-location) by [MaxMind](http://www.maxmind.com/). So I downloaded their database to my server and added some code snippets to my website that would lookup the user's IP address and return a zipcode, city, and state. Have a look:
 
-{% gist mbmccormick/627449 %}
+{% gist 627449 %}
 
 The GeoIP service is extremely accurate, but there are some occasions where the location returned is not quite where the user is. For example, if the user's ISP is located in an urban area, the GeoIP result may not be correct. So I wanted to allow the user to enter in their zip code as a failsafe. I used the Google GeoCode API to return the city and state for this zip code, along with a bunch of other information. Here's how I'm parsing that information:
 
-{% gist mbmccormick/628268 %}
+{% gist 628268 %}
 
 I then use the zip code from these APIs to return the forecast information from WeatherUnderground. The forecast information had a lot of cool things that I could show, so I decided to display a simple forecast including current conditions and temperature as an added bonus. Based on the probability of precipitation, I then determine whether an umbrella is needed for a given day.
 

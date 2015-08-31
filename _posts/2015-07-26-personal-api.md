@@ -23,6 +23,6 @@ So what can you do with api.mbmccormick.com? I'm providing real-time access to t
 
 Here's an example response from my `GET /v0/activity` method:
 
-{% gist mbmccormick/c3c2908eaccf4e80aa01 %}
+{% gist c3c2908eaccf4e80aa01 %}
 
 I plan on adding more datasets as this project (an my online presence) evolves. You can check out the full documentation for my Personal API at [api.mbmccormick.com](http://api.mbmccormick.com) and view the [source code](http://github.com/mbmccormick/api) on GitHub. The API is limited to `GET` requests only, for now. Someday I'll figure out how to make `POST /body/arm/left/raise` a reality.

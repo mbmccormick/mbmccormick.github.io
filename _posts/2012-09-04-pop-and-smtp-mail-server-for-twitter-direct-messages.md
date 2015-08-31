@@ -38,7 +38,7 @@ So what's happening above is the client tries to authenticate with the POP serve
 
 Once I built my POP email server and connection manager, it was easy to hook this up to Twitter. I'm using the [twitter4j](http://twitter4j.org/en/index.html) library for interacting with Twitter from Java. It's extremely easy to setup and configure. Then I simply fetched Direct Messages on the user's behalf and formatted these to look like email messages that could be properly parsed by the email client. Here's how I am formatting the Direct Messages to look like email messages:
 
-{% gist mbmccormick/3621333 %}
+{% gist 3621333 %}
 
 I also had to implement support for deleting direct messages, etc. Once I was able to successfully fetch and read my Direct Messages from Twitter using my email client, the next logical step was to implement SMTP support so I could reply to these messages.
 

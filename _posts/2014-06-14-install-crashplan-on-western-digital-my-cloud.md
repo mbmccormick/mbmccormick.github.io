@@ -13,26 +13,26 @@ Navigate to `http://wdmycloud` in your web browser to access the device's contro
 
 Next, login to your WD My Cloud via SSH using the credentials above. Download the latest version of the CrashPlan software for Linux from the CrashPlan website using the following command:
 
-{% gist mbmccormick/e282a46e1cfdad5cf3e9 %}
+{% gist e282a46e1cfdad5cf3e9 %}
 
 If that doesn't work for you, you can download the package on your local machine and copy it over via Windows Explorer.
 
 Next, we need to extract the package. Do that with the following command:
 
-{% gist mbmccormick/a27710f85c38262806e0 %}
+{% gist a27710f85c38262806e0 %}
 
 Before we can install CrashPlan, we need to install some pre-requisites. By default, the CrashPlan installer will check to make sure the Java Runtime Environment (JRE) is installed on your system and, if it isn't, install it for you. However, the version of the JRE that CrashPlan uses doesn't work well with the WD My Cloud. Instead, we'll install it manually from our package management system:
 
-{% gist mbmccormick/ae3746a00f5873d12d44 %}
+{% gist ae3746a00f5873d12d44 %}
 
 Now we can run the CrashPlan installer. Issue the following commands:
 
-{% gist mbmccormick/698242350235bd567ee8 %}
+{% gist 698242350235bd567ee8 %}
 
 When prompted, enter `/opt/crashplan` for the installation directory, `/usr/bin` for the linked executable directory, `/DataVolume/Temp/CrashPlan` for the backups directory, and accept the default for the SYSV init scripts directory and the runlevel init links directory. Continue following the installer until it completes.
 
 Now there is one last modification we need to make to the CrashPlan installation. We need to replace the `libjtux.so` library with one that will work with our ARM system. Download and replace the `libjtux.so` file that we just installed with this new one:
 
-{% gist mbmccormick/f3f9cdd21080fd73cd4c %}
+{% gist f3f9cdd21080fd73cd4c %}
 
 CrashPlan should now be installed and online. For information about how to configure your new CrashPlan instance, follow the [headless configuration](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client) steps on the CrashPlan website or the [tutorial](http://www.hanselman.com/blog/UPDATED2014HowToSetupCrashPlanCloudBackupOnASynologyNASRunningDSM50.aspx) on Scott Hanselman's blog. Once you get everything configured, your WD My Cloud should be creating continuous off-site backups with CrashPlan!

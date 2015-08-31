@@ -9,18 +9,18 @@ The Hawaii Cloud Services SDK for WP7 has several cloud-based services including
 
 To get access to Project Hawaii, you first need to download and install the Hawaii Cloud Services SDK for WP7 for use in your project. Next, you need to generate an API key at the [Project Hawaii Signup](http://hawaiiguidgen.cloudapp.net/) page. Here, you will login with your Live ID and the website will generate a GUID for you to use in your application.
 
-{% gist mbmccormick/1121868 %}
+{% gist 1121868 %}
 
 Now to actually take a picture on Windows Phone 7, you need to use the `CameraCaptureTask` as shown below.
 
-{% gist mbmccormick/1121897 %}
+{% gist 1121897 %}
 
 Once the application has the picture, it's time to call the OCR service. Here's where the Hawaii SDK comes into play, in the code below we convert the image into a byte stream and submit this to the Hawaii Service.
 
-{% gist mbmccormick/1121901 %}
+{% gist 1121901 %}
 
 Once the Hawaii OCR service returns with our results, we can then parse this text data.
 
-{% gist mbmccormick/1121905 %}
+{% gist 1121905 %}
 
 And with that, we can begin to further parse this text data into relevant information. This is where the fun part of my application exists: trying to parse phone nubmers, email address, job titles, names, company names, etc. and distinguish this in a way that makes sense to the user in the form of a contact entry. I'm sure another blog post will ensue once I figure out how to accomplish this.

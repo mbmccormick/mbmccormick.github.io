@@ -13,7 +13,7 @@ This weekend I made two contributions to Hubot over on GitHub. The first was mod
 
 The second contribution that I made to Hubot was on the [weather script](https://github.com/github/hubot-scripts/blob/141f19e4c8d83d54b027f9a5dc0f791bd2ff011a/src/scripts/weather.coffee). Originally, when you asked Hubot for [weather information](https://github.com/github/hubot-scripts/blob/6f5cbe66a7c242523f22f40b1b8e885891143eed/src/scripts/weather.coffee), the script would merely dump the data to you in an instant message. Keeping with the "friendly" personality that Hubot has, I decided to revamp the formatting to provide a more "natural language" in Hubot's replies and add some additional features to this script. This post wouldn't be complete without some code, so take a look at the snippet below:
 
-{% gist mbmccormick/1335716 %}
+{% gist 1335716 %}
 
 So what I'm doing in the script above is downloading the weather data from a hidden Google API, for simplicity's sake, and parsing this data when the robot engine hears the words "weather me ..". Unfortunately, this Google API only responds in XML format, which requires some additional legwork to extract the data. You can also see how Hubot responds in a "natural" format, making him seem more like a "person" rather than a command line. I forked the Hubot scripts [repository](https://github.com/github/hubot-scripts) on GitHub and these changes were later [pulled](https://github.com/github/hubot-scripts/pull/78) into the master branch.
 

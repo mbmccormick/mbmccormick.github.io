@@ -7,6 +7,6 @@ I recently upgraded my [Ubuntu 10.04](http://releases.ubuntu.com/lucid/) install
 
 To resolve this conflict, issue the following three commands from the terminal on the VirtualBox machine:
 
-{% gist mbmccormick/627462 %}
+{% gist 627462 %}
 
 After rebooting your VirtualBox installation, your machine should be resizing the window like normal. More information about this fix can be found [here](https://www.unixmen.com/install-guest-addition-in-ubuntu-1010-maverick-meerkat-fix/).

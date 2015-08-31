@@ -13,18 +13,18 @@ Navigate to `http://wdmycloud` in your web browser to access the device's contro
 
 Next, login to your WD My Cloud via SSH using the credentials above. The WD My Cloud runs on an [ARM HF architecture](http://en.wikipedia.org/wiki/ARMhf). Download the latest version of the Hamachi software for Linux from the LogMeIn website using the following command:
 
-{% gist mbmccormick/3c90ccd38ae673c7e85a %}
+{% gist 3c90ccd38ae673c7e85a %}
 
 If that doesn't work for you, you can download the package on your local machine and copy it over via Windows Explorer.
 
 Next, we need to extract the package and make a slight modification to the [install](https://github.com/mbmccormick/hamachi-wdmycloud/blob/master/install.sh) and [uninstall](https://github.com/mbmccormick/hamachi-wdmycloud/blob/master/uninstall.sh) scripts. Do that with the following commands:
 
-{% gist mbmccormick/ef513f416d4392ed56e3 %}
+{% gist ef513f416d4392ed56e3 %}
 
 The modified install and uninstall scripts that I created remove the dependency on the [LSB package](https://packages.debian.org/wheezy/lsb), which I couldn't manage to install on the WD My Cloud. It turns out that the only thing that Hamachi is using in the LSB package for is to [install](http://refspecs.linuxbase.org/LSB_1.2.0/gLSB/installinitd.html) the [init.d script](http://www.novell.com/documentation/suse91/suselinux-adminguide/html/ch13s04.html) so that the Hamachi daemon is started on boot. I managed to get around this by using [update-rc.d](http://www.tin.org/bin/man.cgi?section=8&topic=update-rc.d) instead and removing the checks to see if LSB is installed.
 
 Next, run the modified install script to install Hamachi:
 
-{% gist mbmccormick/21b71e25f6bf2f48c6fc %}
+{% gist 21b71e25f6bf2f48c6fc %}
 
 Hamachi should now be installed and you can bring it online, join networks, etc. using the `hamachi` command. The Hamachi daemon should be configured start and go online whenever the WD My Cloud reboots. You should now be able to access your WD My Cloud from any of the machines on your Hamachi networks!

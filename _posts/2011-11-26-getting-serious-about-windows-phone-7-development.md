@@ -9,7 +9,7 @@ Today I’d like to talk, and perhaps rant, about Windows Phone development. I�
 
 Use this toolkit in every application that you develop. Windows Phone has a beautiful interface and the applications should be no different. The [Silverlight Toolkit for Windows Phone](http://silverlight.codeplex.com/) has a lot of controls that the default Windows Phone libraries don’t have. Download and install the [latest releaase](http://silverlight.codeplex.com/releases) of the toolkit and modify your `App.xaml.cs` file by replacing `RootFrame = new PhoneApplicationFrame();` with `RootFrame = new TransitionFrame();` in the `InitializePhoneApplication()` method. Then add the following line to your page header to get started: `xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"` Another important component of the Silverlight Toolkit is the transitions. Your application should use the [turnstyle transition](http://worldwidecode.wordpress.com/2011/08/05/page-transitions-in-windows-phone-7-part-2/) on every page. You’re making a Windows Phone application, not a website. The Metro interface is about motion, and your app needs to use this transition to make it look like a Metro application. Just copy and paste this into your pages:
 
-{% gist mbmccormick/1396098 %}
+{% gist 1396098 %}
 
 Enable the [Tilt Effect](http://msdn.microsoft.com/en-us/library/ff941094(v=vs.92).aspx) to give your users some tactile feedback on buttons and text. Let them know that whatever they just tapped on is about to do something. This effect is used throughout the phone and your app should be no different. The Silverlight Toolkit makes it easy to do this, just copy and paste `toolkit:TiltEffect.IsTiltEnabled="True"` in your page headers and you’re good to go.
 
@@ -17,7 +17,7 @@ Enable the [Tilt Effect](http://msdn.microsoft.com/en-us/library/ff941094(v=vs.9
 
 If your application does any sort of background work or requires some loading time, show a [Progress Indicator](http://msdn.microsoft.com/en-us/library/microsoft.phone.shell.progressindicator(v=vs.92).aspx). This will let the user know that your application is working and isn’t broken. The Progress Indicator control is the same one you see throughout the operating system. And unless your application is going to apply some sort of overlay on top of the application while it is loading, put your Progress Indicator in the [System Tray](http://msdn.microsoft.com/en-us/library/microsoft.phone.shell.systemtray(v=vs.92).aspx). Centering the Progress Indicator vertically in combination with a semi-transparent overlay is fine, but if you’re not going to do that, make use of the System Tray’s Progress Indicator property like this:
 
-{% gist mbmccormick/1396105 %}
+{% gist 1396105 %}
 
 Make sure you do this only after the page has finished loading, in the `PhoneApplicationPage_Loaded` event. Otherwise you won’t be able to access the `SystemTray` classes.
 

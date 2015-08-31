@@ -13,14 +13,14 @@ The fun stuff takes place on the back-end. AppHarbor is still a [young service](
 
 So after a couple of hours of development and testing, my application was ready to go. I setup my account at AppHarbor and created a new application. Then I added a 20mb SQL Server [database](http://blog.appharbor.com/2010/12/06/now-with-sql-server), which I then synchronized with my local SQL Server instance, and added my `returnflix.com` hostname. I was then given a URL to a Git repository, which is how AppHarbor allows for continuous integration deployments and is pure genius. Being able to deploy an application simply by pushing to a Git repository is an innovation that I'm sure will be adopted by several companies in the future, but AppHarbor has got this down. Essentially, two lines of code got me up and running*:
 
-{% gist mbmccormick/860286 %}
+{% gist 860286 %}
 
 If you're a Windows user running [msysGit](http://code.google.com/p/msysgit/), like myself, the code above may not have worked for you (hence the * from above). You probably received an error message along the lines of:
 
-{% gist mbmccormick/860293 %}
+{% gist 860293 %}
 
 A quick Google search lead me to this [blog post](http://www.lostechies.com/blogs/dahlbyk/archive/2010/09/26/msysgit-error-setting-certificate-verify-locations.aspx), which discussed why this was happening and gave the following fix:
 
-{% gist mbmccormick/860295 %}
+{% gist 860295 %}
 
 With that, I was able to run my `git push` and my application deployed to AppHarbor successfully! From the time my application was developed to the time I deployed it on AppHarbor was 10 minutes flat. AppHarbor completely eliminates what used to be a tedious process of finding a host, configuring it, updating your builds, etc. and just works. They certainly live up to their "Azure done right" tagline with a service that delivers, perfectly. You can find out more about AppHarbor [here](http://www.appharbor.com) and you can check out this project on [GitHub](http://github.com/mbmccormick/returnflix).

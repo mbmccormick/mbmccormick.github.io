@@ -7,15 +7,15 @@ My brother gave me a [Raspberry Pi](http://www.raspberrypi.org/) for my birthday
 
 The first thing you need to do is install a few Python dependencies and the actual galileo binary. Run the following command from your Raspberry Pi:
 
-{% gist mbmccormick/95cd66b69c90ff2ee4eb %}
+{% gist 95cd66b69c90ff2ee4eb %}
 
 Next you will need to modify some permissions so that non-priviledged users can access the [Fitbit USB dongle](https://help.fitbit.com/articles/en_US/Help_article/What-is-the-wireless-sync-dongle-and-how-do-I-use-it/) throughout the system. Create and add the following lines to `/etc/udev/rules.d/99-fitbit.rules`:
 
-{% gist mbmccormick/35baac181b00bc2696ca %}
+{% gist 35baac181b00bc2696ca %}
 
 In order for that change to take effect, you will need to either remove and reinsert the Fitbit USB dongle or run `sudo service udev restart` to restart the udev service. Once that is done, add the following lines to your crontab by running `crontab -e`:
 
-{% gist mbmccormick/e62e331543ce1e7f876b %}
+{% gist e62e331543ce1e7f876b %}
 
 This will configure your Raspberry Pi to run galileo every 2 minutes. galileo will scan for any nearby Fitbit devices and if it finds one and that Fitbit tracker has not synchronized in the last 15 minutes, then it will upload the data to the Fitbit website. The output of the galileo command is logged to `/home/pi/galileo.log` in case you want to check in and see how it is doing. That file is deleted every 24 hours to prevent it from eating up the limited disk space on your Raspberry Pi.
 

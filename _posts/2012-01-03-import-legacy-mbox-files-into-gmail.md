@@ -9,6 +9,6 @@ I did some research and found that Thunderbird organizes email into two separate
 
 After some research, I found a useful utility called [IMAP Upload](http://imap-upload.sourceforge.net/) that allowed us to import these mbox files to Gmail by reading the mbox file and uploading each message to the email server using IMAP. IMAP Upload is a small [Python](http://python.org/) script and is extremely easy to use. The following command will upload email messages from the "Inbox" mbox file to Gmail and label these messages with "Imported". You will need to created this label before running this command in order for it to work properly.
 
-{% gist mbmccormick/1560472 %}
+{% gist 1560472 %}
 
 The script first inspects the mbox file and then begins uploading each message to Gmail. In my case, there were 75,000 emails of varying size, so this took about 24 hours to complete. In the event that a message fails, this script will output failed messages to a separate mbox file, making it easy to restart this process if necessary. IMAP Upload worked flawlessly and Libby's mom's emails started showing up in her new Gmail account instantly.

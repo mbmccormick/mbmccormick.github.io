@@ -11,10 +11,10 @@ Lastly I decided to try to pass the records to the database server as a serializ
 
 Here's the stored procedure that I used to insert the serialized XML data:
 
-{% gist mbmccormick/1229762 %}
+{% gist 1229762 %}
 
 And here's the LINQ to SQL statements I used to serialize the data and send it to SQL Server:
 
-{% gist mbmccormick/1229797 %}
+{% gist 1229797 %}
 
 Like I said, I was able to insert over 500,000 records in just over 15 minutes, instead of 150 hours like LINQ to SQL would have taken, had it completed it's transaction. More information about the API that I am developing will be posted here soon. You really have to think differently about efficiency when you are handling massive amounts of data like this.

@@ -11,14 +11,14 @@ One of the greatest features of Twilio is that it runs on a pay-as-you-go [model
 
 Enough about the service, down to the nitty gritty. Texting was by far the easiest function to implement. I added the Twilio Python [library](http://www.twilio.com/docs/libraries/) to my Google App Engine project. Take a look at the snippet below:
 
-{% gist mbmccormick/1273136 %}
+{% gist 1273136 %}
 
 That was literally it! My reminder service was sending text messages left and right. Excited with the new web service I had to play around with, I decided to add phone call functionality. This is a little more in-depth, but not by much at all. Calling is two-fold: you send an HTTP POST request to Twilio which initiates the phone call. When the user picks up, Twilio places an HTTP POST request to my reminder service, which responds with the reminder message. Take a look at the first method below:
 
-{% gist mbmccormick/1273138 %}
+{% gist 1273138 %}
 
 Next, I created a method that would respond with a simple XML response that Twilio would use during the phone call, have a look:
 
-{% gist mbmccormick/1273141 %}
+{% gist 1273141 %}
 
 See how easy that was? I was amazed. Using what I learned from the texting, I had phone calling up and running in about an hour. I could not believe how easy and affordable telephony was for developers. I can't wait to play around with the other features that Twilio has to offer. You can be sure that there will be many more projects from me this summer that take advantage of this service. It is truly the coolest web service I've ever used.
