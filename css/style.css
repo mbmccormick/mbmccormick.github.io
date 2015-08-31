@@ -1,0 +1,376 @@
+html, body {
+    background: #111;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.61;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007acc;
+    border-bottom: 1px solid #007acc;
+}
+
+    a:hover, a:focus, a:active {
+        color: #23527c;
+        border-color: #23527c;
+        outline: 0;
+    }
+
+b, strong {
+    font-weight: 700;
+}
+
+blockquote {
+    color: #555;
+    font: italic 1.2em/1.4 Georgia,Times,serif;
+    margin: 1em 40px;
+}
+
+    blockquote:before {
+        position: absolute;
+        margin: -0.2em 0 0 -0.55em;
+        font-size: 3em;
+        content: '\201C';
+        color: #222;
+    }
+
+button, input {
+    line-height: normal;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+
+code {
+    color: #d14;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+dfn {
+    font-style: italic;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+
+figure, form {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+    h1 a, h2 a, h3 a, h4 a {
+        border: 0;
+        color: #007acc;
+    }
+
+        h1 a:hover, h1 a:focus, h1 a:active, h2 a:hover, h2 a:focus, h2 a:active, h3 a:hover, h3 a:focus, h3 a:active, h4 a:hover, h4 a:focus, h4 a:active {
+            color: #23527c;
+        }
+
+h2 {
+    font-size: 1.5em;
+    margin: .83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: .83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: .75em;
+    margin: 2.33em 0;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    max-width: 100%;
+}
+
+legend {
+    border: 0;
+    margin-left: -7px;
+    padding: 0;
+    white-space: normal;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+menu, ol, ul {
+    padding: 0 0 0 40px;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+p, pre, dl, menu, ol, ul {
+    margin: 1em 0;
+}
+
+pre, code {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre, code, kbd, samp {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 1em;
+}
+
+q {
+    quotes: none;
+}
+
+    q:before, q:after {
+        content: none;
+    }
+
+small {
+    font-size: 75%;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -.5em;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+
+
+.main {
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+
+.content {
+    max-width: 54em;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+header, footer, .about {
+    color: #ccc;
+}
+
+.about {
+    background: #272727;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #333;
+}
+
+    .about h2 {
+        color: #fff;
+    }
+
+    .about h4 {
+        font-size: 1em;
+        font-weight: normal;
+        margin: 1em 0;
+    }
+
+    .about ul {
+        list-style: circle;
+        padding: 0;
+    }
+
+
+    header a, footer a, .about a {
+        border: 0;
+        color: #fff;
+    }
+
+        header a:hover, header a:focus, header a:active, footer a:hover, footer a:focus, footer a:active, .about a:hover, .about a:focus, .about a:active {
+            color: #eee;
+        }
+
+.link {
+    float: right;
+    margin-left: 20px;
+}
+
+
+.links a {
+    display: block;
+    border: 0;
+    background: url("../images/icons.png");
+    width: 32px;
+    height: 32px;
+    text-indent: -9999em;
+}
+
+.links li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    margin-right: .5em;
+}
+
+.links a:hover, .links a:focus, .links a:active {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+}
+
+.links .linkedin {
+    background-position: -42px 0;
+}
+
+.links .github {
+    background-position: -84px 0;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    .links a {
+        background: url("../images/icons@2x.png");
+        background-size: 143px 32px;
+    }
+
+    .links .linkedin {
+        background-position: -37px 0;
+    }
+
+    .links .github {
+        background-position: -74px 0;
+    }
+}
+
+time {
+    color: #999;
+    display: block;
+    margin-bottom: 1em;
+}
+
+h1.head {
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+}
+
+.posts article {
+    border-top: 1px solid #ccc;
+    padding: 1em 0;
+}
+
+    .posts article:first-child {
+        border: 0;
+    }
+
+.posts h2 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.posts time {
+    float: right;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    margin-left: 1em;
+}
+
+
+.contribute {
+    background-color: #eeeeee;
+    margin: 10px 0px 20px 0px;
+}
+
+.contribute-inner {
+    background-image: url("../images/octocat.png");
+    background-position: 0 1px;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+    .contribute-inner h4 {
+        margin: 1em 0 0.5em;
+    }
+
+    .contribute-inner p {
+        margin: 0.5em 0 1em;
+    }
+
+.profile {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+
+@media screen and (max-width:720px) {
+    .posts time {
+        display: none;
+    }
+
+    .contribute-inner {
+        background-image: none;
+        padding-left: 0px;
+    }
+
+    .profile {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+::selection {
+    background: #f8ff6e;
+    text-shadow: none;
+}

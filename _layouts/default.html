@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title>{{ page.title }}{% unless page.url == '/index.html' %} - {{ site.author }}{% endunless %}</title>
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        <meta name="author" content="{{ site.author }}" />
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
+
+        <link rel="prerender" href="{% if page.url == '/index.html' %}{{ site.posts.first.url }}{% else %}/{% endif %}" />
+
+        {% if page.url == '/index.html' %}<link rel="next" href="{{ site.posts.first.url }}"/>{% else %}{% unless page.previous == nil %}<link rel="next" href="{{ page.previous.url }}"/>{% endunless %}{% endif %}
+        {% unless page.next == nil %}<link rel="prev" href="{{ page.next.url }}"/>{% endunless %}
+
+        <!--[if lt IE 9]>
+            <script src="/js/html5shiv.js"></script>
+        <![endif]-->
+        
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', '{{ site.google.analytics.profile }}']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+    
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="content">
+                <a href="/about" class="link">About</a>
+                <h1 class="head">
+                    <a href="/">{{ site.title }}</a>
+                </h1>
+            </div>
+        </header>
+
+        {{ content }}
+
+        <footer>
+            <div class="content">
+                &copy; {{ site.time | date: '%Y' }} {{ site.author }}
+            </div>
+        </footer>
+    </body>
+</html>
+<!-- Proudly Powered by GitHub | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->
