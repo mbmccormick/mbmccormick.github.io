@@ -8,16 +8,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
 
-        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="alternate" href="/rss.xml" type="application/rss+xml" />
-
-        <link rel="prerender" href="{% if page.url == '/index.html' %}{{ site.posts.first.url }}{% else %}/{% endif %}" />
-
-        {% if page.url == '/index.html' %}<link rel="next" href="{{ site.posts.first.url }}"/>{% else %}{% unless page.previous == nil %}<link rel="next" href="{{ page.previous.url }}"/>{% endunless %}{% endif %}
-        {% unless page.next == nil %}<link rel="prev" href="{{ page.next.url }}"/>{% endunless %}
 
         <!--[if lt IE 9]>
             <script src="/js/html5shiv.js"></script>
