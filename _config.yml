@@ -11,6 +11,7 @@ permalink: /:year/:month/:title/
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-gist
   - jekyll-mentions
 
 exclude:
