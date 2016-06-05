@@ -24,6 +24,9 @@ google:
   analytics:
     profile: "UA-6872595-6"
 
+disqus:
+  shortname: mbmccormick
+
 twitter:
   username: mbmccormick
 
