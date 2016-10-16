@@ -1,0 +1,31 @@
+body {
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 425px;
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 25px;
+}
+
+#header p {
+    font-size: 18px;
+}
+
+#navigation {
+    margin-top: 25px;
+}
+
+#navigation p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
