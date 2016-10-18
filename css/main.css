@@ -17,7 +17,12 @@ a {
     margin-bottom: 25px;
 }
 
+#header h1 {
+    font-weight: bold;
+}
+
 #header p {
+    color: rgba(0, 0, 0, 0.6);
     font-size: 18px;
 }
 
