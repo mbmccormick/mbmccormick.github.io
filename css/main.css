@@ -26,6 +26,10 @@ a {
     font-size: 18px;
 }
 
+#header p.lead {
+    display: none;
+}
+
 #navigation {
     margin-top: 25px;
 }
