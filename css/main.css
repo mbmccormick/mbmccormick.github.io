@@ -38,3 +38,8 @@ a {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+#qrcode {
+    margin: 0px auto;
+    width: 250px;
+}
