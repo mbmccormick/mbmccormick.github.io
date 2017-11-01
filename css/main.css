@@ -9,7 +9,7 @@ a {
 
 .container {
     margin: 20px auto;
-    max-width: 450px;
+    max-width:3450px;
     text-align: center;
 }
 
@@ -39,7 +39,6 @@ a {
     margin-top: 20px;
 }
 
-#qrcode {
-    margin: 25px auto;
-    width: 225px;
+#contact {
+    margin-top: 25px;
 }
