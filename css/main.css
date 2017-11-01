@@ -3,7 +3,7 @@ a {
 }
 
 .container {
-    margin: 20px auto;
+    margin: 40px auto;
     max-width: 350px;
     text-align: center;
 }
@@ -13,6 +13,7 @@ a {
 }
 
 #header h1 {
+    font-size: 2rem;
     font-weight: bold;
 }
 
