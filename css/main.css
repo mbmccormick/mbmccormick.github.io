@@ -8,6 +8,10 @@ a {
     text-align: center;
 }
 
+#avatar {
+    margin-bottom: 25px;
+}
+
 #header {
     margin-bottom: 25px;
 }
