@@ -3,10 +3,16 @@ a {
 }
 
 .container {
-    margin: 40px auto;
+    margin: 40px;
+    padding: 0px;
     max-width: 350px;
-    text-align: center;
 }
+
+    @media (max-width: 390px) {
+        .container {
+            margin: 20px;
+        }
+    }
 
 #avatar {
     margin-bottom: 25px;
@@ -16,28 +22,20 @@ a {
     margin-bottom: 25px;
 }
 
-#header h1 {
-    font-weight: bold;
-}
+    #header p {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 18px;
+    }
 
-#header p {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 18px;
-}
-
-#header p.lead {
-    display: none;
+#bio {
+    margin-bottom: 25px;
 }
 
 #navigation {
-    margin-top: 25px;
-}
-
-#navigation p {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 #contact {
+    margin-bottom: 25px;
     margin-top: 35px;
 }
