@@ -3,14 +3,14 @@ a {
 }
 
 .container {
-    margin: 40px;
-    padding: 0px;
-    max-width: 350px;
+    margin: 0px;
+    padding: 40px;
+    max-width: 400px;
 }
 
     @media (max-width: 390px) {
         .container {
-            margin: 20px;
+            padding: 20px;
         }
     }
 
