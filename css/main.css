@@ -2,49 +2,41 @@ body {
     font-family: Inter;
 }
 
-a {
-    text-decoration: none;
-    color: #0066cc;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #0066cc;
-}
-
 .container {
     margin: 0px;
     padding: 40px;
     max-width: 400px;
 }
 
-    @media (max-width: 400px) {
-        .container {
-            padding: 20px;
-        }
+@media (max-width: 400px) {
+    .container {
+        padding: 20px;
     }
-
-#avatar {
-    margin-bottom: 25px;
 }
 
 #header {
     margin-bottom: 25px;
 }
 
-    #header p {
-        color: rgba(0, 0, 0, 0.6);
-        font-size: 18px;
-    }
+#header h1 {
+    font-weight: 500;
+}
 
-#bio {
-    margin-bottom: 25px;
+#header p {
+    color: #333333;
+    font-size: 18px;
 }
 
 #navigation {
     margin-bottom: 25px;
 }
 
-#contact {
-    margin-top: 35px;
+#navigation a {
+    text-decoration: none;
+    color: #0070c9;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+    color: #0070c9;
 }
