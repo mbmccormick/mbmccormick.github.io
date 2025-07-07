@@ -1,12 +1,12 @@
 .container {
     max-width: 768px;
-    margin: 50px 0px;
+    margin: 50px auto;
     padding: 0px 50px;
 }
 
 @media (max-width: 768px) {
     .container {
-        margin: 25px 0px;
+        margin: 25px auto;
         padding: 0px 25px;
     }
 }
