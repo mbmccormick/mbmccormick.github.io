@@ -1,27 +1,24 @@
 .container {
-    max-width: 720px;
-    margin: 40px 0px;
-    padding: 0px 40px;
+    max-width: 768px;
+    margin: 50px 0px;
+    padding: 0px 50px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 25px 0px;
+        padding: 0px 25px;
+    }
 }
 
 #header {
-    margin: 20px auto;
+    margin: 25px auto;
 }
 
-#header p {
-    color: #333333;
+#bio {
+    margin: 25px auto;
 }
 
-#navigation {
-    margin: 20px auto;
-}
-
-#navigation a {
-    text-decoration: none;
-    color: #0070c9;
-}
-
-#navigation a:hover {
-    text-decoration: underline;
-    color: #0070c9;
+#contact {
+    margin: 25px auto;
 }
