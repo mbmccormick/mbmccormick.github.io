@@ -1,12 +1,7 @@
 .container {
     max-width: 720px;
-    margin: 40px;
-}
-
-@media (max-width: 400px) {
-    .container {
-        margin: 20px;
-    }
+    margin: 40px 0px;
+    padding: 0px 20px;
 }
 
 #header {
