@@ -27,6 +27,24 @@
     color: #555;
 }
 
+#hero .app-store {
+    margin: 24px auto 0;
+}
+
+#hero .app-store a {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#hero .app-store a:hover {
+    background-color: #222;
+}
+
 #hero .requirements {
     font-size: 0.9rem;
     color: #888;
