@@ -12,69 +12,68 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jura:wght@300&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div class="page">
+    <header class="masthead">
+        <span>Matt&nbsp;McCormick</span>
+        <span class="muted">@mbmccormick</span>
+    </header>
 
-        <header class="masthead">
-            <span class="mono">Matt&nbsp;McCormick</span>
-            <span class="mono muted">@mbmccormick</span>
-        </header>
+    <main>
 
-        <main>
+        <section class="hero">
+            <h1 class="wordmark">Matt<br>McCormick</h1>
+            <a class="announce" href="/apps/uplink/">
+                <span class="announce-title">Uplink: My macOS Menu Bar App</span>
+                <span class="pill">New</span>
+            </a>
+        </section>
 
-            <section class="lede">
-                <p>Hi, I&rsquo;m&nbsp;Matt.&nbsp;&#x1F44B; I&rsquo;m a Technical Product Management leader at&nbsp;Microsoft. I specialize in hyperscale cloud infrastructure operations and automation. I&rsquo;m also a builder at heart&thinsp;&mdash;&thinsp;I&nbsp;write code, ship side projects, and build teams where people do their best&nbsp;work.</p>
-            </section>
+        <section class="essay">
+            <p>Hi, I&rsquo;m Matt. &#x1F44B; I&rsquo;m a Technical Product Management leader at Microsoft. I specialize in hyperscale cloud infrastructure operations and automation.</p>
+            <p>I&rsquo;m also a builder at heart&thinsp;&mdash;&thinsp;I write code, ship side projects, and build teams where people do their best work.</p>
+        </section>
 
-            <section class="links">
-                <h2 class="mono muted">01&ensp;/&ensp;Contact</h2>
-                <p class="note">You can contact me directly, or find me online at the links below:</p>
-                <ul>
-                    <li>
-                        <a href="mailto:matt@mbmccormick.com" target="_blank">
-                            <span class="mono label">Email</span>
-                            <span class="dest">matt@mbmccormick.com</span>
-                            <span class="mono arrow" aria-hidden="true">&#8599;</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/mbmccorm" target="_blank">
-                            <span class="mono label">LinkedIn</span>
-                            <span class="dest">linkedin.com/in/mbmccorm</span>
-                            <span class="mono arrow" aria-hidden="true">&#8599;</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/mbmccormick" target="_blank">
-                            <span class="mono label">GitHub</span>
-                            <span class="dest">github.com/mbmccormick</span>
-                            <span class="mono arrow" aria-hidden="true">&#8599;</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://apps.apple.com/us/developer/matthew-mccormick/id1894897968" target="_blank">
-                            <span class="mono label">App&nbsp;Store</span>
-                            <span class="dest">Matthew McCormick</span>
-                            <span class="mono arrow" aria-hidden="true">&#8599;</span>
-                        </a>
-                    </li>
-                </ul>
-            </section>
+        <section class="contact">
 
-        </main>
+            <svg class="blobs" viewBox="0 0 600 360" role="img" aria-label="Abstract shapes">
+                <path fill="#161616" d="M 236 34
+                    C 300 22 356 58 366 118
+                    C 372 154 352 176 322 186
+                    C 300 194 292 208 306 226
+                    C 328 254 330 296 296 318
+                    C 254 344 186 340 140 316
+                    C 84 286 48 234 52 172
+                    C 56 106 118 42 190 38
+                    C 206 36 222 36 236 34 Z" />
+                <circle cx="205" cy="230" r="52" fill="#3e9673" />
+                <circle cx="462" cy="88" r="50" fill="#2b52cc" />
+                <ellipse cx="500" cy="264" rx="86" ry="70" fill="#d9502e" />
+            </svg>
 
-        <footer>
-            <span class="mono muted">&copy; 2026 Matt McCormick</span>
-            <span class="mono muted">mbmccormick.com</span>
-        </footer>
+            <h2 class="kicker">Contact</h2>
+            <p class="headline">Let&rsquo;s build something together</p>
+            <p class="subtitle">You can contact me directly, or find me online at the links below.</p>
 
-    </div>
+            <div class="actions">
+                <a class="button" href="mailto:matt@mbmccormick.com" target="_blank">Email me</a>
+                <a class="chevron-link" href="https://linkedin.com/in/mbmccorm" target="_blank">LinkedIn&ensp;<span class="chevron">&#8250;</span></a>
+                <a class="chevron-link" href="https://github.com/mbmccormick" target="_blank">GitHub&ensp;<span class="chevron">&#8250;</span></a>
+                <a class="chevron-link" href="https://apps.apple.com/us/developer/matthew-mccormick/id1894897968" target="_blank">App&nbsp;Store&ensp;<span class="chevron">&#8250;</span></a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <span class="muted">&copy; 2026 Matt McCormick</span>
+    </footer>
 
 </body>
 
