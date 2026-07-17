@@ -64,40 +64,6 @@ body {
     text-indent: 0.14em; /* balance the trailing letter-space */
 }
 
-.announce {
-    display: inline-block;
-    margin-top: 72px;
-    text-decoration: none;
-    color: var(--ink);
-}
-
-.announce-title {
-    display: block;
-    font-size: 21px;
-    font-weight: 400;
-}
-
-.announce .pill {
-    margin-top: 18px;
-}
-
-.pill {
-    display: inline-block;
-    background: var(--pill-bg);
-    border-radius: 999px;
-    padding: 9px 18px;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #3c3c3c;
-}
-
-.announce:hover .announce-title {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-}
-
 /* Essay */
 
 .essay {
@@ -123,32 +89,14 @@ body {
     text-align: center;
 }
 
-.blobs {
-    width: min(440px, 82%);
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 .kicker {
-    margin-top: 64px;
     font-size: 26px;
     font-weight: 600;
     letter-spacing: -0.01em;
 }
 
-.headline {
-    margin-top: 26px;
-    font-family: "Newsreader", "Iowan Old Style", Georgia, serif;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 1.15;
-    letter-spacing: -0.01em;
-    text-wrap: balance;
-}
-
 .subtitle {
-    margin: 30px auto 0;
+    margin: 24px auto 0;
     max-width: 480px;
     font-size: 20px;
     color: var(--gray);
@@ -225,14 +173,6 @@ footer {
         font-size: 44px;
     }
 
-    .announce {
-        margin-top: 56px;
-    }
-
-    .announce-title {
-        font-size: 19px;
-    }
-
     .essay {
         padding-top: 84px;
         font-size: 23px;
@@ -240,10 +180,6 @@ footer {
 
     .contact {
         padding-top: 96px;
-    }
-
-    .headline {
-        font-size: 40px;
     }
 
     .subtitle {
