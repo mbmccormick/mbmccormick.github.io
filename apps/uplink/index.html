@@ -34,50 +34,60 @@
             <p class="lead">Know when your internet is the problem.</p>
             <p class="tagline">A native macOS menu bar app that quietly watches your connection. When latency spikes or packets start dropping, it's the first thing to tell you — before your Zoom call stutters, before your game rubber-bands, before you waste an hour blaming the other end.</p>
             <p class="app-store"><a href="https://apps.apple.com/us/app/uplink-network-monitor/id6762632231?mt=12">Download on the Mac App Store</a></p>
-            <p class="requirements">Requires macOS 13 Ventura or newer. Apple Silicon or Intel.</p>
+            <p class="requirements">Version 1.6.0 &middot; Requires macOS 13 Ventura or newer. Apple Silicon or Intel.</p>
         </div>
 
         <div class="screenshot-block">
-            <img src="/apps/uplink/img/popover.png" alt="Uplink popover showing a healthy connection with latency sparkline and current metrics" class="screenshot screenshot-popover">
+            <img src="/apps/uplink/img/popover.png" alt="Uplink popover showing a healthy connection with a banded latency sparkline, latency and packet loss rows, min / avg / max statistics, and connection, ISP, and WAN IP address details" class="screenshot screenshot-popover">
         </div>
 
         <div class="features">
 
             <div class="feature">
                 <h2>At-a-glance status</h2>
-                <p>Glance up. If the menu bar icon is calm, you're fine. If it's flashing a warning, your connection is — and you can stop guessing.</p>
+                <p>Glance up. The icon keeps one steady shape and says everything with color: quiet and monochrome when you're fine, yellow when things are elevated, orange when they're poor, red when you're offline. Want the number too? Turn on the menu bar readout and it shows the single worst metric — <b>187 ms</b> or <b>4% loss</b>, never both at once, so it never shoves your other menu bar icons around.</p>
             </div>
 
             <div class="feature">
-                <h2>A real sparkline</h2>
-                <p>Click the icon. You get a two-minute latency graph, current ping and packet loss, and min / avg / max stats. Failed pings show up as red X marks right on the timeline, so you can see loss events exactly when they happened.</p>
+                <h2>A sparkline you can interrogate</h2>
+                <p>Click the icon. You get a two-minute latency graph painted with your healthy, elevated, and poor zones behind it, so a point's height genuinely means something. Hover it for a crosshair and a chip reading <b>23 ms · 12s ago</b>. Failed pings show up as red X marks right on the timeline, so you can see loss events exactly when they happened.</p>
             </div>
 
             <div class="feature">
                 <h2>Context-aware status</h2>
-                <p>It doesn't just say "Poor." It says <b>Poor Latency</b> or <b>Elevated Packet Loss</b> so you know which knob is turning. When both go sideways, it falls back to a single verdict using the worse of the two.</p>
+                <p>It doesn't just say "Poor." It says <b>Poor Latency</b> or <b>Elevated Packet Loss</b> so you know which knob is turning. When both go sideways, it falls back to a single verdict using the worse of the two. Underneath, a plain-language sentence tells you what that actually means — "Latency is high right now. Pings to 8.8.8.8 are slower than usual." — so you're never left translating a status word into a decision.</p>
             </div>
 
             <div class="feature">
                 <h2>Your network, always visible</h2>
-                <p>Uplink watches your WAN address and your active connection type (Wi-Fi, Ethernet, VPN, cellular) in the background and surfaces both in the popover. Catch a silent DHCP renewal, a VPN hand-off, or a network switch without digging through System Settings. Click the IP address to copy it.</p>
+                <p>Uplink watches your WAN IP address, your ISP, and your active connection type in the background and surfaces all three in the popover — down to the interface it's actually running on, like <b>Ethernet (en0)</b>. Catch a silent DHCP renewal, a VPN hand-off, or a network switch without digging through System Settings. Click the IP address to copy it.</p>
             </div>
 
             <div class="feature">
                 <h2>Notifications that earn their buzz</h2>
-                <p>A system notification when latency crosses into Poor territory, when your public IP changes, or when your connection type switches. Nothing for routine fluctuations. One toggle in Settings to go fully silent.</p>
+                <p>A system notification when latency or packet loss crosses into Poor territory, and when your WAN IP address changes. Nothing for routine fluctuations, and nothing for a Wi-Fi-to-Ethernet hop — those go to the history log, where they belong. A flapping connection can't spam you either: once Uplink has warned you about a metric, it stays quiet about that metric until everything has been healthy for five straight minutes. One toggle in Settings to go fully silent.</p>
             </div>
 
             <div class="feature">
-                <h2>Twenty-four hours of history</h2>
-                <p>Every time latency or packet loss crosses a threshold — or your public IP changes, or your connection jumps between Wi-Fi and Ethernet — Uplink logs the transition. Right-click → History to see what your connection's been up to — perfect when your kid insists "it was fine ten minutes ago."</p>
-                <img src="/apps/uplink/img/history.png" alt="Uplink History window showing latency transitions over time" class="screenshot">
+                <h2>A year of history, not a scrollback buffer</h2>
+                <p>Every time latency or packet loss crosses a threshold — or your WAN IP changes, or your connection jumps between Wi-Fi and Ethernet — Uplink logs the transition, and keeps it for a year. Open History from the popover and pick your lens: 12 hours, 24 hours, 7 days, 30 days, or all time. Perfect when your kid insists "it was fine ten minutes ago."</p>
+                <img src="/apps/uplink/img/history.png" alt="Uplink History window showing a connection-quality verdict, uptime statistics, a state timeline, and an event log grouped by day" class="screenshot">
             </div>
 
             <div class="feature">
-                <h2>Tune it to your connection</h2>
-                <p>Ping interval, target host, latency and packet-loss thresholds, public-IP check frequency, launch at login, notifications — all configurable from a native settings window. Defaults are sensible; you won't need to touch them.</p>
-                <img src="/apps/uplink/img/settings.png" alt="Uplink Settings window with toggles for launch-at-login and notifications, and knobs for ping target, interval, latency and packet-loss thresholds, and public IP check frequency" class="screenshot screenshot-settings">
+                <h2>History that answers the question</h2>
+                <p>The window leads with a verdict — "Reliable connection — 99.98% uptime" — and a sentence breaking the disruptions down by symptom, before it asks you to read a single number. Under that: uptime, downtime, disruption count, and worst latency for the period, then a timeline ribbon you can hover to see exactly what state your connection was in at any moment. The event log below is grouped by day under sticky headers, and every row says what happened in plain language — <b>Latency Degraded</b>, <b>Packet Loss Recovered</b>, <b>WAN IP Changed</b> — with the transition and the reading underneath. Export the visible events to CSV whenever you need to hand them to someone else.</p>
+            </div>
+
+            <div class="feature">
+                <h2>It knows when it wasn't watching</h2>
+                <p>Close the lid and your Mac stops measuring — so Uplink stops claiming. Sleep, wake, launch, and quit are all bracketed in the timeline as "App Not Running" rather than smeared over with whatever the last reading happened to be. An overnight sleep looks like an overnight sleep, not twelve solid hours of trouble.</p>
+            </div>
+
+            <div class="feature">
+                <h2>Tune it without a networking degree</h2>
+                <p>Sensitivity is one control with three settings — <b>Relaxed</b>, <b>Default</b>, <b>Strict</b> — instead of four boxes asking you to have an opinion about milliseconds. Pick one and a scale shows you exactly where the green, yellow, and orange zones land, so it isn't a leap of faith. Everything else lives in a native settings window split into General and Monitoring: launch at login, the menu bar readout, notifications, ping target, check interval, and how often to look up your WAN IP. Every row explains itself in a line of plain English. Defaults are sensible; you won't need to touch them.</p>
+                <img src="/apps/uplink/img/settings.png" alt="Uplink Settings window showing the Monitoring tab with ping target, check interval, WAN IP watch interval, and a Relaxed / Default / Strict sensitivity picker" class="screenshot screenshot-settings">
             </div>
 
             <div class="feature">
@@ -87,12 +97,12 @@
 
             <div class="feature">
                 <h2>Quiet and respectful</h2>
-                <p>No dock icon. No telemetry. No tracking. No account. Uplink runs in the menu bar, and that's it. Your history lives on your Mac in a plain JSON file that auto-prunes after 24 hours. Your public IP is fetched over HTTPS from a single API endpoint and validated before it ever touches the UI.</p>
+                <p>No dock icon. No telemetry. No tracking. No account. Uplink runs in the menu bar, and that's it. Your history lives on your Mac in a plain JSON file that auto-prunes after a year, and you can clear or export it yourself at any time. Your WAN IP is fetched over HTTPS from a single API endpoint and validated before it ever touches the UI.</p>
             </div>
 
             <div class="feature">
                 <h2>A menu bar app, as native as it gets</h2>
-                <p>Uplink is a "mac-ass Mac app." No Electron. No cross-platform framework. No background service. Just SwiftUI, Combine, and AppKit.</p>
+                <p>Uplink is a "mac-ass Mac app." No Electron. No cross-platform framework. No background service. Just SwiftUI, Combine, and AppKit. It's fully sandboxed and pings in-process over the same unprivileged ICMP path macOS's own <code>ping</code> uses — no helper tool, no admin prompt, no subprocess.</p>
             </div>
 
         </div>
