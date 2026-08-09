@@ -24,7 +24,7 @@
 
         <div id="header">
             <h1>Uplink Privacy Policy</h1>
-            <p class="updated">Last updated April 20, 2026</p>
+            <p class="updated">Last updated August 8, 2026</p>
         </div>
 
         <div class="legal">
@@ -37,15 +37,15 @@
             <h2>Information stored on your Mac</h2>
             <p>To do its job, Uplink keeps a small amount of data locally on your Mac. This data never leaves your device.</p>
             <ul>
-                <li><b>Connection history.</b> A rolling log of connection events (latency transitions, packet loss transitions, public IP changes, Wi-Fi / Ethernet / VPN / cellular switches) is written to a plain JSON file inside Uplink's app container. Entries older than 24 hours are pruned automatically. You can clear this history at any time from the History window.</li>
-                <li><b>Preferences.</b> Your Uplink settings (ping target, ping interval, latency and packet-loss thresholds, public-IP check frequency, launch-at-login, notifications toggle) are saved to macOS User Defaults for Uplink's app container.</li>
+                <li><b>Connection history.</b> A rolling log of connection events (latency spikes, packet-loss events, outages, WAN IP and ISP changes, Wi-Fi / Ethernet / VPN switches) is written inside Uplink's app container. Entries older than one year are pruned automatically. You can export this history to a CSV file of your choosing, and you can clear it at any time, from the History window.</li>
+                <li><b>Preferences.</b> Your Uplink settings (ping target, check interval, sensitivity preset, latency and packet-loss thresholds, WAN IP check frequency, launch-at-login, menu bar readout, notifications toggle) and your last-known WAN IP address are saved to macOS User Defaults for Uplink's app container.</li>
             </ul>
 
             <h2>Network activity</h2>
             <p>Uplink makes two kinds of network requests. Both are initiated by your Mac and scoped to measuring the health of your connection.</p>
             <ul>
                 <li><b>Pings.</b> Uplink sends ICMP echo requests to a ping target you configure (default: 8.8.8.8) to measure latency and packet loss. You can change the target to any host you prefer.</li>
-                <li><b>Public IP lookups.</b> On a schedule you configure, Uplink fetches your current public IP address over HTTPS from a single public API endpoint. The response is validated before being displayed.</li>
+                <li><b>WAN IP lookups.</b> On a schedule you configure, Uplink fetches your current public IP address and ISP over HTTPS from a single public API endpoint (api.ipinfo.io). The response is validated before being displayed.</li>
             </ul>
             <p>No other network requests are made. Uplink does not contact any analytics, telemetry, advertising, or tracking services.</p>
 
